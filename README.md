@@ -1,41 +1,61 @@
-# Website
+# 九鼎文档
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+## 安装
 
-## Installation
+### 利用n模块，升级node版本，确保node版本 >= 20.0
 
-```bash
-yarn
+```
+sudo npm cache clean -f
+sudo npm install -g n
+sudo n stable
+node -v
 ```
 
-## Local Development
+### 克隆源码（最好采用ssh方式，方便远程部署）
 
-```bash
-yarn start
+```
+git clone git@github.com:jdczdoc/jdczdoc.github.io.git
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
-
-```bash
-yarn build
+### 安装必要的node模块
+```
+cd jdczdoc.github.io
+npm install
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## 本地开发
 
-## Deployment
+在本地添加或修改相关Markdown文件，然后使用如下命令进行预览。
+```bash
+npm run start
+```
+
+确认效果后，采用`git commit`指令进行提交。
+```bash
+git add some-markdown-file
+git commit -m "[md]add some markdown file"
+git push origin main
+```
+
+## 本地构建
+
+```
+npm run build
+```
+
+此命令可将静态内容生成到 build目录中，生成的内容可通过任何静态内容托管服务来提供。
+
+## 远程部署
 
 Using SSH:
 
-```bash
-USE_SSH=true yarn deploy
+```
+npm run deploy
 ```
 
 Not using SSH:
 
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
+```
+GIT_USER=<Your GitHub username> npm run deploy
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.

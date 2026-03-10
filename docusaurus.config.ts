@@ -24,7 +24,7 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'jdczdoc', // Usually your GitHub org/user name.
   projectName: 'jdczdoc.github.io', // Usually your repo name.
-  deploymentBranch: 'gh_pages',
+  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
 
@@ -78,7 +78,7 @@ const config: Config = {
     navbar: {
       title: '九鼎文档',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'JiuDing Logo',
         src: 'img/logo.svg',
       },
       items: [
