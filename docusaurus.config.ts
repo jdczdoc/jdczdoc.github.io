@@ -88,12 +88,7 @@ const config: Config = {
           position: 'left',
           label: '所有文档',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/jdczdoc/jdczdoc.github.io',
-          label: 'GitHub',
-          position: 'right',
-        },
+        {to: '/blog', label: '博客', position: 'left'},
       ],
     },
     footer: {
@@ -103,8 +98,12 @@ const config: Config = {
           title: '文档',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: '关于',
+              to: '/docs/about',
+            },
+            {
+              label: 'RK官方文档',
+              to: '/docs/category/rk官方文档',
             },
           ],
         },
