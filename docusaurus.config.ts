@@ -94,16 +94,20 @@ const config: Config = {
           position: 'left',
           items: [
             {
+              label: 'RK文档',
+              to: '/docs/category/rk文档',
+            },
+            {
+              label: '关于我们',
+              to: '/docs/about',
+            },
+            {
               label: '官方网站',
               href: 'http://www.9tripod.com',
             },
 	    {
               label: '社区论坛',
               href: 'http://bbs.9tripod.com',
-            },
-            {
-              label: '关于我们',
-              to: '/docs/about',
             },
           ],
         },
@@ -120,8 +124,8 @@ const config: Config = {
               to: '/docs/about',
             },
             {
-              label: 'RK官方文档',
-              to: '/docs/category/rk官方文档',
+              label: 'RK文档',
+              to: '/docs/category/rk文档',
             },
           ],
         },
