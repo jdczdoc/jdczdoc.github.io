@@ -88,6 +88,25 @@ const config: Config = {
           position: 'left',
           label: '所有文档',
         },
+        {
+          type: 'dropdown',
+          label: '其它',
+          position: 'left',
+          items: [
+            {
+              label: '官方网站',
+              href: 'http://www.9tripod.com',
+            },
+	    {
+              label: '社区论坛',
+              href: 'http://bbs.9tripod.com',
+            },
+            {
+              label: '关于我们',
+              to: '/docs/about',
+            },
+          ],
+        },
       ],
     },
     footer: {
