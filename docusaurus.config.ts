@@ -84,9 +84,9 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'alldocsSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: '所有文档',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
