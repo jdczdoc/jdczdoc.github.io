@@ -88,7 +88,6 @@ const config: Config = {
           position: 'left',
           label: '所有文档',
         },
-        {to: '/blog', label: '博客', position: 'left'},
       ],
     },
     footer: {
