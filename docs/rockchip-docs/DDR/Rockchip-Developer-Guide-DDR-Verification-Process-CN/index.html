@@ -1,0 +1,700 @@
+<!doctype html>
+<html lang="zh-Hans" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-rockchip-docs/DDR/Rockchip-Developer-Guide-DDR-Verification-Process-CN" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">**DDR 颗粒验证流程说明** | 九鼎文档</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://doc.9tripod.com/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://doc.9tripod.com/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://doc.9tripod.com/docs/rockchip-docs/DDR/Rockchip-Developer-Guide-DDR-Verification-Process-CN"><meta data-rh="true" property="og:locale" content="zh_Hans"><meta data-rh="true" name="docusaurus_locale" content="zh-Hans"><meta data-rh="true" name="docsearch:language" content="zh-Hans"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="**DDR 颗粒验证流程说明** | 九鼎文档"><meta data-rh="true" name="description" content="文件标识：RK-CS-YF-082"><meta data-rh="true" property="og:description" content="文件标识：RK-CS-YF-082"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://doc.9tripod.com/docs/rockchip-docs/DDR/Rockchip-Developer-Guide-DDR-Verification-Process-CN"><link data-rh="true" rel="alternate" href="https://doc.9tripod.com/docs/rockchip-docs/DDR/Rockchip-Developer-Guide-DDR-Verification-Process-CN" hreflang="zh-Hans"><link data-rh="true" rel="alternate" href="https://doc.9tripod.com/docs/rockchip-docs/DDR/Rockchip-Developer-Guide-DDR-Verification-Process-CN" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"RK官方文档","item":"https://doc.9tripod.com/docs/category/rk官方文档"},{"@type":"ListItem","position":2,"name":"**DDR 颗粒验证流程说明**","item":"https://doc.9tripod.com/docs/rockchip-docs/DDR/Rockchip-Developer-Guide-DDR-Verification-Process-CN"}]}</script><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="九鼎文档 RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="九鼎文档 Atom Feed"><link rel="stylesheet" href="/assets/css/styles.c51ffe61.css">
+<script src="/assets/js/runtime~main.ccfcf705.js" defer="defer"></script>
+<script src="/assets/js/main.a43a64f1.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/img/logo.svg"><div role="region" aria-label="跳到主要内容"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">跳到主要内容</a></div><nav aria-label="主导航" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="切换导航栏" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/logo.svg" alt="JiuDing Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/img/logo.svg" alt="JiuDing Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">九鼎文档</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/docs/intro">Tutorial</a><a class="navbar__item navbar__link" href="/blog">Blog</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://github.com/jdczdoc/jdczdoc.github.io" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="切换浅色/暗黑模式（当前为system mode）"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="回到顶部" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="文档侧边栏" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/intro"><span title="Tutorial Intro" class="linkLabel_WmDU">Tutorial Intro</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/docs/category/tutorial---basics"><span title="Tutorial - Basics" class="categoryLinkLabel_W154">Tutorial - Basics</span></a><button aria-label="展开侧边栏分类 &#x27;Tutorial - Basics&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/docs/category/tutorial---extras"><span title="Tutorial - Extras" class="categoryLinkLabel_W154">Tutorial - Extras</span></a><button aria-label="展开侧边栏分类 &#x27;Tutorial - Extras&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--active" href="/docs/category/rk官方文档"><span title="RK官方文档" class="categoryLinkLabel_W154">RK官方文档</span></a><button aria-label="折叠侧边栏分类 &#x27;RK官方文档&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/rockchip-docs/BOARD/m1_evb/Rockchip_Developer_FAQ_M1_RK3399_EVB_CN"><span title="BOARD" class="categoryLinkLabel_W154">BOARD</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/rockchip-docs/BROWSER/Rockchip_Developer_FAQ_Browser_CN"><span title="BROWSER" class="categoryLinkLabel_W154">BROWSER</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/rockchip-docs/CACHE/Rockchip_Developer_Guide_RT-Thread_CacheECC_CN"><span title="CACHE" class="categoryLinkLabel_W154">CACHE</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/rockchip-docs/CAMERA/ISP20_RkAiq/Rockchip_Development_Guide_ISP2x_CN"><span title="CAMERA" class="categoryLinkLabel_W154">CAMERA</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/rockchip-docs/CAN/Rockchip_Develop_Guide_CAN_FD_CN"><span title="CAN" class="categoryLinkLabel_W154">CAN</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" tabindex="0" href="/docs/rockchip-docs/DDR/Internal/Bug-List-For-Innosilicon-DDR-PHY_CN"><span title="DDR" class="categoryLinkLabel_W154">DDR</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/rockchip-docs/DDR/Internal/Bug-List-For-Innosilicon-DDR-PHY_CN"><span title="Internal" class="categoryLinkLabel_W154">Internal</span></a></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/rockchip-docs/DDR/Rockchip-Developer-Guide-DDR-CN"><span title="DDR 开发指南" class="linkLabel_WmDU">DDR 开发指南</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/rockchip-docs/DDR/Rockchip-Developer-Guide-DDR-EN"><span title="DDR Develop Guide" class="linkLabel_WmDU">DDR Develop Guide</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/docs/rockchip-docs/DDR/Rockchip-Developer-Guide-DDR-Verification-Process-CN"><span title="**DDR 颗粒验证流程说明**" class="linkLabel_WmDU">**DDR 颗粒验证流程说明**</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/rockchip-docs/DDR/Rockchip-Guide-DDR-PCB-Layout-Notes-CN"><span title="**DDR 布板注意事项**" class="linkLabel_WmDU">**DDR 布板注意事项**</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/rockchip-docs/DDR/Rockchip-User-Guide-DDR-DQ-Eye-Tool-CN"><span title="Rockchip DDR DQ 眼图工具指南" class="linkLabel_WmDU">Rockchip DDR DQ 眼图工具指南</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/rockchip-docs/DDR/Rockchip_Developer_Guide_DDR_Verification_Process_EN"><span title="**DDR Verification Process**" class="linkLabel_WmDU">**DDR Verification Process**</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/rockchip-docs/DDR/Rockchip_Developer_Guide_HAL_DDR_ECC_CN"><span title="Rockchip Developer Guide HAL DDR ECC" class="linkLabel_WmDU">Rockchip Developer Guide HAL DDR ECC</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/rockchip-docs/DDR/Rockchip_Trouble_Shooting_DDR_CN"><span title="DDR 问题排查手册" class="linkLabel_WmDU">DDR 问题排查手册</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/rockchip-docs/DDR/Rockchip_Trouble_Shooting_DDR_EN"><span title="DDR Touble Shooting" class="linkLabel_WmDU">DDR Touble Shooting</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/rockchip-docs/DEBUG/Rockchip_Developer_Guide_DS5_CN"><span title="DEBUG" class="categoryLinkLabel_W154">DEBUG</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/rockchip-docs/DISPLAY/Estimate_RK2108B_Bandwidth_When_Use_Psram_As_VOP_Framebuffer"><span title="DISPLAY" class="categoryLinkLabel_W154">DISPLAY</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/rockchip-docs/DVFS/Rockchip_Developer_Guide_CPUFreq_CN"><span title="DVFS" class="categoryLinkLabel_W154">DVFS</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/rockchip-docs/FS/Rockchip_Developer_FAQ_FileSystem_CN"><span title="FS" class="categoryLinkLabel_W154">FS</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/rockchip-docs/GMAC/Rockchip_Developer_Guide_Linux_GMAC_CN"><span title="GMAC" class="categoryLinkLabel_W154">GMAC</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/rockchip-docs/GPIO/Rockchip_Developer_Guide_FreeRTOS_GPIO_CN"><span title="GPIO" class="categoryLinkLabel_W154">GPIO</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/rockchip-docs/I2C/Rockchip_Developer_Guide_I2C_CN"><span title="I2C" class="categoryLinkLabel_W154">I2C</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/rockchip-docs/IO-DOMAIN/Rockchip_Developer_Guide_Linux_IO_DOMAIN_CN"><span title="IO-DOMAIN" class="categoryLinkLabel_W154">IO-DOMAIN</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/rockchip-docs/IOMMU/Rockchip_Developer_Guide_Linux_IOMMU_CN"><span title="IOMMU" class="categoryLinkLabel_W154">IOMMU</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/rockchip-docs/KEYCTRL/Rockchip_Developer_Guide_RT-Thread_KEYCTRL_CN"><span title="KEYCTRL" class="categoryLinkLabel_W154">KEYCTRL</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/rockchip-docs/MEMORY/Rockchip_Developer_Guide_Linux_CMA_CN"><span title="MEMORY" class="categoryLinkLabel_W154">MEMORY</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/rockchip-docs/MMC/Rockchip_Developer_Guide_RT-Thread_SDIO_CN"><span title="MMC" class="categoryLinkLabel_W154">MMC</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/rockchip-docs/PCIe/Rockchip_PCIe_Virtualization_Developer_Guide_CN"><span title="PCIe" class="categoryLinkLabel_W154">PCIe</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/rockchip-docs/PMIC/Rockchip_Developer_Guide_FreeRTOS_PMIC_CHARGER_POWERKEY_CN"><span title="PMIC" class="categoryLinkLabel_W154">PMIC</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/rockchip-docs/POWER/Rockchip_Developer_Guide_FreeRTOS_REGULATOR_CN"><span title="POWER" class="categoryLinkLabel_W154">POWER</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/rockchip-docs/PSRAM/Rockchip_Developer_Guide_RT-Thread_QPI_PSRAM_CN"><span title="PSRAM" class="categoryLinkLabel_W154">PSRAM</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/rockchip-docs/PWM/Rockchip_Developer_Guide_Linux_PWM_CN"><span title="PWM" class="categoryLinkLabel_W154">PWM</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/rockchip-docs/SARADC/Rockchip_Developer_Guide_FreeRTOS_SARADC_CN"><span title="SARADC" class="categoryLinkLabel_W154">SARADC</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/rockchip-docs/SPI/Rockchip_Developer_Guide_FreeRTOS_SPI_CN"><span title="SPI" class="categoryLinkLabel_W154">SPI</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/rockchip-docs/SPIFLASH/Rockchip_Developer_Guide_FreeRTOS_SPIFLASH_CN"><span title="SPIFLASH" class="categoryLinkLabel_W154">SPIFLASH</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/rockchip-docs/THERMAL/Rockchip_Developer_Guide_Linux3.10_Thermal_CN"><span title="THERMAL" class="categoryLinkLabel_W154">THERMAL</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/rockchip-docs/TIMER/Rockchip_Developer_Guide_FreeRTOS_TIMER_CN"><span title="TIMER" class="categoryLinkLabel_W154">TIMER</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/rockchip-docs/TOOL/Rockchip_Introduction_Partition_CN"><span title="TOOL" class="categoryLinkLabel_W154">TOOL</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/rockchip-docs/TOUCHKEY/Rockchip_Developer_Guide_FreeRTOS_TOUCHKEY_CN"><span title="TOUCHKEY" class="categoryLinkLabel_W154">TOUCHKEY</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/rockchip-docs/TRUST/Rockchip_Developer_Guide_Trust_CN"><span title="TRUST" class="categoryLinkLabel_W154">TRUST</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/rockchip-docs/UART/Rockchip_Developer_Guide_FreeRTOS_UART_CN"><span title="UART" class="categoryLinkLabel_W154">UART</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/rockchip-docs/UBOOT/CH00-文档封面"><span title="UBOOT" class="categoryLinkLabel_W154">UBOOT</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/rockchip-docs/VICAP/Rockchip_Developer_Guide_RTOS_VICAP_CN"><span title="VICAP" class="categoryLinkLabel_W154">VICAP</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/docs/rockchip-docs/WATCHDOG/Rockchip_Developer_Guide_FreeRTOS_WATCHDOG_CN"><span title="WATCHDOG" class="categoryLinkLabel_W154">WATCHDOG</span></a></div></li></ul></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="页面路径"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="主页面" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/docs/category/rk官方文档"><span>RK官方文档</span></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">DDR</span></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">**DDR 颗粒验证流程说明**</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">本页总览</button></div><div class="theme-doc-markdown markdown"><header><h1><strong>DDR 颗粒验证流程说明</strong></h1></header>
+<p>文件标识：RK-CS-YF-082</p>
+<p>发布版本：V1.5.0</p>
+<p>日期：2021-04-23</p>
+<p>文件密级：□绝密   □秘密   □内部资料   ■公开</p>
+<p><strong>免责声明</strong></p>
+<p>本文档按“现状”提供，瑞芯微电子股份有限公司（“本公司”，下同）不对本文档的任何陈述、信息和内容的准确性、可靠性、完整性、适销性、特定目的性和非侵权性提供任何明示或暗示的声明或保证。本文档仅作为使用指导的参考。</p>
+<p>由于产品版本升级或其他原因，本文档将可能在未经任何通知的情况下，不定期进行更新或修改。</p>
+<p><strong>商标声明</strong></p>
+<p>“Rockchip”、“瑞芯微”、“瑞芯”均为本公司的注册商标，归本公司所有。</p>
+<p>本文档可能提及的其他所有注册商标或商标，由其各自拥有者所有。</p>
+<p><strong>版权所有 © 2021 瑞芯微电子股份有限公司</strong></p>
+<p>超越合理使用范畴，非经本公司书面许可，任何单位和个人不得擅自摘抄、复制本文档内容的部分或全部，并不得以任何形式传播。</p>
+<p>瑞芯微电子股份有限公司</p>
+<p>Rockchip Electronics Co., Ltd.</p>
+<p>地址：     福建省福州市铜盘路软件园A区18号</p>
+<p>网址：     <a href="http://www.rock-chips.com" target="_blank" rel="noopener noreferrer" class="">www.rock-chips.com</a></p>
+<p>客户服务电话： +86-4007-700-590</p>
+<p>客户服务传真： +86-591-83951833</p>
+<p>客户服务邮箱： <a href="mailto:fae@rock-chips.com" target="_blank" rel="noopener noreferrer" class="">fae@rock-chips.com</a></p>
+<hr>
+<p><strong>前言</strong></p>
+<p>对各个芯片平台 DDR 颗粒兼容性和稳定性的验证流程进行说明。文档分为 Linux 3.10，Linux 4.xx(Linux 4.4 和 Linux 4.19)，RV1108，RK3308 四个章节，请根据实际测试平台情况选择对应章节进行参考。</p>
+<p><strong>概述</strong></p>
+<p><strong>产品版本</strong></p>
+<table><thead><tr><th><strong>芯片名称</strong></th><th><strong>内核版本</strong></th></tr></thead><tbody><tr><td>所有芯片</td><td>所有内核版本</td></tr></tbody></table>
+<p><strong>读者对象</strong></p>
+<p>本文档（本指南）主要适用于以下工程师：</p>
+<p>品质测试工程师</p>
+<p>技术支持工程师</p>
+<p>软件开发工程师</p>
+<p><strong>修订记录</strong></p>
+<table><thead><tr><th><strong>版本号</strong></th><th><strong>作者</strong></th><th style="text-align:left"><strong>修改日期</strong></th><th><strong>修改说明</strong></th></tr></thead><tbody><tr><td>V1.0.0</td><td>陈有敏</td><td style="text-align:left">2017.11.21</td><td>初版</td></tr><tr><td>V1.1.0</td><td>陈有敏</td><td style="text-align:left">2018.03.22</td><td>公开资料</td></tr><tr><td>V1.2.0</td><td>何智欢</td><td style="text-align:left">2018.10.11</td><td>增加 RK3308 颗粒验证流程说明</td></tr><tr><td>V1.3.0</td><td>陈有敏</td><td style="text-align:left">2019.06.03</td><td>修复关于 RebootTest 和 SleepTest 的描述错误</td></tr><tr><td>V1.3.1</td><td>何智欢</td><td style="text-align:left">2019.11.27</td><td>修改文档格式，同步中英文文档</td></tr><tr><td>V1.4.0</td><td>陈有敏</td><td style="text-align:left">2020.09.06</td><td>修改stressapptest和memtester描述</td></tr><tr><td>V1.4.1</td><td>姚旭伟</td><td style="text-align:left">2021.04.12</td><td>增加未运行 Android 系统的设备的烤机方法</td></tr><tr><td>V1.5.0</td><td>姚旭伟</td><td style="text-align:left">2021.04.23</td><td>修改文档格式</td></tr></tbody></table>
+<hr>
+<p><strong>目录</strong></p>
+<p>[TOC]</p>
+<hr>
+<p><strong>NOTE</strong></p>
+<ol>
+<li class="">RV1108、RK3308 平台 DDR 颗粒验证流程与其它平台不同，RV1108 请详见本文档的&quot;RV1108 DDR 颗粒验证流程说明&quot;章节；RK3308 请详见本文档的&quot;RK3308 DDR 颗粒验证流程说明&quot;章节。其他平台，请根据 Linux Kernel 版本选择对应章节进行参考。</li>
+<li class="">本文中所述颗粒验证过程需要的 DDR 测试资源文件随该文档提供。</li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="linux-310-ddr-颗粒验证流程说明">Linux 3.10 DDR 颗粒验证流程说明<a href="#linux-310-ddr-颗粒验证流程说明" class="hash-link" aria-label="Linux 3.10 DDR 颗粒验证流程说明的直接链接" title="Linux 3.10 DDR 颗粒验证流程说明的直接链接" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="linux-310-测试固件编译">Linux 3.10 测试固件编译<a href="#linux-310-测试固件编译" class="hash-link" aria-label="Linux 3.10 测试固件编译的直接链接" title="Linux 3.10 测试固件编译的直接链接" translate="no">​</a></h3>
+<p>配置 kernel 代码的 menuconfig，进入 System Type，选择打开 DDR Test 和 pm_tests。</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">  menuconfig</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  System Type  ---&gt;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    [*]   /sys/pm_tests/ support</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    [*]   DDR Test</span><br></span></code></pre></div></div>
+<p>如果 menuconfig 中没有<code>[] /sys/pm_tests/ support</code>选项，请参考《Rockchip-Developer-Guide-DDR-CN》的&quot;DDR 如何定频&quot;和&quot;如何 enable/disable kernel 中的 DDR 变频功能&quot;章节，分别编译定频固件和变频固件。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="linux-310-测试环境搭建">Linux 3.10 测试环境搭建<a href="#linux-310-测试环境搭建" class="hash-link" aria-label="Linux 3.10 测试环境搭建的直接链接" title="Linux 3.10 测试环境搭建的直接链接" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="固件烧写">固件烧写<a href="#固件烧写" class="hash-link" aria-label="固件烧写的直接链接" title="固件烧写的直接链接" translate="no">​</a></h4>
+<p>测试开始前，需要先明确测试过程需要的如下信息：</p>
+<ol>
+<li class="">测试固件操作系统位数（eg: 32bit or 64bit）</li>
+<li class="">测试机器 DDR 总容量（eg: 512MB or 1GB or 2GB ...）</li>
+<li class="">定频测试，DDR 要跑的最高频率（eg: 456MHz or 533MHz ...）</li>
+<li class="">变频测试，DDR 要跑的频率范围（eg: 200MHz - 456MHz or 200MHz-533MHz ...）</li>
+</ol>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="自动搭建测试环境">自动搭建测试环境<a href="#自动搭建测试环境" class="hash-link" aria-label="自动搭建测试环境的直接链接" title="自动搭建测试环境的直接链接" translate="no">​</a></h4>
+<p>进入 DDR 测试资源文件的&quot;linux3.10_ddr_test_files&quot;目录，直接双击 push_files.bat 脚本，根据脚本提示和固件类型信息进行选择输入 1 或者 2，自动完成测试环境搭建。自动搭建无异常，可以跳过下面的&quot;手动搭建测试环境&quot;这一章节。</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="手动搭建测试环境">手动搭建测试环境<a href="#手动搭建测试环境" class="hash-link" aria-label="手动搭建测试环境的直接链接" title="手动搭建测试环境的直接链接" translate="no">​</a></h4>
+<p>如果自动搭建测试环境失败，可以通过手动搭建来完成。请选择&quot;linux3.10_ddr_test_files&quot;目录里的测试文件进行安装。</p>
+<ol>
+<li class="">安装捕鱼达人APK</li>
+</ol>
+<p>Note: 捕鱼达人为第三方APK，请自行获取，也可选择其他能在测试期间自动运行的APK或者循环播放视频。</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;adb_tool&gt; adb.exe install fishingjoy1.apk</span><br></span></code></pre></div></div>
+<ol start="2">
+<li class="">push google stressapptest</li>
+</ol>
+<p>请根据测试机器的固件为 linux 64bit 或 linux 32bit，在 “static_stressapptest” 目录下选择对应的 stressapptest 进行 push。</p>
+<p>Eg:</p>
+<ul>
+<li class="">如测试机器的固件为 linux 32bit，则选择对应的 stressapptest_32bit</li>
+</ul>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;adb_tool&gt; adb.exe push stressapptest_32bit /data/stressapptest</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&lt;adb_tool&gt; adb.exe shell chmod 0777 /data/stressapptest</span><br></span></code></pre></div></div>
+<ul>
+<li class="">如测试机器的固件为 linux 64bit，则选择对应的 stressapptest_64bit</li>
+</ul>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;adb_tool&gt; adb.exe push stressapptest_64bit /data/stressapptest</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&lt;adb_tool&gt; adb.exe shell chmod 0777 /data/stressapptest</span><br></span></code></pre></div></div>
+<ol start="3">
+<li class="">push memtester</li>
+</ol>
+<p>请根据测试机器的固件为 linux 64bit 或 linux 32bit，在 “static_memtester” 目录下选择对应的 memtester 进行 push。
+Eg：</p>
+<ul>
+<li class="">如测试机器的固件为 linux  32bit，则选择对应的 memtester_32bit</li>
+</ul>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;adb_tool&gt; adb.exe push memtester_32bit /data/memtester</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&lt;adb_tool&gt; adb.exe shell chmod 0777 /data/memtester</span><br></span></code></pre></div></div>
+<ul>
+<li class="">如测试机器的固件为 linux 64bit，则选择对应的 memtester_64bit</li>
+</ul>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;adb_tool&gt; adb.exe push memtester_64bit /data/memtester</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&lt;adb_tool&gt; adb.exe shell chmod 0777 /data/memtester</span><br></span></code></pre></div></div>
+<ol start="4">
+<li class="">sync</li>
+</ol>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;adb_tool&gt; adb.exe shell sync</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="linux-310-确认容量是否正确">Linux 3.10 确认容量是否正确<a href="#linux-310-确认容量是否正确" class="hash-link" aria-label="Linux 3.10 确认容量是否正确的直接链接" title="Linux 3.10 确认容量是否正确的直接链接" translate="no">​</a></h3>
+<p>通过<code>&lt;rkxxxx:/ $&gt;  cat /proc/meminfo</code>查看 MemTotal 容量是否与测试机器实际容量相符。</p>
+<p>log eg：</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rkxxxx:/ $&gt; cat /proc/meminfo</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">MemTotal:        2038904 kB</span><br></span></code></pre></div></div>
+<p>512MB 约等于 533504kB</p>
+<p>1GB 约等于 1048576kB</p>
+<p>1.5GB 约等于 1582080kB</p>
+<p>2GB 约等于 2097152kB</p>
+<p>3GB 约等于 3145728kB</p>
+<p>4GB 约等于 4194304kB</p>
+<p>由于系统内存分配管理差异的原因，得到的容量有些偏差，属于正常。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="linux-310-定频测试">Linux 3.10 定频测试<a href="#linux-310-定频测试" class="hash-link" aria-label="Linux 3.10 定频测试的直接链接" title="Linux 3.10 定频测试的直接链接" translate="no">​</a></h3>
+<ol>
+<li class="">
+<p>开启捕鱼达人 APK</p>
+</li>
+<li class="">
+<p>串口控制台上输入 su 命令</p>
+</li>
+</ol>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rkxxxx:/ $&gt; su</span><br></span></code></pre></div></div>
+<ol start="3">
+<li class="">DDR 定频到拷机频率</li>
+</ol>
+<p>请根据测试机器所支持的 DDR 最高频率，进行设置。</p>
+<p>Eg：</p>
+<p>如果测试机器所支持的 DDR 最高频率为 533MHz。</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rkxxxx:/ #&gt; echo set clk_ddr 533000000 &gt; /sys/pm_tests/clk_rate</span><br></span></code></pre></div></div>
+<ol start="4">
+<li class="">google stressapptest 拷机，拷机时间 12 小时以上</li>
+</ol>
+<ul>
+<li class="">执行 stressapptest 程序</li>
+</ul>
+<p>stressapptest 关键参数说明：</p>
+<p>-M mbytes，指定申请测试的内存空间大小，单位为MB。一般申请总容量的八分之一进行测试，如果总容量是 1GB 则申请 128MB 进行 测试，如果总容量是 2GB 则申请 256MB 进行测试。</p>
+<p>-s seconds，指定测试运行时间，单位是秒。运行时间12小时则参数为43200。</p>
+<p>Eg：</p>
+<p>内存总容量 1GB 则申请 128MB 进行 stressapptest，运行时间12小时(43200秒)，执行命令如下：</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rkxxxx:/ #&gt; /data/stressapptest -s 43200 -i 4 -C 4 -W --stop_on_errors -M 128</span><br></span></code></pre></div></div>
+<ul>
+<li class="">确认拷机结果</li>
+</ul>
+<p>拷机结束，确认机器是否正常，捕鱼达人是否正常运行，stressapptest 结果是 PASS 还是 FAIL。stressapptest 每隔 10 秒会打印一条 log，log 显示测试剩余时间。测试完成后会打印测试结果，如果测试通过打印 &quot;Status: PASS - please verify no corrected errors&quot;，如果测试失败打印 &quot;Status: FAIL - test discovered HW problems&quot;。</p>
+<ol start="6">
+<li class="">memtester 拷机，拷机时间 memtester 12 小时以上</li>
+</ol>
+<ul>
+<li class="">执行 memtester 程序</li>
+</ul>
+<p>memtester 关键参数说明：</p>
+<p>&lt;mem&gt;m，指定申请测试的内存空间大小，单位为 MB。一般申请总容量的八分之一进行测试，如果总容量是 1GB 则申请 128MB 进行 测试，如果总容量是 2GB 则申请 256MB 进行测试。</p>
+<p>Eg:</p>
+<p>内存总容量 1GB 则申请 128MB 进行 memtester，执行命令如下：</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rkxxxx:/ #&gt; /data/memtester 128m</span><br></span></code></pre></div></div>
+<ul>
+<li class="">确认拷机结果</li>
+</ul>
+<p>拷机结束，确认机器是否正常，捕鱼达人是否正常运行，memtester 是否在正常运行。DDR 测试资源文件目录里的 memtester 程序进行过修改，测试过程如果有发现错误会自动停止测试，如果持续测试 12 小时以上后，memtester 仍在继续运行，说明测试过程没有发现错误。</p>
+<ul>
+<li class="">memtester 运行过程如果没有发现错误，会持续打印如下 log：</li>
+</ul>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Loop 10:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Stuck Address       : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Random Value        : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Compare XOR         : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Compare SUB         : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Compare MUL         : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Compare DIV         : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Compare OR          : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Compare AND         : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Sequential Increment: ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Solid Bits          : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Block Sequential    : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Checkerboard        : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Bit Spread          : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Bit Flip            : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Walking Ones        : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Walking Zeroes      : ok</span><br></span></code></pre></div></div>
+<ul>
+<li class="">memtester 运行过程如果有发现错误，会自动停止测试并退出，退出时打印如下 log：</li>
+</ul>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">FAILURE: 0xffffffff != 0xffffbfff at offset 0x03b7d9e4.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">EXIT_FAIL_OTHERTEST</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="linux-310-变频测试">Linux 3.10 变频测试<a href="#linux-310-变频测试" class="hash-link" aria-label="Linux 3.10 变频测试的直接链接" title="Linux 3.10 变频测试的直接链接" translate="no">​</a></h3>
+<p>如果机器前面做过定频测试，要重启机器，否则后续的变频命令会无法进行。</p>
+<ol>
+<li class="">
+<p>开启捕鱼达人 APK</p>
+</li>
+<li class="">
+<p>串口控制台上输入 su 命令</p>
+</li>
+</ol>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rkxxxx:/ $&gt; su</span><br></span></code></pre></div></div>
+<ol start="3">
+<li class="">后台执行 memtester</li>
+</ol>
+<p>memtester 关键参数说明：</p>
+<p>&lt;mem&gt;m，指定申请测试的内存空间大小，单位为MB。一般申请总容量的八分之一进行测试，如果总容量是 1GB 则申请 128MB 进行测试，如果总容量是 2GB 则申请 256MB 进行测试。</p>
+<p>Eg:</p>
+<p>如果总容量是 1GB 则申请 128MB 进行 memtester，执行命令如下：</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rkxxxx:/ #&gt; /data/memtester 128m &gt; /data/memtester_log.txt &amp;</span><br></span></code></pre></div></div>
+<ol start="4">
+<li class="">执行变频命令</li>
+</ol>
+<p>根据测试机器支持的 DDR 频率范围进行设置。</p>
+<p>Eg：</p>
+<p>如果测试机器支持的 DDR 频率范围为 200MHz 到 533MHz。</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rkxxxx:/ #&gt; echo &#x27;a:200M-533M-1000000T&#x27; &gt; proc/driver/ddr_ts</span><br></span></code></pre></div></div>
+<p>Note: 变频测试测试过程，由于是强制变频，机器可能会出现由于带宽不足等原因所致的屏幕闪烁等现象，属正常现象。</p>
+<ol start="5">
+<li class="">确认拷机结果，拷机时间 12 小时以上</li>
+</ol>
+<ul>
+<li class="">
+<p>确认捕鱼达人是否正常运行，机器是否正常</p>
+</li>
+<li class="">
+<p>确认变频程序运行是否正常，变频 log 是否在正常打印</p>
+</li>
+<li class="">
+<p>确认 memtester 是否正常运行</p>
+</li>
+</ul>
+<p>在串口输入<code>&lt;rkxxxx:/ #&gt; ps | grep memtester</code>，看 memtester 进程是否存在。</p>
+<p>Eg：</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rkxxxx:/ #&gt;  ps | grep memtester</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">root      14309 1730  74332  68156          0 5e980bf564 R /data/memtester</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="linux-310-reboot-拷机">Linux 3.10 reboot 拷机<a href="#linux-310-reboot-拷机" class="hash-link" aria-label="Linux 3.10 reboot 拷机的直接链接" title="Linux 3.10 reboot 拷机的直接链接" translate="no">​</a></h3>
+<p>开启计算器 Calculator，输入 &quot;83991906=&quot;，点击&quot;RebootTest&quot;，拷机时间 12 小时以上。</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="linux-4xx-ddr-颗粒验证流程说明">Linux 4.xx DDR 颗粒验证流程说明<a href="#linux-4xx-ddr-颗粒验证流程说明" class="hash-link" aria-label="Linux 4.xx DDR 颗粒验证流程说明的直接链接" title="Linux 4.xx DDR 颗粒验证流程说明的直接链接" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="linux-4xx-测试固件编译">Linux 4.xx 测试固件编译<a href="#linux-4xx-测试固件编译" class="hash-link" aria-label="Linux 4.xx 测试固件编译的直接链接" title="Linux 4.xx 测试固件编译的直接链接" translate="no">​</a></h3>
+<p>使能 DDR 变频功能，打开测试机器对应的板级 DTS 文件，找到 dfi 和 dmc 节点，配置 status = &quot;okay&quot;。</p>
+<div class="language-dts codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-dts codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&amp;dfi {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    status = &quot;okay&quot;;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">};</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&amp;dmc {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">	status = &quot;okay&quot;;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">	........</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">};</span><br></span></code></pre></div></div>
+<p>关于测试固件编译这里只做简单说明，详细介绍请参考《Rockchip-Developer-Guide-DDR-CN》的&quot;如何 enable/disable kernel 中的 DDR 变频功能&quot;章节。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="linux-4xx-测试环境搭建">Linux 4.xx 测试环境搭建<a href="#linux-4xx-测试环境搭建" class="hash-link" aria-label="Linux 4.xx 测试环境搭建的直接链接" title="Linux 4.xx 测试环境搭建的直接链接" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="烧写固件">烧写固件<a href="#烧写固件" class="hash-link" aria-label="烧写固件的直接链接" title="烧写固件的直接链接" translate="no">​</a></h4>
+<p>测试开始前，需要先明确测试过程需要的如下信息：</p>
+<ol>
+<li class="">测试固件操作系统位数（32bit or 64bit）</li>
+<li class="">测试机器 DDR 总容量（512MB or 1GB or 2GB ...）</li>
+<li class="">定频测试，DDR 要跑的最高频率（456MHz or 533MHz ...）</li>
+</ol>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="自动搭建测试的环境">自动搭建测试的环境<a href="#自动搭建测试的环境" class="hash-link" aria-label="自动搭建测试的环境的直接链接" title="自动搭建测试的环境的直接链接" translate="no">​</a></h4>
+<ol>
+<li class="">进入 DDR 测试资源文件的&quot;linux4.xx_ddr_test_files&quot;目录，双击 push_files.bat 脚本文件，根据脚本提示和固件类型信息进行选择输入 1 或者 2，自动完成测试环境搭建。</li>
+</ol>
+<p>Note：运行脚本后，需要通过打印的 log 检查是否每项都有被正常执行，确认是否有报错信息。</p>
+<ol start="2">
+<li class="">自动搭建无异常，可以跳过下面的&quot;手动搭建测试环境&quot;这一章节。</li>
+</ol>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="手动搭建测试的环境">手动搭建测试的环境<a href="#手动搭建测试的环境" class="hash-link" aria-label="手动搭建测试的环境的直接链接" title="手动搭建测试的环境的直接链接" translate="no">​</a></h4>
+<p>如果自动搭建测试环境失败，可以通过手动搭建来完成。请选择&quot;linux4.xx_ddr_test_files&quot;目录里的测试文件进行安装。</p>
+<ol>
+<li class="">安装捕鱼达人APK</li>
+</ol>
+<p>Note：捕鱼达人为第三方 APK，请自行获取，也可选择其他能在测试期间自动运行的APK或者循环播放视频。未运行 Android 系统的设备请跳过此步骤。</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;adb_tool&gt; adb.exe install fishingjoy1.apk</span><br></span></code></pre></div></div>
+<ol start="2">
+<li class="">push google stressapptest</li>
+</ol>
+<p>请根据测试机器的固件为 linux 64bit 或 linux 32bit，在 “static_stressapptest” 目录下选择对应的 stressapptest 进行 push。</p>
+<p>Eg:</p>
+<ul>
+<li class="">如测试机器的固件为 linux  32bit，则选择对应的 stressapptest_32bit</li>
+</ul>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;adb_tool&gt; adb.exe push stressapptest_32bit /data/stressapptest</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&lt;adb_tool&gt; adb.exe shell chmod 0777 /data/stressapptest</span><br></span></code></pre></div></div>
+<ul>
+<li class="">如测试机器的固件为 linux  64bit，则选择对应的 stressapptest_64bit</li>
+</ul>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;adb_tool&gt; adb.exe push stressapptest_64bit /data/stressapptest</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&lt;adb_tool&gt; adb.exe shell chmod 0777 /data/stressapptest</span><br></span></code></pre></div></div>
+<ol start="3">
+<li class="">push memtester</li>
+</ol>
+<p>请根据测试机器的固件为 linux 64bit 或 linux 32bit，在 “static_memtester” 目录下选择对应的 memtester 进行 push。</p>
+<p>Eg：</p>
+<ul>
+<li class="">如测试机器的固件为 linux  32bit，则选择对应的 memtester_32bit</li>
+</ul>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;adb_tool&gt; adb.exe push memtester_32bit /data/memtester</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&lt;adb_tool&gt; adb.exe shell chmod 0777 /data/memtester</span><br></span></code></pre></div></div>
+<ul>
+<li class="">如测试机器的固件为 linux 64bit，则选择对应的 memtester_64bit</li>
+</ul>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;adb_tool&gt; adb.exe push memtester_64bit /data/memtester</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&lt;adb_tool&gt; adb.exe shell chmod 0777 /data/memtester</span><br></span></code></pre></div></div>
+<ol start="4">
+<li class="">push ddr_freq_scan.sh 脚本</li>
+</ol>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;adb_tool&gt; adb.exe push ddr_freq_scan.sh /data/ddr_freq_scan.sh</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&lt;adb_tool&gt; adb.exe shell chmod 0777 /data/ddr_freq_scan.sh</span><br></span></code></pre></div></div>
+<ol start="5">
+<li class="">sync</li>
+</ol>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;adb_tool&gt; adb.exe shell sync</span><br></span></code></pre></div></div>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="通过-u-盘和串口搭建测试环境">通过 U 盘和串口搭建测试环境<a href="#通过-u-盘和串口搭建测试环境" class="hash-link" aria-label="通过 U 盘和串口搭建测试环境的直接链接" title="通过 U 盘和串口搭建测试环境的直接链接" translate="no">​</a></h4>
+<p>如果测试机器的 ADB 无法连接，可以通过 U 盘将测试过程需要用到文件拷贝到测试板，然后通过串口搭建测试环境。</p>
+<ol>
+<li class="">准备工作</li>
+</ol>
+<ul>
+<li class="">
+<p>开机后，添加 wake_lock 防止机器进入二级待机<code>echo 1 &gt; /sys/power/wake_lock</code>，或者通过设置 Setting-&gt;Dsiplay-&gt;Sleep-&gt;Never sleep 让机器保持唤醒状态</p>
+</li>
+<li class="">
+<p>U 盘接入电脑，将&quot;linux4.xx_ddr_test_files&quot; ， “static_memtester” 和 “static_stressapptest” 目录拷贝到 U 盘</p>
+</li>
+<li class="">
+<p>测试板串口控制台上输入 su 命令</p>
+</li>
+</ul>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rk3399:/ $&gt; su</span><br></span></code></pre></div></div>
+<ul>
+<li class="">U 盘接入测试板，将 &quot;linux4.xx_ddr_test_files&quot; ， “static_memtester” 和 “static_stressapptest” 目录拷贝到机器 /data 目录。U 盘正常是加载在/mnt/media_rw/***目录下（***：每块 U 盘的挂载节点名有不同，请用 tab 键补全）。</li>
+</ul>
+<p>Eg:</p>
+<p>如果U盘的挂载节点为/mnt/media_rw/B4FE-5315，执行命令如下：</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rk3399:/ #&gt; cp -rf /mnt/media_rw/B4FE-5315/linux4.xx_ddr_test_files   /data/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rk3399:/ #&gt; cp -rf /mnt/media_rw/B4FE-5315/static_memtester   /data/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rk3399:/ #&gt; cp -rf /mnt/media_rw/B4FE-5315/static_stressapptest   /data/</span><br></span></code></pre></div></div>
+<ol start="2">
+<li class="">自动搭建测试环境</li>
+</ol>
+<ul>
+<li class="">如测试机器的固件为 linux 32bit，则选择对应的 test_files_install_32bit.sh 脚本</li>
+</ul>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rk3399:/ #&gt; chmod 0777 /data/linux4.xx_ddr_test_files/test_files_install_32bit.sh</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rk3399:/ #&gt; /data/linux4.xx_ddr_test_files/test_files_install_32bit.sh</span><br></span></code></pre></div></div>
+<ul>
+<li class="">如测试机器的固件为 linux 64bit，则选择对应的 test_files_install_64bit.sh 脚本</li>
+</ul>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rk3399:/ #&gt; chmod 0777 /data/linux4.xx_ddr_test_files/test_files_install_64bit.sh</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rk3399:/ #&gt; /data/linux4.xx_ddr_test_files/test_files_install_64bit.sh</span><br></span></code></pre></div></div>
+<p>需要通过打印的 log 检查是否每项都有被正常执行。自动搭建无异常，可以跳过下面的&quot;手动搭建测试环境&quot;这一部分。</p>
+<ol start="3">
+<li class="">手动搭建测试环境</li>
+</ol>
+<p>如果自动搭建测试环境失败，可以通过手动搭建来完成。</p>
+<ul>
+<li class="">如测试机器的固件为 linux 32bit，则拷贝对应的测试所需文件</li>
+</ul>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rk3399:/ #&gt; cp /data/static_stressapptest/stressapptest_32bit /data/stressapptest</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rk3399:/ #&gt; cp /data/static_memtester/memtester_32bit /data/memtester</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rk3399:/ #&gt; cp /data/linux4.xx_ddr_test_files/ddr_freq_scan.sh /data/ddr_freq_scan.sh</span><br></span></code></pre></div></div>
+<ul>
+<li class="">如测试机器的固件为 linux 64bit，则拷贝对应的测试所需文件</li>
+</ul>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rk3399:/ #&gt; cp /data/static_stressapptest/stressapptest_64bit /data/stressapptest</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rk3399:/ #&gt; cp /data/static_memtester/memtester_64bit /data/memtester</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rk3399:/ #&gt; cp /data/linux4.xx_ddr_test_files/ddr_freq_scan.sh /data/ddr_freq_scan.sh</span><br></span></code></pre></div></div>
+<ul>
+<li class="">更改文件权限</li>
+</ul>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rk3399:/ #&gt; chmod 777 /data/memtester /data/stressapptest /data/ddr_freq_scan.sh</span><br></span></code></pre></div></div>
+<ul>
+<li class="">安装捕鱼达人 APK</li>
+</ul>
+<p>Note：捕鱼达人为第三方APK，请自行获取，也可选择其他能在测试期间自动运行的APK或者循环播放视频。未运行 Android 系统的设备请跳过此步骤。</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rk3399:/ #&gt; pm install /data/fishingjoy1.apk</span><br></span></code></pre></div></div>
+<ul>
+<li class="">sync</li>
+</ul>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rk3399:/ #&gt; sync</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="linux-4xx-确认颗粒容量">Linux 4.xx 确认颗粒容量<a href="#linux-4xx-确认颗粒容量" class="hash-link" aria-label="Linux 4.xx 确认颗粒容量的直接链接" title="Linux 4.xx 确认颗粒容量的直接链接" translate="no">​</a></h3>
+<p>通过<code>&lt;rkxxxx:/ #&gt;  cat /proc/meminfo</code>查看 MemTotal 项所示容量是否与测试机器 DDR 总容量一致。</p>
+<p>log eg：</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">rkxxxx:/ # cat /proc/meminfo</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">MemTotal:        2038904 kB</span><br></span></code></pre></div></div>
+<p>512MB 约等于 533504kB</p>
+<p>1GB 约等于 1048576kB</p>
+<p>1.5GB 约等于 1582080kB</p>
+<p>2GB 约等于 2097152kB</p>
+<p>3GB 约等于 3145728kB</p>
+<p>4GB 约等于 4194304kB</p>
+<p>由于系统内存分配管理差异的原因，得到的容量有些偏差，属于正常。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="linux-4xx-定频拷机">Linux 4.xx 定频拷机<a href="#linux-4xx-定频拷机" class="hash-link" aria-label="Linux 4.xx 定频拷机的直接链接" title="Linux 4.xx 定频拷机的直接链接" translate="no">​</a></h3>
+<ol>
+<li class="">
+<p>开启捕鱼达人 APK（未运行 Android 系统的设备请跳过此步骤）</p>
+</li>
+<li class="">
+<p>先输入 su 命令</p>
+</li>
+</ol>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rkxxxx:/ $&gt; su</span><br></span></code></pre></div></div>
+<ol start="3">
+<li class="">定频到拷机频率</li>
+</ol>
+<p>根据测试机器 DDR 要跑的最高频率进行设置。</p>
+<p>Eg：</p>
+<ul>
+<li class="">如果是跑 928MHz</li>
+</ul>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rkxxxx:/ #&gt; /data/ddr_freq_scan.sh 933000000</span><br></span></code></pre></div></div>
+<ul>
+<li class="">如果是跑 800MHz</li>
+</ul>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rkxxxx:/ #&gt; /data/ddr_freq_scan.sh 800000000</span><br></span></code></pre></div></div>
+<ul>
+<li class="">如果是跑 600MHz</li>
+</ul>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rkxxxx:/ #&gt; /data/ddr_freq_scan.sh 600000000</span><br></span></code></pre></div></div>
+<ol start="4">
+<li class="">通过 log 确认频率是否正确</li>
+</ol>
+<p>log eg:</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">130|rkxxxx:/ # /data/ddr_freq_scan.sh 800000000</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">already change to 800000000 done.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">change frequency to available max frequency done.</span><br></span></code></pre></div></div>
+<ol start="5">
+<li class="">google stressapptest 拷机，拷机时间 12 小时以上</li>
+</ol>
+<ul>
+<li class="">执行 stressapptest 程序</li>
+</ul>
+<p>stressapptest 关键参数说明：</p>
+<p>-M mbytes，指定申请测试的内存空间大小，单位为MB。一般申请总容量的八分之一进行测试，如果总容量是 1GB 则申请 128MB 进行 测试，如果总容量是 2GB 则申请 256MB 进行测试。</p>
+<p>-s seconds，指定测试运行时间，单位是秒。运行时间12小时则参数为43200。</p>
+<p>Eg：</p>
+<p>内存总容量 1GB 则申请 128MB 进行 stressapptest，运行时间12小时(43200秒)，执行命令如下：</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rkxxxx:/ #&gt; /data/stressapptest -s 43200 -i 4 -C 4 -W --stop_on_errors -M 128</span><br></span></code></pre></div></div>
+<ul>
+<li class="">确认拷机结果</li>
+</ul>
+<p>拷机结束，确认机器是否正常，捕鱼达人是否正常运行，stressapptest 结果是 PASS 还是 FAIL。stressapptest 每隔 10 秒会打印一条 log，log 显示测试剩余时间。测试完成后会打印测试结果，如果测试通过打印  Status: PASS - please verify no corrected errors，如果测试失败打印 Status: FAIL - test discovered HW problems。</p>
+<ol start="6">
+<li class="">memtester 拷机，拷机时间 12 小时以上</li>
+</ol>
+<ul>
+<li class="">执行 memtester 程序</li>
+</ul>
+<p>memtester 关键参数说明：</p>
+<p>&lt;mem&gt;m，指定申请测试的内存空间大小，单位为MB。一般申请总容量的八分之一进行测试，如果总容量是 1GB 则申请 128MB 进行 测试，如果总容量是 2GB 则申请 256MB 进行测试。</p>
+<p>Eg:</p>
+<p>内存总容量 1GB 则申请 128MB 进行 memtester，执行命令如下：</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rkxxxx:/ #&gt; /data/memtester 128m</span><br></span></code></pre></div></div>
+<ul>
+<li class="">确认拷机结果</li>
+</ul>
+<p>拷机结束，确认机器是否正常，捕鱼达人是否正常运行，memtester 是否在正常运行。DDR 测试资源文件目录里的 memtester 程序进行过修改，测试过程如果有发现错误会自动停止测试，如果持续测试 12 小时以上后，memtester 仍在继续运行，说明测试过程没有发现错误。</p>
+<ul>
+<li class="">memtester 运行过程如果没有发现错误，会持续打印如下 log：</li>
+</ul>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Loop 10:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Stuck Address       : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Random Value        : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Compare XOR         : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Compare SUB         : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Compare MUL         : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Compare DIV         : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Compare OR          : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Compare AND         : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Sequential Increment: ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Solid Bits          : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Block Sequential    : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Checkerboard        : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Bit Spread          : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Bit Flip            : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Walking Ones        : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Walking Zeroes      : ok</span><br></span></code></pre></div></div>
+<ul>
+<li class="">memtester 运行过程如果有发现错误，会自动停止测试并退出，退出时打印如下 log：</li>
+</ul>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">FAILURE: 0xffffffff != 0xffffbfff at offset 0x03b7d9e4.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">EXIT_FAIL_OTHERTEST</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="linux-4xx-变频拷机">Linux 4.xx 变频拷机<a href="#linux-4xx-变频拷机" class="hash-link" aria-label="Linux 4.xx 变频拷机的直接链接" title="Linux 4.xx 变频拷机的直接链接" translate="no">​</a></h3>
+<ol>
+<li class="">
+<p>开启捕鱼达人 APK（未运行 Android 系统的设备请跳过此步骤）</p>
+</li>
+<li class="">
+<p>先输入 su 命令</p>
+</li>
+</ol>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rkxxxx:/$&gt; su</span><br></span></code></pre></div></div>
+<ol start="3">
+<li class="">后台执行 memtester</li>
+</ol>
+<p>memtester 关键参数说明：</p>
+<p>&lt;mem&gt;m，指定申请测试的内存空间大小，单位为MB。一般申请总容量的八分之一进行测试，如果总容量是 1GB 则申请 128MB 进行 测试，如果总容量是 2GB 则申请 256MB 进行测试。</p>
+<p>Eg:</p>
+<p>如果总容量是 1GB 则申请 128MB 进行 memtester，执行命令如下：</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rkxxxx:/ #&gt; /data/memtester 128m &gt; /data/memtester_log.txt &amp;</span><br></span></code></pre></div></div>
+<ol start="4">
+<li class="">执行测试脚本</li>
+</ol>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rkxxxx:/ #&gt; /data/ddr_freq_scan.sh</span><br></span></code></pre></div></div>
+<p>Note: 变频测试测试过程，由于是强制变频，机器可能会出现由于带宽不足等原因所致的屏幕闪烁等现象，属正常现象。</p>
+<ol start="5">
+<li class="">确认拷机结果，拷机时间 12 小时以上</li>
+</ol>
+<ul>
+<li class="">
+<p>确认捕鱼达人是否正常运行，机器是否正常</p>
+</li>
+<li class="">
+<p>确认 memtester 是否正常运行</p>
+</li>
+</ul>
+<p>在串口输入<code>&lt;rkxxxx:/ #&gt; ps | grep memtester</code>，看 memtester 进程是否存在。</p>
+<p>Eg：</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rkxxxx:/ #&gt;  ps | grep memtester</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">root      14309 1730  74332  68156          0 5e980bf564 R /data/memtester</span><br></span></code></pre></div></div>
+<ul>
+<li class="">确认变频脚本运行是否正常运行，变频 log 是否在正常打印</li>
+</ul>
+<p>log eg:</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">DDR freq will change to 600000000 8786</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">already change to 600000000 done</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">DDR freq will change to 800000000 8787</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">already change to 800000000 done</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">DDR freq will change to 200000000 8788</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">already change to 200000000 done</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="linux-4xx-reboot-拷机">Linux 4.xx reboot 拷机<a href="#linux-4xx-reboot-拷机" class="hash-link" aria-label="Linux 4.xx reboot 拷机的直接链接" title="Linux 4.xx reboot 拷机的直接链接" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="android-系统下通过计算器开启-reboot-拷机">Android 系统下通过计算器开启 reboot 拷机<a href="#android-系统下通过计算器开启-reboot-拷机" class="hash-link" aria-label="Android 系统下通过计算器开启 reboot 拷机的直接链接" title="Android 系统下通过计算器开启 reboot 拷机的直接链接" translate="no">​</a></h4>
+<p>==为防止做 reboot 过程机器进入休眠，影响测试，请通过设置 setting-&gt;security-&gt;set screen lock-&gt;None，让机器一开机跳过锁屏界面，直接进入主界面。同时通过设置 Setting-&gt;Dsiplay-&gt;Sleep-&gt;Never sleep 让机器保持唤醒状态。==</p>
+<p>开启计算器 Calculator，输入 &quot;83991906=&quot;，点击&quot;RebootTest&quot;，拷机时间 12 小时以上。</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="非-android-系统使用-rockchip_testsh-脚本进行-reboot-拷机">非 Android 系统使用 rockchip_test.sh 脚本进行 reboot 拷机<a href="#非-android-系统使用-rockchip_testsh-脚本进行-reboot-拷机" class="hash-link" aria-label="非 Android 系统使用 rockchip_test.sh 脚本进行 reboot 拷机的直接链接" title="非 Android 系统使用 rockchip_test.sh 脚本进行 reboot 拷机的直接链接" translate="no">​</a></h4>
+<ol>
+<li class="">输入 su 命令</li>
+</ol>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">[root@RV1126_RV1109:/]# su</span><br></span></code></pre></div></div>
+<ol start="2">
+<li class="">运行 /rockchip_test/rockchip_test.sh，选择 auto reboot test 对应的数字</li>
+</ol>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">[root@RV1126_RV1109:/]# /rockchip_test/rockchip_test.sh</span><br></span></code></pre></div></div>
+<p><img decoding="async" loading="lazy" alt="auto_reboot_test" src="/assets/images/auto_reboot_test-4748df310008ed0c719da54e1f52a777.png" width="769" height="618" class="img_ev3q"></p>
+<ol start="3">
+<li class="">拷机 12 小时以上，确认设备是否正常。可以通过以下命令关闭 reboot test</li>
+</ol>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">[root@RV1126_RV1109:/]# echo off &gt; /data/cfg/rockchip_test/reboot_cnt</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="linux-4xx-sleep-拷机">Linux 4.xx sleep 拷机<a href="#linux-4xx-sleep-拷机" class="hash-link" aria-label="Linux 4.xx sleep 拷机的直接链接" title="Linux 4.xx sleep 拷机的直接链接" translate="no">​</a></h3>
+<p>RK3399 使用 LPDDR4 时，必须进行这项测试；其他 DDR 类型及其他平台是 optional。</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="android-系统下通过计算器开启-sleep-拷机">Android 系统下通过计算器开启 sleep 拷机<a href="#android-系统下通过计算器开启-sleep-拷机" class="hash-link" aria-label="Android 系统下通过计算器开启 sleep 拷机的直接链接" title="Android 系统下通过计算器开启 sleep 拷机的直接链接" translate="no">​</a></h4>
+<p>拔掉连接 ADB 的 USB 线，开启计算器 Calculator,输入 &quot;83991906=&quot;,点击&quot;SleepTest&quot;，拷机时间 12 小时以上。</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="非-android-系统使用-rockchip_testsh-脚本进行-sleep-拷机">非 Android 系统使用 rockchip_test.sh 脚本进行 sleep 拷机<a href="#非-android-系统使用-rockchip_testsh-脚本进行-sleep-拷机" class="hash-link" aria-label="非 Android 系统使用 rockchip_test.sh 脚本进行 sleep 拷机的直接链接" title="非 Android 系统使用 rockchip_test.sh 脚本进行 sleep 拷机的直接链接" translate="no">​</a></h4>
+<ol>
+<li class="">输入 su 命令</li>
+</ol>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">[root@RV1126_RV1109:/]# su</span><br></span></code></pre></div></div>
+<ol start="2">
+<li class="">运行 /rockchip_test/rockchip_test.sh，选择 suspend_resume test 对应的数字，再选择 auto suspend (resume by rtc) 对应的数字</li>
+</ol>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">[root@RV1126_RV1109:/]# /rockchip_test/rockchip_test.sh</span><br></span></code></pre></div></div>
+<p><img decoding="async" loading="lazy" alt="auto_suspend_rtc" src="/assets/images/auto_suspend_rtc-f451e6703e700c6d44e44cc08d4c79e8.png" width="761" height="741" class="img_ev3q"></p>
+<ol start="3">
+<li class="">拷机 12 小时以上，确认设备是否正常</li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="rv1108-ddr-颗粒验证流程说明">RV1108 DDR 颗粒验证流程说明<a href="#rv1108-ddr-颗粒验证流程说明" class="hash-link" aria-label="RV1108 DDR 颗粒验证流程说明的直接链接" title="RV1108 DDR 颗粒验证流程说明的直接链接" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="rv1108-测试固件编译">RV1108 测试固件编译<a href="#rv1108-测试固件编译" class="hash-link" aria-label="RV1108 测试固件编译的直接链接" title="RV1108 测试固件编译的直接链接" translate="no">​</a></h3>
+<p>打开 DDR Test 和 pm_tests 配置。配置 kernel 代码的 menuconfig，进入 System Type，选择打开 DDR Test 和 pm_tests。</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">  menuconfig</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  System Type  ---&gt;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    [*]   /sys/pm_tests/ support</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    [*]   DDR Test</span><br></span></code></pre></div></div>
+<p>如果 menuconfig 中没有<code>[] /sys/pm_tests/ support</code>选项，请参考《Rockchip-Developer-Guide-DDR-CN》的&quot;DDR 如何定频&quot;和&quot;如何 enable/disable kernel 中的 DDR 变频功能&quot;章节，分别编译定频固件和变频固件。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="rv1108-测试环境搭建">RV1108 测试环境搭建<a href="#rv1108-测试环境搭建" class="hash-link" aria-label="RV1108 测试环境搭建的直接链接" title="RV1108 测试环境搭建的直接链接" translate="no">​</a></h3>
+<p>将&quot;rv1108_ddr_test_files&quot;目录下的 stressapptest 和 memtester_32bit 考到 SD 卡根目录，把卡插到测试板上。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="rv1108-确认容量是否正确">RV1108 确认容量是否正确<a href="#rv1108-确认容量是否正确" class="hash-link" aria-label="RV1108 确认容量是否正确的直接链接" title="RV1108 确认容量是否正确的直接链接" translate="no">​</a></h3>
+<p>通过<code>&lt;rv1108:/ #&gt;  cat /proc/meminfo</code>查看 MemTotal 项所示容量是否与测试机器 DDR 总容量相符。</p>
+<p>log eg：</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rv1108:/ #&gt; cat /proc/meminfo</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">MemTotal:        133376 kB</span><br></span></code></pre></div></div>
+<p>64MB 约等于 66688kB</p>
+<p>128MB 约等于 133376kB</p>
+<p>256MB 约等于 266752kB</p>
+<p>512MB 约等于 533504kB</p>
+<p>由于系统内存分配管理差异的原因，得到的容量有些偏差，属于正常。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="rv1108-定频测试">RV1108 定频测试<a href="#rv1108-定频测试" class="hash-link" aria-label="RV1108 定频测试的直接链接" title="RV1108 定频测试的直接链接" translate="no">​</a></h3>
+<ol>
+<li class="">DDR 定频到拷机频率</li>
+</ol>
+<p>请根据测试机器要跑的 DDR 最高频率，进行设置。</p>
+<p>Eg：</p>
+<p>如果测试机器要跑的 DDR 最高频率为 800MHz。</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rv1108:/ #&gt; echo set clk_ddr 800000000 &gt; /sys/pm_tests/clk_rate</span><br></span></code></pre></div></div>
+<ol start="2">
+<li class="">google stressapptest 拷机，拷机时间 12 小时以上</li>
+</ol>
+<p>如果总容量是 128MB 则申请 16MB 进行 stressapptest，一般是总容量的八分之一</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rv1108:/ #&gt; /mnt/sdcard/stressapptest -s 500 -i 1 -C 1 -W --stop_on_errors -M 16</span><br></span></code></pre></div></div>
+<ol start="3">
+<li class="">确认拷机结果</li>
+</ol>
+<p>拷机结束，确认机器是否正常，stressapptest 结果是 PASS 还是 FAIL。stressapptest 每隔 10 秒会打印一条 log，log 显示测试剩余时间。测试完成后会打印测试结果，如果测试通过打印 Status: PASS，如果测试失败打印 Status: FAIL。</p>
+<ol start="4">
+<li class="">memtester 拷机，拷机时间 12 小时以上</li>
+</ol>
+<p>如果总容量是 128MB 则申请 16MB 进行 memtester，一般是总容量的八分之一</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rv1108:/ #&gt; /mnt/sdcard/memtester_32bit 16m</span><br></span></code></pre></div></div>
+<ol start="5">
+<li class="">确认拷机结果</li>
+</ol>
+<p>拷机结束，确认机器是否正常，memtester 是否正常运行。&quot;DDR 测试资源文件&quot;目录里的 memtester 程序进行过修改，测试过程如果有发现错误会自动停止测试，如果持续测试 12H+后，memtester 仍在继续运行，说明测试过程没有发现错误。</p>
+<ul>
+<li class="">memtester 运行过程如果没有发现错误，会持续打印如下 log：</li>
+</ul>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Loop 10:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Stuck Address       : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Random Value        : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Compare XOR         : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Compare SUB         : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Compare MUL         : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Compare DIV         : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Compare OR          : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Compare AND         : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Sequential Increment: ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Solid Bits          : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Block Sequential    : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Checkerboard        : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Bit Spread          : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Bit Flip            : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Walking Ones        : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Walking Zeroes      : ok</span><br></span></code></pre></div></div>
+<ul>
+<li class="">memtester 运行过程如果有发现错误，会自动停止测试并退出，退出时打印如下 log：</li>
+</ul>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">FAILURE: 0xffffffff != 0xffffbfff at offset 0x03b7d9e4.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">EXIT_FAIL_OTHERTEST</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="rv1108-变频测试">RV1108 变频测试<a href="#rv1108-变频测试" class="hash-link" aria-label="RV1108 变频测试的直接链接" title="RV1108 变频测试的直接链接" translate="no">​</a></h3>
+<p>如果机器前面做过定频测试，要重启机器，否则后续的变频命令会无法进行。</p>
+<ol>
+<li class="">后台执行 memtester</li>
+</ol>
+<p>如果总容量是 128MB 则申请 16MB 进行 memtester，一般是总容量的十六分之一</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rv1108:/ #&gt; /mnt/sdcard/memtester_32bit 16m &gt; /data/memtester_log.txt &amp;</span><br></span></code></pre></div></div>
+<ol start="2">
+<li class="">执行变频命令</li>
+</ol>
+<p>变频测试频率范围为 400MHz 到测试机器要跑的 DDR 最高频率之间进行。</p>
+<p>Eg：</p>
+<p>如果测试机器 DDR 要跑的最高频率为 800MHz：</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rv1108:/ #&gt; echo &#x27;a:400M-800M-1000000T&#x27; &gt; proc/driver/ddr_ts</span><br></span></code></pre></div></div>
+<ol start="3">
+<li class="">确认拷机结果，拷机时间 12 小时以上</li>
+</ol>
+<ul>
+<li class="">
+<p>确认机器是否正常</p>
+</li>
+<li class="">
+<p>确认变频程序运行是否正常，变频 log 是否在正常打印</p>
+</li>
+<li class="">
+<p>确认 memtester 是否正常运行</p>
+</li>
+</ul>
+<p>在串口输入<code>&lt;rkxxxx:/ #&gt; ps | grep memtester</code>，看 memtester 进程是否存在。</p>
+<p>Eg：</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rkxxxx:/ #&gt;  ps | grep memtester</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">root      14309 1730  74332  68156          0 5e980bf564 R /data/memtester</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="rv1108-reboot-拷机">RV1108 reboot 拷机<a href="#rv1108-reboot-拷机" class="hash-link" aria-label="RV1108 reboot 拷机的直接链接" title="RV1108 reboot 拷机的直接链接" translate="no">​</a></h3>
+<p>可用 1108 自带 reboot 功能，menu -&gt; debug -&gt; reboot test。</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="rk3308-ddr-颗粒验证流程说明">RK3308 DDR 颗粒验证流程说明<a href="#rk3308-ddr-颗粒验证流程说明" class="hash-link" aria-label="RK3308 DDR 颗粒验证流程说明的直接链接" title="RK3308 DDR 颗粒验证流程说明的直接链接" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="rk3308-确定容量是否正确">RK3308 确定容量是否正确<a href="#rk3308-确定容量是否正确" class="hash-link" aria-label="RK3308 确定容量是否正确的直接链接" title="RK3308 确定容量是否正确的直接链接" translate="no">​</a></h3>
+<p>通过<code>&lt;rk3308:/ #&gt;  cat /proc/meminfo</code>查看 MemTotal 项所示容量是否与测试机器 DDR 总容量相符。</p>
+<p>log eg：</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rk3308:/ #&gt; cat /proc/meminfo</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">MemTotal:         246832 kB</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">MemFree:          201800 kB</span><br></span></code></pre></div></div>
+<p>64MB 约等于 66688kB</p>
+<p>128MB 约等于 133376kB</p>
+<p>256MB 约等于 266752kB</p>
+<p>512MB 约等于 533504kB</p>
+<p>由于系统内存分配管理差异的原因，得到的容量有些偏差，属于正常。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="rk3308-拷机测试">RK3308 拷机测试<a href="#rk3308-拷机测试" class="hash-link" aria-label="RK3308 拷机测试的直接链接" title="RK3308 拷机测试的直接链接" translate="no">​</a></h3>
+<p>由于 3308 当前不支持变频功能，ddr 频率由 loader 初始化期间设置的频率，到后面是不会修改 ddr 频率的。DDR 颗粒测试请使用最高频率的设置，即 DDR3请使用800MHz 的 loader，DDR2和LPDDR2请使用533MHz 的 loader。</p>
+<ol>
+<li class="">memtester 拷机，拷机时间 12 小时以上</li>
+</ol>
+<p>首先要确认测试文件是否存在：</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rk3308:/ #&gt; ls usr/bin/memtester</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">usr/bin/memtester</span><br></span></code></pre></div></div>
+<ul>
+<li class="">如果有测试文件，memtester 测试命令如下：（如果总容量是 128MB 则申请 16MB 进行 memtester，一般是总容量的八分之一。）</li>
+</ul>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rk3308:/ #&gt; memtester 16m &gt; /data/memtester_log.txt &amp;</span><br></span></code></pre></div></div>
+<ul>
+<li class="">如果没有测试文件，则请将随此文件一同发布的 memtester_32bit.32bit（或 memtester_64bit.64bit） 文件通过 adb push 到 data 分区：（memtester_32bit.32bit 适用于 32 位系统，memtester_64bit.64bit 适用于 64 位系统）</li>
+</ul>
+<p>32 位系统命令：</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">adb push \*文件路径*\memtester_32bit.32bit data/memtester</span><br></span></code></pre></div></div>
+<p>64 位系统命令：</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">adb push \*文件路径*\memtester_64bit.64bit data/memtester</span><br></span></code></pre></div></div>
+<p>将 memtester_32bit.32bit 文件修改权限为可执行：</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rk3308:/ #&gt; chmod 777 /data/memtester</span><br></span></code></pre></div></div>
+<p>memtester 测试命令如下（如果总容量是 128MB 则申请 16MB 进行 memtester，一般是总容量的八分之一）：</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rk3308:/ #&gt; /data/memtester 16m &gt; /data/memtester_log.txt &amp;</span><br></span></code></pre></div></div>
+<ol start="2">
+<li class="">确认拷机结果</li>
+</ol>
+<ul>
+<li class="">
+<p>拷机结束，确认机器是否正常。</p>
+</li>
+<li class="">
+<p>确认 memtester 打印是否正常：（注意，memtester 出错==<strong>不会</strong>==停止测试，需要查看所有打印是否正确）</p>
+</li>
+</ul>
+<p>正确打印：</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Loop 1:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Stuck Address       : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Random Value        : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Compare XOR         : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Compare SUB         : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Compare MUL         : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Compare DIV         : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Compare OR          : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Compare AND         : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Sequential Increment: ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Solid Bits          : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Block Sequential    : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Checkerboard        : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Bit Spread          : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Bit Flip            : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Walking Ones        : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Walking Zeroes      : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  8-bit Writes        : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  16-bit Writes       : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre></div></div>
+<p>出错打印：</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Loop 92:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Stuck Address       : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Random Value        : FAILURE: 0x37fe0f4190f6b999 != 0x37fe0f4196f6b999 at offset 0x0027a958.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">FAILURE: 0x2823d0d6f62a4b01 != 0x2823d0d6f02a4b01 at offset 0x0027a958.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Compare XOR         : FAILURE: 0x4c4f418e764340e8 != 0x4c4f418e704340e8 at offset 0x0027a958.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Compare SUB         : FAILURE: 0x2856fb8ee22bd230 != 0xfe5ee503ee2bd230 at offset 0x0027a958.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Compare MUL         : FAILURE: 0x00000000 != 0x00000001 at offset 0x0027a958.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Compare DIV         : FAILURE: 0xefb2eceaffbf9604 != 0xefb2eceaffbf9605 at offset 0x0027a958.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Compare OR          : FAILURE: 0xcbb2a0e8cfbb8200 != 0xcbb2a0e8cfbb8201 at offset 0x0027a958.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Compare AND         :   Sequential Increment: ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Solid Bits          : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Block Sequential    : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Checkerboard        : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Bit Spread          : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Bit Flip            : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Walking Ones        : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Walking Zeroes      : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  8-bit Writes        : ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  16-bit Writes       : ok</span><br></span></code></pre></div></div>
+<ol start="3">
+<li class="">google stressapptest 拷机，拷机时间 12 小时以上</li>
+</ol>
+<p>首先要确认测试文件是否存在：</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rk3308:/ #&gt; ls usr/bin/stressapptest</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">usr/bin/stressapptest</span><br></span></code></pre></div></div>
+<ul>
+<li class="">如果有测试文件，stressapptest 测试命令如下：（如果总容量是 256MB 则申请 32MB 进行 stressapptest，一般是总容量的八分之一。时间设置由-s 后面的参数控制，单位是秒。如下为拷机 24 小时的命令）</li>
+</ul>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rk3308:/ #&gt; stressapptest -s 86400 -i 4 -C 4 -W --stop_on_errors -M 32</span><br></span></code></pre></div></div>
+<ul>
+<li class="">如果没有测试文件，则请将随此文件一同发布的 stressapptest_32bit（或 stressapptest_64bit） 文件通过 adb push 到 data 分区（stressapptest_32bit 适用于 32 位系统，stressapptest_64bit 适用于 64 位系统）：</li>
+</ul>
+<p>32 位系统命令：</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">adb push \*文件路径*\stressapptest_32bit data/stressapptest</span><br></span></code></pre></div></div>
+<p>64 位系统命令：</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">adb push \*文件路径*\stressapptest_64bit data/stressapptest</span><br></span></code></pre></div></div>
+<p>将 stressapptest_32bit 文件修改权限为可执行：</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rk3308:/ #&gt; chmod 777 /data/stressapptest</span><br></span></code></pre></div></div>
+<p>stressapptest 测试命令如下（如果总容量是 256MB 则申请 32MB 进行 stressapptest，一般是总容量的八分之一。时间设置由-s 后面的参数控制，单位是秒。如下为拷机 24 小时的命令）：</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rk3308:/ #&gt; /data/stressapptest -s 86400 -i 4 -C 4 -W --stop_on_errors -M 32</span><br></span></code></pre></div></div>
+<ol start="4">
+<li class="">确认拷机结果</li>
+</ol>
+<ul>
+<li class="">
+<p>拷机结束，确认机器是否正常。</p>
+</li>
+<li class="">
+<p>stressapptest 结果是 PASS 还是 FAIL。stressapptest 每隔 10 秒会打印一条 log，log 显示测试剩余时间。测试完成后会打印测试结果，如果测试通过打印 Status: PASS，如果测试失败打印 Status: FAIL。</p>
+</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="rk3308-休眠唤醒测试">RK3308 休眠唤醒测试<a href="#rk3308-休眠唤醒测试" class="hash-link" aria-label="RK3308 休眠唤醒测试的直接链接" title="RK3308 休眠唤醒测试的直接链接" translate="no">​</a></h3>
+<p>休眠唤醒需要 kernel 使能自动唤醒功能。打开 rk3308.dtsi 文件，找到休眠唤醒节点 rockchip_suspend,位或上 RKPM_TIMEOUT_WAKEUP_EN，使能自动唤醒：</p>
+<div class="language-dts codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-dts codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">rockchip_suspend: rockchip-suspend {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">				...</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">                rockchip,wakeup-config = &lt;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">                        (0</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">                        | RKPM_GPIO0_WAKEUP_EN</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">                        | RKPM_TIMEOUT_WAKEUP_EN</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">                        )</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">                &gt;;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        };</span><br></span></code></pre></div></div>
+<p>编译好固件后，建议使用 3308 测试脚本的休眠唤醒测试。首先要确认测试文件是否存在：</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rk3308:/ #&gt; ls rockchip_test/rockchip_test.sh</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">rockchip_test/rockchip_test.sh</span><br></span></code></pre></div></div>
+<ul>
+<li class="">若有测试文件，则休眠自动唤醒测试命令如下：</li>
+</ul>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rk3308:/ #&gt; /rockchip_test/rockchip_test.sh</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">...</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">please input your test moudle: //串口先输入8&lt;enter&gt;，再输入1&lt;enter&gt;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">8</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">1</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre></div></div>
+<ul>
+<li class="">若没有测试文件，可以在串口命令行直接输入命令进行休眠唤醒测试，命令如下：</li>
+</ul>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rk3308:/ #&gt; while true; do echo mem &gt;  /sys/power/state; sleep 5; done</span><br></span></code></pre></div></div>
+<p>拷机时间 12h+，确认机器是否正常。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="rk3308-reboot-拷机">RK3308 reboot 拷机<a href="#rk3308-reboot-拷机" class="hash-link" aria-label="RK3308 reboot 拷机的直接链接" title="RK3308 reboot 拷机的直接链接" translate="no">​</a></h3>
+<p>建议使用 3308 测试脚本的 reboot 测试命令。首先要确认测试文件是否存在：</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rk3308:/ #&gt; ls rockchip_test/rockchip_test.sh</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">rockchip_test/rockchip_test.sh</span><br></span></code></pre></div></div>
+<ul>
+<li class="">若有测试文件，reboot 测试命令如下：</li>
+</ul>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rk3308:/ #&gt; /rockchip_test/rockchip_test.sh</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">...</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">please input your test moudle: //串口输入13&lt;enter&gt;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">13</span><br></span></code></pre></div></div>
+<ul>
+<li class="">若无测试文件，则请将随此文件一同发布的 auto_reboot_test.sh 文件通过 adb push 到 data 分区：</li>
+</ul>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">adb push \*文件路径*\auto_reboot_test.sh data/.</span><br></span></code></pre></div></div>
+<p>将 auto_reboot_test.sh 文件修改权限为可执行：</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rk3308:/ #&gt; chmod 777 /data/auto_reboot_test.sh</span><br></span></code></pre></div></div>
+<p>reboot 测试命令如下：</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;rk3308:/ #&gt; /data/auto_reboot_test.sh</span><br></span></code></pre></div></div>
+<p>拷机时间 12h+，确认机器是否正常。</p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"><a href="https://github.com/jdczdoc/jdczdoc.github.io/tree/main/docs/rockchip-docs/DDR/Rockchip-Developer-Guide-DDR-Verification-Process-CN.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>编辑此页</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="文件选项卡"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/rockchip-docs/DDR/Rockchip-Developer-Guide-DDR-EN"><div class="pagination-nav__sublabel">上一页</div><div class="pagination-nav__label">DDR Develop Guide</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/rockchip-docs/DDR/Rockchip-Guide-DDR-PCB-Layout-Notes-CN"><div class="pagination-nav__sublabel">下一页</div><div class="pagination-nav__label">**DDR 布板注意事项**</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#linux-310-ddr-颗粒验证流程说明" class="table-of-contents__link toc-highlight">Linux 3.10 DDR 颗粒验证流程说明</a><ul><li><a href="#linux-310-测试固件编译" class="table-of-contents__link toc-highlight">Linux 3.10 测试固件编译</a></li><li><a href="#linux-310-测试环境搭建" class="table-of-contents__link toc-highlight">Linux 3.10 测试环境搭建</a></li><li><a href="#linux-310-确认容量是否正确" class="table-of-contents__link toc-highlight">Linux 3.10 确认容量是否正确</a></li><li><a href="#linux-310-定频测试" class="table-of-contents__link toc-highlight">Linux 3.10 定频测试</a></li><li><a href="#linux-310-变频测试" class="table-of-contents__link toc-highlight">Linux 3.10 变频测试</a></li><li><a href="#linux-310-reboot-拷机" class="table-of-contents__link toc-highlight">Linux 3.10 reboot 拷机</a></li></ul></li><li><a href="#linux-4xx-ddr-颗粒验证流程说明" class="table-of-contents__link toc-highlight">Linux 4.xx DDR 颗粒验证流程说明</a><ul><li><a href="#linux-4xx-测试固件编译" class="table-of-contents__link toc-highlight">Linux 4.xx 测试固件编译</a></li><li><a href="#linux-4xx-测试环境搭建" class="table-of-contents__link toc-highlight">Linux 4.xx 测试环境搭建</a></li><li><a href="#linux-4xx-确认颗粒容量" class="table-of-contents__link toc-highlight">Linux 4.xx 确认颗粒容量</a></li><li><a href="#linux-4xx-定频拷机" class="table-of-contents__link toc-highlight">Linux 4.xx 定频拷机</a></li><li><a href="#linux-4xx-变频拷机" class="table-of-contents__link toc-highlight">Linux 4.xx 变频拷机</a></li><li><a href="#linux-4xx-reboot-拷机" class="table-of-contents__link toc-highlight">Linux 4.xx reboot 拷机</a></li><li><a href="#linux-4xx-sleep-拷机" class="table-of-contents__link toc-highlight">Linux 4.xx sleep 拷机</a></li></ul></li><li><a href="#rv1108-ddr-颗粒验证流程说明" class="table-of-contents__link toc-highlight">RV1108 DDR 颗粒验证流程说明</a><ul><li><a href="#rv1108-测试固件编译" class="table-of-contents__link toc-highlight">RV1108 测试固件编译</a></li><li><a href="#rv1108-测试环境搭建" class="table-of-contents__link toc-highlight">RV1108 测试环境搭建</a></li><li><a href="#rv1108-确认容量是否正确" class="table-of-contents__link toc-highlight">RV1108 确认容量是否正确</a></li><li><a href="#rv1108-定频测试" class="table-of-contents__link toc-highlight">RV1108 定频测试</a></li><li><a href="#rv1108-变频测试" class="table-of-contents__link toc-highlight">RV1108 变频测试</a></li><li><a href="#rv1108-reboot-拷机" class="table-of-contents__link toc-highlight">RV1108 reboot 拷机</a></li></ul></li><li><a href="#rk3308-ddr-颗粒验证流程说明" class="table-of-contents__link toc-highlight">RK3308 DDR 颗粒验证流程说明</a><ul><li><a href="#rk3308-确定容量是否正确" class="table-of-contents__link toc-highlight">RK3308 确定容量是否正确</a></li><li><a href="#rk3308-拷机测试" class="table-of-contents__link toc-highlight">RK3308 拷机测试</a></li><li><a href="#rk3308-休眠唤醒测试" class="table-of-contents__link toc-highlight">RK3308 休眠唤醒测试</a></li><li><a href="#rk3308-reboot-拷机" class="table-of-contents__link toc-highlight">RK3308 reboot 拷机</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">文档</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/docs/intro">Tutorial</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">社区</div><ul class="footer__items clean-list"><li class="footer__item"><a href="http://bbs.9tripod.com" target="_blank" rel="noopener noreferrer" class="footer__link-item">论坛<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">更多</div><ul class="footer__items clean-list"><li class="footer__item"><a href="http://www.9tripod.com" target="_blank" rel="noopener noreferrer" class="footer__link-item">九鼎官网<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://armeasy.taobao.com" target="_blank" rel="noopener noreferrer" class="footer__link-item">淘宝店<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 All Rights Reserved.</div></div></div></footer></div>
+</body>
+</html>
