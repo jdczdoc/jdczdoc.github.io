@@ -94,10 +94,6 @@ const config: Config = {
           position: 'left',
           items: [
             {
-              label: 'RK文档',
-              to: '/docs/category/rk文档',
-            },
-            {
               label: '关于我们',
               to: '/docs/about',
             },
@@ -126,6 +122,10 @@ const config: Config = {
             {
               label: 'RK文档',
               to: '/docs/category/rk文档',
+            },
+            {
+              label: '全志系列',
+              to: '/docs/category/全志系列',
             },
           ],
         },
