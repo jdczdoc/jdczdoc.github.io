@@ -1,0 +1,194 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.alldocsSidebar.category.全志系列": {
+    "message": "Allwinner Series",
+    "description": "The label for category '全志系列' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.全志系列.link.generated-index.description": {
+    "message": "Allwinner Documents",
+    "description": "The generated-index page description for category '全志系列' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.T527": {
+    "message": "T527",
+    "description": "The label for category 'T527' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.RK文档": {
+    "message": "Rockchip Docs",
+    "description": "The label for category 'RK文档' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.RK文档.link.generated-index.description": {
+    "message": "Rockchip Documents",
+    "description": "The generated-index page description for category 'RK文档' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.BOARD": {
+    "message": "BOARD",
+    "description": "The label for category 'BOARD' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.m1_evb": {
+    "message": "m1_evb",
+    "description": "The label for category 'm1_evb' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.rk2108_evb": {
+    "message": "rk2108_evb",
+    "description": "The label for category 'rk2108_evb' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.BROWSER": {
+    "message": "BROWSER",
+    "description": "The label for category 'BROWSER' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.CACHE": {
+    "message": "CACHE",
+    "description": "The label for category 'CACHE' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.CAMERA": {
+    "message": "CAMERA",
+    "description": "The label for category 'CAMERA' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.ISP20_RkAiq": {
+    "message": "ISP20_RkAiq",
+    "description": "The label for category 'ISP20_RkAiq' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.Rockchip_Instruction_Linux_Appliction_ISP20": {
+    "message": "Rockchip_Instruction_Linux_Appliction_ISP20",
+    "description": "The label for category 'Rockchip_Instruction_Linux_Appliction_ISP20' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.Rockchip_Trouble_Shooting_Linux4.4_Camera": {
+    "message": "Rockchip_Trouble_Shooting_Linux4.4_Camera",
+    "description": "The label for category 'Rockchip_Trouble_Shooting_Linux4.4_Camera' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.ispserver": {
+    "message": "ispserver",
+    "description": "The label for category 'ispserver' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.CAN": {
+    "message": "CAN",
+    "description": "The label for category 'CAN' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.DDR": {
+    "message": "DDR",
+    "description": "The label for category 'DDR' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.Internal": {
+    "message": "Internal",
+    "description": "The label for category 'Internal' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.DEBUG": {
+    "message": "DEBUG",
+    "description": "The label for category 'DEBUG' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.DISPLAY": {
+    "message": "DISPLAY",
+    "description": "The label for category 'DISPLAY' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.DVFS": {
+    "message": "DVFS",
+    "description": "The label for category 'DVFS' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.FS": {
+    "message": "FS",
+    "description": "The label for category 'FS' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.GMAC": {
+    "message": "GMAC",
+    "description": "The label for category 'GMAC' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.GPIO": {
+    "message": "GPIO",
+    "description": "The label for category 'GPIO' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.I2C": {
+    "message": "I2C",
+    "description": "The label for category 'I2C' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.IO-DOMAIN": {
+    "message": "IO-DOMAIN",
+    "description": "The label for category 'IO-DOMAIN' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.IOMMU": {
+    "message": "IOMMU",
+    "description": "The label for category 'IOMMU' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.KEYCTRL": {
+    "message": "KEYCTRL",
+    "description": "The label for category 'KEYCTRL' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.MEMORY": {
+    "message": "MEMORY",
+    "description": "The label for category 'MEMORY' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.MMC": {
+    "message": "MMC",
+    "description": "The label for category 'MMC' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.PCIe": {
+    "message": "PCIe",
+    "description": "The label for category 'PCIe' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.PMIC": {
+    "message": "PMIC",
+    "description": "The label for category 'PMIC' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.POWER": {
+    "message": "POWER",
+    "description": "The label for category 'POWER' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.PSRAM": {
+    "message": "PSRAM",
+    "description": "The label for category 'PSRAM' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.PWM": {
+    "message": "PWM",
+    "description": "The label for category 'PWM' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.SARADC": {
+    "message": "SARADC",
+    "description": "The label for category 'SARADC' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.SPI": {
+    "message": "SPI",
+    "description": "The label for category 'SPI' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.SPIFLASH": {
+    "message": "SPIFLASH",
+    "description": "The label for category 'SPIFLASH' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.THERMAL": {
+    "message": "THERMAL",
+    "description": "The label for category 'THERMAL' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.TIMER": {
+    "message": "TIMER",
+    "description": "The label for category 'TIMER' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.TOOL": {
+    "message": "TOOL",
+    "description": "The label for category 'TOOL' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.TOUCHKEY": {
+    "message": "TOUCHKEY",
+    "description": "The label for category 'TOUCHKEY' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.TRUST": {
+    "message": "TRUST",
+    "description": "The label for category 'TRUST' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.UART": {
+    "message": "UART",
+    "description": "The label for category 'UART' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.UBOOT": {
+    "message": "UBOOT",
+    "description": "The label for category 'UBOOT' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.VICAP": {
+    "message": "VICAP",
+    "description": "The label for category 'VICAP' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.WATCHDOG": {
+    "message": "WATCHDOG",
+    "description": "The label for category 'WATCHDOG' in sidebar 'alldocsSidebar'"
+  }
+}

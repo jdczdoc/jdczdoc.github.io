@@ -1,0 +1,30 @@
+{
+  "title": {
+    "message": "JiuDing Docs",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "JiuDing Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.所有文档": {
+    "message": "All Docs",
+    "description": "Navbar item with label 所有文档"
+  },
+  "item.label.其它": {
+    "message": "More",
+    "description": "Navbar item with label 其它"
+  },
+  "item.label.关于我们": {
+    "message": "About Us",
+    "description": "Navbar item with label 关于我们"
+  },
+  "item.label.官方网站": {
+    "message": "Official Website",
+    "description": "Navbar item with label 官方网站"
+  },
+  "item.label.社区论坛": {
+    "message": "Community Forum",
+    "description": "Navbar item with label 社区论坛"
+  }
+}
