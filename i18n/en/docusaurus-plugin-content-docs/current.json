@@ -3,25 +3,33 @@
     "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.alldocsSidebar.category.全志系列": {
-    "message": "Allwinner Series",
-    "description": "The label for category '全志系列' in sidebar 'alldocsSidebar'"
+  "sidebar.alldocsSidebar.category.全志官方文档": {
+    "message": "Allwinner Official Docs",
+    "description": "The label for category '全志官方文档' in sidebar 'alldocsSidebar'"
   },
-  "sidebar.alldocsSidebar.category.全志系列.link.generated-index.description": {
-    "message": "Allwinner Documents",
-    "description": "The generated-index page description for category '全志系列' in sidebar 'alldocsSidebar'"
+  "sidebar.alldocsSidebar.category.全志官方文档.link.generated-index.description": {
+    "message": "Allwinner Official Documents",
+    "description": "The generated-index page description for category '全志官方文档' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.开发板": {
+    "message": "Development Board",
+    "description": "The label for category '开发板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.开发板.link.generated-index.description": {
+    "message": "Development Board Documents",
+    "description": "The generated-index page description for category '开发板' in sidebar 'alldocsSidebar'"
   },
   "sidebar.alldocsSidebar.category.T527": {
     "message": "T527",
     "description": "The label for category 'T527' in sidebar 'alldocsSidebar'"
   },
-  "sidebar.alldocsSidebar.category.RK文档": {
-    "message": "Rockchip Docs",
-    "description": "The label for category 'RK文档' in sidebar 'alldocsSidebar'"
+  "sidebar.alldocsSidebar.category.瑞芯微官方文档": {
+    "message": "Rockchip Official Docs",
+    "description": "The label for category '瑞芯微官方文档' in sidebar 'alldocsSidebar'"
   },
-  "sidebar.alldocsSidebar.category.RK文档.link.generated-index.description": {
-    "message": "Rockchip Documents",
-    "description": "The generated-index page description for category 'RK文档' in sidebar 'alldocsSidebar'"
+  "sidebar.alldocsSidebar.category.瑞芯微官方文档.link.generated-index.description": {
+    "message": "Rockchip Official Documents",
+    "description": "The generated-index page description for category '瑞芯微官方文档' in sidebar 'alldocsSidebar'"
   },
   "sidebar.alldocsSidebar.category.BOARD": {
     "message": "BOARD",

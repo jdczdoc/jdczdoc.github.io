@@ -139,12 +139,16 @@ const config: Config = {
               to: '/docs/about',
             },
             {
-              label: 'RK文档',
-              to: '/docs/category/rk文档',
+              label: '开发板',
+              to: '/docs/category/开发板',
             },
             {
-              label: '全志系列',
-              to: '/docs/category/全志系列',
+              label: '瑞芯微官方文档',
+              to: '/docs/category/瑞芯微官方文档',
+            },
+            {
+              label: '全志官方文档',
+              to: '/docs/category/全志官方文档',
             },
           ],
         },
