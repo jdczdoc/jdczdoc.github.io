@@ -150,6 +150,10 @@ const config: Config = {
               label: '全志官方文档',
               to: '/docs/category/全志官方文档',
             },
+            {
+              label: 'XSTAR官方文档',
+              to: '/docs/category/xstar官方文档',
+            },
           ],
         },
         {

@@ -1,0 +1,8 @@
+{
+  "label": "Pub/Sub",
+  "position": 10,
+  "link": {
+    "type": "generated-index",
+    "description": "Publish/Subscribe System"
+  }
+}

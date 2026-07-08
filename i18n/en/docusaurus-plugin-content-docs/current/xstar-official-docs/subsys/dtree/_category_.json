@@ -1,0 +1,8 @@
+{
+  "label": "Device Tree",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Device Tree (JSON)"
+  }
+}

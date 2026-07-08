@@ -198,5 +198,181 @@
   "sidebar.alldocsSidebar.category.WATCHDOG": {
     "message": "WATCHDOG",
     "description": "The label for category 'WATCHDOG' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.XSTAR官方文档": {
+    "message": "XSTAR Official Docs",
+    "description": "The label for category 'XSTAR官方文档' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.XSTAR官方文档.link.generated-index.description": {
+    "message": "XSTAR Official Documents",
+    "description": "The generated-index page description for category 'XSTAR官方文档' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.入门指南": {
+    "message": "Guide",
+    "description": "The label for category '入门指南' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.入门指南.link.generated-index.description": {
+    "message": "XSTAR Getting Started Guide",
+    "description": "The generated-index page description for category '入门指南' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.内置命令": {
+    "message": "Commands",
+    "description": "The label for category '内置命令' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.内置命令.link.generated-index.description": {
+    "message": "XSTAR Built-in Commands",
+    "description": "The generated-index page description for category '内置命令' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.设备驱动": {
+    "message": "Device Drivers",
+    "description": "The label for category '设备驱动' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.设备驱动.link.generated-index.description": {
+    "message": "XSTAR Device Drivers",
+    "description": "The generated-index page description for category '设备驱动' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.基础库": {
+    "message": "LibX",
+    "description": "The label for category '基础库' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.基础库.link.generated-index.description": {
+    "message": "XSTAR LibX Foundation Library",
+    "description": "The generated-index page description for category '基础库' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.子系统": {
+    "message": "Subsystems",
+    "description": "The label for category '子系统' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.子系统.link.generated-index.description": {
+    "message": "XSTAR Kernel Subsystems",
+    "description": "The generated-index page description for category '子系统' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.扩展包": {
+    "message": "Packages",
+    "description": "The label for category '扩展包' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.扩展包.link.generated-index.description": {
+    "message": "XSTAR Extension Packages",
+    "description": "The generated-index page description for category '扩展包' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.设备树": {
+    "message": "Device Tree",
+    "description": "The label for category '设备树' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.设备树.link.generated-index.description": {
+    "message": "Device Tree (JSON)",
+    "description": "The generated-index page description for category '设备树' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.协程": {
+    "message": "Coroutine",
+    "description": "The label for category '协程' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.协程.link.generated-index.description": {
+    "message": "Coroutine System",
+    "description": "The generated-index page description for category '协程' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.线程": {
+    "message": "Thread",
+    "description": "The label for category '线程' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.线程.link.generated-index.description": {
+    "message": "Thread System",
+    "description": "The generated-index page description for category '线程' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.定时器": {
+    "message": "Timer",
+    "description": "The label for category '定时器' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.定时器.link.generated-index.description": {
+    "message": "Timer Subsystem",
+    "description": "The generated-index page description for category '定时器' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.时间": {
+    "message": "Time",
+    "description": "The label for category '时间' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.时间.link.generated-index.description": {
+    "message": "Time Subsystem",
+    "description": "The generated-index page description for category '时间' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.命令行": {
+    "message": "Shell",
+    "description": "The label for category '命令行' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.命令行.link.generated-index.description": {
+    "message": "Shell Subsystem",
+    "description": "The generated-index page description for category '命令行' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.持久化": {
+    "message": "Persistence",
+    "description": "The label for category '持久化' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.持久化.link.generated-index.description": {
+    "message": "Setting (Persistence)",
+    "description": "The generated-index page description for category '持久化' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.文件系统": {
+    "message": "File System",
+    "description": "The label for category '文件系统' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.文件系统.link.generated-index.description": {
+    "message": "XFS Virtual File System",
+    "description": "The generated-index page description for category '文件系统' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.窗口": {
+    "message": "Window",
+    "description": "The label for category '窗口' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.窗口.link.generated-index.description": {
+    "message": "Window Manager",
+    "description": "The generated-index page description for category '窗口' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.发布订阅": {
+    "message": "Pub/Sub",
+    "description": "The label for category '发布订阅' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.发布订阅.link.generated-index.description": {
+    "message": "Publish/Subscribe System",
+    "description": "The generated-index page description for category '发布订阅' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.字体": {
+    "message": "Font",
+    "description": "The label for category '字体' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.字体.link.generated-index.description": {
+    "message": "Font System",
+    "description": "The generated-index page description for category '字体' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.图形": {
+    "message": "Graphics",
+    "description": "The label for category '图形' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.图形.link.generated-index.description": {
+    "message": "Graphics Subsystem",
+    "description": "The generated-index page description for category '图形' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.视觉": {
+    "message": "Vision",
+    "description": "The label for category '视觉' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.视觉.link.generated-index.description": {
+    "message": "Vision Subsystem",
+    "description": "The generated-index page description for category '视觉' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.音频": {
+    "message": "Audio",
+    "description": "The label for category '音频' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.音频.link.generated-index.description": {
+    "message": "Audio Subsystem",
+    "description": "The generated-index page description for category '音频' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.调试工具": {
+    "message": "Debug Tools",
+    "description": "The label for category '调试工具' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.调试工具.link.generated-index.description": {
+    "message": "Debug Tools",
+    "description": "The generated-index page description for category '调试工具' in sidebar 'alldocsSidebar'"
   }
 }
