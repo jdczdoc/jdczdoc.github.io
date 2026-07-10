@@ -1,0 +1,9 @@
+﻿{
+    "label":  "pico2c主板",
+    "position":  27,
+    "link":  {
+                 "type":  "doc",
+                 "id":  "mainboard/pico2c/index"
+             }
+}
+

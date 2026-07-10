@@ -1,0 +1,9 @@
+﻿{
+    "label":  "X311Y3核心板",
+    "position":  26,
+    "link":  {
+                 "type":  "doc",
+                 "id":  "core-board/x311y3/index"
+             }
+}
+

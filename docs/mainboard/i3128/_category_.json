@@ -1,0 +1,9 @@
+﻿{
+    "label":  "I3128主板",
+    "position":  3,
+    "link":  {
+                 "type":  "doc",
+                 "id":  "mainboard/i3128/index"
+             }
+}
+

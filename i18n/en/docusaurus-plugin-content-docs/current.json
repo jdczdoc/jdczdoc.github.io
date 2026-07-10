@@ -374,5 +374,53 @@
   "sidebar.alldocsSidebar.category.调试工具.link.generated-index.description": {
     "message": "Debug Tools",
     "description": "The generated-index page description for category '调试工具' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.核心板": {
+    "message": "Core Boards",
+    "description": "The label for category '核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.核心板.link.generated-index.description": {
+    "message": "Core board related documents",
+    "description": "The generated-index page description for category '核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.主板": {
+    "message": "Mainboards",
+    "description": "The label for category '主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.主板.link.generated-index.description": {
+    "message": "Mainboard related documents",
+    "description": "The generated-index page description for category '主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.直播机": {
+    "message": "Live Streaming Devices",
+    "description": "The label for category '直播机' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.直播机.link.generated-index.description": {
+    "message": "Live streaming device related documents",
+    "description": "The generated-index page description for category '直播机' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.主机/算力盒": {
+    "message": "Host / Compute Box",
+    "description": "The label for document item '主机/算力盒' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.显示模组": {
+    "message": "Display Module",
+    "description": "The label for document item '显示模组' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.摄像模组": {
+    "message": "Camera Module",
+    "description": "The label for document item '摄像模组' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.配件": {
+    "message": "Accessories",
+    "description": "The label for document item '配件' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.开发板网盘": {
+    "message": "Development Board Netdisk",
+    "description": "The label for document item '开发板网盘' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.XBOOT官方文档": {
+    "message": "XBOOT Official Docs",
+    "description": "The label for document item 'XBOOT官方文档' in sidebar 'alldocsSidebar'"
   }
 }

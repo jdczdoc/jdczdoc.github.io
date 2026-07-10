@@ -1,0 +1,9 @@
+﻿{
+    "label":  "X3288核心板",
+    "position":  5,
+    "link":  {
+                 "type":  "doc",
+                 "id":  "core-board/x3288/index"
+             }
+}
+

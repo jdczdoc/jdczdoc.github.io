@@ -1,0 +1,9 @@
+﻿{
+    "label":  "X3128核心板",
+    "position":  3,
+    "link":  {
+                 "type":  "doc",
+                 "id":  "core-board/x3128/index"
+             }
+}
+

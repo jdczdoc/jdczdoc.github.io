@@ -1,0 +1,8 @@
+{
+  "label": "pico2 Mainboard",
+  "position": 26,
+  "link": {
+    "type": "doc",
+    "id": "mainboard/pico2/index"
+  }
+}

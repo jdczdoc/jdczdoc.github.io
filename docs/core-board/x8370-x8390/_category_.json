@@ -1,0 +1,9 @@
+﻿{
+    "label":  "X8370/X8390核心板",
+    "position":  28,
+    "link":  {
+                 "type":  "doc",
+                 "id":  "core-board/x8370-x8390/index"
+             }
+}
+

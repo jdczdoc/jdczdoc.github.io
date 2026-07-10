@@ -1,0 +1,8 @@
+{
+  "label": "X3128 Core Board",
+  "position": 3,
+  "link": {
+    "type": "doc",
+    "id": "core-board/x3128/index"
+  }
+}

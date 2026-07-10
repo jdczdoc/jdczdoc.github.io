@@ -1,0 +1,9 @@
+﻿{
+    "label":  "Z3576核心板",
+    "position":  15,
+    "link":  {
+                 "type":  "doc",
+                 "id":  "core-board/z3576/index"
+             }
+}
+

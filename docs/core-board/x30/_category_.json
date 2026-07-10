@@ -1,0 +1,9 @@
+﻿{
+    "label":  "X30核心板",
+    "position":  4,
+    "link":  {
+                 "type":  "doc",
+                 "id":  "core-board/x30/index"
+             }
+}
+

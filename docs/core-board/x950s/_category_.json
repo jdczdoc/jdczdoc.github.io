@@ -1,0 +1,9 @@
+﻿{
+    "label":  "X950S核心板",
+    "position":  25,
+    "link":  {
+                 "type":  "doc",
+                 "id":  "core-board/x950s/index"
+             }
+}
+

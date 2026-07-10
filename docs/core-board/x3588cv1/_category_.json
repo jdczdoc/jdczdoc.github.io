@@ -1,0 +1,9 @@
+﻿{
+    "label":  "X3588CV1核心板",
+    "position":  16,
+    "link":  {
+                 "type":  "doc",
+                 "id":  "core-board/x3588cv1/index"
+             }
+}
+
