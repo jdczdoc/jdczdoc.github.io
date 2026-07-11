@@ -1,9 +1,8 @@
-﻿{
-    "label":  "pico2主板",
-    "position":  26,
-    "link":  {
-                 "type":  "doc",
-                 "id":  "mainboard/pico2/index"
-             }
+{
+  "label": "pico2主板",
+  "position": 26,
+  "link": {
+    "type": "generated-index",
+    "description": "pico2主板 Documents"
+  }
 }
-

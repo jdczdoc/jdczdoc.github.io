@@ -2,7 +2,7 @@
   "label": "X1106G2 Core Board",
   "position": 2,
   "link": {
-    "type": "doc",
-    "id": "core-board/x1106g2/index"
+    "type": "generated-index",
+    "description": "X1106G2 Core Board Documents"
   }
 }

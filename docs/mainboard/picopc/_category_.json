@@ -1,9 +1,8 @@
-﻿{
-    "label":  "picopc树霉派",
-    "position":  23,
-    "link":  {
-                 "type":  "doc",
-                 "id":  "mainboard/picopc/index"
-             }
+{
+  "label": "picopc树霉派",
+  "position": 23,
+  "link": {
+    "type": "generated-index",
+    "description": "picopc树霉派 Documents"
+  }
 }
-

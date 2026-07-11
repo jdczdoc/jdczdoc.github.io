@@ -2,7 +2,7 @@
   "label": "i3568bv3 Mainboard",
   "position": 10,
   "link": {
-    "type": "doc",
-    "id": "mainboard/i3568bv3/index"
+    "type": "generated-index",
+    "description": "i3568bv3 Mainboard Documents"
   }
 }

@@ -2,7 +2,7 @@
   "label": "ibox3568 Mainboard",
   "position": 11,
   "link": {
-    "type": "doc",
-    "id": "mainboard/ibox3568/index"
+    "type": "generated-index",
+    "description": "ibox3568 Mainboard Documents"
   }
 }

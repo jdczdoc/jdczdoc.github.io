@@ -2,7 +2,7 @@
   "label": "z3588bv3 Mainboard",
   "position": 17,
   "link": {
-    "type": "doc",
-    "id": "mainboard/z3588bv3/index"
+    "type": "generated-index",
+    "description": "z3588bv3 Mainboard Documents"
   }
 }

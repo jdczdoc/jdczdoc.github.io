@@ -1,9 +1,8 @@
-﻿{
-    "label":  "x821v3主板",
-    "position":  24,
-    "link":  {
-                 "type":  "doc",
-                 "id":  "mainboard/x821v3/index"
-             }
+{
+  "label": "x821v3主板",
+  "position": 24,
+  "link": {
+    "type": "generated-index",
+    "description": "x821v3主板 Documents"
+  }
 }
-

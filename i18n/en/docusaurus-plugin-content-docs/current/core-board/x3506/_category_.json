@@ -2,7 +2,7 @@
   "label": "x3506 Core Board",
   "position": 1,
   "link": {
-    "type": "doc",
-    "id": "core-board/x3506/index"
+    "type": "generated-index",
+    "description": "x3506 Core Board Documents"
   }
 }

@@ -1,9 +1,8 @@
-﻿{
-    "label":  "x8788v3闺蜜机主板",
-    "position":  35,
-    "link":  {
-                 "type":  "doc",
-                 "id":  "mainboard/x8788v3/index"
-             }
+{
+  "label": "x8788v3闺蜜机主板",
+  "position": 35,
+  "link": {
+    "type": "generated-index",
+    "description": "x8788v3闺蜜机主板 Documents"
+  }
 }
-

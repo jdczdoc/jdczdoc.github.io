@@ -1,9 +1,8 @@
-﻿{
-    "label":  "x7014v2蓝牙主板",
-    "position":  38,
-    "link":  {
-                 "type":  "doc",
-                 "id":  "mainboard/x7014v2-bluetooth/index"
-             }
+{
+  "label": "x7014v2蓝牙主板",
+  "position": 38,
+  "link": {
+    "type": "generated-index",
+    "description": "x7014v2蓝牙主板 Documents"
+  }
 }
-

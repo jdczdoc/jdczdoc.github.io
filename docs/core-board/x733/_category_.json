@@ -1,9 +1,8 @@
-﻿{
-    "label":  "X733核心板",
-    "position":  24,
-    "link":  {
-                 "type":  "doc",
-                 "id":  "core-board/x733/index"
-             }
+{
+  "label": "X733核心板",
+  "position": 24,
+  "link": {
+    "type": "generated-index",
+    "description": "X733核心板 Documents"
+  }
 }
-

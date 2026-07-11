@@ -1,9 +1,8 @@
-﻿{
-    "label":  "x881v2主板",
-    "position":  25,
-    "link":  {
-                 "type":  "doc",
-                 "id":  "mainboard/x881v2/index"
-             }
+{
+  "label": "x881v2主板",
+  "position": 25,
+  "link": {
+    "type": "generated-index",
+    "description": "x881v2主板 Documents"
+  }
 }
-

@@ -2,7 +2,7 @@
   "label": "x8370/X8390bv4 Mainboard",
   "position": 36,
   "link": {
-    "type": "doc",
-    "id": "mainboard/x8370-x8390bv4/index"
+    "type": "generated-index",
+    "description": "x8370/X8390bv4 Mainboard Documents"
   }
 }

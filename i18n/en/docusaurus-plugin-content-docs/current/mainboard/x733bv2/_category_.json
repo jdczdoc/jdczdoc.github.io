@@ -2,7 +2,7 @@
   "label": "x733bv2 Mainboard",
   "position": 31,
   "link": {
-    "type": "doc",
-    "id": "mainboard/x733bv2/index"
+    "type": "generated-index",
+    "description": "x733bv2 Mainboard Documents"
   }
 }

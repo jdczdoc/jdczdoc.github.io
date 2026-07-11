@@ -1,9 +1,8 @@
-﻿{
-    "label":  "X1106G2核心板",
-    "position":  2,
-    "link":  {
-                 "type":  "doc",
-                 "id":  "core-board/x1106g2/index"
-             }
+{
+  "label": "X1106G2核心板",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "X1106G2核心板 Documents"
+  }
 }
-

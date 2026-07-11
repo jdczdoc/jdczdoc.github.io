@@ -2,7 +2,7 @@
   "label": "X30BV2 Mainboard",
   "position": 4,
   "link": {
-    "type": "doc",
-    "id": "mainboard/x30bv2/index"
+    "type": "generated-index",
+    "description": "X30BV2 Mainboard Documents"
   }
 }

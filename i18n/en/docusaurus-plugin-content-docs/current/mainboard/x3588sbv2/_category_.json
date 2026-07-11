@@ -2,7 +2,7 @@
   "label": "x3588sbv2 Mainboard",
   "position": 22,
   "link": {
-    "type": "doc",
-    "id": "mainboard/x3588sbv2/index"
+    "type": "generated-index",
+    "description": "x3588sbv2 Mainboard Documents"
   }
 }

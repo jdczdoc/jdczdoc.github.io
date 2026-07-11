@@ -1,9 +1,8 @@
-﻿{
-    "label":  "x1106G2主板",
-    "position":  2,
-    "link":  {
-                 "type":  "doc",
-                 "id":  "mainboard/x1106g2/index"
-             }
+{
+  "label": "x1106G2主板",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "x1106G2主板 Documents"
+  }
 }
-

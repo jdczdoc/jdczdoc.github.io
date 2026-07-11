@@ -2,7 +2,7 @@
   "label": "X3568CV4 Core Board",
   "position": 11,
   "link": {
-    "type": "doc",
-    "id": "core-board/x3568cv4/index"
+    "type": "generated-index",
+    "description": "X3568CV4 Core Board Documents"
   }
 }

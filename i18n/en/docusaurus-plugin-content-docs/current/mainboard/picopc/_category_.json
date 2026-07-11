@@ -2,7 +2,7 @@
   "label": "picopc Raspberry Pi-style Board",
   "position": 23,
   "link": {
-    "type": "doc",
-    "id": "mainboard/picopc/index"
+    "type": "generated-index",
+    "description": "picopc Raspberry Pi-style Board Documents"
   }
 }

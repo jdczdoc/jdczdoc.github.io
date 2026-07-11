@@ -2,7 +2,7 @@
   "label": "z3576 Mainboard",
   "position": 15,
   "link": {
-    "type": "doc",
-    "id": "mainboard/z3576/index"
+    "type": "generated-index",
+    "description": "z3576 Mainboard Documents"
   }
 }

@@ -2,7 +2,7 @@
   "label": "i3399bv2 Mainboard",
   "position": 12,
   "link": {
-    "type": "doc",
-    "id": "mainboard/i3399bv2/index"
+    "type": "generated-index",
+    "description": "i3399bv2 Mainboard Documents"
   }
 }

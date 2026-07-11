@@ -1,9 +1,8 @@
-﻿{
-    "label":  "X8883/MT6897核心板",
-    "position":  29,
-    "link":  {
-                 "type":  "doc",
-                 "id":  "core-board/x8883-mt6897/index"
-             }
+{
+  "label": "X8883/MT6897核心板",
+  "position": 29,
+  "link": {
+    "type": "generated-index",
+    "description": "X8883/MT6897核心板 Documents"
+  }
 }
-

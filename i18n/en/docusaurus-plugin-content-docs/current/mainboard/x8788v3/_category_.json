@@ -2,7 +2,7 @@
   "label": "x8788v3 Companion Display Mainboard",
   "position": 35,
   "link": {
-    "type": "doc",
-    "id": "mainboard/x8788v3/index"
+    "type": "generated-index",
+    "description": "x8788v3 Companion Display Mainboard Documents"
   }
 }

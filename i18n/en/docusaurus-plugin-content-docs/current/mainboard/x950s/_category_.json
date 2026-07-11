@@ -2,7 +2,7 @@
   "label": "x950s Mainboard",
   "position": 32,
   "link": {
-    "type": "doc",
-    "id": "mainboard/x950s/index"
+    "type": "generated-index",
+    "description": "x950s Mainboard Documents"
   }
 }

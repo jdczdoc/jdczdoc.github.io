@@ -2,7 +2,7 @@
   "label": "X3576CV2 Core Board",
   "position": 13,
   "link": {
-    "type": "doc",
-    "id": "core-board/x3576cv2/index"
+    "type": "generated-index",
+    "description": "X3576CV2 Core Board Documents"
   }
 }

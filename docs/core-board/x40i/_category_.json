@@ -1,9 +1,8 @@
-﻿{
-    "label":  "X40I核心板",
-    "position":  21,
-    "link":  {
-                 "type":  "doc",
-                 "id":  "core-board/x40i/index"
-             }
+{
+  "label": "X40I核心板",
+  "position": 21,
+  "link": {
+    "type": "generated-index",
+    "description": "X40I核心板 Documents"
+  }
 }
-

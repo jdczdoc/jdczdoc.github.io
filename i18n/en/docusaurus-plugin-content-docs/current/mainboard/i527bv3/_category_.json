@@ -2,7 +2,7 @@
   "label": "i527bv3 Mainboard",
   "position": 30,
   "link": {
-    "type": "doc",
-    "id": "mainboard/i527bv3/index"
+    "type": "generated-index",
+    "description": "i527bv3 Mainboard Documents"
   }
 }

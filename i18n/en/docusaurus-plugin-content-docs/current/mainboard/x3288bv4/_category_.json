@@ -2,7 +2,7 @@
   "label": "x3288bv4 Mainboard",
   "position": 5,
   "link": {
-    "type": "doc",
-    "id": "mainboard/x3288bv4/index"
+    "type": "generated-index",
+    "description": "x3288bv4 Mainboard Documents"
   }
 }

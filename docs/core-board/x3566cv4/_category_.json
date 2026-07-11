@@ -1,9 +1,8 @@
-﻿{
-    "label":  "X3566CV4核心板",
-    "position":  8,
-    "link":  {
-                 "type":  "doc",
-                 "id":  "core-board/x3566cv4/index"
-             }
+{
+  "label": "X3566CV4核心板",
+  "position": 8,
+  "link": {
+    "type": "generated-index",
+    "description": "X3566CV4核心板 Documents"
+  }
 }
-

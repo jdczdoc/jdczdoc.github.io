@@ -1,9 +1,8 @@
-﻿{
-    "label":  "X527核心板",
-    "position":  23,
-    "link":  {
-                 "type":  "doc",
-                 "id":  "core-board/x527/index"
-             }
+{
+  "label": "X527核心板",
+  "position": 23,
+  "link": {
+    "type": "generated-index",
+    "description": "X527核心板 Documents"
+  }
 }
-

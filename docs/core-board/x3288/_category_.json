@@ -1,9 +1,8 @@
-﻿{
-    "label":  "X3288核心板",
-    "position":  5,
-    "link":  {
-                 "type":  "doc",
-                 "id":  "core-board/x3288/index"
-             }
+{
+  "label": "X3288核心板",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "X3288核心板 Documents"
+  }
 }
-

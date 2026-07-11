@@ -1,9 +1,8 @@
-﻿{
-    "label":  "九影V1 AI视频直播盒",
-    "position":  4,
-    "link":  {
-                 "type":  "doc",
-                 "id":  "live-machine/jiuying-v1-ai-video/index"
-             }
+{
+  "label": "九影V1 AI视频直播盒",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "九影V1 AI视频直播盒 Documents"
+  }
 }
-

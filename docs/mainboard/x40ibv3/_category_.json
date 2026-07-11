@@ -1,9 +1,8 @@
-﻿{
-    "label":  "x40ibv3主板",
-    "position":  28,
-    "link":  {
-                 "type":  "doc",
-                 "id":  "mainboard/x40ibv3/index"
-             }
+{
+  "label": "x40ibv3主板",
+  "position": 28,
+  "link": {
+    "type": "generated-index",
+    "description": "x40ibv3主板 Documents"
+  }
 }
-

@@ -2,7 +2,7 @@
   "label": "x507bv3 Mainboard",
   "position": 29,
   "link": {
-    "type": "doc",
-    "id": "mainboard/x507bv3/index"
+    "type": "generated-index",
+    "description": "x507bv3 Mainboard Documents"
   }
 }

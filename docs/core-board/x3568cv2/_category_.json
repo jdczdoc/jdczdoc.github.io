@@ -1,9 +1,8 @@
-﻿{
-    "label":  "X3568CV2核心板",
-    "position":  9,
-    "link":  {
-                 "type":  "doc",
-                 "id":  "core-board/x3568cv2/index"
-             }
+{
+  "label": "X3568CV2核心板",
+  "position": 9,
+  "link": {
+    "type": "generated-index",
+    "description": "X3568CV2核心板 Documents"
+  }
 }
-

@@ -2,7 +2,7 @@
   "label": "live3588sv5 Mainboard",
   "position": 21,
   "link": {
-    "type": "doc",
-    "id": "mainboard/live3588sv5/index"
+    "type": "generated-index",
+    "description": "live3588sv5 Mainboard Documents"
   }
 }

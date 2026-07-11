@@ -1,9 +1,8 @@
-﻿{
-    "label":  "x311y3主板",
-    "position":  33,
-    "link":  {
-                 "type":  "doc",
-                 "id":  "mainboard/x311y3/index"
-             }
+{
+  "label": "x311y3主板",
+  "position": 33,
+  "link": {
+    "type": "generated-index",
+    "description": "x311y3主板 Documents"
+  }
 }
-

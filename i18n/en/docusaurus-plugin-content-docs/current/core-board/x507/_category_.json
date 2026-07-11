@@ -2,7 +2,7 @@
   "label": "X507 Core Board",
   "position": 22,
   "link": {
-    "type": "doc",
-    "id": "core-board/x507/index"
+    "type": "generated-index",
+    "description": "X507 Core Board Documents"
   }
 }

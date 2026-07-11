@@ -1,9 +1,8 @@
-﻿{
-    "label":  "live3588sv5主板",
-    "position":  21,
-    "link":  {
-                 "type":  "doc",
-                 "id":  "mainboard/live3588sv5/index"
-             }
+{
+  "label": "live3588sv5主板",
+  "position": 21,
+  "link": {
+    "type": "generated-index",
+    "description": "live3588sv5主板 Documents"
+  }
 }
-

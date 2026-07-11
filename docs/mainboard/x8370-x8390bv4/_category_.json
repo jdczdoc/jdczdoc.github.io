@@ -1,9 +1,8 @@
-﻿{
-    "label":  "x8370/X8390bv4主板",
-    "position":  36,
-    "link":  {
-                 "type":  "doc",
-                 "id":  "mainboard/x8370-x8390bv4/index"
-             }
+{
+  "label": "x8370/X8390bv4主板",
+  "position": 36,
+  "link": {
+    "type": "generated-index",
+    "description": "x8370/X8390bv4主板 Documents"
+  }
 }
-

@@ -2,7 +2,7 @@
   "label": "x8385bv1 Mainboard",
   "position": 34,
   "link": {
-    "type": "doc",
-    "id": "mainboard/x8385bv1/index"
+    "type": "generated-index",
+    "description": "x8385bv1 Mainboard Documents"
   }
 }

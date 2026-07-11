@@ -2,7 +2,7 @@
   "label": "Z3576 Core Board",
   "position": 15,
   "link": {
-    "type": "doc",
-    "id": "core-board/z3576/index"
+    "type": "generated-index",
+    "description": "Z3576 Core Board Documents"
   }
 }

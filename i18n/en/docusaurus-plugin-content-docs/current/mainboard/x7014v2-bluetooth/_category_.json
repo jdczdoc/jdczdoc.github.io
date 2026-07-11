@@ -2,7 +2,7 @@
   "label": "x7014v2 Bluetooth Mainboard",
   "position": 38,
   "link": {
-    "type": "doc",
-    "id": "mainboard/x7014v2-bluetooth/index"
+    "type": "generated-index",
+    "description": "x7014v2 Bluetooth Mainboard Documents"
   }
 }

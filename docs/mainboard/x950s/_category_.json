@@ -1,9 +1,8 @@
-﻿{
-    "label":  "x950s主板",
-    "position":  32,
-    "link":  {
-                 "type":  "doc",
-                 "id":  "mainboard/x950s/index"
-             }
+{
+  "label": "x950s主板",
+  "position": 32,
+  "link": {
+    "type": "generated-index",
+    "description": "x950s主板 Documents"
+  }
 }
-

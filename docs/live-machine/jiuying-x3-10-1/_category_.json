@@ -1,9 +1,8 @@
-﻿{
-    "label":  "九影X3 10.1寸直播一体机",
-    "position":  2,
-    "link":  {
-                 "type":  "doc",
-                 "id":  "live-machine/jiuying-x3-10-1/index"
-             }
+{
+  "label": "九影X3 10.1寸直播一体机",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "九影X3 10.1寸直播一体机 Documents"
+  }
 }
-

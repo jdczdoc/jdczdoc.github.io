@@ -1,9 +1,8 @@
-﻿{
-    "label":  "x3566bv4主板",
-    "position":  7,
-    "link":  {
-                 "type":  "doc",
-                 "id":  "mainboard/x3566bv4/index"
-             }
+{
+  "label": "x3566bv4主板",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "x3566bv4主板 Documents"
+  }
 }
-

@@ -1,9 +1,8 @@
-﻿{
-    "label":  "x507bv3主板",
-    "position":  29,
-    "link":  {
-                 "type":  "doc",
-                 "id":  "mainboard/x507bv3/index"
-             }
+{
+  "label": "x507bv3主板",
+  "position": 29,
+  "link": {
+    "type": "generated-index",
+    "description": "x507bv3主板 Documents"
+  }
 }
-

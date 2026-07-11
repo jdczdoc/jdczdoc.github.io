@@ -1,9 +1,8 @@
-﻿{
-    "label":  "九影G5 15.6寸直播一体机",
-    "position":  1,
-    "link":  {
-                 "type":  "doc",
-                 "id":  "live-machine/jiuying-g5-15-6/index"
-             }
+{
+  "label": "九影G5 15.6寸直播一体机",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "九影G5 15.6寸直播一体机 Documents"
+  }
 }
-

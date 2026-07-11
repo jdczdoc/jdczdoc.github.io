@@ -1,9 +1,8 @@
-﻿{
-    "label":  "X3576CV2核心板",
-    "position":  13,
-    "link":  {
-                 "type":  "doc",
-                 "id":  "core-board/x3576cv2/index"
-             }
+{
+  "label": "X3576CV2核心板",
+  "position": 13,
+  "link": {
+    "type": "generated-index",
+    "description": "X3576CV2核心板 Documents"
+  }
 }
-

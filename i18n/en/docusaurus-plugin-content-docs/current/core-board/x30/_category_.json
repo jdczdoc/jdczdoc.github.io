@@ -2,7 +2,7 @@
   "label": "X30 Core Board",
   "position": 4,
   "link": {
-    "type": "doc",
-    "id": "core-board/x30/index"
+    "type": "generated-index",
+    "description": "X30 Core Board Documents"
   }
 }

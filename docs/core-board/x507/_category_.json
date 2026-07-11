@@ -1,9 +1,8 @@
-﻿{
-    "label":  "X507核心板",
-    "position":  22,
-    "link":  {
-                 "type":  "doc",
-                 "id":  "core-board/x507/index"
-             }
+{
+  "label": "X507核心板",
+  "position": 22,
+  "link": {
+    "type": "generated-index",
+    "description": "X507核心板 Documents"
+  }
 }
-
