@@ -1,0 +1,230 @@
+---
+sidebar_position: 3
+title: Pin Definition
+description: X3399CV5 200-pin core board pin definition
+---
+
+# Pin Definition
+
+This page keeps the 200-pin core-board pin definition. Electrical usage and interface notes are described in separate pages.
+
+## Core Board Pin Definition 1
+
+| Pin No. | Signal |
+| --- | --- |
+| 1 | GPIO4_A3/ / I2S1_SCLK |
+| 2 | GPIO4_A7/ / I2S1_SDO0 |
+| 3 | GPIO4_A6/ / I2S1_SDI0 |
+| 4 | GPIO4_A5/ / I2S1_LRCK_TX |
+| 5 | GPIO4_A4/ / I2S1_LRCK_RX |
+| 6 | GPIO4_A1/ / I2C1_SDA |
+| 7 | GPIO4_A2/ / I2C1_SCL |
+| 8 | GPIO4_A0/ / I2S_CLK |
+| 9 | GPIO3_D0/ / I2S0_SCLK |
+| 10 | GPIO3_D1/ / I2S0_LRCK_RX |
+| 11 | GPIO3_D2/ / I2S0_LRCK_TX |
+| 12 | GPIO3_D3/ / I2S0_SDI0 |
+| 13 | GPIO3_D4/ / I2S0_SDI1 |
+| 14 | GPIO3_D7/ / I2S0_SDO0 |
+| 15 | GPIO3_D6/ / I2S0_SDO1 |
+| 16 | GPIO3_D5/ / I2S0_SDO2 |
+| 17 | GPIO4_D4 |
+| 18 | ADC_IN2 |
+| 19 | GPIO2_C4/ / SDIO0_D0/ / SPI5_RXD |
+| 20 | GPIO2_C5/ / SDIO0_D1/ / SPI5_TXD |
+| 21 | GPIO2_C6/ / SDIO0_D2/ / SPI5_CLK |
+| 22 | GPIO2_C7/ / SDIO0_D3/ / SPI5_CSn0 |
+| 23 | GPIO2_D0/ / SDIO0_CMD |
+| 24 | GPIO2_D1/ / SDIO0_CLK |
+| 25 | GPIO2_C3/ / UART0_RTS |
+| 26 | GPIO2_C1/ / UART0_TXD |
+| 27 | GPIO2_C2/ / UART0_CTS |
+| 28 | GPIO2_C0/ / UART0_RXD |
+| 29 | PMU_RESET |
+| 30 | GPIO4_D6 |
+| 31 | GPIO4_D1 |
+| 32 | GPIO4_D3 |
+| 33 | GPIO4_C6/ / PWM1_d |
+| 34 | PMIC_EXT_EN |
+| 35 | RTC_CLKO_WIFI |
+| 36 | Camera_RST_L |
+| 37 | VCC_RTC |
+| 38 | GPIO4_C2/ / PWM0 |
+| 39 | GPIO2_D4 |
+| 40 | GPIO4_D2 |
+| 41 | GPIO4_D5 |
+| 42 | VCC3V3_S5 |
+| 43 | GPIO4_C5/ / SPDIF_TX |
+| 44 | GPIO4_C3/ / UART2DBG_RX |
+| 45 | GPIO4_C4/ / UART2DBG_TX |
+| 46 | GPIO4_C0/ / I2C3_SDA/ / UART2_RX |
+| 47 | GPIO4_C1/ / I2C3_SCL/ / UART2_TX |
+| 48 | GPIO4_C7/ / HDMI_CEC |
+| 49 | HDMI_HPD |
+| 50 | VCC_CHAREG_EN |
+
+## Core Board Pin Definition 2
+
+| Pin No. | Signal |
+| --- | --- |
+| 51 | VCC3V3_SYS |
+| 52 | VCC3V3_SYS |
+| 53 | GND |
+| 54 | MIPI_TX1/RX1_D0N |
+| 55 | MIPI_TX1/RX1_D0P |
+| 56 | MIPI_TX1/RX1_D1N |
+| 57 | MIPI_TX1/RX1_D1P |
+| 58 | MIPI_TX1/RX1_CLKN |
+| 59 | MIPI_TX1/RX1_CLKP |
+| 60 | MIPI_TX1/RX1_D2N |
+| 61 | MIPI_TX1/RX1_D2P |
+| 62 | MIPI_TX1/RX1_D3N |
+| 63 | MIPI_TX1/RX1_D3P |
+| 64 | MIPI_RX0_D3N |
+| 65 | MIPI_RX0_D3P |
+| 66 | MIPI_RX0_D2N |
+| 67 | MIPI_RX0_D2P |
+| 68 | MIPI_RX0_CLKN |
+| 69 | MIPI_RX0_CLKP |
+| 70 | MIPI_RX0_D1N |
+| 71 | MIPI_RX0_D1P |
+| 72 | MIPI_RX0_D0N |
+| 73 | MIPI_RX0_D0P |
+| 74 | MIPI_TX0_D3N |
+| 75 | MIPI_TX0_D3P |
+| 76 | MIPI_TX0_D2N |
+| 77 | MIPI_TX0_D2P |
+| 78 | MIPI_TX0_CLKN |
+| 79 | MIPI_TX0_CLKP |
+| 80 | MIPI_TX0_D1N |
+| 81 | MIPI_TX0_D1P |
+| 82 | MIPI_TX0_D0N |
+| 83 | MIPI_TX0_D0P |
+| 84 | GND |
+| 85 | HDMI_TXCN |
+| 86 | HDMI_TXCP |
+| 87 | HDMI_TX0N |
+| 88 | HDMI_TX0P |
+| 89 | HDMI_TX1N |
+| 90 | HDMI_TX1P |
+| 91 | HDMI_TX2N |
+| 92 | HDMI_TX2P |
+| 93 | TYPEC0_SBU1_DC |
+| 94 | TYPEC0_SBU2_DC |
+| 95 | TYPEC0_SBU2 |
+| 96 | TYPEC0_SBU1 |
+| 97 | TYPEC0_RX1N |
+| 98 | TYPEC0_RX1P |
+| 99 | TYPEC0_TX1P |
+| 100 | TYPEC0_TX1N |
+
+## Core Board Pin Definition 3
+
+| Pin No. | Signal |
+| --- | --- |
+| 101 | TYPEC0_RX2N |
+| 102 | TYPEC0_RX2P |
+| 103 | TYPEC0_TX2P |
+| 104 | TYPEC0_TX2N |
+| 105 | TYPEC0_DM |
+| 106 | TYPEC0_DP |
+| 107 | USB3_SSTXP |
+| 108 | USB3_SSTXN |
+| 109 | USB3_SSRXP |
+| 110 | USB3_SSRXN |
+| 111 | TYPEC0_U2VBUSDET |
+| 112 | ADC_IN1 |
+| 113 | ADC_IN0 |
+| 114 | USB3_DM |
+| 115 | USB3_DP |
+| 116 | HOST0_DM |
+| 117 | HOST0_DP |
+| 118 | HOST1_DM |
+| 119 | HOST1_DP |
+| 120 | VCC1V8_S3 |
+| 121 | POWER_KEY |
+| 122 | GPIO2_D2 |
+| 123 | GPIO0_A4 |
+| 124 | GPIO0_B2 |
+| 125 | GPIO0_B1 |
+| 126 | GPIO0_A3 |
+| 127 | GPIO4_B4/ / SDMMC0_CLK |
+| 128 | GPIO4_B3/ / SDMMC0_D3 |
+| 129 | GPIO4_B2/ / SDMMC0_D2 |
+| 130 | GPIO4_B1/ / SDMMC0_D1 |
+| 131 | GPIO4_B0/ / SDMMC0_D0 |
+| 132 | GPIO4_B5/ / SDMMC0_CMD |
+| 133 | GPIO0_A7/ / SDMMC0_DET |
+| 134 | GPIO0_A1 |
+| 135 | EDP_TX3P |
+| 136 | EDP_TX3N |
+| 137 | EDP_TX2P |
+| 138 | EDP_TX2N |
+| 139 | EDP_TX1P |
+| 140 | EDP_TX1N |
+| 141 | EDP_TX0P |
+| 142 | EDP_TX0N |
+| 143 | EDPAUXP |
+| 144 | EDPAUXN |
+| 145 | GPIO4_D0 |
+| 146 | GPIO0_B3 |
+| 147 | GPIO0_B0 |
+| 148 | GPIO1_A1 |
+| 149 | GPIO1_A0 |
+| 150 | GPIO1_B4/ / I2C4_SCL |
+
+## Core Board Pin Definition 4
+
+| Pin No. | Signal |
+| --- | --- |
+| 151 | GPIO1_B3/ / I2C4_SDA |
+| 152 | GPIO0_A2/ / RK3399_26M_OUT |
+| 153 | GPIO0_B4 |
+| 154 | GPIO0_B5 |
+| 155 | GPIO0_A6/ / PWM3A |
+| 156 | GPIO1_C7 |
+| 157 | GPIO1_A4 |
+| 158 | GPIO1_A3 |
+| 159 | GPIO1_B5 |
+| 160 | GPIO1_A2 |
+| 161 | GPIO1_B0/ / SPI1_TXD |
+| 162 | GPIO1_B2/ / SPI1_CSn0 |
+| 163 | GPIO1_B1/ / SPI1_CLK |
+| 164 | GPIO1_A7/ / SPI1_RXD |
+| 165 | GPIO1_C2/ / SPI3_CSn0 |
+| 166 | GPIO1_C4/ / I2C8_SDA |
+| 167 | GPIO1_D0 |
+| 168 | GPIO1_C6 |
+| 169 | GPIO2_B3/ / SPI2_CLK/ / CIF_CLKO |
+| 170 | GPIO2_B0/ / I2C7_SCL/ / CIF_VSYNC |
+| 171 | GPIO2_A7/ / I2C7_SDA/ / CIF_D7 |
+| 172 | GPIO2_A6/ / CIF_D6 |
+| 173 | GPIO2_A5/ / CIF_D5 |
+| 174 | GPIO2_A4/ / CIF_D4 |
+| 175 | GPIO2_A3/ / CIF_D3 |
+| 176 | GPIO2_A2/ / CIF_D2 |
+| 177 | GPIO2_A1/ / I2C2_SCL/ / CIF_D1 |
+| 178 | GPIO2_A0/ / I2C2_SDA/ / CIF_D0 |
+| 179 | GPIO2_B4/ / SPI2_CSn0 |
+| 180 | GPIO2_B1/ / I2C6_SDA/ / CIF_HREF |
+| 181 | GPIO2_B2/ / I2C6_SCL/ / CIF_CLKI |
+| 182 | GND |
+| 183 | GPIO3_B6/ / MAC_RXCLK/ / UART3_RX |
+| 184 | GPIO3_B3/ / MAC_MCLK/ / I2C5_SCL |
+| 185 | GPIO3_B0/ / MAC_MDC/ / SPI0_CSn1 |
+| 186 | GPIO3_A3/ / MAC_RXD3/ / SPI4_CSn0 |
+| 187 | GPIO3_A2/ / MAC_RXD2/ / SPI4_CLK |
+| 188 | GPIO3_A7/ / MAC_RXD1/ / SPI0_CSn0 |
+| 189 | GPIO3_A6/ / MAC_RXD0/ / SPI0_CLK |
+| 190 | GPIO3_C0/ / MAC_COL/ / UART3_CTSn/ / SPDIF_TX |
+| 191 | GPIO3_C1/ / MAC_TXCLK/ / UART3_RTSn |
+| 192 | GPIO3_B2/ / MAC_RXER/ / I2C5_SDA |
+| 193 | GPIO3_B7/ / MAC_CRS/ / UART3_TX |
+| 194 | GPIO3_A4/ / MAC_TXD0 / SPI0_TXD |
+| 195 | GPIO3_A5/ / MAC_TXD1/ / SPI0_TXD |
+| 196 | GPIO3_A0/ / MAC_TXD2/ / SPI4_RXD |
+| 197 | GPIO3_A1/ / MAC_TXD3/ / SPI4_TXD |
+| 198 | GPIO3_B4/ / MAC_TXEN/ / UART1_RX |
+| 199 | GPIO3_B5/ / MAC_MDIO/ / UART1_TX |
+| 200 | GPIO3_B1/ / MAC_RXDV |
+
