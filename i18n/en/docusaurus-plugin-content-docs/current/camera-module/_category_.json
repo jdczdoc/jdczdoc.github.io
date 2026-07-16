@@ -1,0 +1,8 @@
+{
+  "label": "Camera Modules",
+  "position": 6,
+  "link": {
+    "type": "doc",
+    "id": "camera-module/index"
+  }
+}
