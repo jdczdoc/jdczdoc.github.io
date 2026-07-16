@@ -44,8 +44,38 @@ const sidebars: SidebarsConfig = {
     },
     'host-computing-box',
     'display-module',
-    'camera-module',
-    'accessories',
+   {
+     type: 'category',
+     label: '摄像头模组',
+     collapsible: true,
+     collapsed: true,
+     link: {
+       type: 'doc',
+       id: 'camera-module/index',
+     },
+     items: [
+       'camera-module/ov5695',
+       'camera-module/ov13850',
+       'camera-module/ov13855',
+       'camera-module/imx415',
+       'camera-module/imx766',
+      ],
+    },
+   {
+      type: 'category',
+      label: '配件',
+      collapsible: true,
+      collapsed: true,
+      link: {
+       type: 'doc',
+        id: 'accessories/index',
+      },
+      items: [
+       'accessories/gps-module',
+       'accessories/usb-to-ttl',
+     ],
+    },
+
     {
       type: 'category',
       label: '开发板网盘',
