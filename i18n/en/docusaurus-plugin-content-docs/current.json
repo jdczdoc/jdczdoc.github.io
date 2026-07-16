@@ -11,14 +11,6 @@
     "message": "Allwinner Official Documents",
     "description": "The generated-index page description for category '全志官方文档' in sidebar 'alldocsSidebar'"
   },
-  "sidebar.alldocsSidebar.category.开发板": {
-    "message": "Development Board",
-    "description": "The label for category '开发板' in sidebar 'alldocsSidebar'"
-  },
-  "sidebar.alldocsSidebar.category.开发板.link.generated-index.description": {
-    "message": "Development Board Documents",
-    "description": "The generated-index page description for category '开发板' in sidebar 'alldocsSidebar'"
-  },
   "sidebar.alldocsSidebar.category.T527": {
     "message": "T527",
     "description": "The label for category 'T527' in sidebar 'alldocsSidebar'"

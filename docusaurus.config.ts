@@ -131,10 +131,6 @@ const config: Config = {
               to: '/docs/about',
             },
             {
-              label: '开发板',
-              to: '/docs/category/开发板',
-            },
-            {
               label: '瑞芯微官方文档',
               to: '/docs/category/瑞芯微官方文档',
             },
