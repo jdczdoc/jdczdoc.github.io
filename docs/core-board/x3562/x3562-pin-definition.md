@@ -1,0 +1,212 @@
+---
+sidebar_position: 3
+title: 引脚定义
+description: X3562核心板 引脚定义
+---
+
+# 引脚定义
+
+引脚定义
+
+核心板引脚定义1
+
+### 核心板引脚定义1
+
+| 引脚编号 | 信号 | 类型 | 描述 |
+| --- | --- | --- | --- |
+| 1 | MIPI_CSI_RX1_D0P | MIPI 摄像头接口信号 | 不可用作 GPIO 口 |
+| 2 | MIPI_CSI_RX1_D0N | MIPI 摄像头接口信号 | 不可用作 GPIO 口 |
+| 3 | MIPI_CSI_RX1_CLK1P | MIPI 摄像头接口信号 | 不可用作 GPIO 口 |
+| 4 | MIPI_CSI_RX1_CLK1N | MIPI 摄像头接口信号 | 不可用作 GPIO 口 |
+| 5 | MIPI_CSI_RX0_CLK1P | MIPI 摄像头接口信号 | 不可用作 GPIO 口 |
+| 6 | MIPI_CSI_RX0_CLK1N | MIPI 摄像头接口信号 | 不可用作 GPIO 口 |
+| 7 | MIPI_CSI_RX0_D3P | MIPI 摄像头接口信号 | 不可用作 GPIO 口 |
+| 8 | MIPI_CSI_RX0_D3N | MIPI 摄像头接口信号 | 不可用作 GPIO 口 |
+| 9 | MIPI_CSI_RX0_D2P | MIPI 摄像头接口信号 | 不可用作 GPIO 口 |
+| 10 | MIPI_CSI_RX0_D2N | MIPI 摄像头接口信号 | 不可用作 GPIO 口 |
+| 11 | MIPI_CSI_RX0_CLK0P | MIPI 摄像头接口信号 | 不可用作 GPIO 口 |
+| 12 | MIPI_CSI_RX0_CLK0N | MIPI 摄像头接口信号 | 不可用作 GPIO 口 |
+| 13 | MIPI_CSI_RX0_D1P | MIPI 摄像头接口信号 | 不可用作 GPIO 口 |
+| 14 | MIPI_CSI_RX0_D1N | MIPI 摄像头接口信号 | 不可用作 GPIO 口 |
+| 15 | MIPI_CSI_RX0_D0P | MIPI 摄像头接口信号 | 不可用作 GPIO 口 |
+| 16 | MIPI_CSI_RX0_D0N | MIPI 摄像头接口信号 | 不可用作 GPIO 口 |
+| 17 | MIPI_DSI_TX_D3P/LVDS_TX_D3P | MIPI LCD 接口信号 | 不可用作 GPIO 口 |
+| 18 | MIPI_DSI_TX_D3N/LVDS_TX_D3N | MIPI LCD 接口信号 | 不可用作 GPIO 口 |
+| 19 | MIPI_DSI_TX_D2N/LVDS_TX_D2N | MIPI LCD 接口信号 | 不可用作 GPIO 口 |
+| 20 | MIPI_DSI_TX_D2P/LVDS_TX_D2P | MIPI LCD 接口信号 | 不可用作 GPIO 口 |
+| 21 | MIPI_DSI_TX_CLKP/LVDS_TX_CLKP | MIPI LCD 接口信号 | 不可用作 GPIO 口 |
+| 22 | MIPI_DSI_TX_CLKN/LVDS_TX_CLKN | MIPI LCD 接口信号 | 不可用作 GPIO 口 |
+| 23 | MIPI_DSI_TX_D1N/LVDS_TX_D1N | MIPI LCD 接口信号 | 不可用作 GPIO 口 |
+| 24 | MIPI_DSI_TX_D1P/LVDS_TX_D1P | MIPI LCD 接口信号 | 不可用作 GPIO 口 |
+| 25 | MIPI_DSI_TX_D0P/LVDS_TX_D0P | MIPI LCD 接口信号 | 不可用作 GPIO 口 |
+| 26 | MIPI_DSI_TX_D0N/LVDS_TX_D0N | MIPI LCD 接口信号 | 不可用作 GPIO 口 |
+| 27 | USB30_OTG0_VBUSDET | USB2.0 接口信号 | 不可用作 GPIO 口 |
+| 28 | USB30_OTG0_ID | USB2.0 接口信号 | 不可用作 GPIO 口 |
+| 29 | USB30_OTG0_DM | USB2.0 接口信号 | 不可用作 GPIO 口 |
+| 30 | USB30_OTG0_DP | USB2.0 接口信号 | 不可用作 GPIO 口 |
+| 31 | USB20_HOST1_DP | USB2.0 接口信号 | 不可用作 GPIO 口 |
+| 32 | USB20_HOST1_DM | USB2.0 接口信号 | 不可用作 GPIO 口 |
+| 33 | PCIE20_TXN | USB3.0/PCIE2.0 接口信号 | 不可用作 GPIO 口 |
+| 34 | PCIE20_TXP | USB3.0/PCIE2.0 接口信号 | 不可用作 GPIO 口 |
+| 35 | PCIE20_REFCLKN | PCIE2.0 接口信号 | 不可用作 GPIO 口 |
+| 36 | PCIE20_REFCLKP | PCIE2.0 接口信号 | 不可用作 GPIO 口 |
+| 37 | PCIE20_RXN | USB3.0/PCIE2.0 接口信号 | 不可用作 GPIO 口 |
+| 38 | PCIE20_RXP | USB3.0/PCIE2.0 接口信号 | 不可用作 GPIO 口 |
+| 39 | I2S0_SDI0_M0/PDM_SDI0_M0_PMIC | GPIO复用接口 | GPIO3_B1_d |
+| 40 | I2S0_SCLK_M0_PMIC | GPIO复用接口 | GPIO3_A3_d |
+| 41 | I2S0_LRCK_M0_PMIC | GPIO复用接口 | GPIO3_A4_d |
+| 42 | I2S0_MCLK_M0_PMIC | GPIO复用接口 | GPIO3_A2_d |
+| 43 | I2S0_SDO0_M0_PMIC | GPIO复用接口 | GPIO3_A5_d |
+
+
+核心板引脚定义2
+
+### 核心板引脚定义2
+
+| 引脚编号 | 信号 | 类型 | 描述 |
+| --- | --- | --- | --- |
+| 44 | GND | 系统地 |  |
+| 45 | VCC5V0_SYS | 核心板5V输入 |  |
+| 46 | VCC5V0_SYS | 核心板5V输入 |  |
+| 47 | VCC3V3_SYS | 核心板3.3V输入 |  |
+| 48 | VCC3V3_SYS | 核心板3.3V输入 |  |
+| 49 | VCC_RSV1 | 核心板3.0V输出 |  |
+| 50 | GND | 系统地 |  |
+| 51 | SPKN_OUT | 音频输出 |  |
+| 52 | SPKP_OUT | 音频输出 |  |
+| 53 | HPL_OUT | 音频输出 |  |
+| 54 | HP_SNS | 音频输出 |  |
+| 55 | HPR_OUT | 音频输出 |  |
+| 56 | MIC2_IN | 音频输入 |  |
+| 57 | MIC1_IN | 音频输入 |  |
+| 58 | GND | 系统地 |  |
+| 59 | PMIC_PWRON | PMIC使能脚 |  |
+| 60 | PMIC_EXT_EN | PMIC使能脚 |  |
+| 61 | PMIC_32KOUT_WIFI | 32.768KHz输出 |  |
+| 62 | I2C0_SCL_PMIC | GPIO复用接口 | GPIO0_B1_d |
+| 63 | I2C0_SDA_PMIC | GPIO复用接口 | GPIO0_B2_d |
+| 64 | RESETn |  |  |
+| 65 | VCC_1V8 | 核心板1.8V输出 |  |
+| 66 | LCD_BL_PWM | GPIO复用接口 | GPIO0_C2_d |
+| 67 | I2C2_SCL_TP | GPIO复用接口 | GPIO0_B5_d |
+| 68 | I2C2_SDA_TP | GPIO复用接口 | GPIO0_B6_d |
+| 69 | TP_RST_L | GPIO复用接口 | GPIO0_B7_d |
+| 70 | TP_INT_L | GPIO复用接口 | GPIO0_C3_d |
+| 71 | GPIO0_C0_d | GPIO复用接口 | GPIO0_C0_d |
+| 72 | WIFI_WAKE_HOST_H | GPIO复用接口 | GPIO0_B4_d |
+| 73 | HOST_WAKE_BT_H | GPIO复用接口 | GPIO0_C7_d |
+| 74 | LCD_PWREN_H | GPIO复用接口 | GPIO0_B0_d |
+| 75 | PWM3_IR | GPIO复用接口 | GPIO0_A7_d |
+| 76 | RTCIC_INT_L | GPIO复用接口 | GPIO0_A5_d |
+| 77 | USBCC_INT_L | GPIO复用接口 | GPIO0_A6_d |
+| 78 | BT_WAKE_HOST_H | GPIO复用接口 | GPIO0_C6_d |
+| 79 | BT_REG_ON_H | GPIO复用接口 | GPIO0_C5_d |
+| 80 | WIFI_REG_ON_H | GPIO复用接口 | GPIO0_B3_d |
+| 81 | UART0_TX_M0_DEBUG | GPIO复用接口 | GPIO0_D1_u |
+| 82 | UART0_RX_M0_DEBUG | GPIO复用接口 | GPIO0_D0_u |
+| 83 | SDMMC0_DET_L | GPIO复用接口 | GPIO0_A4_u |
+| 84 | GPIO0_C4_d | GPIO复用接口 | GPIO0_C4_d |
+| 85 | REFCLK_OUT | GPIO复用接口 | GPIO0_A0_d |
+| 86 | GND | 系统地 |  |
+
+
+核心板引脚定义3
+
+### 核心板引脚定义3
+
+| 引脚编号 | 信号 | 类型 | 描述 |
+| --- | --- | --- | --- |
+| 87 | CLK1_32K_OUT | GPIO复用接口 | GPIO2_A1_d |
+| 88 | UART1_CTSn_M0 | GPIO复用接口 | GPIO1_D4_d |
+| 89 | UART1_TX_M0 | GPIO复用接口 | GPIO1_D2_d |
+| 90 | UART1_RTSn_M0 | GPIO复用接口 | GPIO1_D3_d |
+| 91 | UART1_RX_M0 | GPIO复用接口 | GPIO1_D1_d |
+| 92 | GND | 系统地 |  |
+| 93 | I2C5_SDA_M1 | GPIO复用接口 | GPIO1_D0_d |
+| 94 | I2C5_SCL_M1 | GPIO复用接口 | GPIO1_C7_d |
+| 95 | I2S2_SCLK_M0 | GPIO复用接口 | GPIO1_D5_d |
+| 96 | I2S2_LRCK_M0 | GPIO复用接口 | GPIO1_D6_d |
+| 97 | I2S2_SDI_M0 | GPIO复用接口 | GPIO2_A0_d |
+| 98 | I2S2_SDO_M0 | GPIO复用接口 | GPIO1_D7_d |
+| 99 | SDIO_D1 | GPIO复用接口 | GPIO1_C2_d |
+| 100 | SDIO_CLK | GPIO复用接口 | GPIO1_C6_d |
+| 101 | SDIO_D2 | GPIO复用接口 | GPIO1_C3_d |
+| 102 | SDIO_D0 | GPIO复用接口 | GPIO1_C1_d |
+| 103 | SDIO_CMD | GPIO复用接口 | GPIO1_C5_d |
+| 104 | SDIO_D3 | GPIO复用接口 | GPIO1_C4_d |
+| 105 | GND | 系统地 |  |
+| 106 | SDMMC0_D0 | GPIO复用接口 | GPIO1_B3_u |
+| 107 | SDMMC0_D1 | GPIO复用接口 | GPIO1_B4_u |
+| 108 | SDMMC0_CMD | GPIO复用接口 | GPIO1_B7_u |
+| 109 | SDMMC0_CLK | GPIO复用接口 | GPIO1_C0_d |
+| 110 | SDMMC0_D2 | GPIO复用接口 | GPIO1_B5_u |
+| 111 | SDMMC0_D3 | GPIO复用接口 | GPIO1_B6_u |
+| 112 | SARADC0_IN3 | ADC接口 |  |
+| 113 | SARADC0_IN7 | ADC接口 |  |
+| 114 | SARADC0_IN1 | ADC接口 |  |
+| 115 | SARADC0_IN6 | ADC接口 |  |
+| 116 | SARADC0_IN5 | ADC接口 |  |
+| 117 | SARADC0_IN4 | ADC接口 |  |
+| 118 | SARADC0_BOOT | ADC接口 |  |
+| 119 | I2C5_SDA_M0 | GPIO复用接口 | GPIO3_C3_d |
+| 120 | I2C5_SCL_M0 | GPIO复用接口 | GPIO3_C2_d |
+| 121 | I2C4_SCL_M0 | GPIO复用接口 | GPIO3_B6_d |
+| 122 | I2C4_SDA_M0 | GPIO复用接口 | GPIO3_B7_d |
+| 123 | CAM_CLK1_OUT | GPIO复用接口 | GPIO3_B3_d |
+| 124 | GND | 系统地 |  |
+| 125 | CAM_CLK0_OUT | GPIO复用接口 | GPIO3_B2_d |
+| 126 | CAM_PDN0_L | GPIO复用接口 | GPIO3_C0_d |
+| 127 | CAM_PWREN_H | GPIO复用接口 | GPIO3_C5_d |
+| 128 | CAM_RST1_L | GPIO复用接口 | GPIO3_B5_d |
+| 129 | CAM_PDN1_L | GPIO复用接口 | GPIO3_C1_d |
+
+
+核心板引脚定义4
+
+### 核心板引脚定义4
+
+| 引脚编号 | 信号 | 类型 | 描述 |
+| --- | --- | --- | --- |
+| 130 | CAM_RST0_L | GPIO复用接口 | GPIO3_B4_d |
+| 131 | USB_OTG_PWREN_H | GPIO复用接口 | GPIO3_C7_d |
+| 132 | USB_HOST_PWREN_H | GPIO复用接口 | GPIO3_C6_d |
+| 133 | ALPS_INT_L | GPIO复用接口 | GPIO3_D2_d |
+| 134 | SPK_CTL | GPIO复用接口 | GPIO3_D1_d |
+| 135 | HP_DET_L | GPIO复用接口 | GPIO3_D0_d |
+| 136 | GPIO4_B6_d | GPIO复用接口 | GPIO4_B6_d |
+| 137 | GPIO4_B0_d | GPIO复用接口 | GPIO4_B0_d |
+| 138 | PCIE20_CLKREQn_M1 | GPIO复用接口 | GPIO3_A6_d |
+| 139 | PCIE20_WAKEn_M1 | GPIO复用接口 | GPIO3_A7_d |
+| 140 | I2C1_SDA_M1 | GPIO复用接口 | GPIO4_B5_d |
+| 141 | I2C1_SCL_M1 | GPIO复用接口 | GPIO4_B4_d |
+| 142 | GSENSOR_INT_L | GPIO复用接口 | GPIO3_C4_d |
+| 143 | GPIO3_D3_d | GPIO复用接口 | GPIO3_D3_d |
+| 144 | PCIE20_PERSTn_M1 | GPIO复用接口 | GPIO3_B0_d |
+| 145 | RGMII_CLK_M0 | GPIO复用接口 | GPIO4_B7_d |
+| 146 | ETH_CLK_25M_OUT_M0 | GPIO复用接口 | GPIO4_B1_d |
+| 147 | GND | 系统地 |  |
+| 148 | RGMII_RXCLK_M0 | GPIO复用接口 | GPIO4_A1_d |
+| 149 | RGMII_RXDV_M0 | GPIO复用接口 | GPIO4_A7_d |
+| 150 | RGMII_RXD0_M0 | GPIO复用接口 | GPIO4_A5_d |
+| 151 | RGMII_RXD1_M0 | GPIO复用接口 | GPIO4_A6_d |
+| 152 | RGMII_RXD2_M0 | GPIO复用接口 | GPIO3_D7_d |
+| 153 | RGMII_RXD3_M0 | GPIO复用接口 | GPIO4_A0_d |
+| 154 | RGMII_INT/PMEB | GPIO复用接口 | GPIO3_A1_d |
+| 155 | RGMII_RSTn | GPIO复用接口 | GPIO3_A0_d |
+| 156 | RGMII_MDC_M0 | GPIO复用接口 | GPIO4_B2_d |
+| 157 | RGMII_MDIO_M0 | GPIO复用接口 | GPIO4_B3_d |
+| 158 | RGMII_TXCLK_M0 | GPIO复用接口 | GPIO3_D6_d |
+| 159 | RGMII_TXEN_M0 | GPIO复用接口 | GPIO4_A4_d |
+| 160 | RGMII_TXD3_M0 | GPIO复用接口 | GPIO3_D5_d |
+| 161 | RGMII_TXD2_M0 | GPIO复用接口 | GPIO3_D4_d |
+| 162 | RGMII_TXD1_M0 | GPIO复用接口 | GPIO4_A3_d |
+| 163 | RGMII_TXD0_M0 | GPIO复用接口 | GPIO4_A2_d |
+| 164 | GND | 系统地 |  |
+| 165 | MIPI_CSI_RX1_D3P | MIPI 摄像头接口信号 | 不可用作 GPIO 口 |
+| 166 | MIPI_CSI_RX1_D3N | MIPI 摄像头接口信号 | 不可用作 GPIO 口 |
+| 167 | MIPI_CSI_RX1_D2P | MIPI 摄像头接口信号 | 不可用作 GPIO 口 |
+| 168 | MIPI_CSI_RX1_D2N | MIPI 摄像头接口信号 | 不可用作 GPIO 口 |
+| 169 | MIPI_CSI_RX1_CLK0P | MIPI 摄像头接口信号 | 不可用作 GPIO 口 |
+| 170 | MIPI_CSI_RX1_CLK0N | MIPI 摄像头接口信号 | 不可用作 GPIO 口 |
+| 171 | MIPI_CSI_RX1_D1P | MIPI 摄像头接口信号 | 不可用作 GPIO 口 |
+| 172 | MIPI_CSI_RX1_D1N | MIPI 摄像头接口信号 | 不可用作 GPIO 口 |
