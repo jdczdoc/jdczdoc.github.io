@@ -1,8 +1,8 @@
 {
-  "label": "x733bv2 Mainboard",
-  "position": 31,
+  "label": "X733BV2 Development Board",
+  "position": 13,
   "link": {
-    "type": "generated-index",
-    "description": "x733bv2 Mainboard Documents"
+    "type": "doc",
+    "id": "mainboard/x733bv2/index"
   }
 }

@@ -1,8 +1,8 @@
 {
-  "label": "i527bv3主板",
-  "position": 30,
+  "label": "I527BV3 开发板",
+  "position": 12,
   "link": {
-    "type": "generated-index",
-    "description": "i527bv3主板 Documents"
+    "type": "doc",
+    "id": "mainboard/i527bv3/index"
   }
 }
