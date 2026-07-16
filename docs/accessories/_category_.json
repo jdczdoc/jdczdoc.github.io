@@ -1,0 +1,8 @@
+{
+  "label": "配件",
+  "position": 7,
+  "link": {
+    "type": "doc",
+    "id": "accessories/index"
+  }
+}
