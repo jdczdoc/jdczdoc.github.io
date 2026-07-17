@@ -2,7 +2,8 @@
   "label": "I527BV3 开发板",
   "position": 12,
   "link": {
-    "type": "doc",
-    "id": "mainboard/i527bv3/index"
+      "type": "generated-index",
+    "title": "X527开发板",
+    "description": "X527开发板产品、硬件资源、接口、系统编译和使用文档。"
   }
 }

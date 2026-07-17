@@ -2,7 +2,8 @@
   "label": "X507开发板",
   "position": 50,
   "link": {
-    "type": "doc",
-    "id": "mainboard/x507bv3/index"
+	    "type": "generated-index",
+    "title": "X507开发板",
+    "description": "X507开发板产品、硬件资源、接口、系统编译和使用文档。"
   }
 }

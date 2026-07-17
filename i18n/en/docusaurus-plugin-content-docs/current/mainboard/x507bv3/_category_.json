@@ -2,7 +2,8 @@
   "label": "X507 Development Board",
   "position": 50,
   "link": {
-    "type": "doc",
-    "id": "mainboard/x507bv3/index"
+      "type": "generated-index",
+    "title": "X507 core board",
+    "description": "Product, hardware, interface, system build, and usage documentation for the X507 mainboard."
   }
 }

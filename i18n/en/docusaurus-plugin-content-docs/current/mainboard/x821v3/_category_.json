@@ -2,7 +2,7 @@
   "label": "X821 Main Board",
   "position": 82,
   "link": {
-    "type": "doc",
-    "id": "mainboard/x821v3/index"
+	  "type": "generated-index",
+  	        "title": "X821V3 Mainboard"
   }
 }

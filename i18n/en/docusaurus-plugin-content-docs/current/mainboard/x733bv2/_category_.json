@@ -2,7 +2,7 @@
   "label": "X733BV2 Development Board",
   "position": 13,
   "link": {
-    "type": "doc",
-    "id": "mainboard/x733bv2/index"
+  	"type": "generated-index",
+         "title": "I527BV3 Mainboard"
   }
 }
