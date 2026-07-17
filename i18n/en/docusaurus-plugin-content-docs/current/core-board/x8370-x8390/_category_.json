@@ -2,7 +2,8 @@
   "label": "X8370/X8390 Core Board",
   "position": 28,
   "link": {
-    "type": "generated-index",
-    "description": "X8370/X8390 Core Board Documents"
+        "type": "generated-index",
+    "title": "X8370/X8390 core board",
+  	"description": "Product specifications, pin definitions, and hardware design documentation for the X8390/X8370 core board."
   }
 }
