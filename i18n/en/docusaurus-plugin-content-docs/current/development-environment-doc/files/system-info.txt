@@ -1,0 +1,21 @@
+Ubuntu: Ubuntu 20.04.5 LTS
+Architecture: amd64
+Kernel: 5.4.0-216-generic
+Date: 2026-07-16 17:43:32
+
+Git:
+git version 2.25.1
+
+Python:
+Python 3.8.10
+
+Java:
+openjdk version "1.8.0_352"
+OpenJDK Runtime Environment (build 1.8.0_352-8u352-ga-1~20.04-b08)
+OpenJDK 64-Bit Server VM (build 25.352-b08, mixed mode)
+
+GCC:
+gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0
+
+Make:
+GNU Make 4.2.1

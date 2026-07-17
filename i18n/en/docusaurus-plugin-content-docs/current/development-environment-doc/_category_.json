@@ -1,0 +1,9 @@
+{
+  "label": "Development Environment",
+  "position": 20,
+  "link": {
+    "type": "generated-index",
+    "title": "Development Environment",
+    "description": "VMware, Ubuntu, development tools, and Rockchip / Allwinner SDK build environment."
+  }
+}
