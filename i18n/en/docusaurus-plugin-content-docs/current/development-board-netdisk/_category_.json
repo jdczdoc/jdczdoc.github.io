@@ -2,6 +2,7 @@
   "label": "Development Board Netdisk",
   "link": {
     "type": "generated-index",
-    "description": "Development board netdisk resources"
+    "title": "Development Board Netdisk",
+    "description": "Download links for development board SDKs, images, manuals, and related resources."
   }
 }
