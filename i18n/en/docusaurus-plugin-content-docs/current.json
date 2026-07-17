@@ -405,14 +405,546 @@
   },
   "sidebar.alldocsSidebar.category.配件": {
     "message": "Accessories",
-    "description": "The label for document item '配件' in sidebar 'alldocsSidebar'"
+    "description": "The label for category '配件' in sidebar 'alldocsSidebar'"
   },
   "sidebar.alldocsSidebar.category.开发板网盘": {
     "message": "Development Board Netdisk",
-    "description": "The label for document item '开发板网盘' in sidebar 'alldocsSidebar'"
+    "description": "The label for category '开发板网盘' in sidebar 'alldocsSidebar'"
   },
   "sidebar.alldocsSidebar.category.XBOOT官方文档": {
     "message": "XBOOT Official Docs",
     "description": "The label for document item 'XBOOT官方文档' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3506核心板": {
+    "message": "x3506 Core Board",
+    "description": "The label for category 'x3506核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3506核心板.link.generated-index.description": {
+    "message": "x3506核心板 Documents",
+    "description": "The generated-index page description for category 'x3506核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X3128核心板": {
+    "message": "X3128 Core Board",
+    "description": "The label for category 'X3128核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X3128核心板.link.generated-index.description": {
+    "message": "X3128核心板 Documents",
+    "description": "The generated-index page description for category 'X3128核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X3288核心板": {
+    "message": "X3288 Core Board",
+    "description": "The label for category 'X3288核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X3288核心板.link.generated-index.description": {
+    "message": "X3288核心板 Documents",
+    "description": "The generated-index page description for category 'X3288核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X3568CV4核心板": {
+    "message": "X3568CV4 Core Board",
+    "description": "The label for category 'X3568CV4核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X3568CV4核心板.link.generated-index.description": {
+    "message": "X3568CV4核心板 Documents",
+    "description": "The generated-index page description for category 'X3568CV4核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X3399CV6核心板": {
+    "message": "X3399CV6 Core Board",
+    "description": "The label for category 'X3399CV6核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X3399CV6核心板.link.generated-index.description": {
+    "message": "X3399CV6核心板 Documents",
+    "description": "The generated-index page description for category 'X3399CV6核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X3576CV1核心板": {
+    "message": "X3576CV1 Core Board",
+    "description": "The label for category 'X3576CV1核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X3576CV1核心板.link.generated-index.description": {
+    "message": "X3576CV1核心板 Documents",
+    "description": "The generated-index page description for category 'X3576CV1核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X3576CV3核心板": {
+    "message": "X3576CV3 Core Board",
+    "description": "The label for category 'X3576CV3核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X3576CV3核心板.link.generated-index.description": {
+    "message": "X3576CV3核心板 Documents",
+    "description": "The generated-index page description for category 'X3576CV3核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.Z3576核心板": {
+    "message": "Z3576 Core Board",
+    "description": "The label for category 'Z3576核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.Z3576核心板.link.generated-index.description": {
+    "message": "Z3576核心板 Documents",
+    "description": "The generated-index page description for category 'Z3576核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X3588CV1核心板": {
+    "message": "X3588CV1 Core Board",
+    "description": "The label for category 'X3588CV1核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X3588CV1核心板.link.generated-index.description": {
+    "message": "X3588CV1核心板 Documents",
+    "description": "The generated-index page description for category 'X3588CV1核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.I3588CV3核心板": {
+    "message": "I3588CV3 Core Board",
+    "description": "The label for category 'I3588CV3核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.I3588CV3核心板.link.generated-index.description": {
+    "message": "I3588CV3核心板 Documents",
+    "description": "The generated-index page description for category 'I3588CV3核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.Z3588CV1核心板": {
+    "message": "Z3588CV1 Core Board",
+    "description": "The label for category 'Z3588CV1核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.Z3588CV1核心板.link.generated-index.description": {
+    "message": "Z3588CV1核心板 Documents",
+    "description": "The generated-index page description for category 'Z3588CV1核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X507核心板": {
+    "message": "X507 Core Board",
+    "description": "The label for category 'X507核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X507核心板.link.generated-index.description": {
+    "message": "X507核心板 Documents",
+    "description": "The generated-index page description for category 'X507核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X527核心板": {
+    "message": "X527 Core Board",
+    "description": "The label for category 'X527核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X527核心板.link.generated-index.description": {
+    "message": "X527核心板 Documents",
+    "description": "The generated-index page description for category 'X527核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X733核心板": {
+    "message": "X733 Core Board",
+    "description": "The label for category 'X733核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X733核心板.link.generated-index.description": {
+    "message": "X733核心板 Documents",
+    "description": "The generated-index page description for category 'X733核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.I3128核心板": {
+    "message": "I3128 Core Board",
+    "description": "The label for category 'I3128核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.I3128核心板.link.generated-index.description": {
+    "message": "I3128核心板 Documents",
+    "description": "The generated-index page description for category 'I3128核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X3128CV4核心板": {
+    "message": "X3128CV4 Core Board",
+    "description": "The label for category 'X3128CV4核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X3128CV4核心板.link.generated-index.description": {
+    "message": "X3128CV4核心板 Documents",
+    "description": "The generated-index page description for category 'X3128CV4核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X3399CV5核心板": {
+    "message": "X3399CV5 Core Board",
+    "description": "The label for category 'X3399CV5核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X3399CV5核心板.link.generated-index.description": {
+    "message": "X3399CV5核心板 Documents",
+    "description": "The generated-index page description for category 'X3399CV5核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X3562核心板": {
+    "message": "X3562 Core Board",
+    "description": "The label for category 'X3562核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X3562核心板.link.generated-index.description": {
+    "message": "X3562核心板 Documents",
+    "description": "The generated-index page description for category 'X3562核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X6818核心板": {
+    "message": "X6818 Core Board",
+    "description": "The label for category 'X6818核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X6818核心板.link.generated-index.description": {
+    "message": "X6818核心板 Documents",
+    "description": "The generated-index page description for category 'X6818核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X7110CV1核心板": {
+    "message": "X7110CV1 Core Board",
+    "description": "The label for category 'X7110CV1核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X7110CV1核心板.link.generated-index.description": {
+    "message": "X7110CV1核心板 Documents",
+    "description": "The generated-index page description for category 'X7110CV1核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X8390/X8370核心板": {
+    "message": "X8390/X8370 Core Board",
+    "description": "The label for category 'X8390/X8370核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X8390/X8370核心板.link.generated-index.title": {
+    "message": "X8370/X8390 Core Board",
+    "description": "The generated-index page title for category 'X8390/X8370核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X8390/X8370核心板.link.generated-index.description": {
+    "message": "X8390/X8370核心板产品参数、引脚定义和硬件设计文档。",
+    "description": "The generated-index page description for category 'X8390/X8370核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X30BV2主板": {
+    "message": "X30BV2 Mainboard",
+    "description": "The label for category 'X30BV2主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X30BV2主板.link.generated-index.description": {
+    "message": "X30BV2主板 Documents",
+    "description": "The generated-index page description for category 'X30BV2主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3288bv4主板": {
+    "message": "x3288bv4 Mainboard",
+    "description": "The label for category 'x3288bv4主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3288bv4主板.link.generated-index.description": {
+    "message": "x3288bv4主板 Documents",
+    "description": "The generated-index page description for category 'x3288bv4主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3566bv4主板": {
+    "message": "x3566bv4 Mainboard",
+    "description": "The label for category 'x3566bv4主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3566bv4主板.link.generated-index.description": {
+    "message": "x3566bv4主板 Documents",
+    "description": "The generated-index page description for category 'x3566bv4主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.i3566bv2主板": {
+    "message": "i3566bv2 Mainboard",
+    "description": "The label for category 'i3566bv2主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.i3566bv2主板.link.generated-index.description": {
+    "message": "i3566bv2主板 Documents",
+    "description": "The generated-index page description for category 'i3566bv2主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3568bv4主板": {
+    "message": "x3568bv4 Mainboard",
+    "description": "The label for category 'x3568bv4主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3568bv4主板.link.generated-index.description": {
+    "message": "x3568bv4主板 Documents",
+    "description": "The generated-index page description for category 'x3568bv4主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.ibox3568主板": {
+    "message": "ibox3568 Mainboard",
+    "description": "The label for category 'ibox3568主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.ibox3568主板.link.generated-index.description": {
+    "message": "ibox3568主板 Documents",
+    "description": "The generated-index page description for category 'ibox3568主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.i3399bv2主板": {
+    "message": "i3399bv2 Mainboard",
+    "description": "The label for category 'i3399bv2主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.i3399bv2主板.link.generated-index.description": {
+    "message": "i3399bv2主板 Documents",
+    "description": "The generated-index page description for category 'i3399bv2主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.I527BV3 开发板": {
+    "message": "I527BV3 开发板",
+    "description": "The label for category 'I527BV3 开发板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.I527BV3 开发板.link.generated-index.title": {
+    "message": "X527开发板",
+    "description": "The generated-index page title for category 'I527BV3 开发板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.I527BV3 开发板.link.generated-index.description": {
+    "message": "X527开发板产品、硬件资源、接口、系统编译和使用文档。",
+    "description": "The generated-index page description for category 'I527BV3 开发板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x733bv2主板": {
+    "message": "x733bv2 Mainboard",
+    "description": "The label for category 'x733bv2主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x733bv2主板.link.generated-index.title": {
+    "message": "X733开发板",
+    "description": "The generated-index page title for category 'x733bv2主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x733bv2主板.link.generated-index.description": {
+    "message": "X733开发板产品、硬件资源、接口、系统编译和使用文档。",
+    "description": "The generated-index page description for category 'x733bv2主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.ibox3576主板": {
+    "message": "ibox3576 Mainboard",
+    "description": "The label for category 'ibox3576主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.ibox3576主板.link.generated-index.description": {
+    "message": "ibox3576主板 Documents",
+    "description": "The generated-index page description for category 'ibox3576主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.i3588bv2主板": {
+    "message": "i3588bv2 Mainboard",
+    "description": "The label for category 'i3588bv2主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.i3588bv2主板.link.generated-index.description": {
+    "message": "i3588bv2主板 Documents",
+    "description": "The generated-index page description for category 'i3588bv2主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3588sbv2主板": {
+    "message": "x3588sbv2 Mainboard",
+    "description": "The label for category 'x3588sbv2主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3588sbv2主板.link.generated-index.description": {
+    "message": "x3588sbv2主板 Documents",
+    "description": "The generated-index page description for category 'x3588sbv2主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.picopc树霉派": {
+    "message": "picopc树霉派",
+    "description": "The label for category 'picopc树霉派' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.picopc树霉派.link.generated-index.description": {
+    "message": "picopc树霉派 Documents",
+    "description": "The generated-index page description for category 'picopc树霉派' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x8385bv1主板": {
+    "message": "x8385bv1 Mainboard",
+    "description": "The label for category 'x8385bv1主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x8385bv1主板.link.generated-index.description": {
+    "message": "x8385bv1主板 Documents",
+    "description": "The generated-index page description for category 'x8385bv1主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x8788v3闺蜜机主板": {
+    "message": "x8788v3闺蜜机 Mainboard",
+    "description": "The label for category 'x8788v3闺蜜机主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x8788v3闺蜜机主板.link.generated-index.description": {
+    "message": "x8788v3闺蜜机主板 Documents",
+    "description": "The generated-index page description for category 'x8788v3闺蜜机主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x8370/X8390bv4主板": {
+    "message": "x8370/X8390bv4 Mainboard",
+    "description": "The label for category 'x8370/X8390bv4主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x8370/X8390bv4主板.link.generated-index.title": {
+    "message": "x8370/X8390bv4 Mainboard",
+    "description": "The generated-index page title for category 'x8370/X8390bv4主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x8370/X8390bv4主板.link.generated-index.description": {
+    "message": "x8370/X8390bv4主板 Documents",
+    "description": "The generated-index page description for category 'x8370/X8390bv4主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x6818主板": {
+    "message": "x6818 Mainboard",
+    "description": "The label for category 'x6818主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x6818主板.link.generated-index.description": {
+    "message": "x6818主板 Documents",
+    "description": "The generated-index page description for category 'x6818主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.i6818主板": {
+    "message": "i6818 Mainboard",
+    "description": "The label for category 'i6818主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.i6818主板.link.generated-index.description": {
+    "message": "i6818主板 Documents",
+    "description": "The generated-index page description for category 'i6818主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3399bv4主板": {
+    "message": "x3399bv4 Mainboard",
+    "description": "The label for category 'x3399bv4主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3399bv4主板.link.generated-index.description": {
+    "message": "x3399bv4主板 Documents",
+    "description": "The generated-index page description for category 'x3399bv4主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3128bv4主板": {
+    "message": "x3128bv4 Mainboard",
+    "description": "The label for category 'x3128bv4主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3128bv4主板.link.generated-index.description": {
+    "message": "x3128bv4主板 Documents",
+    "description": "The generated-index page description for category 'x3128bv4主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X507开发板": {
+    "message": "X507开发板",
+    "description": "The label for category 'X507开发板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X507开发板.link.generated-index.title": {
+    "message": "X507开发板",
+    "description": "The generated-index page title for category 'X507开发板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X507开发板.link.generated-index.description": {
+    "message": "X507开发板产品、硬件资源、接口、系统编译和使用文档。",
+    "description": "The generated-index page description for category 'X507开发板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X821主板": {
+    "message": "X821 Mainboard",
+    "description": "The label for category 'X821主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X821主板.link.generated-index.title": {
+    "message": "V821开发板",
+    "description": "The generated-index page title for category 'X821主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X821主板.link.generated-index.description": {
+    "message": "V821开发板产品、硬件资源、接口、系统编译和使用文档。",
+    "description": "The generated-index page description for category 'X821主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.摄像头模组": {
+    "message": "Camera Modules",
+    "description": "The label for category '摄像头模组' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.开发环境搭建": {
+    "message": "Development Environment",
+    "description": "The label for category '开发环境搭建' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.开发环境搭建.link.generated-index.title": {
+    "message": "Development Environment",
+    "description": "The generated-index page title for category '开发环境搭建' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.开发环境搭建.link.generated-index.description": {
+    "message": "VMware, Ubuntu, development tools, and SDK build environment documentation.",
+    "description": "The generated-index page description for category '开发环境搭建' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.开发板网盘.link.generated-index.description": {
+    "message": "Development Board Netdisk Resources",
+    "description": "The generated-index page description for category '开发板网盘' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.allwinner-official-functions": {
+    "message": "基础功能",
+    "description": "The label for category '基础功能' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.allwinner-official-functions.link.generated-index.title": {
+    "message": "基础功能",
+    "description": "The generated-index page title for category '基础功能' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.allwinner-official-functions.link.generated-index.description": {
+    "message": "全志 Linux 常用外设的详细原理、设备树、内核配置、开发、测试、日志和 FAQ。T527 作为主要示例。",
+    "description": "The generated-index page description for category '基础功能' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.allwinner-official-functions-gpio": {
+    "message": "GPIO",
+    "description": "The label for category 'GPIO' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.allwinner-official-functions-gpio.link.generated-index.title": {
+    "message": "GPIO",
+    "description": "The generated-index page title for category 'GPIO' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.allwinner-official-functions-gpio.link.generated-index.description": {
+    "message": "GPIO 原理、配置、开发、测试和故障排查。",
+    "description": "The generated-index page description for category 'GPIO' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.allwinner-official-functions-gpadc": {
+    "message": "GPADC",
+    "description": "The label for category 'GPADC' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.allwinner-official-functions-gpadc.link.generated-index.title": {
+    "message": "GPADC",
+    "description": "The generated-index page title for category 'GPADC' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.allwinner-official-functions-gpadc.link.generated-index.description": {
+    "message": "GPADC 原理、配置、开发、测试和故障排查。",
+    "description": "The generated-index page description for category 'GPADC' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.allwinner-official-functions-lradc": {
+    "message": "LRADC",
+    "description": "The label for category 'LRADC' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.allwinner-official-functions-lradc.link.generated-index.title": {
+    "message": "LRADC",
+    "description": "The generated-index page title for category 'LRADC' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.allwinner-official-functions-lradc.link.generated-index.description": {
+    "message": "LRADC 原理、配置、开发、测试和故障排查。",
+    "description": "The generated-index page description for category 'LRADC' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.allwinner-official-functions-twi": {
+    "message": "TWI / I2C",
+    "description": "The label for category 'TWI / I2C' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.allwinner-official-functions-twi.link.generated-index.title": {
+    "message": "TWI / I2C",
+    "description": "The generated-index page title for category 'TWI / I2C' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.allwinner-official-functions-twi.link.generated-index.description": {
+    "message": "TWI / I2C 原理、配置、开发、测试和故障排查。",
+    "description": "The generated-index page description for category 'TWI / I2C' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.allwinner-official-functions-spi-ng": {
+    "message": "SPI-NG",
+    "description": "The label for category 'SPI-NG' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.allwinner-official-functions-spi-ng.link.generated-index.title": {
+    "message": "SPI-NG",
+    "description": "The generated-index page title for category 'SPI-NG' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.allwinner-official-functions-spi-ng.link.generated-index.description": {
+    "message": "SPI-NG 原理、配置、开发、测试和故障排查。",
+    "description": "The generated-index page description for category 'SPI-NG' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.allwinner-official-functions-uart": {
+    "message": "UART / RS485",
+    "description": "The label for category 'UART / RS485' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.allwinner-official-functions-uart.link.generated-index.title": {
+    "message": "UART / RS485",
+    "description": "The generated-index page title for category 'UART / RS485' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.allwinner-official-functions-uart.link.generated-index.description": {
+    "message": "UART / RS485 原理、配置、开发、测试和故障排查。",
+    "description": "The generated-index page description for category 'UART / RS485' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.allwinner-official-functions-ir-rx": {
+    "message": "IR-RX 红外接收",
+    "description": "The label for category 'IR-RX 红外接收' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.allwinner-official-functions-ir-rx.link.generated-index.title": {
+    "message": "IR-RX 红外接收",
+    "description": "The generated-index page title for category 'IR-RX 红外接收' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.allwinner-official-functions-ir-rx.link.generated-index.description": {
+    "message": "IR-RX 红外接收 原理、配置、开发、测试和故障排查。",
+    "description": "The generated-index page description for category 'IR-RX 红外接收' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.allwinner-official-functions-rtc": {
+    "message": "RTC",
+    "description": "The label for category 'RTC' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.allwinner-official-functions-rtc.link.generated-index.title": {
+    "message": "RTC",
+    "description": "The generated-index page title for category 'RTC' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.allwinner-official-functions-rtc.link.generated-index.description": {
+    "message": "RTC 原理、配置、开发、测试和故障排查。",
+    "description": "The generated-index page description for category 'RTC' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.allwinner-official-functions-usb2": {
+    "message": "USB 2.0",
+    "description": "The label for category 'USB 2.0' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.allwinner-official-functions-usb2.link.generated-index.title": {
+    "message": "USB 2.0",
+    "description": "The generated-index page title for category 'USB 2.0' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.allwinner-official-functions-usb2.link.generated-index.description": {
+    "message": "USB 2.0 原理、配置、开发、测试和故障排查。",
+    "description": "The generated-index page description for category 'USB 2.0' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.allwinner-official-functions-usb3": {
+    "message": "USB 3.0",
+    "description": "The label for category 'USB 3.0' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.allwinner-official-functions-usb3.link.generated-index.title": {
+    "message": "USB 3.0",
+    "description": "The generated-index page title for category 'USB 3.0' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.allwinner-official-functions-usb3.link.generated-index.description": {
+    "message": "USB 3.0 原理、配置、开发、测试和故障排查。",
+    "description": "The generated-index page description for category 'USB 3.0' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.allwinner-official-functions-pcie": {
+    "message": "PCIe",
+    "description": "The label for category 'PCIe' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.allwinner-official-functions-pcie.link.generated-index.title": {
+    "message": "PCIe",
+    "description": "The generated-index page title for category 'PCIe' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.allwinner-official-functions-pcie.link.generated-index.description": {
+    "message": "PCIe 原理、配置、开发、测试和故障排查。",
+    "description": "The generated-index page description for category 'PCIe' in sidebar 'alldocsSidebar'"
   }
 }

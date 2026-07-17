@@ -42,5 +42,9 @@
   "copyright": {
     "message": "Copyright © 2026 All Rights Reserved.",
     "description": "The footer copyright"
+  },
+  "link.item.label.XSTAR官方文档": {
+    "message": "XSTAR官方文档",
+    "description": "The label of footer link with label=XSTAR官方文档 linking to /docs/category/xstar官方文档"
   }
 }
