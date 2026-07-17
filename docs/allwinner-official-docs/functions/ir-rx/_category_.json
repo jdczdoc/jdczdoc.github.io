@@ -1,0 +1,10 @@
+{
+  "label": "IR-RX 红外接收",
+  "position": 70,
+  "link": {
+    "type": "generated-index",
+    "title": "IR-RX 红外接收",
+    "description": "IR-RX 红外接收 原理、配置、开发、测试和故障排查。"
+  },
+  "key": "allwinner-official-functions-ir-rx"
+}

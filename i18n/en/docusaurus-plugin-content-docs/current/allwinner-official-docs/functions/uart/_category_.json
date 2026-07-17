@@ -1,0 +1,10 @@
+{
+  "label": "UART / RS485",
+  "position": 60,
+  "link": {
+    "type": "generated-index",
+    "title": "UART / RS485",
+    "description": "Theory, configuration, development, testing, and troubleshooting for UART / RS485."
+  },
+  "key": "allwinner-official-functions-uart"
+}

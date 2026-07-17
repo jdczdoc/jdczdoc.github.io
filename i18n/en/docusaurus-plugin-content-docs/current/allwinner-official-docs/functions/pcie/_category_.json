@@ -1,0 +1,10 @@
+{
+  "label": "PCIe",
+  "position": 110,
+  "link": {
+    "type": "generated-index",
+    "title": "PCIe",
+    "description": "Theory, configuration, development, testing, and troubleshooting for PCIe."
+  },
+  "key": "allwinner-official-functions-pcie"
+}

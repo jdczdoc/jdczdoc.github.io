@@ -1,0 +1,10 @@
+{
+  "label": "GPADC",
+  "position": 20,
+  "link": {
+    "type": "generated-index",
+    "title": "GPADC",
+    "description": "GPADC 原理、配置、开发、测试和故障排查。"
+  },
+  "key": "allwinner-official-functions-gpadc"
+}

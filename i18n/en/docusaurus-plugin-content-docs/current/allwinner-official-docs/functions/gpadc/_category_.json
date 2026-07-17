@@ -1,0 +1,10 @@
+{
+  "label": "GPADC",
+  "position": 20,
+  "link": {
+    "type": "generated-index",
+    "title": "GPADC",
+    "description": "Theory, configuration, development, testing, and troubleshooting for GPADC."
+  },
+  "key": "allwinner-official-functions-gpadc"
+}

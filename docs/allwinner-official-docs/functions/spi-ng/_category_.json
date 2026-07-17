@@ -1,0 +1,10 @@
+{
+  "label": "SPI-NG",
+  "position": 50,
+  "link": {
+    "type": "generated-index",
+    "title": "SPI-NG",
+    "description": "SPI-NG 原理、配置、开发、测试和故障排查。"
+  },
+  "key": "allwinner-official-functions-spi-ng"
+}

@@ -1,0 +1,10 @@
+{
+  "label": "IR-RX",
+  "position": 70,
+  "link": {
+    "type": "generated-index",
+    "title": "IR-RX",
+    "description": "Theory, configuration, development, testing, and troubleshooting for IR-RX."
+  },
+  "key": "allwinner-official-functions-ir-rx"
+}

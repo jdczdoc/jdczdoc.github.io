@@ -1,0 +1,10 @@
+{
+  "label": "RTC",
+  "position": 80,
+  "link": {
+    "type": "generated-index",
+    "title": "RTC",
+    "description": "Theory, configuration, development, testing, and troubleshooting for RTC."
+  },
+  "key": "allwinner-official-functions-rtc"
+}

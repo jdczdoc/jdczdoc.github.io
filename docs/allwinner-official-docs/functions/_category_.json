@@ -1,0 +1,10 @@
+{
+  "label": "基础功能",
+  "position": 100,
+  "link": {
+    "type": "generated-index",
+    "title": "基础功能",
+    "description": "全志 Linux 常用外设的详细原理、设备树、内核配置、开发、测试、日志和 FAQ。T527 作为主要示例。"
+  },
+  "key": "allwinner-official-functions"
+}

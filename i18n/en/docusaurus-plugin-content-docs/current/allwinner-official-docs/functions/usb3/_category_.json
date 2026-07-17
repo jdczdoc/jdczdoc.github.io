@@ -1,0 +1,10 @@
+{
+  "label": "USB 3.0",
+  "position": 100,
+  "link": {
+    "type": "generated-index",
+    "title": "USB 3.0",
+    "description": "Theory, configuration, development, testing, and troubleshooting for USB 3.0."
+  },
+  "key": "allwinner-official-functions-usb3"
+}

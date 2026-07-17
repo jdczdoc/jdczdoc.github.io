@@ -1,0 +1,10 @@
+{
+  "label": "TWI / I2C",
+  "position": 40,
+  "link": {
+    "type": "generated-index",
+    "title": "TWI / I2C",
+    "description": "TWI / I2C 原理、配置、开发、测试和故障排查。"
+  },
+  "key": "allwinner-official-functions-twi"
+}

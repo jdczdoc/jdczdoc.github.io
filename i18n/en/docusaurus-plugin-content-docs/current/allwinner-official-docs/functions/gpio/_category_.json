@@ -1,0 +1,10 @@
+{
+  "label": "GPIO",
+  "position": 10,
+  "link": {
+    "type": "generated-index",
+    "title": "GPIO",
+    "description": "Theory, configuration, development, testing, and troubleshooting for GPIO."
+  },
+  "key": "allwinner-official-functions-gpio"
+}

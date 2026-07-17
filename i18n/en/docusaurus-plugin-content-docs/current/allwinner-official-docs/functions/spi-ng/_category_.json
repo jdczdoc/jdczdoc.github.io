@@ -1,0 +1,10 @@
+{
+  "label": "SPI-NG",
+  "position": 50,
+  "link": {
+    "type": "generated-index",
+    "title": "SPI-NG",
+    "description": "Theory, configuration, development, testing, and troubleshooting for SPI-NG."
+  },
+  "key": "allwinner-official-functions-spi-ng"
+}
