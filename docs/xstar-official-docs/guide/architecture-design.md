@@ -296,7 +296,7 @@ XSTAR 内核包含以下子系统，各子系统的详细 API 文档见[子系�
 | **Command** | 统一命令接口，32+ 内置命令 | [内置命令](../command/help) |
 | **Core** | 协程、Logger、Profiler、Setting、ThChannel、ThWorker、CoChannel、PSub 等核心工具 | 见下文各链接 |
 | **Font** | 4 种字型管理，TrueType/CFF 解析 | [字体系统](../subsys/font/font-system) |
-| **Graphic** | 2D 图形渲染：Surface、形状、变换、特效、滤镜 | [图形 - Surface](../subsys/graphic/Surface) |
+| **Graphic** | 2D 图形渲染：Surface、形状、变换、特效、滤镜 | [图形 - Surface](../subsys/graphic/surface) |
 | **Shell** | 交互式 Shell，命令补全、历史记录、工作目录 | [Shell](../subsys/shell) |
 | **Time** | 红黑树高精度定时器、墙钟时间、延时 | [定时器](../subsys/timer) |
 | **Vision** | 图像处理算法（灰度/RGB888）：形态学、阈值、滤波、绘制 | [视觉核心类型](../subsys/vision/core-types) |
@@ -356,7 +356,7 @@ void coroutine_nsleep(struct scheduler_t *sched, uint64_t ns);
 
 图形系统与视觉系统可互相转换：`vision_apply_surface()` / `surface_apply_vision()`。
 
-详细的 Surface、形状绘制、变换矩阵、脏矩形、滤镜等 API 见[图形子系统文档](../subsys/graphic/Surface)。
+详细的 Surface、形状绘制、变换矩阵、脏矩形、滤镜等 API 见[图形子系统文档](../subsys/graphic/surface)。
 
 ## KOBJ 虚拟文件系统
 

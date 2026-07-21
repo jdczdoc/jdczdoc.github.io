@@ -48,7 +48,7 @@ make -j$(nproc)
 help              # 列出所有命令
 version           # 查看版本信息
 ls /              # 列出根目录
-ls /kobj/device/  # 查看已注册设备
+ls /sys/device/   # 查看所有设备
 date              # 查看日期时间
 echo hello        # 回显
 ```
@@ -92,3 +92,9 @@ make distclean
 make defconfig
 make
 ```
+
+## 获取帮助
+
+- **源码仓库**：[GitHub](https://github.com/xboot/xstar)
+- **镜像仓库**：[Gitee](https://gitee.com/xboot/xstar)
+- **延伸阅读**：[知乎专栏](https://www.zhihu.com/column/c_2058200382464078772)

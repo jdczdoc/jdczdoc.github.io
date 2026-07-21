@@ -232,7 +232,7 @@ void show_spectrum(void)
 - `tone` 支持 4 种波形：`"sine"` / `"square"` / `"triangle"` / `"sawtooth"`
 - 时长参数为毫秒，传 0 表示循环播放
 - `sink-spectrum` 内部使用 libx 的 FFT 模块；`period` 决定输出频率（ms）
-- `ioctl` 命令字符串规范见 [音频汇 ioctl 命令](./audio-sink#ioctl)
+- `ioctl` 命令字符串规范见 [音频汇 ioctl 命令](./audio-sink#ioctl-命令)
 
 ---
 

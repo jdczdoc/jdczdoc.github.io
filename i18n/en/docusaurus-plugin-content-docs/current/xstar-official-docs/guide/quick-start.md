@@ -48,7 +48,7 @@ Once in the Shell, you can run built-in commands:
 help              # List all commands
 version           # Show version info
 ls /              # List the root directory
-ls /kobj/device/  # Show registered devices
+ls /sys/device/   # Show all devices
 date              # Show date and time
 echo hello        # Echo
 ```
@@ -92,3 +92,10 @@ make distclean
 make defconfig
 make
 ```
+
+## Get Help
+
+- **Source Repository**: [GitHub](https://github.com/xboot/xstar)
+- **Mirror Repository**: [Gitee](https://gitee.com/xboot/xstar)
+- **Further Reading**: [Zhihu Column](https://www.zhihu.com/column/c_2058200382464078772)
+

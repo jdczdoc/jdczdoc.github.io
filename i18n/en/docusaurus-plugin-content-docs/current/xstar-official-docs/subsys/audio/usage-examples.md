@@ -232,7 +232,7 @@ void show_spectrum(void)
 - `tone` supports 4 waveforms: `"sine"` / `"square"` / `"triangle"` / `"sawtooth"`
 - Duration is in ms; pass 0 for looping
 - `sink-spectrum` uses libx FFT; `period` determines output frequency (ms)
-- See [Audio Sink ioctl commands](./audio-sink#ioctl) for command string specs
+- See [Audio Sink ioctl commands](./audio-sink#ioctl-commands) for command string specs
 
 ---
 
