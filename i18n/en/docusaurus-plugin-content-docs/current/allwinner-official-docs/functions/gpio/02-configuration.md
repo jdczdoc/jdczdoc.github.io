@@ -32,7 +32,7 @@ Check the following items:
 - `CONFIG_GPIOLIB`
 - `CONFIG_DEBUG_FS`
 - `CONFIG_AW_PINCTRL_DEBUGFS`
-- CONFIG_GPIO_SYSFS（仅旧 sysfs 调试需要）
+- CONFIG_GPIO_SYSFS (only required for legacy sysfs debugging)
 
 Save the configuration:
 
@@ -48,7 +48,7 @@ The following is a reference structure. Do not duplicate or override SoC-level `
 
 ```dts
 &pio {
-        /* 每项对应一个支持中断的 GPIO bank，具体数量以 SoC dtsi 为准 */
+        /* Each item corresponds to an interrupt-capable GPIO bank，The specific quantity is based on SoC dtsi Subject to */
         input-debounce = <0 0 0 0 1 0 0 0 0>;
 };
 

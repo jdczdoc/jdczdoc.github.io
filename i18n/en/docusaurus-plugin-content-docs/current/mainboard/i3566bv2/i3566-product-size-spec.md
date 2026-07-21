@@ -24,6 +24,6 @@ description: I3566CV1 core-board appearance, dimensions, and mechanical paramete
 | Pin pitch | 1.0mm |
 | Pin pad size | 1.3mm*0.6mm |
 | Pin count | 172PIN |
-| PCB layers | 8层 |
+| PCB layers | 8th floor |
 | Warpage | No more than 0.5% |
 

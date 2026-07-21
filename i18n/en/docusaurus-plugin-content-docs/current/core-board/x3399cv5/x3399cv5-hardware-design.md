@@ -1,28 +1,28 @@
 ---
 sidebar_position: 4
 title: Hardware Design
-description: X3399CV5核心板 hardware design notes
+description: X3399CV5 core board hardware design notes
 ---
 
 # Hardware Design
 
 Hardware Design
 
-电源设计
+Power supply design
 
-37脚：Core BoardRTCpower supply端，默认input2.5到3V/5uA；
+Pin 37: Core BoardRTC power supply terminal, the default input is 2.5 to 3V/5uA;
 
-42脚：3.3V/300mAPower input interface，42脚在任何情况下，3.3V都需要常power supply，以保证Core Board上的PMU永远处于工作或是待命状态；
+Pin 42: 3.3V/300mAPower input interface, pin 42 requires constant power supply of 3.3V under any circumstances to ensure that the PMU on the Core Board is always working or on standby;
 
-51、52脚：3.3V/4.3APower input interface，这两个pin只有在开机时才需要3.3Vinput，当关机后，3.3V电压为0；
+51、Pin 52: 3.3V/4.3A Power input interface. These two pins only require 3.3V input when the computer is turned on. When the computer is turned off, the 3.3V voltage is 0;
 
-53、84、182脚：Core Board公共Ground；
+53、84, 182 feet: Core Board public ground;
 
-120脚：1.8V/1.5APower output，它可以for 给底板上1.8V的外设power supply，在休眠、关机后电压为0；
+Pin 120: 1.8V/1.5A Power output, which can provide power supply to 1.8V peripherals on the base board. The voltage is 0 after sleep or shutdown;
 
-USB设计
+USB design
 
-| 差分pin编号 | 差分pinName |
+| Differential pin number | Differential pinName |
 | --- | --- |
 | 114、115 | USB3_DM、USB3_DP |
 | 116、117 | HOST0_DM、HOST0_DP |
@@ -36,18 +36,18 @@ USB设计
 | 97、98 | TYPEC0_RX1N、TYPEC0_RX1P |
 
 
-HDMI设计
+HDMI design
 
-RK3399芯片自带HDMI控制器，supports HDMI2.0协议。Core Board上第85到92共8个pin，4对差分线，必须走等长差分线，且阻抗匹配为100欧，否则会出现HDMI画面丢色，断断续续等问题。
+The RK3399 chip comes with an HDMI controller and supports the HDMI2.0 protocol. There are a total of 8 pins from 85th to 92nd on the Core Board, and 4 pairs of differential lines. Differential lines must be of equal length, and the impedance must be matched to 100 ohms. Otherwise, problems such as color loss and intermittent interruption in the HDMI screen may occur.
 
-EDP设计
+EDP ​​design
 
-RK3399芯片自带EDP interface的LCD控制器，EDP为差分Signal线，适合驱动分辨率较高的液晶屏。它包括5组差分对，对应Core Board的135和144pin。
+The RK3399 chip comes with an LCD controller with an EDP interface. EDP is a differential signal line and is suitable for driving LCD screens with higher resolutions. It includes 5 sets of differential pairs, corresponding to Core Board's 135 and 144 pins.
 
-EDP interface的数据传输总容量可以达到21.6Gbps，是LVDS interface的3倍，它能够驱动更高分辨率的液晶屏，如2K、4K屏等。在走线时，5组差分对必须走等长差分线，且阻抗匹配为100欧。
+The total data transmission capacity of the EDP interface can reach 21.6Gbps, which is three times that of the LVDS interface. It can drive higher resolution LCD screens, such as 2K, 4K screens, etc. When routing, the five sets of differential pairs must use differential lines of equal length, and the impedance matching is 100 ohms.
 
-MIPI设计
+MIPI design
 
-RTC设计
+RTC design
 
-对应的I2C interface接到RK3399的I2C口，参考如下：
+The corresponding I2C interface is connected to the I2C port of RK3399. The reference is as follows:

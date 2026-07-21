@@ -65,25 +65,25 @@ The X3128BV3 development board is based on the Rockchip RK3128 platform and cons
 
 | System / Driver | Linux 3.10+ / Android 6.0 | Linux 3.10+ / Qt |
 | --- | --- | --- |
-| 7寸MIPI LCD(1024*600) | ● | ● |
-| PMIC驱动(RK816) | ● | ● |
-| 电容触摸 | ● | ● |
-| eMMC驱动 | ● | ● |
-| SD卡驱动 | ● | ● |
+| 7 inch MIPI LCD(1024*600) | ● | ● |
+| PMIC driver (RK816) | ● | ● |
+| capacitive touch | ● | ● |
+| eMMC driver | ● | ● |
+| SD card driver | ● | ● |
 | Independent Key | ● | ● |
-| 红外遥控 | ● | ● |
-| 开关机 | ● | ● |
-| 休眠唤醒 | ● | No need |
-| 2路USB HOST驱动 | ● | ● |
-| 1路USB OTG驱动 | ● | ● |
-| 音频 | ● | Coming soon |
-| 录音 | ● | Coming soon |
+| Infrared remote control | ● | ● |
+| Turn on and off | ● | ● |
+| wake up from sleep | ● | No need |
+| 2-way USB HOST driver | ● | ● |
+| 1 channel USB OTG driver | ● | ● |
+| Audio | ● | Coming soon |
+| recording | ● | Coming soon |
 | USB Wi-Fi / BT4.0（RT8723BU） | ● | Coming soon |
-| USB口摄像头驱动 | ● | ● |
-| 串口 | ● | ● |
+| USB port camera driver | ● | ● |
+| serial port | ● | ● |
 | HDMI | ● | Coming soon |
-| 3G模块(3G dongle) | ● | No need |
-| GPS模块 | ● | ● |
-| 千兆以太网 | ● | ● |
-| USB鼠标键盘 | ● | ● |
+| 3G module (3G dongle) | ● | No need |
+| GPS module | ● | ● |
+| Gigabit Ethernet | ● | ● |
+| USB mouse keyboard | ● | ● |
 

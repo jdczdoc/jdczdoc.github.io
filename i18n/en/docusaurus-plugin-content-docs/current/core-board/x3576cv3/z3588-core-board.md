@@ -1,87 +1,87 @@
 ---
 sidebar_position: 1
-title: 产品介绍
-description: Z3588核心板产品介绍、硬件资源、规格参数与结构信息
+title: Product introduction
+description: Z3588 core board product introduction, hardware resources, specifications and structural information
 ---
 
-# 产品介绍
+# Product introduction
 
-## 产品简介
+## Product introduction
 
-Z3588CV1 是基于瑞芯微RK3588 的一款核心板，它由深圳市九鼎创展科技有限公司自主研发，生产并销售。RK3588 是瑞芯微推出的新一代旗舰级高端处理器，采用8nm 工艺设计，搭载四核A76+四核A55 的八核CPU 和Arm 高性能GPU，内置6T 算力的NPU。具备强大的视觉处理能力，可支持结构光、TOF 等多种快速人脸解锁方案；支持丰富的显示接口，高达8K 显示处理能力；有强大的扩展性，支持PCIE3.0、SATA3.0、双TypeC/USB3.1 等高速接口，可做AI 算力、图像数据处理等扩展。应用于ARMPC、高端平板电脑、边缘计算服务器、虚拟现实、NVR、8K 电视等方向。
+Z3588CV1 is a core board based on Rockchip RK3588. It is independently developed, produced and sold by Shenzhen Jiuding Chuangzhan Technology Co., Ltd. RK3588 is a new generation flagship high-end processor launched by Rockchip. It is designed using 8nm process, equipped with quad-core A76+quad-core A55 eight-core CPU and Arm high-performance GPU, and has a built-in NPU with 6T computing power. It has powerful visual processing capabilities and can support a variety of fast face unlocking solutions such as structured light and TOF. It supports a variety of display interfaces and has up to 8K display processing capabilities. It has strong scalability and supports PCIE3.0, SATA3.0, dual TypeC/USB3.1 and other high-speed interfaces, and can expand AI computing power, image data processing, etc. Applied to ARMPC, high-end tablet computers, edge computing servers, virtual reality, NVR, 8K TV and other directions.
 
-## 核心板特性
+## Core board features
 
-- 最佳尺寸，保证引出全部GPIO 口的同时，尺寸仅50mm*62mm
-- 使用RK 自身的RK806 PMU，在保证工作稳定可靠的同时，成本足够低廉
-- 支持多种品牌，多种容量的emmc
-- 使用双通道LPDDR4(X)设计，可支持2GB/4GB/8GB/16GB/32GB 容量
-- 支持电源休眠唤醒
-- 支持android12.0、linux、debain、ubuntu 等操作系统
-- 支持双千兆有线以太网、SATA、PCIE、USB3.0 等高速总线
-- 采用LGA封装形式，接触稳定可靠
-- 产品稳定可靠，经过大量高低温，反复重启，安卓稳定性测试，安兔兔测试等可靠性实验，拷机7 天7 夜不死机
+- The best size, ensuring that all GPIO ports are lead out, the size is only 50mm*62mm
+- Using RK's own RK806 PMU, the cost is low enough while ensuring stable and reliable operation.
+- Supports emmc of multiple brands and capacities
+- Using dual-channel LPDDR4(X) design, supporting 2GB/4GB/8GB/16GB/32GB capacity
+- Support power sleep wake-up
+- Supports android12.0, linux, debain, ubuntu and other operating systems
+- Supports dual Gigabit wired Ethernet, SATA, PCIE, USB3.0 and other high-speed buses
+- Adopting LGA package form, the contact is stable and reliable
+- The product is stable and reliable. After a lot of high and low temperatures, repeated restarts, Android stability tests, AnTuTu tests and other reliability experiments, the machine did not crash for 7 days and 7 nights.
 
-## 外观与结构
+## Appearance and structure
 
-![Z3588 外观与结构图](./z3588-figure-1.jpeg)
+![Z3588 Appearance and structure diagram](./z3588-figure-1.jpeg)
 
-![Z3588 外观与结构图](./z3588-figure-2.jpeg)
+![Z3588 Appearance and structure diagram](./z3588-figure-2.jpeg)
 
-![Z3588 外观与结构图](./z3588-figure-3.jpeg)
+![Z3588 Appearance and structure diagram](./z3588-figure-3.jpeg)
 
-![Z3588 外观与结构图](./z3588-figure-4.jpeg)
+![Z3588 Appearance and structure diagram](./z3588-figure-4.jpeg)
 
-## 特性参数
+## Characteristic parameters
 
-### 系统配置
+### System configuration
 
 | CPU | RK3588 |
 |---|---|
-| 主频 | 四核A76+四核A55(2.4GHz) |
-| 内存/存储器 | 4G&amp;16G或 8G&amp;32G可选 |
-| 电源 IC | 使用RK806-2，支持动态调频等 |
+| Main frequency | Quad-core A76+quad-core A55(2.4GHz) |
+| memory/storage | 4G&16G or 8G&32G optional |
+| Power IC | Using RK806-2, supports dynamic frequency modulation, etc. |
 
-### 接口参数
+### Interface parameters
 
-| LCD接口 | 同时支持 MIPI、EDP、HDMI接口输出；最<br />大支持 6路同显，4路异显 |
+| LCD interface | Supports MIPI, EDP, and HDMI interface output at the same time; the maximum support is 6 channels of simultaneous display and 4 channels of separate display. |
 |---|---|
-| Touch接口 | 电容触摸，可使用USB或I2C接口触摸 |
-| 音频接口 | IIS/PCM/TDM接口 |
-| SPDIF接口 | 2路 8通道光纤音频输出接口 |
-| SD卡接口 | 2路 SDIO输出通道 |
-| emmc接口 | 板载 emmc接口，管脚不另外引出 |
-| 以太网接口 | 双千兆以太网接口 |
-| USBHOST2.0接口 | 2路HOST2.0 |
-| USBHOST3.0接口 | 2路USBOTG3.0/2.0/TypeC |
-| UART接口 | 10路串口，支持带流控串口 |
-| PWM接口 | 16路PWM输出 |
-| IIC接口 | 9路 IIC输出 |
-| SPI接口 | 5路 SPI输出 |
-| ADC接口 | 8路ADC输出 |
-| CAN接口 | 3路CAN输出 |
-| Camera接口 | 6路CSI输入 |
-| HDMI接口 | 2路HDMI2.1TX，1路HDMIRX2.0 |
-| PCIE接口 | PCIe3.0(2x2,1x4,4x1) |
-| SATA接口 | 2xSATA3.3/PCIe2.1 |
+| Touch interface | Capacitive touch, can use USB or I2C interface touch |
+| audio interface | IIS/PCM/TDM interface |
+| SPDIF interface | 2-way 8-channel optical audio output interface |
+| SD card interface | 2 SDIO output channels |
+| emmc interface | Onboard emmc interface, no pins are lead out separately |
+| Ethernet interface | Dual Gigabit Ethernet interfaces |
+| USBHOST2.0 interface | 2-way HOST2.0 |
+| USBHOST3.0 interface | 2-way USBOTG3.0/2.0/TypeC |
+| UART interface | 10-channel serial port, supports serial port with flow control |
+| PWM interface | 16 channels of PWM output |
+| IIC interface | 9 channels IIC output |
+| SPI interface | 5 channels SPI output |
+| ADC interface | 8 ADC outputs |
+| CAN interface | 3 channels CAN output |
+| Camera interface | 6 CSI inputs |
+| HDMI interface | 2 channels HDMI2.1TX, 1 channel HDMIRX2.0 |
+| PCIE interface | PCIe3.0(2x2,1x4,4x1) |
+| SATA interface | 2xSATA3.3/PCIe2.1 |
 
-### 电气特性
+### Electrical characteristics
 
-| 4V输入电压 | 4V/5A(推荐使用 4V/8A输入) |
+| 4V input voltage | 4V/5A(Recommended 4V/8Aenter) |
 |---|---|
-| 输出电压 | 3.3V/2A，1.8V/2A(可用于底板供电) |
-| 工作温度 | 0~70度 |
-| 储存温度 | -10~50度 |
+| Output voltage | 3.3V/2A，1.8V/2A(Can be used for backplane power supply) |
+| working temperature | 0~70 degrees |
+| storage temperature | -10~50 degrees |
 
-### 结构参数
+### Structural parameters
 
-| 核心板尺寸 | 62mm*50mm*1.2mm |
+| Core board size | 62mm*50mm*1.2mm |
 |---|---|
-| 引脚数量 | 660PIN |
-| 板层 | 12层 |
-| 翘曲度 | 小于 0.5% |
+| Number of pins | 660PIN |
+| Ply | 12th floor |
+| Warpage | less than 0.5% |
 
-## 相关章节
+## Related chapters
 
-- [引脚定义](./z3588-pin-definition)
-- [硬件设计](./z3588-hardware-design)
+- [Pin definition](./z3588-pin-definition)
+- [Hardware design](./z3588-hardware-design)

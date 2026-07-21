@@ -79,8 +79,8 @@ The ibox3568 mainboard is based on the Rockchip RK3568 / RK3568B2 platform and u
 | 12V input voltage | 6.5V~16V，2A |
 | --- | --- |
 | RTC input voltage | 3V/0.6uA |
-| Operating temperature | -10~70度 |
-| Storage temperature | -10~40度 |
+| Operating temperature | -10~70 degrees |
+| Storage temperature | -10~40 degrees |
 
 
 ## Software Resources

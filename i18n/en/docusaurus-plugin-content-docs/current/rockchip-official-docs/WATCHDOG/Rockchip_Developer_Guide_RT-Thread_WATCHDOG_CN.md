@@ -16,7 +16,7 @@ Due to product version upgrades or other reasons, this document may be updated o
 
 **Trademark Statement**
 
-"Rockchip", "瑞芯微", and "瑞芯" are all registered trademarks of the Company, owned by the Company.
+"Rockchip", "Rockchip", and "Rockchip" are all registered trademarks of the Company, owned by the Company.
 
 All other registered trademarks or trademarks mentioned in this document are owned by their respective owners.
 
@@ -100,10 +100,10 @@ rt_err_t dw_wdt_stop(void)；
 Usage example:
 
 ```c
-wdt_dev_init(void)；	/* 注册中断，注册设备 */
-dw_wdt_init(rt_watchdog_t *wdt)； /* 使能clock，初始化WDT */
-dw_wdt_start(uint32_t type)； /* 设置工作模式，并开启WDT */
-dw_wdt_stop(void)； /* 停止WDT */
+wdt_dev_init(void)；	/* Registration interrupted, device registration */
+dw_wdt_init(rt_watchdog_t *wdt)； /* enableclock，initializationWDT */
+dw_wdt_start(uint32_t type)； /* Set the working mode and turn it onWDT */
+dw_wdt_stop(void)； /* stopWDT */
 ```
 
 ## TEST
@@ -121,10 +121,10 @@ RT-Thread bsp test case  --->
 Usage example:
 
 ```c
-wdt_test probe dw_wdt /* 打开WDT设备 */
-wdt_test settimeout 10 /* 设置10秒超时 */
-wdt_test start type /* 设置运行模式并启动且自动喂狗，type = 1:中断模式，type = 0:立即重启模式 */
-wdt_test reboot /* 停止喂狗 */
+wdt_test probe dw_wdt /* OpenWDTequipment */
+wdt_test settimeout 10 /* set up10seconds timeout */
+wdt_test start type /* Set the operating mode and start and automatically feed the dog，type = 1:Interrupt mode，type = 0:Reboot now mode */
+wdt_test reboot /* Stop feeding the dog */
 ```
 
 ### RK356X Pause Function

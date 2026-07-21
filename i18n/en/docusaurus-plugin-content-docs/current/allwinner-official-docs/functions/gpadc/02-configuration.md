@@ -28,9 +28,9 @@ Do not assume that paths in a release guide exactly match the active branch, esp
 
 Check the following items:
 
-- 在 Allwinner BSP > Device Drivers > GPADC Drivers 中启用对应控制器
-- INPUT_EVDEV（keypad 模式需要）
-- DEBUG_FS（使用调试节点时建议启用）
+- Enable the corresponding controller in Allwinner BSP > Device Drivers > GPADC Drivers
+- INPUT_EVDEV (required for keypad mode)
+- DEBUG_FS (recommended to enable when using debug nodes)
 
 Save the configuration:
 
@@ -56,8 +56,8 @@ gpadc0: gpadc0@2009000 {
 };
 
 &gpadc0 {
-        channel_num = <10>;          /* 以实际 SoC 支持数量为准 */
-        channel_select = <0x3>;      /* 选择 channel0 和 channel1 */
+        channel_num = <10>;          /* in reality SoC Subject to supported quantity */
+        channel_select = <0x3>;      /* choose channel0 and channel1 */
         channel_data_select = <0x3>;
         channel_compare_select = <0x3>;
         channel_cld_select = <0x3>;

@@ -33,7 +33,7 @@ Check the following items:
 - `CONFIG_PCIEAER`
 - `CONFIG_PCIE_ECRC`
 - CONFIG_BLK_DEV_NVME / CONFIG_NVME_MULTIPATH（NVMe）
-- CONFIG_R8169（常见 PCIe 网卡示例）
+- CONFIG_R8169 (common PCIe network card example)
 
 Save the configuration:
 
@@ -63,7 +63,7 @@ The following is a reference structure. Do not duplicate or override SoC-level `
         status = "okay";
 };
 
-/* 共用 PHY 时关闭 USB3 */
+/* share PHY closed when USB3 */
 &usbc2 { status = "disabled"; };
 &xhci2 { status = "disabled"; };
 &u2phy { status = "disabled"; };

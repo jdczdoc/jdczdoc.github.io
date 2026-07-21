@@ -1,42 +1,42 @@
 ---
 sidebar_position: 1
 title: Product Introduction
-description: X3399CV5核心板 overview, features, and specifications
+description: X3399CV5 core board overview, features, and specifications
 ---
 
 # Product Introduction
 
-x3399Core Board简介
+Introduction to x3399Core Board
 
 Product Overview
 
-X3399CV5是基于瑞芯微RK3399的一款Core Board，它由深圳市九鼎创展科技有限公司自主研发，生产并销售。RK3399代表了国产芯片的顶尖水平，它是一款由四核A53，双核A72大小核组合而成的六核高性能CPU，CPU Clock高达2GB。
+X3399CV5 is a Core Board based on Rockchip RK3399. It is independently developed, produced and sold by Shenzhen Jiuding Chuangzhan Technology Co., Ltd. RK3399 represents the top level of domestic chips. It is a six-core high-performance CPU composed of quad-core A53 and dual-core A72 large and small cores. The CPU Clock is up to 2GB.
 
 Core Board Features
 
-X3399CV5Core Board具有以下特性：
+X3399CV5Core Board has the following features:
 
-最佳尺寸，即保证精悍的体积又保证足够的GPIO口，仅55mm*55mm；
+The optimal size, which ensures both compact size and sufficient GPIO ports, is only 55mm*55mm;
 
-使用RK自身的RK808 PMU，在保证工作稳定可靠的同时，成本足够低廉；
+Using RK's own RK808 PMU, the cost is low enough while ensuring stable and reliable operation;
 
-supports 多种品牌，多种容量的eMMC，默认使用东芝16GB eMMC；
+supports eMMC of multiple brands and capacities, Toshiba 16GB eMMC is used by default;
 
-使用双通道LPDDR4设计，默认supports 2GB容量，可定制4GB容量；
+Using dual-channel LPDDR4 design, the default supports 2GB capacity, and 4GB capacity can be customized;
 
-supports 电源休眠唤醒；
+supports power sleep wakeup;
 
-supports Android6.0、Android7.0、Linux、Debian9、Ubuntu等操作系统；
+supports Android6.0, Android7.0, Linux, Debian9, Ubuntu and other operating systems;
 
-supports 千兆有线以太网；
+supports Gigabit wired Ethernet;
 
-引出高达200PINpin，几乎囊括CPU所有pin；
+Lead to up to 200PIN pins, covering almost all pins of the CPU;
 
-产品稳定可靠，经过大量high/low temperature，repeated reboot，安卓stability test，安兔兔测试等可靠性实验，拷机7天7夜不死机；
+The product is stable and reliable. After a large number of high/low temperature, repeated reboot, Android stability test, Antutu test and other reliability experiments, the machine did not crash for 7 days and 7 nights;
 
-X3399CV4/X3399CV5Core Board相对原来的X3399CV3的基础上，将LPDDR3调整为LPDDR4，pin完全兼容。针对Android7.0及以上操作系统，代码完全兼容。
+Based on the original X3399CV3, X3399CV4/X3399CV5Core Board adjusts LPDDR3 to LPDDR4, and the pins are fully compatible. For Android 7.0 and above operating systems, the code is fully compatible.
 
-注意，目前Android6.0版本不supports LPDDR4，需要使用X3399CV4/X3399CV5Core Board的用户，请谨慎选择。
+Note that the current Android 6.0 version does not support LPDDR4. Users who need to use X3399CV4/X3399CV5Core Board, please choose carefully.
 
 Specifications
 
@@ -45,43 +45,43 @@ Specifications
 | Item | Parameter |
 | --- | --- |
 | CPU | RK3399 |
-| CPU Clock | 四核A53(1.4GHz) + 双核A72(2GHz) |
-| Memory | 标配2GB，无缝兼容4GB |
-| Storage | 标配16GB，其他容量可选 |
-| Power IC | 使用RT808，supports dynamic frequency scaling等 |
+| CPU Clock | Quad-core A53(1.4GHz) + dual-core A72(2GHz) |
+| Memory | Standard 2GB, seamlessly compatible with 4GB |
+| Storage | 16GB standard, other capacities optional |
+| Power IC | Using RT808, supports dynamic frequency scaling, etc. |
 
 
 ### Interface Parameters
 
 | Item | Parameter |
 | --- | --- |
-| LCD Interface | 同时supports MIPI、EDP、HDMI Interfaceoutput |
-| Touch Interface | 电容touch，可使用USB或UART扩展电阻touch |
-| Audio Interface | AC97/IIS interface，supports 录放音 |
-| SD Card Interface | 2chSDIOoutput通道 |
-| eMMC interface | 板载eMMC interface，pin不另外引出 |
+| LCD Interface | Also supports MIPI, EDP, HDMI Interfaceoutput |
+| Touch Interface | Capacitive touch, USB or UART expansion resistor touch can be used |
+| Audio Interface | AC97/IIS interface, supports audio recording and playback |
+| SD Card Interface | 2chSDIOoutput channel |
+| eMMC interface | Onboard eMMC interface, the pin is not lead out separately |
 | Ethernet Interface | Gigabit Ethernet supported |
 | USB HOST 2.0 Interface | 2chHOST 2.0 |
 | USB HOST 3.0 Interface | 2chTYPE3.0 |
-| UART Interface | 5chUART，supports 带流控UART |
+| UART Interface | 5chUART, supports UART with flow control |
 | PWM Interface | 4chPWMoutput |
 | I2C interface | 7chI2Coutput |
 | SPI Interface | 1chSPIoutput |
 | ADC Interface | 1chADCoutput |
 | Camera Interface | 1chBT656/BT601，1chMIPIoutput |
-| HDMI Interface | 高清音视频output interface，音视频同步output |
+| HDMI Interface | High-definition audio and video output interface, audio and video synchronization output |
 
 
 ### Electrical Characteristics
 
 | Item | Parameter |
 | --- | --- |
-| 主3.3VInput Voltage | 3.3V/4.3A(推荐使用3.3V/5Ainput) |
-| 副3.3VInput Voltage | 3.3V/300mA(不能和主3.3V混用) |
-| RTCInput Voltage | 2.5到3V/100uA |
-| Output Voltage | 1.8V(可for 底板power supply，休眠后为0V) |
-| Operating Temperature | 0~70度 |
-| Storage Temperature | -10~50度 |
+| Main 3.3VInput Voltage | 3.3V/4.3A(Recommended3.3V/5Ainput) |
+| Vice 3.3VInput Voltage | 3.3V/300mA(Can't be with the Lord3.3VMix) |
+| RTCInput Voltage | 2.5 to 3V/100uA |
+| Output Voltage | 1.8V(Canfor base platepower supply，After sleeping, it is0V) |
+| Operating Temperature | 0~70 degrees |
+| Storage Temperature | -10~50 degrees |
 
 
 ## Navigation

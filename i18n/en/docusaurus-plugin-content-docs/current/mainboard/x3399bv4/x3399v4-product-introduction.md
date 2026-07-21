@@ -47,53 +47,53 @@ Compared with X3399CV3, X3399CV4 changes the memory from LPDDR3 to LPDDR4 while 
 
 | CPU | RK3399 |
 | --- | --- |
-| 主频 | 四核A53(1.4GHz) + 双核A72(2GHz) |
-| 内存 | 标配2GB，可定制4GB |
-| 存储器 | 4GB/8GB/16GB eMMC可选，标配16GB |
-| 电源IC | 使用RT808，支持动态调频等 |
+| Main frequency | Quad-core A53(1.4GHz) + dual-core A72(2GHz) |
+| Memory | Standard 2GB, customizable 4GB |
+| memory | 4GB/8GB/16GB eMMC optional, 16GB standard |
+| Power IC | Using RT808, supports dynamic frequency modulation, etc. |
 
 
 ### Interface Parameters
 
-| LCD接口 | 同时支持MIPI、EDP、HDMI接口输出 |
+| LCD interface | Supports MIPI, EDP, and HDMI interface output at the same time |
 | --- | --- |
-| Touch接口 | Capacitive touch，可使用USB或UART扩展电阻触摸 |
-| 音频接口 | AC97/IIS接口，支持录放音 |
-| SD卡接口 | 2路SDIO输出通道 |
-| eMMC接口 | 板载eMMC接口，管脚不另外引出 |
-| 以太网接口 | 支持Gigabit Ethernet |
-| USB HOST 2.0 connector | 2路HOST 2.0 |
-| USB HOST 3.0 connector | 2路TYPE3.0 |
-| UART接口 | 5路UART，支持带流控UART |
-| PWM接口 | 4路PWM输出 |
-| IIC接口 | 7路IIC输出 |
-| SPI接口 | 1路SPI输出 |
-| ADC接口 | 1路ADC输出 |
-| Camera接口 | 1路BT656/BT601，1路MIPI输出 |
-| HDMI接口 | 高清音视频输出接口，音视频同步输出 |
+| Touch interface | Capacitive touch, resistive touch can be extended using USB or UART |
+| audio interface | AC97/IIS interface, supports recording and playback |
+| SD card interface | 2 SDIO output channels |
+| eMMC interface | Onboard eMMC interface, no pins are lead out separately |
+| Ethernet interface | Support Gigabit Ethernet |
+| USB HOST 2.0 connector | 2-way HOST 2.0 |
+| USB HOST 3.0 connector | 2-way TYPE3.0 |
+| UART interface | 5-channel UART, supports UART with flow control |
+| PWM interface | 4 channels of PWM output |
+| IIC interface | 7 channels of IIC output |
+| SPI interface | 1 SPI output |
+| ADC interface | 1 ADC output |
+| Camera interface | 1 channel BT656/BT601, 1 channel MIPI output |
+| HDMI interface | High-definition audio and video output interface, simultaneous audio and video output |
 
 
 ### Electrical Characteristics
 
-| 主3.3V输入电压 | 3.3V/4.3A(推荐使用3.3V/5A输入) |
+| Main 3.3V input voltage | 3.3V/4.3A(Recommended3.3V/5Aenter) |
 | --- | --- |
-| 副3.3V输入电压 | 3.3V/300mA(不能和主3.3V混用) |
-| RTC输入电压 | 2.5到3V/5uA |
-| 输出电压 | 1.8V(可用于底板供电，休眠后为0V) |
-| 工作温度 | -40~80度 |
-| 储存温度 | -10~50度 |
+| Secondary 3.3V input voltage | 3.3V/300mA(Can't be with the Lord3.3VMix) |
+| RTC input voltage | 2.5 to 3V/5uA |
+| Output voltage | 1.8V(Can be used to power the baseboard and after hibernation0V) |
+| working temperature | -40~80 degrees |
+| storage temperature | -10~50 degrees |
 
 
 ### Mechanical Parameters
 
-| 外观 | 邮票孔方式 |
+| Appearance | stamp hole method |
 | --- | --- |
-| 核心板尺寸 | 55mm*55mm*3mm |
-| 引脚间距 | 1.0mm |
-| 引脚焊盘尺寸 | 0.5mm*1.8mm，封装以中心对称 |
-| 引脚数量 | 200PIN |
-| 板层 | X339CV3：10层 X339CV4：8层 |
-| 开窗区域 | 上图中红色部分为推荐底板封装开窗区域 |
+| Core board size | 55mm*55mm*3mm |
+| Pin spacing | 1.0mm |
+| Pin Pad Dimensions | 0.5mm*1.8mm, package is symmetrical to the center |
+| Number of pins | 200PIN |
+| Ply | X339CV3: 10 layers X339CV4: 8 layers |
+| Window area | The red part in the above picture is the recommended window area for the base plate package. |
 
 
 ## Core-board Appearance
@@ -156,5 +156,5 @@ Compared with X3399CV3, X3399CV4 changes the memory from LPDDR3 to LPDDR4 while 
 | Rev.02 | 2017-4-19 | lqm | Merged core board and hardware manuals |
 | Rev.03 | 2017-11-2 | lqm | Updated to V4; power adapter input changed from 5V to 12V |
 | Rev.04 | 2018-11-9 | lqm | Core board updated to LPDDR4 |
-| Rev.04 | 2022-4-18 | 九鼎创展 | Errata |
+| Rev.04 | 2022-4-18 | Jiuding Chuangzhan | Errata |
 

@@ -21,6 +21,6 @@ description: ibox3568 mainboard appearance, dimensions, and mechanical parameter
 | Appearance | Stamp-hole style |
 | --- | --- |
 | Mainboard size | 150mm*100mm*3mm |
-| PCB layers | 8层 |
+| PCB layers | 8th floor |
 | Warpage | No more than 0.75% |
 

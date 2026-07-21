@@ -48,22 +48,22 @@ i6818 and the i6818CV3 core board are suitable for industrial control, power, co
 
 |  | S5P4418 | S5P6818 |
 | --- | --- | --- |
-| 上市时间 | October 2014 | 2014 |
-| 工艺制程 | 28nm | 28nm |
-| CPU主频 | 1.4G | 1.4G |
-| 封装尺寸 | 0.65mm引脚间距，17*17mm2 513-FCBGA封装 | 0.65mm引脚间距，17*17mm2 513-FCBGA封装 |
-| CPU架构 | Quad-core Cortex-A9 | Octa-core Cortex-A53 |
-| 缓存容量 | 32KB*4 I/D缓存，1MB二级缓存 | 32KB*4 I/D缓存，1MB二级缓存 |
-| DDR3接口 | 单通道32位数据总线，高达800MHz工作频率 | 单通道32位数据总线，高达800MHz工作频率 |
-| 多媒体解码 | H.263，H.264，MPEG1，MPEG2，MPEG4，VC1，VP8，Theora，AVS，RV8/9/10，MJPEG(几乎全格式) | H.263，H.264，MPEG1，MPEG2，MPEG4，VC1，VP8，Theora，AVS，RV8/9/10，MJPEG(几乎全格式) |
-| 多媒体编码 | H.263，H.264，MPEG4，MJPEG | H.263，H.264，MPEG4，MJPEG |
-| 显示接口 | RGB，MIPI，LVDS | RGB，MIPI，LVDS |
-| 最大显示分辨率 | 2048*1280 | 2048*1280 |
-| 以太网接口 | Requires address-bus expansion | Integrated Gigabit Ethernet controller |
-| GPIO电平 | 3.3V | 3.3V |
+| time to market | October 2014 | 2014 |
+| Process | 28nm | 28nm |
+| CPU frequency | 1.4G | 1.4G |
+| Package size | 0.65mm pin pitch, 17*17mm2 513-FCBGA package | 0.65mm pin pitch, 17*17mm2 513-FCBGA package |
+| CPU architecture | Quad-core Cortex-A9 | Octa-core Cortex-A53 |
+| cache capacity | 32KB*4 I/D cache, 1MB L2 cache | 32KB*4 I/D cache, 1MB L2 cache |
+| DDR3 interface | Single channel 32-bit data bus, up to 800MHz operating frequency | Single channel 32-bit data bus, up to 800MHz operating frequency |
+| multimedia decoding | H.263，H.264，MPEG1，MPEG2，MPEG4，VC1，VP8，Theora，AVS，RV8/9/10，MJPEG(Almost all formats) | H.263，H.264，MPEG1，MPEG2，MPEG4，VC1，VP8，Theora，AVS，RV8/9/10，MJPEG(Almost all formats) |
+| multimedia coding | H.263，H.264，MPEG4，MJPEG | H.263，H.264，MPEG4，MJPEG |
+| display interface | RGB，MIPI，LVDS | RGB，MIPI，LVDS |
+| Maximum display resolution | 2048*1280 | 2048*1280 |
+| Ethernet interface | Requires address-bus expansion | Integrated Gigabit Ethernet controller |
+| GPIO level | 3.3V | 3.3V |
 | ADC | 8-channel 12-bit 0~1.8V | 8-channel 12-bit 0~1.8V |
-| USB接口 | 1路HOST，1路HSIC，1路OTG | 1路HOST，1路HSIC，1路OTG |
-| 芯片ID | Supports 128-bit unique ID | Supports 128-bit unique ID |
+| USB interface | 1 channel HOST, 1 channel HSIC, 1 channel OTG | 1 channel HOST, 1 channel HSIC, 1 channel OTG |
+| Chip ID | Supports 128-bit unique ID | Supports 128-bit unique ID |
 
 
 ## Version Information

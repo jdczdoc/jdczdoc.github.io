@@ -184,7 +184,7 @@ The X3399CV4 core board uses a 200-pin stamp-hole package. The tables below are 
 | 152 | GPIO0_A2/ / RK3399_26M_OUT | GPIO or 26MHz clock output |  |
 | 153 | GPIO0_B4 | GPIO |  |
 | 154 | GPIO0_B5 | GPIO |  |
-| 155 | GPIO0_A6/ / PWM3A | GPIO或PWM接口 | 默认为红外接收口 |
+| 155 | GPIO0_A6/ / PWM3A | GPIO or PWM interface | Default is infrared receiving port |
 | 156 | GPIO1_C7 | GPIO |  |
 | 157 | GPIO1_A4 | GPIO |  |
 | 158 | GPIO1_A3 | GPIO |  |

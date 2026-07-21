@@ -1,24 +1,24 @@
 ---
 sidebar_position: 2
 title: Dimensions and Structure
-description: I3128核心板 appearance, drawings, and mechanical parameters
+description: I3128 core board appearance, drawings, and mechanical parameters
 ---
 
 # Dimensions and Structure
 
 Core Board Appearance
 
-Core Board正面图
+Core Board front view
 
-Core Board背面图
+Core Board back view
 
 Mechanical Drawing
 
-Core Board结构尺寸及pin排列：
+Core Board structural dimensions and pin arrangement:
 
-TOP层
+TOP layer
 
-BOT层
+BOT layer
 
 Mechanical Parameters
 
@@ -30,5 +30,5 @@ Mechanical Parameters
 | Core Board Size | 38mm*38mm*5mm |
 | Pin Count | 112PIN |
 | Pad Size | 1.8mm*0.7mm |
-| PCB Layers | 6层 |
+| PCB Layers | 6th floor |
 | Warpage | Less than 0.5% |

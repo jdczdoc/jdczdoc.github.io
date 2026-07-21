@@ -28,8 +28,8 @@ This page summarizes board-side expansion connectors in addition to the 172-pin 
 | Pin No. | Signal | Type | Description |
 | --- | --- | --- | --- |
 | 1 | VCC_3V3 | Power output | 3.3V output for external devices |
-| 2 | UART2_TX_M0 | 调试UART输出 | 1.8V GPIO，默认用作调试UART |
-| 3 | UART2_RX_M0 | 调试UART输出 | 1.8V GPIO，默认用作调试UART |
+| 2 | UART2_TX_M0 | Debug UART output | 1.8V GPIO, used as debug UART by default |
+| 3 | UART2_RX_M0 | Debug UART output | 1.8V GPIO, used as debug UART by default |
 | 4 | GND | Ground |  |
 
 ## J43: SPI / ADC
@@ -70,8 +70,8 @@ This page summarizes board-side expansion connectors in addition to the 172-pin 
 | Pin No. | Signal | Type | Description |
 | --- | --- | --- | --- |
 | 1 | VCC_3V3 | Power output | 3.3V output for external devices |
-| 2 | RS485_4B | RS485输出 |  |
-| 3 | RS485_4A | RS485输出 |  |
+| 2 | RS485_4B | RS485 output |  |
+| 3 | RS485_4A | RS485 output |  |
 | 4 | GND | Ground |  |
 
 ## J7: RS232
@@ -157,7 +157,7 @@ This page summarizes board-side expansion connectors in addition to the 172-pin 
 | 17 | GND | Ground |  |
 | 18 | GND | Ground |  |
 | 19 | GPIO1_B0 | GPIO | 3.3V GPIO |
-| 20 | LCD_BL_PWM | GPIO | GPIO，复用作PWM，用于背光控制 |
+| 20 | LCD_BL_PWM | GPIO | GPIO, multiplexed as PWM for backlight control |
 
 ## J9: FAN
 
@@ -215,7 +215,7 @@ This page summarizes board-side expansion connectors in addition to the 172-pin 
 
 | Pin No. | Signal | Type | Description |
 | --- | --- | --- | --- |
-| 1 | USB_5V | Power output | 对外5V电压输出 |
+| 1 | USB_5V | Power output | External 5V voltage output |
 | 2 | HOST_DM | USB differential pair | USB HOST signal for external USB devices |
 | 3 | HOST_DP | USB differential pair | USB HOST signal for external USB devices |
 | 4 | GND | Ground |  |

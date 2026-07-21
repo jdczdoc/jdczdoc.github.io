@@ -19,7 +19,7 @@ This page summarizes the connector positions and hardware resources on both side
 | 【3】 | USB OTG | USB OTG interface |
 | 【4】 | RESET | Reset key |
 | 【5】 | HDMI | HDMI output interface |
-| 【6】 | Gigabit Ethernet Port | RT8211E 接口 |
+| 【6】 | Gigabit Ethernet Port | RT8211E interface |
 | 【7】 | GPIO | GPIO expansion connector |
 | 【8】 | Lithium Battery Interface | 3.7V lithium battery interface |
 | 【9】 | RTC Battery Socket | RTC battery socket, 3V |

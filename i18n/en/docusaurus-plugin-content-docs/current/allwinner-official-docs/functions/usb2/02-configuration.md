@@ -49,7 +49,7 @@ The following is a reference structure. Do not duplicate or override SoC-level `
 
 ```dts
 &usbc0 {
-        usb_port_type = <2>;      /* 0: device, 1: host, 2: OTG；以驱动定义为准 */
+        usb_port_type = <2>;      /* 0: device, 1: host, 2: OTG；Subject to driver definition */
         usb_detect_type = <1>;
         usb_detect_mode = <0>;
         usb_id_gpio;

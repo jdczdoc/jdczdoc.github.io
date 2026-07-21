@@ -1,46 +1,46 @@
 ---
 sidebar_position: 1
 title: Product Introduction
-description: Z3576核心板 overview, features, and specifications
+description: Z3576 core board overview, features, and specifications
 ---
 
 # Product Introduction
 
-Z3576Core Board简介
+Introduction to Z3576Core Board
 
 Product Overview
 
-Z3576 是基于瑞芯微科技 RK3576 CPU 的一款Core Board，它由深圳市九鼎创展科技有限
+Z3576 is a Core Board based on Rockchip RK3576 CPU. It is manufactured by Shenzhen Jiuding Chuangzhan Technology Co., Ltd.
 
-公司自主研发，生产并销售。
+The company independently develops, produces and sells products.
 
-RK3576 是瑞芯微第二代 8nm 高性能 AIOT 平台，它集成了独立的 6TOPS（Tera
+RK3576 is Rockchip’s second-generation 8nm high-performance AIOT platform. It integrates an independent 6TOPS (Tera
 
-Operations Per Second，每秒万亿次操作）NPU（神经网络处理单元），for 处理人工智能
+Operations Per Second, NPU (Neural Network Processing Unit), for processing artificial intelligence
 
-相关的任务。此外，RK3576 还supports  UFS（Universal Flash Storage，通用闪存存储）存储，
+related tasks. In addition, RK3576 also supports UFS (Universal Flash Storage) storage,
 
-提供了高效的数据存储和读取能力。适for 多种应用场景，尤其是商业显示设备、视频直播
+Provides efficient data storage and reading capabilities. Suitable for a variety of application scenarios, especially commercial display equipment and live video
 
-设备、工业控制主机/工控板、汽车电子等嵌入式系统和智能设备的迭代升级。
+Iterative upgrades of embedded systems and smart devices such as equipment, industrial control hosts/industrial control boards, and automotive electronics.
 
 Core Board Features
 
-Z3576Core Board具有以下特性：
+Z3576Core Board has the following features:
 
-最佳尺寸，保证引出全部GPIO口的同时，尺寸仅40mm*40mm；
+The optimal size ensures that all GPIO ports are accessible while the size is only 40mm*40mm;
 
-系统power supply使用 PMU，在保证工作稳定可靠的同时，成本足够低廉；
+The system power supply uses PMU, which ensures stable and reliable operation and is low enough in cost;
 
-supports 多种品牌，多种容量的eMMC；
+supports eMMC of multiple brands and capacities;
 
-使用LPDDR4x设计，最高supports 16GB；
+Using LPDDR4x design, supports up to 16GB;
 
-supports 电源休眠唤醒；
+supports power sleep wakeup;
 
-Gigabit Ethernet supported、MIPI-CSI、MIPI-DSI、PCIE、USB 3.0等高速总线；
+Gigabit Ethernet supported, MIPI-CSI, MIPI-DSI, PCIE, USB 3.0 and other high-speed buses;
 
-采用447PIN LGA package；
+Using 447PIN LGA package;
 
 Specifications
 
@@ -52,7 +52,7 @@ Specifications
 | CPU Clock | 2.2GHz |
 | RAM | 2GB/4GB/8GB/16GB |
 | ROM | 8GB/16GB/32GB/64GB/128GB/256GB/512GB |
-| Power IC | 使用 RK806-S，supports dynamic frequency scaling |
+| Power IC | Using RK806-S, supports dynamic frequency scaling |
 
 
 ### Interface Parameters
@@ -62,8 +62,8 @@ Specifications
 | LCD Interface | 1 ch MIPI-DSI(MAX 2K@60Hz) |
 | Touch Interface | Capacitive touch, I2C interface |
 | Audio Interface | IIS/PCM/PDM/SPDIF |
-| SD Card Interface | 1 ch SDIO output通道 |
-| eMMC Interface | 板载 eMMC  interface，pin不另外引出 |
+| SD Card Interface | 1 ch SDIO output channel |
+| eMMC Interface | Onboard eMMC interface, no pins are drawn out separately |
 | Ethernet Interface | One Gigabit Ethernet interface supported |
 | USB HOST 2.0 Interface | 2 ch |
 | USB HOST 3.0 Interface | 2ch |
@@ -80,9 +80,9 @@ Specifications
 | Item | Parameter |
 | --- | --- |
 | Input Voltage / Current | VCC5V0_SYS_S5/3A |
-| Output Voltage / Current | VCC_3V3_S0/1A（for same-voltage-domain peripheralspower supply）； / VCC_1V8_S3/500MA(for 同电压域 IO 上 / 拉)； |
-| Operating Temperature | 0~70度 |
-| Storage Temperature | -10~50度 |
+| Output Voltage / Current | VCC_3V3_S0/1A（for same-voltage-domain peripheralspower supply）； / VCC_1V8_S3/500MA(for Same voltage domain IO superior / pull)； |
+| Operating Temperature | 0~70 degrees |
+| Storage Temperature | -10~50 degrees |
 
 
 ## Navigation

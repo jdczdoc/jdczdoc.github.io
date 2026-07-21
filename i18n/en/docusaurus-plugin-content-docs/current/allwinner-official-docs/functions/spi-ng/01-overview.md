@@ -24,7 +24,7 @@ T527 Linux 5.15 is listed as supported. The refactored driver is named SPI-NG, w
 ## Typical source paths
 
 ```text
-bsp/drivers/spi-ng/ 或 bsp/drivers/spi/
+bsp/drivers/spi-ng/ or bsp/drivers/spi/
 bsp/configs/linux-5.15/*.dtsi
 device/config/chips/t527/configs/<BOARD>/linux-5.15/board.dts
 ```

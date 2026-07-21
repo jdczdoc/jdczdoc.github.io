@@ -53,7 +53,7 @@ The following is a reference structure. Do not duplicate or override SoC-level `
         status = "okay";
 };
 
-/* U-Boot 假关机唤醒示例，属性以当前分支为准 */
+/* U-Boot Example of fake shutdown wake-up, the properties are based on the current branch */
 &irrx {
         s_cir0_used = <1>;
         ir_power_key_code0 = <0x40>;

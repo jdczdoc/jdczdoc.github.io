@@ -68,7 +68,7 @@ PX30 has limited pins and many multiplexing relationships among display, camera,
 | 42 | LCDC_D21 | LCD interface |  |
 | 43 | LCDC_D22 | LCD interface |  |
 | 44 | LCDC_D23 | LCD interface |  |
-| 45 | GPIO0_B5/UART0_RTS | GPIO或串口0流控管脚 |  |
+| 45 | GPIO0_B5/UART0_RTS | GPIO or serial port 0 flow control pin |  |
 | 46 | GPIO2_B4/UART2_TXD | GPIO / UART2 TXD |  |
 | 47 | GPIO_A0 | GPIO |  |
 | 48 | GPIO1_C2/UART1_CTS | GPIO / UART1 flow-control |  |

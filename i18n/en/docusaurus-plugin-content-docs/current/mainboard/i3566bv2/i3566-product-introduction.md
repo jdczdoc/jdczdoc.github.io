@@ -81,9 +81,9 @@ The I3566 mainboard is based on the Rockchip RK3566 platform and is designed for
 
 | VBUS input voltage | 5V/2A |
 | --- | --- |
-| VBAT input voltage | 3.5到4.2V，典型值3.7V |
-| Operating temperature | -10~70度 |
-| Storage temperature | -10~40度 |
+| VBAT input voltage | 3.5 to 4.2V, typical 3.7V |
+| Operating temperature | -10~70 degrees |
+| Storage temperature | -10~40 degrees |
 
 
 ## Software Resources

@@ -24,7 +24,7 @@ The source guide mainly covers Linux 4.9/5.4. For T527 Linux 5.15, confirm node 
 ## Typical source paths
 
 ```text
-bsp/drivers/i2c/ 或 kernel/linux-5.15/drivers/i2c/busses/
+bsp/drivers/i2c/ or kernel/linux-5.15/drivers/i2c/busses/
 bsp/configs/linux-5.15/*.dtsi
 device/config/chips/t527/configs/<BOARD>/linux-5.15/board.dts
 ```

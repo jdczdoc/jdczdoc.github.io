@@ -35,18 +35,18 @@ This product is an Android mainboard designed for girlfriend-machine / smart dis
 | Clock | Up to 2GHz |
 | RAM | 4GB/6GB/8GB |
 | Storage | 64GB/128GB/256GB |
-| Display | 21.5~86英寸，1920*1080 FHD，LVDS Display，支持单/双路输出 |
+| Display | 21.5~86 inches, 1920*1080 FHD, LVDS Display, supports single/dual output |
 | Touch panel | USB interface |
-| Camera | MIPI 4Lane接口或USB interface，支持最大 3200 万像素 |
-| Speaker / | 立体声道，2*3~15W 功率输出，自带EQ，高保真智能降噪功放 / |
+| Camera | MIPI 4Lane interface or USB interface, supports up to 32 million pixels |
+| Speaker / | Stereo channel, 2*3~15W power output, built-in EQ, high-fidelity intelligent noise reduction amplifier / |
 | MIC | Two microphone interfaces |
 | Sensor | Supports light sensor, G-sensor, and gesture sensor |
-| Wi-Fi | IEEE 802.11 a/b/g/n/ac，双频 |
+| Wi-Fi | IEEE 802.11 a/b/g/n/ac, dual band |
 | Bluetooth | Bluetooth 4.2 |
-| USB 接口 | 1 路 Type-C、2 路 Type-A，4 路 USB Wafer 座 |
-| HDMI 接口 | HDMI Type-C 接口，支持输入 |
-| Headphone interface | 3.5mm 耳机 Jack 座 |
-| UART 接口 | 2 路 UART 串口 |
+| USB interface | 1-way Type-C, 2-way Type-A, 4-way USB Wafer holder |
+| HDMI interface | HDMI Type-C interface, supports input |
+| Headphone interface | 3.5mm headphone Jack holder |
+| UART interface | 2-way UART serial port |
 | Keys | Power key, volume + / - keys, dual indicator signals supported |
-| Power interface | 12V 额定电压，支持由电源板或外置电源适配器供电，兼容UART或I2C数据通讯 |
+| Power interface | 12V rated voltage, supports power supply from power board or external power adapter, compatible with UART or I2C data communication |
 

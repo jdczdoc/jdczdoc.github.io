@@ -16,7 +16,7 @@ THIS DOCUMENT IS PROVIDED “AS IS”. FUZHOU ROCKCHIP ELECTRONICS CO., LTD.(“
 
 **Trademark Statement**
 
-“Rockchip”, “瑞芯微”, “瑞芯” shall be Rockchip’s registered trademarks and owned by Rockchip. All the other trademarks or registered trademarks mentioned in this document shall be owned by their respective owners.
+“Rockchip”, “Rockchip”, “Rockchip” shall be Rockchip’s registered trademarks and owned by Rockchip. All the other trademarks or registered trademarks mentioned in this document shall be owned by their respective owners.
 
 **All rights reserved. ©2021. Rockchip Electronics Co., Ltd.**
 

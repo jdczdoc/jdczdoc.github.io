@@ -59,8 +59,8 @@ The X8385CV1 core board measures 40.5mm x 50.5mm and uses a 168-pin stamp-hole p
 | 5V input voltage | 5V/3A |
 | RTC input voltage | 2.5V to 3V / 5uA [to be tested] |
 | Output voltage | Multiple LDO outputs for baseboard peripherals |
-| Operating temperature | -20~85度 |
-| Storage temperature | 0~40度 |
+| Operating temperature | -20~85 degrees |
+| Storage temperature | 0~40 degrees |
 
 
 ## Mechanical Parameters

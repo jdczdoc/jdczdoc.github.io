@@ -47,7 +47,7 @@ The following is a reference structure. Do not duplicate or override SoC-level `
 
 ```dts
 &rtc {
-        /* compatible、时钟源和校准属性由 SoC dtsi 提供 */
+        /* compatible、The clock source and calibration properties are given by SoC dtsi supply */
         status = "okay";
 };
 ```

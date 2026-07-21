@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Pin Definition
-description: X6818核心板 pin definition
+description: X6818 core board pin definition
 ---
 
 # Pin Definition

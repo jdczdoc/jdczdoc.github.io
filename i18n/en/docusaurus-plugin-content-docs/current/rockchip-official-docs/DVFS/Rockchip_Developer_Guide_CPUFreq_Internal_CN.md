@@ -16,7 +16,7 @@ Due to product version upgrades or other reasons, this document may be updated o
 
 **Trademark Statement**
 
-"Rockchip", "瑞芯微", and "瑞芯" are registered trademarks of the Company and belong to the Company.
+"Rockchip", "Rockchip", and "Rockchip" are registered trademarks of the Company and belong to the Company.
 
 All other registered trademarks or trademarks mentioned in this document are owned by their respective owners.
 
@@ -1145,3 +1145,4 @@ Using RK3399 CPU as an example:
 [    0.671092] cpu cpu4: leakage=20 /* leakage=20, indicating the current chip's big core leakage is 20mA */
 [    1.492769] rockchip-dmc dmc: Failed to get leakage
 [    3.341084] mali ff9a0000.gpu: leakage=15
+```

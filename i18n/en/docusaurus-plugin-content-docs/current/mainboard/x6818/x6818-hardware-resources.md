@@ -19,41 +19,41 @@ This page summarizes the connector locations and interface functions of the X681
 | 【1】 | CPU | S5P6818，ARM Cortex A53,8*1.4GHz |
 | 【2】 | Memory | K4B4G1646E-BCK0，DDR3，1GBytes |
 | 【3】 | Storage | THGBMBG6D1KBAIL，8GB eMMC |
-| 【4】 | PMU | 电源管理芯片，AXP228 |
-| 【5】 | Backup battery holder | 3V后备电池座，CR1220规格 |
-| 【6】 | PCIe connector | 通用3G、4G模块PCI-E接口 |
-| 【7】 | Battery connector | 单节4.2V锂电池接口 |
-| 【8】 | Hardware reset key | 硬复位 |
-| 【9】 | Buzzer | 支持有源蜂鸣器 |
-| 【10】 | Menu key | 独立按键，K4 |
-| 【11】 | Volume up key | 独立按键，K3 |
-| 【12】 | Volume down key | 独立按键，K2 |
-| 【13】 | Return key | 独立按键，K1 |
-| 【14】 | Software power key | 开关机，休眠唤醒按钮 |
-| 【15】 | SD card, channel 1 | SD卡，使用通道1 |
-| 【16】 | SD card, channel 0 | SD卡，使用通道0 |
-| 【17】 | SIM card socket | 3G、4G通讯模块SIM卡槽 |
-| 【18】 | IR receiver | HS0038红外一体化接收头 |
-| 【19】 | LCD/VGA connector | RGB输出接口 |
-| 【20】 | LVDS connector | 接LVDS接口的液晶屏 |
-| 【21】 | HDMI connector | HDMI输出接口 |
-| 【22】 | MIPI connector | 接MIPI接口的液晶屏 |
-| 【23】 | UART1 | 通用串口1，RS232电平 |
-| 【24】 | UART4 | 通用串口4，TTL电平 |
-| 【25】 | UART3 | 通用串口3，TTL电平 |
-| 【26】 | UART0 | 调试串口0(默认调试口，RS232电平) |
-| 【27】 | UART2 | 通用串口2，TTL电平 |
-| 【28】 | 咪头 | 音频输入，录音 |
-| 【29】 | Speaker connector | 外置扬声器输出 |
-| 【30】 | Headphone jack | 耳机输出 |
-| 【31】 | 摄像头接口 | 26PIN MIPI CSI摄像头接口 |
-| 【32】 | 摄像头接口 | 标准24PIN并口摄像头接口 |
-| 【33】 | GPIO接口 | SPI、UART、ADC设备扩展 |
-| 【34】 | 千兆以太网接口 | RT8211E接口 |
+| 【4】 | PMU | Power management chip, AXP228 |
+| 【5】 | Backup battery holder | 3V backup battery holder, CR1220 specification |
+| 【6】 | PCIe connector | Universal 3G, 4G module PCI-E interface |
+| 【7】 | Battery connector | Single cell 4.2V lithium battery interface |
+| 【8】 | Hardware reset key | Hard reset |
+| 【9】 | Buzzer | Support active buzzer |
+| 【10】 | Menu key | Independent button, K4 |
+| 【11】 | Volume up key | Independent button, K3 |
+| 【12】 | Volume down key | Independent button, K2 |
+| 【13】 | Return key | Independent button, K1 |
+| 【14】 | Software power key | Power on and off, sleep and wake button |
+| 【15】 | SD card, channel 1 | SD card, use channel 1 |
+| 【16】 | SD card, channel 0 | SD card, use channel 0 |
+| 【17】 | SIM card socket | 3G, 4G communication module SIM card slot |
+| 【18】 | IR receiver | HS0038 Infrared integrated receiver |
+| 【19】 | LCD/VGA connector | RGB output interface |
+| 【20】 | LVDS connector | LCD screen connected to LVDS interface |
+| 【21】 | HDMI connector | HDMI output interface |
+| 【22】 | MIPI connector | LCD screen connected to MIPI interface |
+| 【23】 | UART1 | Universal serial port 1, RS232 level |
+| 【24】 | UART4 | Universal serial port 4, TTL level |
+| 【25】 | UART3 | Universal serial port 3, TTL level |
+| 【26】 | UART0 | Debug serial port 0(Default debug port，RS232level) |
+| 【27】 | UART2 | Universal serial port 2, TTL level |
+| 【28】 | Microphone | audio input, recording |
+| 【29】 | Speaker connector | External speaker output |
+| 【30】 | Headphone jack | Headphone output |
+| 【31】 | Camera interface | 26PIN MIPI CSI camera interface |
+| 【32】 | Camera interface | Standard 24PIN parallel camera interface |
+| 【33】 | GPIO interface | SPI, UART, ADC device expansion |
+| 【34】 | Gigabit Ethernet interface | RT8211E interface |
 | 【35】 | USB OTG | USB OTG port |
-| 【36】 | USB HOST3 | HUB芯片扩展，HOST |
-| 【37】 | USB HOST2 | HUB芯片扩展，HOST |
-| 【38】 | USB HOST1 | HUB芯片扩展，HOST |
-| 【39】 | 电源座 | 5V电源座 |
-| 【40】 | 5V输入插孔 | 直流电源输入口 |
+| 【36】 | USB HOST3 | HUB chip extension, HOST |
+| 【37】 | USB HOST2 | HUB chip extension, HOST |
+| 【38】 | USB HOST1 | HUB chip extension, HOST |
+| 【39】 | Power stand | 5V power socket |
+| 【40】 | 5V input jack | DC power input port |
 

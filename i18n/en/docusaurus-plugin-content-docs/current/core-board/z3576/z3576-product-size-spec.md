@@ -1,22 +1,22 @@
 ---
 sidebar_position: 2
 title: Dimensions and Structure
-description: Z3576核心板 appearance, drawings, and mechanical parameters
+description: Z3576 core board appearance, drawings, and mechanical parameters
 ---
 
 # Dimensions and Structure
 
 Core Board Appearance
 
-Core Board正面图
+Core Board front view
 
 Mechanical Drawing
 
-Core Board结构尺寸及pin排列：
+Core Board structural dimensions and pin arrangement:
 
-TOP层
+TOP layer
 
-BOT层
+BOT layer
 
 Mechanical Parameters
 
@@ -28,5 +28,5 @@ Mechanical Parameters
 | Core Board Size | 40mm*40mm*1.2mm |
 | Pin Pitch | 1.5mm |
 | Pin Count | 447PIN |
-| PCB Layers | 14层 |
+| PCB Layers | 14th floor |
 | Warpage | Less than 0.5% |

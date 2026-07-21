@@ -12,39 +12,39 @@ description: I3588 mainboard hardware interface overview
 
 | No. | Name | Description |
 |---|---|---|
-| 【1】 | MIPI CSI1 | MIPI摄像头接口 |
-| 【2】 | MIPI CSI2 | MIPI摄像头接口 |
-| 【3】 | 显示接口 | 单通道DSI接口 |
-| 【4】 | 显示接口 | 双通道DSI接口 |
-| 【5】 | TypeC 接口 | 标准TypeC 接口，用于程序下载等 |
-| 【6】 | USB3.0 | USB HOST3.0 接口 |
-| 【7】 | HDMI OUT | HDMI1输出接口 |
-| 【8】 | HDMI IN | HDMI输入接口 |
-| 【9】 | 显示接口 | EDP 接口，和HDMI2 输出接口复用 |
-| 【10】 | HDMI OUT | HDMI2输出接口 |
-| 【11】 | HOST2.0 | USB HOST2.0 接口 |
-| 【12】 | HOST2.0 | USB HOST2.0 接口 |
-| 【13】 | DC 插座 | 12V直流Power输入接口 |
-| 【14】 | FAN | 风扇Power接口 |
-| 【15】 | 咪头 | 咪头录音输入 |
-| 【16】 | 喇叭接口 | 外置双声道扬声器 |
-| 【17】 | LINE IN | 音频录音接口 |
-| 【18】 | 耳机座 | 耳机输出 |
-| 【19】 | 独立按键 | 音量加，在升级时用作 Recovery键 |
-| 【20】 | 独立按键 | 音量减 |
-| 【21】 | 独立按键 | boot 按键，用于maskrom 或强制升级 |
-| 【22】 | 独立按键 | 复位按键 |
-| 【23】 | 独立按键 | PWRKEY |
-| 【24】 | CAN | CAN总线接口 |
-| 【25】 | UART2 | UART2，TTL电平接口，默认为调试串口 |
-| 【26】 | TF卡 | TF卡座 |
-| 【27】 | UART7 | UART7，TTL电平接口 |
-| 【28】 | UART6 | UART6，TTL电平接口 |
-| 【29】 | SATA接口 | SATA信号接口 |
-| 【30】 | SATA接口 | SATAPower接口 |
-| 【31】 | PCIE 接口 | PCIE 总线接口，可用于 PCIE 接口设备扩展，<br />如WIFI6、SATA、串口、以太网等 |
-| 【32】 | GMAC | 千兆Ethernet Interface，PCIE 接口 |
-| 【33】 | GMAC | 千兆Ethernet Interface，RGMII接口 |
-| 【34】 | MIPI CSI3 | MIPI摄像头接口 |
-| 【35】 | RTC | RTC 钮扣电池 |
+| 【1】 | MIPI CSI1 | MIPI camera interface |
+| 【2】 | MIPI CSI2 | MIPI camera interface |
+| 【3】 | display interface | Single channel DSI interface |
+| 【4】 | display interface | Dual channel DSI interface |
+| 【5】 | TypeC interface | Standard TypeC interface for program downloading, etc. |
+| 【6】 | USB3.0 | USB HOST3.0 interface |
+| 【7】 | HDMI OUT | HDMI1 output interface |
+| 【8】 | HDMI IN | HDMI input interface |
+| 【9】 | display interface | EDP ​​interface, multiplexed with HDMI2 output interface |
+| 【10】 | HDMI OUT | HDMI2 output interface |
+| 【11】 | HOST2.0 | USB HOST2.0 interface |
+| 【12】 | HOST2.0 | USB HOST2.0 interface |
+| 【13】 | DC socket | 12V DC Power input interface |
+| 【14】 | FAN | Fan Power interface |
+| 【15】 | Microphone | Microphone recording input |
+| 【16】 | Speaker interface | External two-channel speakers |
+| 【17】 | LINE IN | audio recording interface |
+| 【18】 | Headphone holder | Headphone output |
+| 【19】 | Independent buttons | Volume up, used as Recovery key during upgrade |
+| 【20】 | Independent buttons | Volume down |
+| 【21】 | Independent buttons | boot button, used for maskrom or forced upgrade |
+| 【22】 | Independent buttons | reset button |
+| 【23】 | Independent buttons | PWRKEY |
+| 【24】 | CAN | CAN bus interface |
+| 【25】 | UART2 | UART2, TTL level interface, defaults to debugging serial port |
+| 【26】 | TF card | TF card holder |
+| 【27】 | UART7 | UART7, TTL level interface |
+| 【28】 | UART6 | UART6, TTL level interface |
+| 【29】 | SATA interface | SATA signal interface |
+| 【30】 | SATA interface | SATAPower interface |
+| 【31】 | PCIE interface | PCIE bus interface, can be used for PCIE interface device expansion, such as WIFI6, SATA, serial port, Ethernet, etc. |
+| 【32】 | GMAC | Gigabit Ethernet Interface, PCIE interface |
+| 【33】 | GMAC | Gigabit Ethernet Interface, RGMII interface |
+| 【34】 | MIPI CSI3 | MIPI camera interface |
+| 【35】 | RTC | RTC button battery |
 

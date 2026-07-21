@@ -20,8 +20,8 @@ This page summarizes the connector locations and hardware resources of the MT878
 | 【4】 | USB 2.0 | Standard Type-A USB 2.0 interface |
 | 【5】 | HDMI IN | Standard Type-C HDMI input interface |
 | 【6】 | Type-C interface | Standard Type-C USB 2.0 interface |
-| 【7】 | DC 12V input接口 | NC by default; powered internally through interface 8 |
-| 【8】 | DC 12V wafer座 | 12V DC power input |
+| 【7】 | DC 12V input interface | NC by default; powered internally through interface 8 |
+| 【8】 | DC 12V wafer socket | 12V DC power input |
 | 【9】 | RS232 / I2C interface | RS232 UART or I2C interface for reading battery level |
 | 【10】 | LVDS interface | External dual-channel LVDS display interface, supports standard 1080p LCD panels in various sizes |
 | 【11】 | CSI interface | For external MIPI camera |

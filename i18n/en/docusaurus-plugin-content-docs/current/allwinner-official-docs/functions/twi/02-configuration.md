@@ -31,7 +31,7 @@ Check the following items:
 - `I2C support`
 - I2C device interface（`/dev/i2c-*`）
 - `Allwinner TWI controller`
-- TWI slave 与 slave EEPROM（需要从机模式时）
+- TWI slave and slave EEPROM (when slave mode is required)
 
 Save the configuration:
 
@@ -51,7 +51,7 @@ The following is a reference structure. Do not duplicate or override SoC-level `
         pinctrl-names = "default", "sleep";
         pinctrl-0 = <&twi0_pins_a>;
         pinctrl-1 = <&twi0_pins_b>;
-        /* 旧驱动可能使用 twi_drv_used 控制 DMA；5.15 需查当前驱动 */
+        /* Older drivers may use twi_drv_used control DMA；5.15 Need to check the current driver */
         status = "okay";
 
         eeprom@50 {

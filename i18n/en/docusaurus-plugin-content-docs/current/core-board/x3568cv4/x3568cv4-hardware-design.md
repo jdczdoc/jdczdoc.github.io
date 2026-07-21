@@ -6,40 +6,40 @@ description: Hardware design notes for the X3568CV4 core board
 
 # Hardware Design
 
-RK3568 芯片整体管脚较多, 片内外设一应俱全, 在电路设计时没有将所有Pin引出,需要合理分配. RK3568 有RK3568, RK3568B2, RK3568J 三个版本, 详细差异如下:型号差异RK3568芯片表面由铝片封装, 散热效果好RK3568B2芯片表面由塑胶封装, 成本有优势RK3568J芯片表面由塑胶封装, 宽温芯片or higher三款芯片, 管脚完全兼容, 使用最新的SDK 包可做到源码完全兼容, 性能完全一致. 具体核心板选型由核心板尾缀区分.
+The RK3568 chip has a large number of overall pins and a complete range of on-chip and on-chip peripherals. During the circuit design, all the pins are not lead out and need to be reasonably allocated. RK3568 has three versions: RK3568, RK3568B2, and RK3568J. The detailed differences are as follows: Model difference: The surface of the RK3568 chip is encapsulated by aluminum sheets, which has good heat dissipation effect. The surface of the RK3568B2 chip is encapsulated by plastic. The RK3568J chip has an advantage in cost. The surface of the chip is encapsulated in plastic. There are three types of chips: wide temperature chip or higher. The pins are fully compatible. Using the latest SDK package can achieve full source code compatibility and completely consistent performance. The specific core board selection is distinguished by the core board suffix.
 
-## DDR 的选择
+## DDR selection
 
-RK3568 supportsDDR3/LPDDR3/DDR4/LPDDR4/4X, 考虑到成本问题, X3568CV4 有多种版本, 根据尾缀命名区别, 使用commercial grade或industrial gradeLPDDR4/LPDDR4X/DDR4 设计.
+RK3568 supportsDDR3/LPDDR3/DDR4/LPDDR4/4X. Considering the cost issue, X3568CV4 has multiple versions. According to the suffix naming difference, it is designed using commercial grade or industrial gradeLPDDR4/LPDDR4X/DDR4.
 
-## flash 的选择
+## flash choice
 
-RK3568即能supportsnand flash, 也能supportsEMMC. 从产品稳定性以及工作效能上看, EMMC要比nand flash 优秀很多, 唯一的缺点就是相比nand flash 要稍微贵一些. X3568CV4 摒弃了nand flash, default外挂EMMC.
+RK3568 can support both nand flash and EMMC. In terms of product stability and working performance, EMMC is much better than nand flash. The only disadvantage is that it is slightly more expensive than nand flash. X3568CV4 abandons nand flash and defaults to plug-in EMMC.
 
 ## Camera Interface
 
-RK3568 即能supportsMIPI camera, 也能supports并口camera. 值得注意的是, camera的并口占用了大量的IO 口, 为了降低管脚数量, 芯片厂家将大量的并口IO 和以太网管脚multiplexed了.用户如果不需要以太网, 可以根据产品的实际需求自行设计.
+RK3568 can support both MIPI camera and parallel port camera. It is worth noting that the parallel port of the camera occupies a large number of IO ports. In order to reduce the number of pins, the chip manufacturer multiplexed a large number of parallel port IO and Ethernet pins. If the user does not need Ethernet, he can design it by himself according to the actual needs of the product.
 
 ## Display Interface
 
-RK3568 可supportsMIPI, LVDS, HDMI 三种接口的屏. MIPI 和LVDS multiplexed一组管脚, 也就是说, MIPI 和LVDS 不能同时使用.
+RK3568 can support screens with three interfaces: MIPI, LVDS, and HDMI. MIPI and LVDS are multiplexed into one set of pins, which means that MIPI and LVDS cannot be used at the same time.
 
 ## Audio Interface
 
-RK3568 具有标准的I2S Audio Interface, 配套的PMU RK809 自带有音频codec, 无需再外加音频解码芯片了.
+RK3568 has a standard I2S Audio Interface, and the matching PMU RK809 has its own audio codec, so there is no need for an external audio decoding chip.
 
-## SDIO 接口
+## SDIO interface
 
-RK3568 一起有三路SDIO 接口, 其中一路分配给了EMMC, 没有对外引出; 给WIFI/BT模块分配了一路, used for接AP6212 等SDIO 接口的模块; 给TF 卡分配了一路, used for扩展容量.注意, SDMMC0 通道除了分配给TF 卡外, 它的D0 和D1 两条数据线和UART2 是复用的, 在调试时我们通过UART2 监控信息. 注意, RK3568 有两个UART2, 一个和SDMMC0的D0, D1 multiplexed, 另一个用其他GPIO multiplexed. 任何时候只允许一路UART2 使用, 通过程序选择.
+RK3568 has three SDIO interfaces, one of which is assigned to EMMC and has no external lead; one is assigned to the WIFI/BT module, used for connecting to SDIO interface modules such as AP6212; one is assigned to the TF card, used for expanding capacity. Note that in addition to the SDMMC0 channel being assigned to the TF card, its D0 and D1 data lines are multiplexed with UART2. During debugging, we use UART2 Monitoring information. Note that RK3568 has two UART2, one multiplexed with D0 and D1 of SDMMC0, and the other multiplexed with other GPIO. Only one UART2 is allowed to be used at any time, selected through the program.
 
 ## Power Supply Design
 
-我们只需要给X3568CV4 核心板的第54, 55 管脚提供3.3V/2A(5V/2A)的电源, 核心板就能正常运行了.
+We only need to provide 3.3V/2A(5V/2A) power to pins 54 and 55 of the X3568CV4 core board, and the core board will run normally.
 
 ## USB Design
 
-X3568CV4 有三路HOST 口(两路2.0 和一路3.0)和一路OTG 口, defaultUSB2.0 接口能达到480Mbps 的速°C. OTG 和HOST 都是高速Signal线, 在PCB 走线时, 务必走等长差分线, 阻抗匹配为90 欧, 而且需要有完整的参考平面. or lower是对应的differential pairSignal:差分管脚编号差分管脚名称33, 34OTG_DP, OTG_DM146, 147USB2_HOST2_DM, USB2_HOST2_DP148, 149USB2_HOST3_DM, USB2_HOST3_DM27, 28USB3_HOST1_DM, USB3_HOST1_DP
+X3568CV4 has three HOST ports and one OTG port. The defaultUSB2.0 interface can reach a speed of 480Mbps. OTG and HOST are high-speed signal lines. When routing on the PCB, be sure to use equal-length differential lines, the impedance matching is 90 ohms, and a complete reference plane is required. Or lower is the corresponding differential line. pairSignal: Differential pin number Differential pin name 33, 34OTG_DP, OTG_DM146, 147USB2_HOST2_DM, USB2_HOST2_DP148, 149USB2_HOST3_DM, USB2_HOST3_DM27, 28USB3_HOST1_DM, USB3_HOST1_DP
 
 ## MIPI Design
 
-MIPI 是2003 年由ARM, Nokia, ST, TI 等公司成立的一个联盟, 目的是把手机内部的接口如camera, display, 射频基带接口等标准化, 从而减少手机的设计复杂°C, 增加设计的灵活性. MIPI 是一个比较新的标准, 目前比较成熟的应用有DSI(Display Interface)和CSI(摄相头接口).supportsDSI 和CSI, DSI 对应核心板的第35 到44 脚, used for接MIPI 接口的display; CSI对应核心板的第160 到171 脚, used for接MIPI 接口的摄相头. MIPI 接口的数据传输率要远大于LVDS 接口, 在走线时一定要走等长差分线, 且阻抗匹配为100 欧.
+MIPI is an alliance established in 2003 by ARM, Nokia, ST, TI and other companies. The purpose is to standardize the internal interfaces of mobile phones such as camera, display, radio frequency baseband interface, etc., thereby reducing the design complexity of mobile phones and increasing design flexibility. MIPI is a relatively new standard, and currently relatively mature applications include DSI(Display Interface) and CSI(Camera interface).supportsDSI and CSI, DSI Corresponds to pins 35 to 44 of the core board, used for display of the MIPI interface; CSI corresponds to pins 160 to 171 of the core board, used for the camera of the MIPI interface. The data transmission rate of the MIPI interface is much greater than that of the LVDS interface, so differential lines of equal length must be used when routing, and the impedance matching is 100 ohms.

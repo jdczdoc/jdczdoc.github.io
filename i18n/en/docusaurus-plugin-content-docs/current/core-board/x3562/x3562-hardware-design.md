@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Hardware Design
-description: X3562核心板 hardware design notes
+description: X3562 core board hardware design notes
 ---
 
 # Hardware Design
@@ -10,43 +10,43 @@ Hardware Design
 
 pinDescription
 
-Core BoardGPIO电平
+Core BoardGPIO levels
 
-GPIO电源域的电源脚Description如下：
+The description of the power pins of the GPIO power domain is as follows:
 
-| 电源域 | GPIOpower supply电压 | Description | X3562Core BoardIO电平 |
+| power domain | GPIO power supply voltage | Description | X3562Core BoardIO levels |
 | --- | --- | --- | --- |
-| PMUIO0 | VCC3V3_PMU | IO电压域只有3.3V | 3.3V |
-| PMUIO1 | VCCA1V8_PMU/VCC3V3_PMU | IO电压域可配置成1.8V或3.3V，我司Core Board统一配置为3.3V | 3.3V |
-| VCCIO1 | VCCIO_ACODEC | IO电压域可配置成1.8V或3.3V，我司Core Board统一配置为 | 3.3V |
-| VCCIO2 | VCCIO_FLASH | IO电压域可配置成1.8V或3.3V，我司Core Board统一配置为1.8V | 1.8V |
-| VCCIO3 | VCCIO_SD | IO电压域可配置成1.8V或3.3V，我司Core Board统一配置为3.3V | 3.3V |
-| VCCIO4 | VCCA1V8_PMU/VCC3V3_PMU | IO电压域可配置成1.8V或3.3V，我司Core Board统一配置为3.3V | 3.3V |
-| SARADC_AVDD | VCC_1V8 | IO电压域只有1.8V | 1.8V |
-| VCCIO5 | VCC1V8_DVP | IO电压域可配置成1.8V或3.3V，我司Core Board统一配置为1.8V | 1.8V |
-| VCCIO6 | VCC_1V8/VCC_3V3 | IO电压域可配置成1.8V或3.3V，我司Core Board统一配置为1.8V | 1.8V |
+| PMUIO0 | VCC3V3_PMU | The IO voltage domain is only 3.3V | 3.3V |
+| PMUIO1 | VCCA1V8_PMU/VCC3V3_PMU | The IO voltage domain can be configured to 1.8V or 3.3V. Our Core Board is uniformly configured to 3.3V. | 3.3V |
+| VCCIO1 | VCCIO_ACODEC | The IO voltage domain can be configured as 1.8V or 3.3V. Our Core Board is uniformly configured as | 3.3V |
+| VCCIO2 | VCCIO_FLASH | The IO voltage domain can be configured to 1.8V or 3.3V. Our Core Board is uniformly configured to 1.8V. | 1.8V |
+| VCCIO3 | VCCIO_SD | The IO voltage domain can be configured to 1.8V or 3.3V. Our Core Board is uniformly configured to 3.3V. | 3.3V |
+| VCCIO4 | VCCA1V8_PMU/VCC3V3_PMU | The IO voltage domain can be configured to 1.8V or 3.3V. Our Core Board is uniformly configured to 3.3V. | 3.3V |
+| SARADC_AVDD | VCC_1V8 | IO voltage domain is only 1.8V | 1.8V |
+| VCCIO5 | VCC1V8_DVP | The IO voltage domain can be configured to 1.8V or 3.3V. Our Core Board is uniformly configured to 1.8V. | 1.8V |
+| VCCIO6 | VCC_1V8/VCC_3V3 | The IO voltage domain can be configured to 1.8V or 3.3V. Our Core Board is uniformly configured to 1.8V. | 1.8V |
 
 
-在做底板设计时，注意外设芯片的IO电平要与Core Board的IO电平保持一致，否则会烧坏CPU。
+When designing the baseboard, pay attention to the IO level of the peripheral chip to be consistent with the IO level of the Core Board, otherwise the CPU will be burned out.
 
-电源设计
+Power supply design
 
-X3562Core Board仅需要主电源power supply即可正常使用。详细的电源pin定义如下：
+X3562Core Board only requires main power supply for normal use. The detailed power pin definition is as follows:
 
-45、46脚：5V/3APower input interface，为确保CPU稳定可靠工作，务必保证提供足额电流且保证电源纹波电压控制在100MV以下，另外电源走线尽可能宽（大于2MM），换层过孔不小于5个；
+45、Pin 46: 5V/3A Power input interface. In order to ensure stable and reliable operation of the CPU, it is necessary to ensure that sufficient current is provided and the power supply ripple voltage is controlled below 100MV. In addition, the power supply traces should be as wide as possible (more than 2MM), and there should be no less than 5 layer-changing vias;
 
-47、48脚：3.3V/3APower input interface，为确保CPU稳定可靠工作，务必保证提供足额电流且保证电源纹波电压控制在100MV以下，另外电源走线尽可能宽（大于2MM），换层过孔不小于5个
+47、48-pin: 3.3V/3A Power input interface. To ensure stable and reliable operation of the CPU, it is necessary to ensure that sufficient current is provided and the power supply ripple voltage is controlled below 100MV. In addition, the power supply traces should be as wide as possible (more than 2MM), and there should be no less than 5 layer-changing vias.
 
-65脚：1.8V/2.5APower output，可for  interface板电源power supply（部分外设上电时序有要求，可参考上述Core BoardPin Definition的Description给对应外设power supply）；
+Pin 65: 1.8V/2.5A Power output, can be used for interface board power supply (some peripherals have power-on timing requirements, please refer to the description of the above Core BoardPin Definition for the corresponding peripheral power supply);
 
-49脚：3.0V/400MAPower output，可for 底板audioCODEC和网络PHY芯片的 IO域power supply。
+Pin 49: 3.0V/400MAPower output, can be used for the IO domain power supply of the baseboard audioCODEC and network PHY chip.
 
-USB设计
+USB design
 
-X3562Core Board有2chUSB 2.0和1chUSB 3.0口。其中USB 2.0口在Development Board上设计为固件升级（device）和USB HOSTmuxed as ，通过外部USB 5V插入做检测并切换为DEVICE而升级固件用。
+X3562Core Board has 2chUSB 2.0 and 1chUSB 3.0 ports. The USB 2.0 port is designed on the Development Board for firmware upgrade (device) and USB HOSTmuxed as, and is used for firmware upgrade through external USB 5V insertion for detection and switching to DEVICE.
 
-默认USB 2.0 interface能达到480Mbps的速度，而USB 3.0最快能达到5Gbps的带宽，，因此，对PCB走线的要求做特性阻抗匹配。USB interface的差分对在PCB走线时，务必走等长差分线，特性阻抗为90欧-/+10%，而且需要有完整的参考平面。
+By default, the USB 2.0 interface can reach a speed of 480Mbps, while USB 3.0 can reach a bandwidth of 5Gbps at the fastest. Therefore, the PCB trace requires characteristic impedance matching. When routing the differential pairs of the USB interface on the PCB, the differential lines must be of equal length, the characteristic impedance is 90 ohms -/+10%, and a complete reference plane is required.
 
-MIPI设计
+MIPI design
 
-X3562supports 1chMIPI DSI和2chMIPI CSI interface，其中DSIfor 驱动MIPI显示屏，CSI可以外接MIPIcamera。MIPI interface的数据传输率较高，在走线时一定要走等长差分线，且阻抗匹配为100欧 -/+10%。
+X3562 supports 1chMIPI DSI and 2chMIPI CSI interface, where DSIfor drives the MIPI display and CSI can be connected to an external MIPI camera. The data transmission rate of the MIPI interface is high. Differential lines of equal length must be used when routing, and the impedance matching is 100 ohms -/+10%.

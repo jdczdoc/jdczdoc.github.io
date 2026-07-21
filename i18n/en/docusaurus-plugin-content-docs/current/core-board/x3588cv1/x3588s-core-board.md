@@ -12,15 +12,15 @@ X3588S is a core board based on the Rockchip RK3588S processor. It is intended f
 
 ## Features
 
-- 最佳尺寸, 保证引出全部GPIO 口的同时, 尺寸仅55mm*55mm
-- 使用RK 自身的RK806 PMU, 在保证工作稳定可靠的同时, 成本足够低廉
-- supports多种品牌, 多种容量的emmc, 最大supports512GB
-- 使用双通道LPDDR4(X)或LPDDR5 设计, 可supports2GB/4GB/8GB/16GB/32GB 容量
-- supports电源休眠唤醒
-- supportsandroid12.0, linux, debian, ubuntu 等操作系统
-- supportsGigabit Ethernet, SATA, PCIE, USB3.0 等高速总线
-- 采用200PIN Castellated-hole package
-- 已验证各种可靠性实验
+- The best size, ensuring that all GPIO ports are lead out, the size is only 55mm*55mm
+- Using RK's own RK806 PMU, the cost is low enough while ensuring stable and reliable operation.
+- supports emmc of multiple brands and capacities, up to 512GB
+- Using dual-channel LPDDR4(X) or LPDDR5 design, it can support 2GB/4GB/8GB/16GB/32GB capacity
+- supports power sleep wake up
+- supports android12.0, linux, debian, ubuntu and other operating systems
+- supportsGigabit Ethernet, SATA, PCIE, USB3.0 and other high-speed buses
+- Using 200PIN Castellated-hole package
+- Various reliability experiments have been verified
 
 ## Appearance and Mechanical Structure
 
@@ -38,38 +38,38 @@ X3588S is a core board based on the Rockchip RK3588S processor. It is intended f
 
 | CPU | RK3588S |
 |---|---|
-| Frequency | 四核A76+四核A55(2.4GHz) |
-| RAM / Storage | 4G&amp;16G或8G&amp;32Goptional |
-| Power IC | 使用RT806, supports动态调频等 |
+| Frequency | Quad-core A76+quad-core A55(2.4GHz) |
+| RAM / Storage | 4G&16G or 8G&32Goptional |
+| Power IC | Using RT806, supports dynamic frequency modulation, etc. |
 
 ### Interface Parameters
 
-| LCD Interface | 同时supportsMIPI, EDP, HDMI Interface输出; 最<br />大supports6路同显, 4路异显 |
+| LCD Interface | At the same time supports MIPI, EDP, HDMI Interface output; the maximum <br /> supports 6 channels of simultaneous display and 4 channels of different display |
 |---|---|
-| Touch Interface | 电容触摸, 可使用USB或I2C接口触摸 |
-| Audio Interface | IIS/PCM/TDM接口 |
-| SPDIF Interface | 2路8通道光纤audio output接口 |
-| SD Card Interface | 2路SDIO输出通道 |
-| eMMC Interface | 板载eMMC Interface, 管脚不另外引出 |
-| Ethernet Interface | 可supports双千兆Ethernet Interface |
-| USBHOST2.0接口 | 2路HOST2.0 |
-| USBHOST3.0接口 | 2路USBOTG3.0/2.0/TypeC |
-| UART Interface | 10路串口, supports带流控串口 |
-| PWM接口 | 16路PWM输出 |
-| IIC Interface | 9路IIC输出 |
-| SPI Interface | 5路SPI输出 |
-| ADC Interface | 8路ADC输出 |
-| CAN Interface | 3路CAN输出 |
-| Camera Interface | 4路CSI输入 |
-| HDMI Interface | 1路HDMI2.1TX |
+| Touch Interface | Capacitive touch, can use USB or I2C interface touch |
+| Audio Interface | IIS/PCM/TDM interface |
+| SPDIF Interface | 2-way 8-channel optical fiber audio output interface |
+| SD Card Interface | 2 SDIO output channels |
+| eMMC Interface | Onboard eMMC Interface, no pins are lead out separately |
+| Ethernet Interface | Can support dual Gigabit Ethernet Interface |
+| USBHOST2.0 interface | 2-way HOST2.0 |
+| USBHOST3.0 interface | 2-way USBOTG3.0/2.0/TypeC |
+| UART Interface | 10-way serial port, supports serial port with flow control |
+| PWM interface | 16 channels of PWM output |
+| IIC Interface | 9 channels IIC output |
+| SPI Interface | 5 SPI outputs |
+| ADC Interface | 8 ADC outputs |
+| CAN Interface | 3 channels CAN output |
+| Camera Interface | 4 CSI inputs |
+| HDMI Interface | 1 channel HDMI2.1TX |
 | PCIE Interface | PCIe2.0 |
 | SATA Interface | 2xSATA3.0/PCIe2.0 |
 
 ### Electrical Characteristics
 
-| 4VInput Voltage | 4V/5A(推荐使用4V/8A输入) |
+| 4VInput Voltage | 4V/5A(Recommended4V/8Aenter) |
 |---|---|
-| Output Voltage | 3.3V/2A, 1.8V/2A(can be used for底板供电) |
+| Output Voltage | 3.3V/2A, 1.8V/2A(can be used forBackplane powered) |
 | Operating Temperature | 0~70°C |
 | Storage Temperature | -10~50°C |
 
@@ -80,7 +80,7 @@ X3588S is a core board based on the Rockchip RK3588S processor. It is intended f
 | Core Board Size | 55mm*55mm*3mm |
 | Pin Pitch | 0.5mm |
 | Number of Pins | 200PIN |
-| PCB Layers | LPDDR4方案: 10层 LPDDR5方案: 12层 |
+| PCB Layers | LPDDR4 solution: 10 layers LPDDR5 solution: 12 layers |
 | Warpage | less than0.5% |
 
 ## Related Pages

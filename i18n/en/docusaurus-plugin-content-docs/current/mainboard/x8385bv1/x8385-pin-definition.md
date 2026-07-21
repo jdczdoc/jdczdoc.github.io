@@ -28,7 +28,7 @@ The X8385CV1 core board uses a 168-pin stamp-hole package. The following tables 
 | 14 | DISP_PWM | GPIO43 |  |
 | 15 | DSI_TE | GPIO44 |  |
 | 16 | LCM_RST | GPIO45 |  |
-| 17 | DRVBUS | USB HOST总线控制 |  |
+| 17 | DRVBUS | USB HOST bus control |  |
 | 18 | PAD_PERIPHERAL_EN5 | GPIO169 |  |
 | 19 | SPI1_MI | GPIO161 |  |
 | 20 | SPI1_CLK | GPIO164 |  |
@@ -57,7 +57,7 @@ The X8385CV1 core board uses a 168-pin stamp-hole package. The following tables 
 | 43 | AU_MICBIAS1 | Microphone bias pin | Not a general-purpose GPIO |
 | 44 | AU_VIN0_P | Audio differential input | Not a general-purpose GPIO |
 | 45 | AU_VIN0_N | Audio differential input | Not a general-purpose GPIO |
-| 46 | VCC_RTC | RTC power pin | 2.7V直流输入 |
+| 46 | VCC_RTC | RTC power pin | 2.7V DC input |
 | 47 | VCAMIO_PMU | LDO output | Software-controlled LDO output |
 
 
@@ -77,9 +77,9 @@ The X8385CV1 core board uses a 168-pin stamp-hole package. The following tables 
 | 57 | VLDO28_PMU | LDO output | Software-controlled LDO output |
 | 58 | VRF12_PMU_IT66121 | LDO output | Software-controlled LDO output |
 | 59 | VCAMD_PMU | LDO output | Software-controlled LDO output |
-| 60 | BATADC | 电池电量检测管脚 | Not a general-purpose GPIO |
-| 61 | VBUS | OTG供电管脚 |  |
-| 62 | DPI_CK | GPIO28 | DPI显示接口 |
+| 60 | BATADC | Battery power detection pin | Not a general-purpose GPIO |
+| 61 | VBUS | OTG power supply pin |  |
+| 62 | DPI_CK | GPIO28 | DPI display interface |
 | 63 | DPI_VSYNC | GPIO26 |  |
 | 64 | DPI_HSYNC | GPIO25 |  |
 | 65 | DPI_DE | GPIO27 |  |
@@ -109,26 +109,26 @@ The X8385CV1 core board uses a 168-pin stamp-hole package. The following tables 
 | Pin No. | Signal | Type | Description |
 | --- | --- | --- | --- |
 | 85 | PAD_PERIPHERAL_EN6 | GPIO158 |  |
-| 86 | SYSRSTB | 硬件复位管脚 | Not a general-purpose GPIO |
+| 86 | SYSRSTB | Hardware reset pin | Not a general-purpose GPIO |
 | 87 | SDA6 | GPIO12 |  |
 | 88 | SCL6 | GPIO11 |  |
-| 89 | DSI0_CKN | MIPI显示差分线 | Not a general-purpose GPIO |
-| 90 | DSI0_CKP | MIPI显示差分线 | Not a general-purpose GPIO |
-| 91 | DSI0_D3N | MIPI显示差分线 | Not a general-purpose GPIO |
-| 92 | DSI0_D3P | MIPI显示差分线 | Not a general-purpose GPIO |
-| 93 | DSI0_D2N | MIPI显示差分线 | Not a general-purpose GPIO |
-| 94 | DSI0_D2P | MIPI显示差分线 | Not a general-purpose GPIO |
-| 95 | DSI0_D1N | MIPI显示差分线 | Not a general-purpose GPIO |
-| 96 | DSI0_D1P | MIPI显示差分线 | Not a general-purpose GPIO |
-| 97 | DSI0_D0N | MIPI显示差分线 | Not a general-purpose GPIO |
-| 98 | DSI0_D0P | MIPI显示差分线 | Not a general-purpose GPIO |
+| 89 | DSI0_CKN | MIPI display differential line | Not a general-purpose GPIO |
+| 90 | DSI0_CKP | MIPI display differential line | Not a general-purpose GPIO |
+| 91 | DSI0_D3N | MIPI display differential line | Not a general-purpose GPIO |
+| 92 | DSI0_D3P | MIPI display differential line | Not a general-purpose GPIO |
+| 93 | DSI0_D2N | MIPI display differential line | Not a general-purpose GPIO |
+| 94 | DSI0_D2P | MIPI display differential line | Not a general-purpose GPIO |
+| 95 | DSI0_D1N | MIPI display differential line | Not a general-purpose GPIO |
+| 96 | DSI0_D1P | MIPI display differential line | Not a general-purpose GPIO |
+| 97 | DSI0_D0N | MIPI display differential line | Not a general-purpose GPIO |
+| 98 | DSI0_D0P | MIPI display differential line | Not a general-purpose GPIO |
 | 99 | D_GND | Reference ground |  |
-| 100 | SSUSB_TXP | USB3.0差分对 | Not a general-purpose GPIO |
-| 101 | SSUSB_TXN | USB3.0差分对 | Not a general-purpose GPIO |
-| 102 | SSUSB_RXP | USB3.0差分对 | Not a general-purpose GPIO |
-| 103 | SSUSB_RXN | USB3.0差分对 | Not a general-purpose GPIO |
-| 104 | USB_DP | USB 2.0差分对 | Not a general-purpose GPIO |
-| 105 | USB_DM | USB 2.0差分对 | Not a general-purpose GPIO |
+| 100 | SSUSB_TXP | USB3.0 differential pair | Not a general-purpose GPIO |
+| 101 | SSUSB_TXN | USB3.0 differential pair | Not a general-purpose GPIO |
+| 102 | SSUSB_RXP | USB3.0 differential pair | Not a general-purpose GPIO |
+| 103 | SSUSB_RXN | USB3.0 differential pair | Not a general-purpose GPIO |
+| 104 | USB_DP | USB 2.0 differential pair | Not a general-purpose GPIO |
+| 105 | USB_DM | USB 2.0 differential pair | Not a general-purpose GPIO |
 | 106 | D_GND | Reference ground |  |
 | 107 | PAD_PERIPHERAL_EN8 | GPIO160 |  |
 | 108 | EINT4 | GPIO4 |  |
@@ -176,16 +176,16 @@ The X8385CV1 core board uses a 168-pin stamp-hole package. The following tables 
 | 144 | CAM_CLK1 | GPIO100 |  |
 | 145 | PAD_CAM_RST1 | GPIO102 |  |
 | 146 | PAD_CAM_PDN1 | GPIO98 |  |
-| 147 | RCN_A | Differential pin | 外接CSI1摄像头输入 |
-| 148 | RCP_A | Differential pin | 外接CSI1摄像头输入 |
-| 149 | RDN0_A | Differential pin | 外接CSI1摄像头输入 |
-| 150 | RDP0_A | Differential pin | 外接CSI1摄像头输入 |
-| 151 | RDP1_A | Differential pin | 外接CSI1摄像头输入 |
-| 152 | RDN1_A | Differential pin | 外接CSI1摄像头输入 |
-| 153 | RDN2_A | Differential pin | 外接CSI1摄像头输入 |
-| 154 | RDP2_A | Differential pin | 外接CSI1摄像头输入 |
-| 155 | RDP3_A | Differential pin | 外接CSI1摄像头输入 |
-| 156 | RDN3_A | Differential pin | 外接CSI1摄像头输入 |
+| 147 | RCN_A | Differential pin | External CSI1 camera input |
+| 148 | RCP_A | Differential pin | External CSI1 camera input |
+| 149 | RDN0_A | Differential pin | External CSI1 camera input |
+| 150 | RDP0_A | Differential pin | External CSI1 camera input |
+| 151 | RDP1_A | Differential pin | External CSI1 camera input |
+| 152 | RDN1_A | Differential pin | External CSI1 camera input |
+| 153 | RDN2_A | Differential pin | External CSI1 camera input |
+| 154 | RDP2_A | Differential pin | External CSI1 camera input |
+| 155 | RDP3_A | Differential pin | External CSI1 camera input |
+| 156 | RDN3_A | Differential pin | External CSI1 camera input |
 | 157 | D_GND | Reference ground |  |
 | 158 | CAM_CLK2 | GPIO108 |  |
 | 159 | CAM_PDN2 | GPIO107 |  |

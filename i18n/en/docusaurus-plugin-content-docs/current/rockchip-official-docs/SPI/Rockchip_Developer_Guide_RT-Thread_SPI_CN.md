@@ -18,7 +18,7 @@ Due to product version upgrades or other reasons, this document may be updated o
 
 **Trademark Statement**
 
-"Rockchip", "瑞芯微", and "瑞芯" are all registered trademarks of the Company, owned by the Company.
+"Rockchip", "Rockchip", and "Rockchip" are all registered trademarks of the Company, owned by the Company.
 
 All other registered trademarks or trademarks mentioned in this document are owned by their respective owners.
 
@@ -175,8 +175,8 @@ Configuration code example:
 ```c
 struct rt_spi_configuration cfg;
 
-cfg.data_width = 8; /* 配置8bits传输模式 */
+cfg.data_width = 8; /* Configuration8bitsTransmission mode */
 cfg.mode = RT_SPI_MASTER | RT_SPI_MSB | RT_SPI_MODE_0;
-cfg.max_hz = 20 * 1000 * 1000; /* 配置频率 20Mhz */
-rt_spi_configure(spi_device, &cfg); /* 配置 SPI*/
+cfg.max_hz = 20 * 1000 * 1000; /* Configuration frequency 20Mhz */
+rt_spi_configure(spi_device, &cfg); /* Configuration SPI*/
 ```

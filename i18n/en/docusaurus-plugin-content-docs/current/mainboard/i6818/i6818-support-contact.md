@@ -32,11 +32,11 @@ description: i6818 technical support and sales service information
 
 | Technical QQ Group | QQ Group No. |
 | --- | --- |
-| x210/i210一群 | 23831259 |
-| x210/i210二群 | 211127570 |
-| x4412/ibox4412一群 | 16073601 |
-| x4412/ibox4412二群 | 211128231 |
-| X4418/ibox4418论坛 | 199358213 |
-| x6818/ibox6818论坛 | 189920370 |
-| x3288/x3399论坛 | 159144256 |
+| x210/i210 group | 23831259 |
+| x210/i210 second group | 211127570 |
+| x4412/ibox4412 group | 16073601 |
+| x4412/ibox4412 second group | 211128231 |
+| X4418/ibox4418 Forum | 199358213 |
+| x6818/ibox6818 Forum | 189920370 |
+| x3288/x3399 Forum | 159144256 |
 

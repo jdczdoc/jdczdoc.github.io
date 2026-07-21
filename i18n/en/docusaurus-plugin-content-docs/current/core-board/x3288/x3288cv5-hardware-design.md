@@ -1,45 +1,45 @@
 ---
 sidebar_position: 4
 title: Hardware Design
-description: X3288CV5核心板 hardware design notes
+description: X3288CV5 core board hardware design notes
 ---
 
 # Hardware Design
 
 Hardware Design
 
-电源设计
+Power supply design
 
-X3288CV5Core Board采用5Vpower supply的方式，用户只需给第159、160pin供5V的直流电，Core Board即可以正常工作。另外，Core Board还有一些其他的电源pin，具体定义如下：
+X3288CV5Core Board adopts 5V power supply method. Users only need to supply 5V DC power to pin 159 and 160, and the Core Board can work normally. In addition, the Core Board has some other power pins, which are specifically defined as follows:
 
-1、159、160脚：Core Board电源power supply端，默认input4.5到5.5V/2A；
+1、Pins 159 and 160: Core Board power supply terminal, default input is 4.5 to 5.5V/2A;
 
-2、161脚：使用OTG烧写映像，或连接device设备时，由PC机通过USB延长线input5V/500mA电压，通常该pin连接到OTG的电源端；
+2、Pin 161: When using OTG to program the image, or when connecting a device, the PC inputs 5V/500mA voltage through the USB extension cable. Usually this pin is connected to the power end of the OTG;
 
-3、162、163脚：悬空；
+3、162, 163 feet: hanging in the air;
 
-4、164、165脚：Core Board公共Ground；
+4、164, 165 feet: Core Board public ground;
 
-5、166、167脚：悬空或连接到159、160pin；
+5、Pins 166 and 167: floating or connected to pins 159 and 160;
 
-6、168脚：RTCpower supplypin，通常该pin通过后备电池power supply，以保持实时时钟；
+6、Pin 168: RTC power supply pin, usually this pin is powered by a backup battery to maintain the real-time clock;
 
-7、169脚：3.3Voutput，可for 底板power supply。
+7、Pin 169: 3.3Voutput, can be used for baseboard power supply.
 
-USB设计
+USB design
 
-RK3288有两chHOST口和一chOTG口，其中OTG口即可作HOST口也可作DEVICE用，即标准的OTG口。
+RK3288 has two chHOST ports and one chOTG port. The OTG port can be used as a HOST port or a DEVICE, which is a standard OTG port.
 
-注意，HOST1口和HOST2口有区别，默认HOST1口无法直接接低速的USB设备，如鼠标键盘等，需要通过HUB芯片才能接一些低速设备，而HOST2则可以直接使用各种高低速设备。在后续贴RK3288W芯片的Core Board上，该问题将不再存在。
+Note that there is a difference between HOST1 port and HOST2 port. By default, HOST1 port cannot directly connect to low-speed USB devices, such as mouse and keyboard, etc. It needs to go through the HUB chip to connect to some low-speed devices, while HOST2 can directly use various high-speed and low-speed devices. This problem will no longer exist on subsequent Core Boards with the RK3288W chip attached.
 
-HDMI设计
+HDMI design
 
-RK3288芯片自带HDMI控制器，supports HDMI2.0协议。Core Board上第47到54共8个pin，4对差分线，必须走等长差分线，且阻抗匹配为100欧，否则会出现HDMI画面丢色，断断续续等问题。
+The RK3288 chip comes with an HDMI controller and supports the HDMI2.0 protocol. There are a total of 8 pins from 47th to 54th on the Core Board, and 4 pairs of differential lines. Differential lines must be of equal length, and the impedance must be matched to 100 ohms, otherwise problems such as color loss and intermittence of the HDMI picture will occur.
 
-LVDS设计
+LVDS design
 
-RK3288芯片自带RGB和LVDS interface的LCD控制器，LVDS为差分Signal线，适合驱动分辨率较高的液晶屏。它包括12组传输线，其中10组为数据线，另外两组为时钟线，对应Core Board的5和28pin。
+The RK3288 chip comes with an LCD controller for RGB and LVDS interfaces. LVDS is a differential signal line and is suitable for driving LCD screens with higher resolutions. It includes 12 sets of transmission lines, 10 of which are data lines, and the other two are clock lines, corresponding to Core Board's 5 and 28 pins.
 
-LVDS interface能够提供很高的数据传输率的同时，保证很低的功耗，其数据速率可以达到几百Mbps到2Gbps。在走线时，12组传输线必须走等长差分线，且阻抗匹配为100欧。
+The LVDS interface can provide high data transmission rates while ensuring very low power consumption. Its data rate can reach several hundred Mbps to 2Gbps. When routing, the 12 sets of transmission lines must be equal-length differential lines, and the impedance matching is 100 ohms.
 
-MIPI设计
+MIPI design

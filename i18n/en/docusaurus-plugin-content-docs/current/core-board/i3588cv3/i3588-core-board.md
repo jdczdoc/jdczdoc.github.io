@@ -12,15 +12,15 @@ I3588 is a core board based on the Rockchip RK3588 processor. It is intended for
 
 ## Features
 
-- 最佳尺寸, 保证引出全部GPIO 口的同时, 尺寸仅61mm*67mm
-- 使用RK 自身的RK806 PMU, 在保证工作稳定可靠的同时, 成本足够低廉
-- supports多种品牌, 多种容量的emmc
-- 使用双通道LPDDR4(X)设计, 可supports2GB/4GB/8GB/16GB/32GB 容量
-- supports电源休眠唤醒
-- supportsandroid12.0, linux, debain, ubuntu 等操作系统
-- supports双千兆有线以太网, SATA, PCIE, USB3.0 等高速总线
-- 采用松下board-to-board connector, 接触稳定可靠
-- 产品稳定可靠, 经过大量高低温, 反复重启, 安卓稳定性测试, 安兔兔测试等可靠性实验, 拷机7 天7 夜不死机
+- Optimum size, ensuring all GPIO ports are lead out, the size is only 61mm*67mm
+- Using RK's own RK806 PMU, the cost is low enough while ensuring stable and reliable operation.
+- supports multiple brands and various capacities of emmc
+- Using dual-channel LPDDR4(X) design, it can support 2GB/4GB/8GB/16GB/32GB capacity
+- supports power sleep wake up
+- supports android12.0, linux, debain, ubuntu and other operating systems
+- supports dual Gigabit wired Ethernet, SATA, PCIE, USB3.0 and other high-speed buses
+- Using Panasonic board-to-board connector, the contact is stable and reliable
+- The product is stable and reliable. After a lot of high and low temperatures, repeated restarts, Android stability tests, AnTuTu tests and other reliability experiments, the machine did not crash for 7 days and 7 nights.
 
 ## Appearance and Mechanical Structure
 
@@ -35,38 +35,38 @@ I3588 is a core board based on the Rockchip RK3588 processor. It is intended for
 | CPU | RK3588 |
 |---|---|
 | Frequency | quad-coreA76 +quad-coreA55(2.4GHz) |
-| RAM / Storage | 4G&amp;16G或8G&amp;32Goptional |
-| Power IC | 使用RT806, supports动态调频等 |
+| RAM / Storage | 4G&16G or 8G&32Goptional |
+| Power IC | Using RT806, supports dynamic frequency modulation, etc. |
 
 ### Interface Parameters
 
-| LCD Interface | 同时supports MIPI, EDP, HDMI Interface输出; 最<br />大supports6路同显, 4路异显 |
+| LCD Interface | At the same time supports MIPI, EDP, HDMI Interface output; the maximum <br /> supports 6 channels of simultaneous display and 4 channels of different display |
 |---|---|
-| Touch Interface | capacitive touch, 可使用USB或I2C Interface触摸 |
-| Audio Interface | IIS/PCM/TDM接口 |
-| SPDIF接口 | 2路8通道光纤audio output接口 |
-| SD Card Interface | 2路SDIO输出通道 |
-| eMMC Interface | on-boardeMMC Interface, 管脚not routed out separately |
-| Ethernet Interface | 双千兆Ethernet Interface |
-| USB HOST2.0接口 | 2路HOST2.0 |
-| USB HOST3.0接口 | 2路USB OTG 3.0/2.0/TypeC |
-| UART Interface | 10路串口, supports带流控串口 |
-| PWM Interface | 16路PWM输出 |
-| IIC Interface | 9路IIC输出 |
-| SPI Interface | 5路SPI输出 |
-| ADC Interface | 8路ADC输出 |
-| CAN接口 | 3路CAN输出 |
-| Camera Interface | 6路CSI输入 |
-| HDMI Interface | 2路HDMI2.1 TX, 1路HDMI RX2.0 |
-| PCIE接口 | PCIe3.0 (2x2,1x4,4x1) |
-| SATA接口 | 2x SATA3.3/PCIe2.1 |
+| Touch Interface | capacitive touch, can use USB or I2C Interface touch |
+| Audio Interface | IIS/PCM/TDM interface |
+| SPDIF interface | 2-way 8-channel optical fiber audio output interface |
+| SD Card Interface | 2 SDIO output channels |
+| eMMC Interface | on-boardeMMC Interface, pins not routed out separately |
+| Ethernet Interface | Dual Gigabit Ethernet Interface |
+| USB HOST2.0 interface | 2-way HOST2.0 |
+| USB HOST3.0 interface | 2-way USB OTG 3.0/2.0/TypeC |
+| UART Interface | 10-way serial port, supports serial port with flow control |
+| PWM Interface | 16 channels of PWM output |
+| IIC Interface | 9 channels IIC output |
+| SPI Interface | 5 SPI outputs |
+| ADC Interface | 8 ADC outputs |
+| CAN interface | 3 channels CAN output |
+| Camera Interface | 6 CSI inputs |
+| HDMI Interface | 2 channels HDMI2.1 TX, 1 channel HDMI RX2.0 |
+| PCIE interface | PCIe3.0 (2x2,1x4,4x1) |
+| SATA interface | 2x SATA3.3/PCIe2.1 |
 
 ### Electrical Characteristics
 
-| 4VInput Voltage | 4V/5A(推荐使用4V/8A输入) |
+| 4VInput Voltage | 4V/5A(Recommended4V/8Aenter) |
 |---|---|
-| RTCInput Voltage | 2.5到3V/100uA, 外接纽扣电池供电即可 |
-| Output Voltage | 3.3V/2A, 1.8V/2A(can be used for底板供电) |
+| RTCInput Voltage | 2.5 to 3V/100uA, can be powered by an external button battery |
+| Output Voltage | 3.3V/2A, 1.8V/2A(can be used forBackplane powered) |
 | Operating Temperature | 0~70°C |
 | Storage Temperature | -10~50°C |
 
@@ -76,9 +76,9 @@ I3588 is a core board based on the Rockchip RK3588 processor. It is intended for
 |---|---|
 | Core Board Size | 67mm*61mm*6mm |
 | Pin Pitch | 0.5mm |
-| Connector Specification | 松下AXK6F80537YG |
+| Connector Specification | Panasonic AXK6F80537YG |
 | Number of Pins | 320PIN |
-| PCB Layers | 10层 |
+| PCB Layers | 10th floor |
 | Warpage | less than0.5% |
 
 ## Related Pages

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Pin Definition
-description: X3562核心板 pin definition
+description: X3562 core board pin definition
 ---
 
 # Pin Definition
@@ -65,13 +65,13 @@ Core BoardPin Definition2
 
 | Pin No. | Signal | Type | Description |
 | --- | --- | --- | --- |
-| 44 | GND | 系统Ground |  |
+| 44 | GND | System Ground |  |
 | 45 | VCC5V0_SYS | Core Board5Vinput |  |
 | 46 | VCC5V0_SYS | Core Board5Vinput |  |
 | 47 | VCC3V3_SYS | Core Board3.3Vinput |  |
 | 48 | VCC3V3_SYS | Core Board3.3Vinput |  |
 | 49 | VCC_RSV1 | Core Board3.0Voutput |  |
-| 50 | GND | 系统Ground |  |
+| 50 | GND | System Ground |  |
 | 51 | SPKN_OUT | audiooutput |  |
 | 52 | SPKP_OUT | audiooutput |  |
 | 53 | HPL_OUT | audiooutput |  |
@@ -79,9 +79,9 @@ Core BoardPin Definition2
 | 55 | HPR_OUT | audiooutput |  |
 | 56 | MIC2_IN | audioinput |  |
 | 57 | MIC1_IN | audioinput |  |
-| 58 | GND | 系统Ground |  |
-| 59 | PMIC_PWRON | PMIC使能脚 |  |
-| 60 | PMIC_EXT_EN | PMIC使能脚 |  |
+| 58 | GND | System Ground |  |
+| 59 | PMIC_PWRON | PMIC enable pin |  |
+| 60 | PMIC_EXT_EN | PMIC enable pin |  |
 | 61 | PMIC_32KOUT_WIFI | 32.768KHzoutput |  |
 | 62 | I2C0_SCL_PMIC | GPIOmuxed as  interface | GPIO0_B1_d |
 | 63 | I2C0_SDA_PMIC | GPIOmuxed as  interface | GPIO0_B2_d |
@@ -107,7 +107,7 @@ Core BoardPin Definition2
 | 83 | SDMMC0_DET_L | GPIOmuxed as  interface | GPIO0_A4_u |
 | 84 | GPIO0_C4_d | GPIOmuxed as  interface | GPIO0_C4_d |
 | 85 | REFCLK_OUT | GPIOmuxed as  interface | GPIO0_A0_d |
-| 86 | GND | 系统Ground |  |
+| 86 | GND | System Ground |  |
 
 
 Core BoardPin Definition3
@@ -121,7 +121,7 @@ Core BoardPin Definition3
 | 89 | UART1_TX_M0 | GPIOmuxed as  interface | GPIO1_D2_d |
 | 90 | UART1_RTSn_M0 | GPIOmuxed as  interface | GPIO1_D3_d |
 | 91 | UART1_RX_M0 | GPIOmuxed as  interface | GPIO1_D1_d |
-| 92 | GND | 系统Ground |  |
+| 92 | GND | System Ground |  |
 | 93 | I2C5_SDA_M1 | GPIOmuxed as  interface | GPIO1_D0_d |
 | 94 | I2C5_SCL_M1 | GPIOmuxed as  interface | GPIO1_C7_d |
 | 95 | I2S2_SCLK_M0 | GPIOmuxed as  interface | GPIO1_D5_d |
@@ -134,7 +134,7 @@ Core BoardPin Definition3
 | 102 | SDIO_D0 | GPIOmuxed as  interface | GPIO1_C1_d |
 | 103 | SDIO_CMD | GPIOmuxed as  interface | GPIO1_C5_d |
 | 104 | SDIO_D3 | GPIOmuxed as  interface | GPIO1_C4_d |
-| 105 | GND | 系统Ground |  |
+| 105 | GND | System Ground |  |
 | 106 | SDMMC0_D0 | GPIOmuxed as  interface | GPIO1_B3_u |
 | 107 | SDMMC0_D1 | GPIOmuxed as  interface | GPIO1_B4_u |
 | 108 | SDMMC0_CMD | GPIOmuxed as  interface | GPIO1_B7_u |
@@ -153,7 +153,7 @@ Core BoardPin Definition3
 | 121 | I2C4_SCL_M0 | GPIOmuxed as  interface | GPIO3_B6_d |
 | 122 | I2C4_SDA_M0 | GPIOmuxed as  interface | GPIO3_B7_d |
 | 123 | CAM_CLK1_OUT | GPIOmuxed as  interface | GPIO3_B3_d |
-| 124 | GND | 系统Ground |  |
+| 124 | GND | System Ground |  |
 | 125 | CAM_CLK0_OUT | GPIOmuxed as  interface | GPIO3_B2_d |
 | 126 | CAM_PDN0_L | GPIOmuxed as  interface | GPIO3_C0_d |
 | 127 | CAM_PWREN_H | GPIOmuxed as  interface | GPIO3_C5_d |
@@ -184,7 +184,7 @@ Core BoardPin Definition4
 | 144 | PCIE20_PERSTn_M1 | GPIOmuxed as  interface | GPIO3_B0_d |
 | 145 | RGMII_CLK_M0 | GPIOmuxed as  interface | GPIO4_B7_d |
 | 146 | ETH_CLK_25M_OUT_M0 | GPIOmuxed as  interface | GPIO4_B1_d |
-| 147 | GND | 系统Ground |  |
+| 147 | GND | System Ground |  |
 | 148 | RGMII_RXCLK_M0 | GPIOmuxed as  interface | GPIO4_A1_d |
 | 149 | RGMII_RXDV_M0 | GPIOmuxed as  interface | GPIO4_A7_d |
 | 150 | RGMII_RXD0_M0 | GPIOmuxed as  interface | GPIO4_A5_d |
@@ -201,7 +201,7 @@ Core BoardPin Definition4
 | 161 | RGMII_TXD2_M0 | GPIOmuxed as  interface | GPIO3_D4_d |
 | 162 | RGMII_TXD1_M0 | GPIOmuxed as  interface | GPIO4_A3_d |
 | 163 | RGMII_TXD0_M0 | GPIOmuxed as  interface | GPIO4_A2_d |
-| 164 | GND | 系统Ground |  |
+| 164 | GND | System Ground |  |
 | 165 | MIPI_CSI_RX1_D3P | MIPI camera interface signal | Cannot be used as GPIO |
 | 166 | MIPI_CSI_RX1_D3N | MIPI camera interface signal | Cannot be used as GPIO |
 | 167 | MIPI_CSI_RX1_D2P | MIPI camera interface signal | Cannot be used as GPIO |

@@ -1,45 +1,45 @@
 ---
 sidebar_position: 4
 title: Hardware Design
-description: X3128CV4核心板 hardware design notes
+description: X3128CV4 core board hardware design notes
 ---
 
 # Hardware Design
 
 Hardware Design
 
-电源设计
+Power supply design
 
-X3128CV4Core Board采用5Vpower supply的方式，用户只需给第115、116、117pin供5V的直流电，Core Board即可以正常工作。另外，Core Board还有一些其他的电源pin，具体定义如下：
+X3128CV4Core Board adopts 5V power supply method. Users only need to supply 5V DC power to pins 115, 116, and 117, and the Core Board can work normally. In addition, the Core Board has some other power pins, which are specifically defined as follows:
 
-1、115、116、117脚：Core Board电源power supply端，默认input4.8到5.5V/1A；
+1、Pins 115, 116, and 117: Core Board power supply terminal, the default input is 4.8 to 5.5V/1A;
 
-2、119脚：RTCPower input，3V/50mA；
+2、Pin 119: RTCPower input, 3V/50mA;
 
-3、120、121脚：电池 interface，for 电池power supply；
+3、Pins 120 and 121: battery interface, for battery power supply;
 
-4、72、73、109、110脚：Core Board公共Ground；
+4、72, 73, 109, 110 feet: Core Board public ground;
 
-5、1、144脚：通过电源适配器或电池给Core Boardpower supply后，PMU的公共Power output端，通常电压在3.5V到5V之间，具体受Input Voltage决定，它可以给整机power supply；
+5、1. Pin 144: After supplying power to the Core Board through the power adapter or battery, the PMU's public Power output terminal usually has a voltage between 3.5V and 5V, depending on the Input Voltage. It can supply power to the entire machine;
 
-6、123、124、125、126脚：PMU的LDO1、LDO2、LDO6、LDO5电压output，具体Adjustable voltage；
+6、123, 124, 125, 126 pins: PMU's LDO1, LDO2, LDO6, LDO5 voltage output, specific Adjustable voltage;
 
-7、36、37脚：3.3Voutput，可for 底板power supply。
+7、Pins 36 and 37: 3.3Voutput, can be used for baseboard power supply.
 
-USB设计
+USB design
 
-RK3128有一chHOST口和一chOTG口，其中OTG口即可作HOST口也可作DEVICE用，即标准的OTG口。
+RK3128 has a chHOST port and a chOTG port. The OTG port can be used as a HOST port or a DEVICE, which is a standard OTG port.
 
-在PCB走线时，Core Board的第23、24pin，即HOST_DP、HOST_DMpin为一对差分线，第25、26pin，即OTG_DP、OTG_DMpin为一对养分线，他们必须走等长差分线，且阻抗匹配为90欧，否则会出现USB传输不稳定的现象。
+When routing the PCB, the 23rd and 24th pins of the Core Board, namely HOST_DP and HOST_DMpin, are a pair of differential lines, and the 25th and 26th pins, namely OTG_DP and OTG_DMpin, are a pair of nutrient lines. They must be equal-length differential lines and have an impedance matching of 90 ohms, otherwise USB transmission instability will occur.
 
-HDMI设计
+HDMI design
 
-RK3128芯片自带HDMI控制器，supports HDMI2.0协议。Core Board上第12到19共8个pin，4对差分线，必须走等长差分线，且阻抗匹配为100欧，否则会出现HDMI画面丢色，断断续续等问题。
+The RK3128 chip comes with an HDMI controller and supports the HDMI2.0 protocol. There are a total of 8 pins from 12th to 19th on the Core Board, and 4 pairs of differential lines. Differential lines must be of equal length and have an impedance matching of 100 ohms. Otherwise, problems such as discoloration and intermittent HDMI screen may occur.
 
-LCD Interface设计
+LCD Interface Design
 
-阻抗匹配为100欧。
+Impedance matching is 100 ohms.
 
-底板设计
+Base plate design
 
-在底板设计时，如果需要千兆以太网，底板上需要做掏空设计。推荐在设计时，统一都做掏空处理，这时x3128cv4和x3128cv4p两者都完全兼容。
+When designing the baseboard, if Gigabit Ethernet is required, the baseboard needs to be hollowed out. It is recommended that both x3128cv4 and x3128cv4p be fully compatible when designing.

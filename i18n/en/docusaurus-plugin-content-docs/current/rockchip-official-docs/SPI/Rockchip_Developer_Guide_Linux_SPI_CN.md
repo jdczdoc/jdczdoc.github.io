@@ -14,7 +14,7 @@ THIS DOCUMENT IS PROVIDED “AS IS”. ROCKCHIP ELECTRONICS CO., LTD.(“ROCKCHI
 
 **Trademark Statement**
 
-"Rockchip", "瑞芯微", "瑞芯" shall be Rockchip’s registered trademarks and owned by Rockchip. All the other trademarks or registered trademarks mentioned in this document shall be owned by their respective owners.
+“Rockchip”, “Rockchip”, “Rockchip” shall be Rockchip’s registered trademarks and owned by Rockchip. All the other trademarks or registered trademarks mentioned in this document shall be owned by their respective owners.
 
 **All rights reserved. ©2020. Rockchip Electronics Co., Ltd.**
 
@@ -429,7 +429,7 @@ spi1: spi@ff5b0000 {
 +&spi1 {
 +       status = "okay";
 +       max-freq = <48000000>;
-+       cs-gpios = <0>, <0>, <&gpio0 RK_PC4 GPIO_ACTIVE_LOW>;	/* 该行定义：cs0-native，cs1-native，cs2-gpio */
++       cs-gpios = <0>, <0>, <&gpio0 RK_PC4 GPIO_ACTIVE_LOW>;	/* This line defines：cs0-native，cs1-native，cs2-gpio */
         spi_test@00 {
                 compatible = "rockchip,spi_test_bus1_cs0";
 ...

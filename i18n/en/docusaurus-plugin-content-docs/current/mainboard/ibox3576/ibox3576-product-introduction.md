@@ -25,27 +25,27 @@ RK3576 is a low-power and high-performance general-purpose SoC processor from Ro
 | Item | Description |
 |---|---|
 | CPU | RK3576(QuadA72+QuadA53) |
-| 主频 | 1.8GHz |
-| RAM | 2GB 或 4GB 或 8GB |
-| ROM | 4GB 或 8GB 或 16GB 或 32GB 或 64GB |
-| PowerIC | 使用RK806-S，Supported动态调频 |
+| Main frequency | 1.8GHz |
+| RAM | 2GB or 4GB or 8GB |
+| ROM | 4GB or 8GB or 16GB or 32GB or 64GB |
+| PowerIC | Using RK806-S, Supported dynamic FM |
 
 
 | Item | Description |
 |---|---|
-| Power | DC输入，12V/3A |
-| LCD接口 | 1路MIPI-DSI/LVDS复用，1路EDP/HDMI复用 |
-| Touch接口 | 电容触摸，I2C接口 |
-| Camera接口 | 1路MIPI-CSI输入 |
-| SD卡接口 | 1路SDIO输出通道 |
-| emmc接口 | 板载emmc接口，管脚不另外引出 |
-| USB接口 | 3路USB2.0，1路USB3.0，1路TYPE-C |
-| HDMI接口 | 1路HDMI2.0TX，1路HDMIOUT |
-| Ethernet Interface | Supported2路千兆Ethernet Interface |
-| UART接口 | 2路 |
-| I2C接口 | 2路 |
-| Audio Interface | 1路MIC，1路耳机输出，双声道喇叭 |
-| PCIE接口 | 1路PCIE2.0 |
+| Power | DC input, 12V/3A |
+| LCD interface | 1 channel MIPI-DSI/LVDS multiplexing, 1 channel EDP/HDMI multiplexing |
+| Touch interface | Capacitive touch, I2C interface |
+| Camera interface | 1 MIPI-CSI input |
+| SD card interface | 1 SDIO output channel |
+| emmc interface | Onboard emmc interface, no pins are lead out separately |
+| USB interface | 3 USB2.0, 1 USB3.0, 1 TYPE-C |
+| HDMI interface | 1 channel HDMI2.0TX, 1 channel HDMIOUT |
+| Ethernet Interface | Supported2-way Gigabit Ethernet Interface |
+| UART interface | 2 way |
+| I2C interface | 2 way |
+| Audio Interface | 1 MIC, 1 headphone output, two-channel speakers |
+| PCIE interface | 1-way PCIE2.0 |
 
 
 | Item | Description |

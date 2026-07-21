@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Hardware Design
-description: I3128核心板 hardware design notes
+description: I3128 core board hardware design notes
 ---
 
 # Hardware Design
@@ -10,13 +10,13 @@ Hardware Design
 
 pinDescription
 
-RK3128除差分对、ADCinput脚外的GPIO口都可以muxed as 作其他Function，如I2C、UART、SPI、I2S、PWM等等。因篇幅有限，本文Description不尽详细，如有需要，可以通过仔细阅读Core Board原理图获取更多信息。
+In addition to the differential pair and ADC input pin, all GPIO ports of RK3128 can be muxed as other functions, such as I2C, UART, SPI, I2S, PWM, etc. Due to limited space, this description is not detailed. If necessary, you can get more information by carefully reading the Core Board schematic diagram.
 
-GPIO电源
+GPIO power
 
-GPIO电源域的电源脚Description如下：
+The description of the power pins of the GPIO power domain is as follows:
 
-| 电源域 | GPIOType | Description | I3128Core Board电平 |
+| power domain | GPIOType | Description | I3128Core Board level |
 | --- | --- | --- | --- |
 | VLDO1 | 2.8V | VCC28_CIF | 2.8V |
 | VLDO2 | 1.8V | VCC18_CIF | 1.8V |
@@ -30,18 +30,18 @@ GPIO电源域的电源脚Description如下：
 | DCDC4 | 3.3V | VCC_IO/VCCIO_WL/VCC_SD / FLASH/VCC_LCD | 3.3V |
 
 
-电源设计
+Power supply design
 
-I3128CV1Core Board采用5Vpower supply的方式，用户只需给第59、60、61pin供5V的直流电，Core Board即可以正常工作。另外，Core Board还有一些其他的电源pin，具体定义如下：
+I3128CV1Core Board uses 5V power supply. Users only need to supply 5V DC power to pins 59, 60, and 61, and the Core Board can work normally. In addition, the Core Board has some other power pins, which are specifically defined as follows:
 
-1、59、60、61脚：Core Board电源power supply端，默认input4.8到5.5V/1A；
+1、Pins 59, 60, and 61: Core Board power supply terminal, default input is 4.8 to 5.5V/1A;
 
-2、56脚：RTCPower input，3V/50mA；
+2、Pin 56: RTCPower input, 3V/50mA;
 
-3、57、58脚：电池 interface，for 电池power supply；
+3、Pins 57 and 58: battery interface, for battery power supply;
 
-4、24、25、48、49脚：Core Board公共Ground；
+4、24, 25, 48, 49 pins: Core Board public ground;
 
-5、53、54脚：通过电源适配器或电池给Core Boardpower supply后，PMU的公共Power output端，通常电压在3.5V到5V之间，具体受Input Voltage决定，它可以给整机power supply；
+5、Pins 53 and 54: After supplying power to the Core Board through the power adapter or battery, the PMU's public Power output terminal usually has a voltage between 3.5V and 5V, depending on the Input Voltage. It can supply power to the entire machine;
 
-6、62、63脚：3.3Voutput，可for 底板power supply。
+6、Pins 62 and 63: 3.3Voutput, can be used for baseboard power supply.

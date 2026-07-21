@@ -92,31 +92,31 @@ The X3566 development board supports Android 11 / Linux operating systems. The d
 
 | System / Driver | Linux 4.19+ / Android 11 | Linux 4.19+ QT |
 | --- | --- | --- |
-| 7寸MIPI屏(1024*600) | Supported | Planned |
-| 背光驱动 | Supported | Planned |
-| PMIC驱动(RK817) | Supported | Planned |
-| 电容触摸 | Supported | Planned |
-| eMMC驱动 | Supported | Planned |
-| SD卡驱动 | Supported | Planned |
-| 独立按键 | Supported | Planned |
-| ADC驱动 | Supported | Planned |
-| 开关机 | Supported | Planned |
-| 休眠唤醒 | Supported | Planned |
-| 两路USB HOST2.0驱动 | Supported | Planned |
-| 一路USB HOST3.0驱动 | Supported | Planned |
-| 一路OTG驱动 | Supported | Planned |
-| PCIE总线驱动 | Supported | Planned |
-| 光纤驱动 | Supported | Planned |
-| RTC驱动 | Supported | Planned |
-| 音频 | Supported | Planned |
-| 录音 | Supported | Planned |
-| 双频WIFI/BT4.0 | Supported | Planned |
+| 7-inch MIPI screen (1024*600) | Supported | Planned |
+| Backlight driver | Supported | Planned |
+| PMIC driver (RK817) | Supported | Planned |
+| capacitive touch | Supported | Planned |
+| eMMC driver | Supported | Planned |
+| SD card driver | Supported | Planned |
+| Independent buttons | Supported | Planned |
+| ADC driver | Supported | Planned |
+| Turn on and off | Supported | Planned |
+| wake up from sleep | Supported | Planned |
+| Two-way USB HOST2.0 driver | Supported | Planned |
+| All the way USB HOST3.0 driver | Supported | Planned |
+| All the way OTG driver | Supported | Planned |
+| PCIE bus driver | Supported | Planned |
+| Fiber optic driver | Supported | Planned |
+| RTC driver | Supported | Planned |
+| Audio | Supported | Planned |
+| recording | Supported | Planned |
+| Dual-band WIFI/BT4.0 | Supported | Planned |
 | GPS | Supported | Planned |
-| CSI摄像头驱动 | Supported | Planned |
-| USB口摄像头驱动 | Supported | Planned |
-| 串口 | Supported | Planned |
+| CSI camera driver | Supported | Planned |
+| USB port camera driver | Supported | Planned |
+| serial port | Supported | Planned |
 | HDMI2.0 | Supported | Planned |
-| 千兆以太网 | Supported | Planned |
-| USB鼠标键盘 | Supported | Planned |
+| Gigabit Ethernet | Supported | Planned |
+| USB mouse keyboard | Supported | Planned |
 | uboot | Supported | Planned |
 

@@ -1,20 +1,20 @@
 ---
 sidebar_position: 2
 title: Dimensions and Structure
-description: X3399CV5核心板 appearance, drawings, and mechanical parameters
+description: X3399CV5 core board appearance, drawings, and mechanical parameters
 ---
 
 # Dimensions and Structure
 
 Core Board Appearance
 
-Core Board正面图
+Core Board front view
 
-Core Board背面图
+Core Board back view
 
 Mechanical Drawing
 
-Core Board结构尺寸及pin排列：
+Core Board structural dimensions and pin arrangement:
 
 ### Mechanical Parameters
 
@@ -23,8 +23,8 @@ Core Board结构尺寸及pin排列：
 | Package | Castellated-hole package |
 | Core Board Size | 55mm*55mm*3mm |
 | Pin Pitch | 1.0mm |
-| Pad Size | 0.5mm*1.8mm，封装以中心对称 |
+| Pad Size | 0.5mm*1.8mm, package is symmetrical to the center |
 | Pin Count | 200PIN |
-| PCB Layers | X3399CV3：10层 X3399CV4：8层 / X3399CV5：8层 |
+| PCB Layers | X3399CV3: 10 layers X3399CV4: 8 layers / X3399CV5: 8 layers |
 | Warpage | Less than 0.5% |
-| 开窗区域 | 上图中红色部分为推荐底板封装开窗区域 |
+| Window area | The red part in the above picture is the recommended window area for the base plate package. |

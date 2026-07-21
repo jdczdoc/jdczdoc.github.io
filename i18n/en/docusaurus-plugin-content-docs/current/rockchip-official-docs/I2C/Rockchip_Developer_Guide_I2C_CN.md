@@ -14,7 +14,7 @@ THIS DOCUMENT IS PROVIDED “AS IS”. ROCKCHIP ELECTRONICS CO., LTD.(“ROCKCHI
 
 **Trademark Statement**
 
-"Rockchip", "瑞芯微", "瑞芯" shall be Rockchip’s registered trademarks and owned by Rockchip. All the other trademarks or registered trademarks mentioned in this document shall be owned by their respective owners.
+“Rockchip”, “Rockchip”, “Rockchip” shall be Rockchip’s registered trademarks and owned by Rockchip. All the other trademarks or registered trademarks mentioned in this document shall be owned by their respective owners.
 
 **All rights reserved. ©2021. Rockchip Electronics Co., Ltd.**
 
@@ -48,7 +48,7 @@ The Rockchip I2C controller supports the following features:
 - Interrupt or poll up to 32 bytes of data transfer at a time
 
 The following figure shows the hardware connection of the I2C bus. The pull-up resistors are required. Changing the pull-up resistor value can adjust the drive strength of the I2C bus.
-![1.i2c 总线硬件连接图](Rockchip_Developer_Guide_Linux_I2C/1.i2c 总线硬件连接图.png)
+![1.i2c Bus hardware connection diagram](Rockchip_Developer_Guide_Linux_I2C/1.i2c 总线硬件连接图.png)
 Rockchip I2C has different driver on different chips and different kernel versions. The maximum frequency supported for different chips  is also different.
 
 **Product Version**

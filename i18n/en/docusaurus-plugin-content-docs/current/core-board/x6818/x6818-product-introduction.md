@@ -1,36 +1,36 @@
 ---
 sidebar_position: 1
 title: Product Introduction
-description: X6818核心板 overview, features, and specifications
+description: X6818 core board overview, features, and specifications
 ---
 
 # Product Introduction
 
-X6818Core Board简介
+Introduction to X6818Core Board
 
 Product Overview
 
 Typical application fields include industrial control, commercial display, multimedia terminals, edge computing, POS, vehicle-mounted systems, and other embedded scenarios.
 
-X6818CV3Core Board具有以下特性：
+X6818CV3Core Board has the following features:
 
-最佳尺寸，即保证精悍的体积又保证足够的GPIO口，仅68mm*48mm；
+The optimal size, which ensures both compact size and sufficient GPIO ports, is only 68mm*48mm;
 
-使用x-powers的AXP228 PMU电源管理设计，在保证工作稳定可靠的同时， 成本足够低廉；
+Using x-powers' AXP228 PMU power management design, the cost is low enough while ensuring stable and reliable operation;
 
-supports 多种品牌，多种容量的eMMC，默认使用东芝8GB eMMC(19nm MLC工艺)；
+supports eMMC of multiple brands and capacities, the default is Toshiba 8GB eMMC(19nm MLCCraftsmanship);
 
-使用单通道DDR3设计，默认supports 1GB容量，可定制2GB容量；
+Using single-channel DDR3 design, the default supports 1GB capacity, and 2GB capacity can be customized;
 
-supports 电源休眠唤醒；
+supports power sleep wakeup;
 
-supports Android5.1操作系统；
+supports Android5.1 operating system;
 
-板载千兆有线以太网；
+Onboard Gigabit wired Ethernet;
 
-拒绝掉程序，远离使用nand flash批量掉程序的烦恼；
+Refuse to delete programs and stay away from the trouble of using nand flash to delete programs in batches;
 
-产品稳定可靠，拷机7天7夜不死机；
+The product is stable and reliable, and the machine does not crash 7 days and 7 nights;
 
 Specifications
 
@@ -43,7 +43,7 @@ Specifications
 | Pin Pitch | 1.2mm |
 | Pad Size | 1.8mm*0.8mm |
 | Pin Count | 180PIN |
-| PCB Layers | 8层 |
+| PCB Layers | 8th floor |
 | Warpage | Less than 0.5% |
 
 
@@ -52,45 +52,45 @@ Specifications
 | Item | Parameter |
 | --- | --- |
 | CPU | S5P6818 |
-| CPU Clock | 64位八核1.4+GHz |
-| Memory | 标配1GB，可定制2GB |
-| Storage | 4GB/8GB/16GB/32GB eMMC可选，标配8GB |
-| Power IC | 使用AXP228，supports dynamic frequency scaling，库仑计等 |
-| 以太网 | 使用RTL8211E千兆以太网PHY |
+| CPU Clock | 64-bit octa-core 1.4+GHz |
+| Memory | 1GB standard, 2GB can be customized |
+| Storage | 4GB/8GB/16GB/32GB eMMC optional, 8GB standard |
+| Power IC | Using AXP228, supports dynamic frequency scaling, coulomb counter, etc. |
+| Ethernet | Using the RTL8211E Gigabit Ethernet PHY |
 
 
 ### Interface Parameters
 
 | Item | Parameter |
 | --- | --- |
-| LCD Interface | 同时supports TTL、LVDS、MIPI interfaceoutput |
-| Touch Interface | 电容touch，可使用USB或UART扩展电阻touch |
-| Audio Interface | AC97/IIS interface，supports 录放音 |
-| SD Card Interface | 2chSDIOoutput通道 |
-| Nand interface | 淘汰技术，未引出 |
-| eMMC interface | 板载eMMC interface，pin不另外引出 |
+| LCD Interface | Also supports TTL, LVDS, MIPI interfaceoutput |
+| Touch Interface | Capacitive touch, USB or UART expansion resistor touch can be used |
+| Audio Interface | AC97/IIS interface, supports audio recording and playback |
+| SD Card Interface | 2chSDIOoutput channel |
+| Nand interface | Obsolete technology, not introduced |
+| eMMC interface | Onboard eMMC interface, the pin is not lead out separately |
 | Ethernet Interface | Gigabit Ethernet supported |
-| USB HOST Interface | 一chHOST 2.0，一chHSIC |
-| USB OTG Interface | 一chOTG 2.0 |
-| UART Interface | 6chUART，supports 带流控UART |
+| USB HOST Interface | One chHOST 2.0, one chHSIC |
+| USB OTG Interface | 1chOTG 2.0 |
+| UART Interface | 6chUART, supports UART with flow control |
 | PWM Interface | 4chPWMoutput |
 | I2C interface | 2chI2Coutput |
 | SPI Interface | 1chSPIoutput |
 | ADC Interface | 2chADCoutput |
 | Camera Interface | 1chBT656/BT601，1chMIPIoutput |
-| HDMI Interface | 高清音视频output interface，音视频同步output |
-| VGA interface | 使用LCDoutput interface扩展 |
-| 启动配置 interface | No boot configuration required; core board adapts automatically |
+| HDMI Interface | High-definition audio and video output interface, audio and video synchronization output |
+| VGA interface | Use LCDoutput interface extension |
+| startup configuration interface | No boot configuration required; core board adapts automatically |
 
 
 ### Electrical Characteristics
 
 | Item | Parameter |
 | --- | --- |
-| Input Voltage | 3.7~5.5V(推荐使用5Vinput) |
-| Output Voltage | 3.3V/4.2V(可for 底板power supply及电池充电) |
-| Operating Temperature | -40~80度 |
-| Storage Temperature | -10~80度 |
+| Input Voltage | 3.7~5.5V(Recommended5Vinput) |
+| Output Voltage | 3.3V/4.2V(Canfor base platepower supplyand battery charging) |
+| Operating Temperature | -40~80 degrees |
+| Storage Temperature | -10~80 degrees |
 
 
 ## Navigation

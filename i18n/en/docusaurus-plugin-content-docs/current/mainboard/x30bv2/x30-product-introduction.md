@@ -104,32 +104,32 @@ The X30 development board supports Android 8.1, QT5.9, Debian 9, and Ubuntu 16.0
 
 | system / driver | linux4.4+ / Android 8.1 | linux4.4+ / QT5.9 | linux4.4+ / debian9 | linux4.4+ / ubuntu16.04 |
 | --- | --- | --- | --- | --- |
-| 四路可编程LED灯 | Supported | Supported | Coming soon | Coming soon |
-| 7寸MIPI屏(1024*600) | Supported | Supported | Supported | Supported |
-| 背光驱动 | Supported | Supported | Supported | Supported |
-| PMIC驱动(RK808) | Supported | Supported | Supported | Supported |
-| 电容触摸 | Supported | Supported | Supported | Supported |
-| eMMC驱动 | Supported | Supported | Supported | Supported |
-| SD卡驱动 | Supported | Supported | Supported | Supported |
-| 独立按键 | Supported | Supported | Supported | Supported |
-| ADC驱动 | Supported | Supported | Supported | Supported |
+| Four-way programmable LED lights | Supported | Supported | Coming soon | Coming soon |
+| 7-inch MIPI screen (1024*600) | Supported | Supported | Supported | Supported |
+| Backlight driver | Supported | Supported | Supported | Supported |
+| PMIC driver (RK808) | Supported | Supported | Supported | Supported |
+| capacitive touch | Supported | Supported | Supported | Supported |
+| eMMC driver | Supported | Supported | Supported | Supported |
+| SD card driver | Supported | Supported | Supported | Supported |
+| Independent buttons | Supported | Supported | Supported | Supported |
+| ADC driver | Supported | Supported | Supported | Supported |
 | Gsensor | Supported | Not required | Not required | Not required |
-| 蜂鸣器驱动 | Supported | Supported | Supported | Supported |
-| 红外遥控 | Supported | Supported | Supported | Supported |
-| 开关机 | Supported | Supported | Supported | Supported |
-| 休眠唤醒 | Supported | Supported | Coming soon | Coming soon |
-| 三路USB USB HOST2.0驱动 | Supported | Supported | Supported | Supported |
-| 一路OTG驱动 | Supported | Supported | Supported | Supported |
-| 音频(RK809) | Supported | Supported | Supported | Supported |
-| 录音(RK809) | Supported | Not required | Coming soon | Coming soon |
+| buzzer driver | Supported | Supported | Supported | Supported |
+| Infrared remote control | Supported | Supported | Supported | Supported |
+| Turn on and off | Supported | Supported | Supported | Supported |
+| wake up from sleep | Supported | Supported | Coming soon | Coming soon |
+| Three-way USB USB HOST2.0 driver | Supported | Supported | Supported | Supported |
+| All the way OTG driver | Supported | Supported | Supported | Supported |
+| Audio (RK809) | Supported | Supported | Supported | Supported |
+| Recording(RK809) | Supported | Not required | Coming soon | Coming soon |
 | SDIOWIFI/BT | Supported | Supported | Coming soon | Coming soon |
-| CSI摄像头驱动 | Supported | Coming soon | Coming soon | Coming soon |
-| USB口摄像头驱动 | Supported | Supported | Supported | Supported |
-| 串口 | Supported | Supported | Supported | Supported |
-| 4G模块(PCIE接口) | Supported | Not required | Not required | Not required |
-| GPS模块 | Supported | Supported | Supported | Supported |
-| 百兆以太网 | Supported | Supported | Supported | Supported |
-| USB鼠标键盘 | Supported | Supported | Supported | Supported |
+| CSI camera driver | Supported | Coming soon | Coming soon | Coming soon |
+| USB port camera driver | Supported | Supported | Supported | Supported |
+| serial port | Supported | Supported | Supported | Supported |
+| 4G module (PCIEinterface) | Supported | Not required | Not required | Not required |
+| GPS module | Supported | Supported | Supported | Supported |
+| 100M Ethernet | Supported | Supported | Supported | Supported |
+| USB mouse keyboard | Supported | Supported | Supported | Supported |
 | uboot | Supported | Supported | Supported | Supported |
-| SD卡脱机更新映像 | Supported | Supported | Supported | Supported |
+| SD card offline update image | Supported | Supported | Supported | Supported |
 

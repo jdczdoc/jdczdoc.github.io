@@ -18,7 +18,7 @@ Due to product version upgrades or other reasons, this document may be updated o
 
 **Trademark Statement**
 
-"Rockchip", "瑞芯微", and "瑞芯" are all registered trademarks of the Company, owned by the Company.
+"Rockchip", "Rockchip", and "Rockchip" are all registered trademarks of the Company, owned by the Company.
 
 All other registered trademarks or trademarks mentioned in this document are owned by their respective owners.
 
@@ -145,7 +145,7 @@ Usage example:
 ```c
 int temp;
 
-temp = TsadcGetTempByAutoMode(0);/* 通道0温度 */
+temp = TsadcGetTempByAutoMode(0);/* aisle0temperature */
 ```
 
 ## TEST
@@ -167,6 +167,6 @@ Components Config  --->
 Usage example:
 
 ```c
-/* 读取通道0温度 */
+/* Read channel0temperature */
 tsadc 0
 ```

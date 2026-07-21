@@ -18,7 +18,7 @@ Due to product version upgrades or other reasons, this document may be updated o
 
 **Trademark Statement**
 
-"Rockchip", "瑞芯微", and "瑞芯" are registered trademarks of the Company and belong to the Company.
+"Rockchip", "Rockchip", and "Rockchip" are registered trademarks of the Company and belong to the Company.
 
 All other registered trademarks or trademarks mentioned in this document are owned by their respective owners.
 
@@ -263,7 +263,7 @@ First consecutive burst access diagram enlarged:
 
 #### Next Generation VOP Design
 
-1. RK3566 VOP Cluster layers have a front-end linebuffer added, allowing data to be filled into the linebuffer quickly and centrally,不受 VOP internal processing efficiency limitations. This also requires only one request per line. However, smart and esmart layers maintain the RK3399 design;
+1. RK3566 VOP Cluster layers have a front-end linebuffer added, allowing data to be filled into the linebuffer quickly and centrally, without VOP internal processing efficiency limitations. This also requires only one request per line. However, smart and esmart layers maintain the RK3399 design;
 2. Discussion with IC team: for RK3588, front-end linebuffers will also be added to smart and esmart layers to ensure data can be fetched from the bus to the linebuffer quickly at once, which not only provides friendlier DDR access behavior but also improves VOP bandwidth issues;
 
 ### Experiment 3: DEN and DQS Phase

@@ -22,9 +22,9 @@ All MIPI differential pairs cannot be multiplexed as normal GPIO.
 | 2 | GPIO2_B1 | GPIO | UART8_RTS_M0,I2C4_SDA_M1,SDMMC1_PWREN |
 | 3 | GPIO2_B2 | GPIO | UART8_CTS_M0,I2C4_SCL_M1,SDMMC1_DET |
 | 4 | GND | Ground |  |
-| 5 | ADC2 | ADC输入 | ADC输入通道2 |
-| 6 | ADC1 | ADC输入 | ADC输入通道1 |
-| 7 | ADC0 | ADC输入 | ADC输入通道0 |
+| 5 | ADC2 | ADC input | ADC input channel 2 |
+| 6 | ADC1 | ADC input | ADC input channel 1 |
+| 7 | ADC0 | ADC input | ADC input channel 0 |
 | 8 | GPIO1_B2 | GPIO | I2S1_SDO3_M0,I2S1_SDI1_M0 |
 | 9 | GPIO1_B1 | GPIO | I2S1_SDO2_M0,I2S1_SDI2_M0 |
 | 10 | GPIO1_B0 | GPIO | I2S1_SDO1_M0,I2S1_SDI3_M0 |
@@ -93,72 +93,72 @@ All MIPI differential pairs cannot be multiplexed as normal GPIO.
 | 67 | GPIO3_C1 | GPIO | BT1120_D13,SPI1_MOSI_M1,I2S1_SDO2_M2 |
 | 68 | GPIO3_B0 | GPIO | BT1120_D6,ETH1_REFCLKO_25M_M0, SDMMC_PWREN_M1 |
 | 69 | GPIO3_C0 | GPIO | PWM13_M0,GMAC1_MCLKINOUT_M0,UART3_RX_M1,PDM_SDI3_M2 |
-| 70 | MIPI_CSI_RX_D3N | CSI信号线 | MIPI CSI differential pair |
-| 71 | MIPI_CSI_RX_D3P | CSI信号线 | MIPI CSI differential pair |
-| 72 | MIPI_CSI_RX_D2N | CSI信号线 | MIPI CSI differential pair |
-| 73 | MIPI_CSI_RX_D2P | CSI信号线 | MIPI CSI differential pair |
-| 74 | MIPI_CSI_RX_D1N | CSI信号线 | MIPI CSI differential pair |
-| 75 | MIPI_CSI_RX_D1P | CSI信号线 | MIPI CSI differential pair |
-| 76 | MIPI_CSI_RX_D0N | CSI信号线 | MIPI CSI differential pair |
-| 77 | MIPI_CSI_RX_D0P | CSI信号线 | MIPI CSI differential pair |
-| 78 | MIPI_CSI_RX_CLK1N | CSI信号线 | MIPI CSI differential pair |
-| 79 | MIPI_CSI_RX_CLK1P | CSI信号线 | MIPI CSI differential pair |
-| 80 | MIPI_CSI_RX_CLK0N | CSI信号线 | MIPI CSI differential pair |
-| 81 | MIPI_CSI_RX_CLK0P | CSI信号线 | MIPI CSI differential pair |
+| 70 | MIPI_CSI_RX_D3N | CSI signal line | MIPI CSI differential pair |
+| 71 | MIPI_CSI_RX_D3P | CSI signal line | MIPI CSI differential pair |
+| 72 | MIPI_CSI_RX_D2N | CSI signal line | MIPI CSI differential pair |
+| 73 | MIPI_CSI_RX_D2P | CSI signal line | MIPI CSI differential pair |
+| 74 | MIPI_CSI_RX_D1N | CSI signal line | MIPI CSI differential pair |
+| 75 | MIPI_CSI_RX_D1P | CSI signal line | MIPI CSI differential pair |
+| 76 | MIPI_CSI_RX_D0N | CSI signal line | MIPI CSI differential pair |
+| 77 | MIPI_CSI_RX_D0P | CSI signal line | MIPI CSI differential pair |
+| 78 | MIPI_CSI_RX_CLK1N | CSI signal line | MIPI CSI differential pair |
+| 79 | MIPI_CSI_RX_CLK1P | CSI signal line | MIPI CSI differential pair |
+| 80 | MIPI_CSI_RX_CLK0N | CSI signal line | MIPI CSI differential pair |
+| 81 | MIPI_CSI_RX_CLK0P | CSI signal line | MIPI CSI differential pair |
 | 82 | GND | Ground |  |
-| 83 | MIPI_DSI_TX0_CLKN/LVDS_TX0_CLKN | DSI或LVDS信号线 | DSI or LVDS differential pair, selected by software |
-| 84 | MIPI_DSI_TX0_CLKP/LVDS_TX0_CLKP | DSI或LVDS信号线 | DSI or LVDS differential pair, selected by software |
-| 85 | MIPI_DSI_TX0_D3N/LVDS_TX0_D3N | DSI或LVDS信号线 | DSI or LVDS differential pair, selected by software |
-| 86 | MIPI_DSI_TX0_D3P/LVDS_TX0_D3P | DSI或LVDS信号线 | DSI or LVDS differential pair, selected by software |
+| 83 | MIPI_DSI_TX0_CLKN/LVDS_TX0_CLKN | DSI or LVDS signal line | DSI or LVDS differential pair, selected by software |
+| 84 | MIPI_DSI_TX0_CLKP/LVDS_TX0_CLKP | DSI or LVDS signal line | DSI or LVDS differential pair, selected by software |
+| 85 | MIPI_DSI_TX0_D3N/LVDS_TX0_D3N | DSI or LVDS signal line | DSI or LVDS differential pair, selected by software |
+| 86 | MIPI_DSI_TX0_D3P/LVDS_TX0_D3P | DSI or LVDS signal line | DSI or LVDS differential pair, selected by software |
 
 
 ## Core Board Pin Definition 3: Pin 87-129
 
 | Pin No. | Signal | Type | Description |
 | --- | --- | --- | --- |
-| 87 | MIPI_DSI_TX0_D2N/LVDS_TX0_D2N | DSI或LVDS信号线 | DSI or LVDS differential pair, selected by software |
-| 88 | MIPI_DSI_TX0_D2P/LVDS_TX0_D2P | DSI或LVDS信号线 | DSI or LVDS differential pair, selected by software |
-| 89 | MIPI_DSI_TX0_D1N/LVDS_TX0_D1N | DSI或LVDS信号线 | DSI or LVDS differential pair, selected by software |
-| 90 | MIPI_DSI_TX0_D1P/LVDS_TX0_D1P | DSI或LVDS信号线 | DSI or LVDS differential pair, selected by software |
-| 91 | MIPI_DSI_TX0_D0N/LVDS_TX0_D0N | DSI或LVDS信号线 | DSI or LVDS differential pair, selected by software |
-| 92 | MIPI_DSI_TX0_D0P/LVDS_TX0_D0P | DSI或LVDS信号线 | DSI or LVDS differential pair, selected by software |
+| 87 | MIPI_DSI_TX0_D2N/LVDS_TX0_D2N | DSI or LVDS signal line | DSI or LVDS differential pair, selected by software |
+| 88 | MIPI_DSI_TX0_D2P/LVDS_TX0_D2P | DSI or LVDS signal line | DSI or LVDS differential pair, selected by software |
+| 89 | MIPI_DSI_TX0_D1N/LVDS_TX0_D1N | DSI or LVDS signal line | DSI or LVDS differential pair, selected by software |
+| 90 | MIPI_DSI_TX0_D1P/LVDS_TX0_D1P | DSI or LVDS signal line | DSI or LVDS differential pair, selected by software |
+| 91 | MIPI_DSI_TX0_D0N/LVDS_TX0_D0N | DSI or LVDS signal line | DSI or LVDS differential pair, selected by software |
+| 92 | MIPI_DSI_TX0_D0P/LVDS_TX0_D0P | DSI or LVDS signal line | DSI or LVDS differential pair, selected by software |
 | 93 | GPIO4_C7 | GPIO | HDMITX_SCL,I2C5_SCL_M1 |
 | 94 | GPIO4_D0 | GPIO | HDMITX_SDA,I2C5_SDA_M1 |
 | 95 | GPIO4_D1 | GPIO | HDMITX_CEC_M0,SPI3_CS1_M1 |
-| 96 | HDMI_TX_HPDIN | HDMI插入检测管脚 |  |
-| 97 | HDMI_TXCLKN_PORT | HDMI信号线 | HDMI high-speed differential pair |
-| 98 | HDMI_TXCLKP_PORT | HDMI信号线 | HDMI high-speed differential pair |
-| 99 | HDMI_TX0N_PORT | HDMI信号线 | HDMI high-speed differential pair |
-| 100 | HDMI_TX0P_PORT | HDMI信号线 | HDMI high-speed differential pair |
-| 101 | HDMI_TX1N_PORT | HDMI信号线 | HDMI high-speed differential pair |
-| 102 | HDMI_TX1P_PORT | HDMI信号线 | HDMI high-speed differential pair |
-| 103 | HDMI_TX2N_PORT | HDMI信号线 | HDMI high-speed differential pair |
-| 104 | HDMI_TX2P_PORT | HDMI信号线 | HDMI high-speed differential pair |
-| 105 | GPIO0_D0 | GPIO | UART2_RX_M0，默认为调试UART |
-| 106 | GPIO0_D1 | GPIO | UART2_TX_M0，默认为调试UART |
+| 96 | HDMI_TX_HPDIN | HDMI insertion detection pin |  |
+| 97 | HDMI_TXCLKN_PORT | HDMI signal cable | HDMI high-speed differential pair |
+| 98 | HDMI_TXCLKP_PORT | HDMI signal cable | HDMI high-speed differential pair |
+| 99 | HDMI_TX0N_PORT | HDMI signal cable | HDMI high-speed differential pair |
+| 100 | HDMI_TX0P_PORT | HDMI signal cable | HDMI high-speed differential pair |
+| 101 | HDMI_TX1N_PORT | HDMI signal cable | HDMI high-speed differential pair |
+| 102 | HDMI_TX1P_PORT | HDMI signal cable | HDMI high-speed differential pair |
+| 103 | HDMI_TX2N_PORT | HDMI signal cable | HDMI high-speed differential pair |
+| 104 | HDMI_TX2P_PORT | HDMI signal cable | HDMI high-speed differential pair |
+| 105 | GPIO0_D0 | GPIO | UART2_RX_M0, default is debug UART |
+| 106 | GPIO0_D1 | GPIO | UART2_TX_M0, default is debug UART |
 | 107 | GPIO0_C0 | GPIO | PWM1,UART0_RX |
 | 108 | GPIO0_C1 | GPIO | PWM2,UART0_TX |
 | 109 | GND | Ground |  |
-| 110 | USB3_HOST1_DP | USB信号线 | USB high-speed differential pair |
-| 111 | USB3_HOST1_DM | USB信号线 | USB high-speed differential pair |
-| 112 | USB3_HOST1_SSTXP | USB信号线 | USB high-speed differential pair |
-| 113 | USB3_HOST1_SSTXN | USB信号线 | USB high-speed differential pair |
-| 114 | USB3_HOST1_SSRXP | USB信号线 | USB high-speed differential pair |
-| 115 | USB3_HOST1_SSRXN | USB信号线 | USB high-speed differential pair |
-| 116 | USB_OTG0_VBUSDET | OTG检测脚 | 用于OTG管脚识别 |
-| 117 | USB_OTG0_ID | OTG ID脚 | 用于HOST和DEVICE状态判断 |
-| 118 | USB_OTG0_DM | USB信号线 | USB high-speed differential pair |
-| 119 | USB_OTG0_DP | USB信号线 | USB high-speed differential pair |
-| 120 | EDP_TX_AUXN | EDP屏信号线 | EDP屏接口差分对 |
-| 121 | EDP_TX_AUXP | EDP屏信号线 | EDP屏接口差分对 |
-| 122 | EDP_TX_D3N | EDP屏信号线 | EDP屏接口差分对 |
-| 123 | EDP_TX_D3P | EDP屏信号线 | EDP屏接口差分对 |
-| 124 | EDP_TX_D2N | EDP屏信号线 | EDP屏接口差分对 |
-| 125 | EDP_TX_D2P | EDP屏信号线 | EDP屏接口差分对 |
-| 126 | EDP_TX_D1N | EDP屏信号线 | EDP屏接口差分对 |
-| 127 | EDP_TX_D1P | EDP屏信号线 | EDP屏接口差分对 |
-| 128 | EDP_TX_D0N | EDP屏信号线 | EDP屏接口差分对 |
-| 129 | EDP_TX_D0P | EDP屏信号线 | EDP屏接口差分对 |
+| 110 | USB3_HOST1_DP | USB signal cable | USB high-speed differential pair |
+| 111 | USB3_HOST1_DM | USB signal cable | USB high-speed differential pair |
+| 112 | USB3_HOST1_SSTXP | USB signal cable | USB high-speed differential pair |
+| 113 | USB3_HOST1_SSTXN | USB signal cable | USB high-speed differential pair |
+| 114 | USB3_HOST1_SSRXP | USB signal cable | USB high-speed differential pair |
+| 115 | USB3_HOST1_SSRXN | USB signal cable | USB high-speed differential pair |
+| 116 | USB_OTG0_VBUSDET | OTG detection pin | Used for OTG pin identification |
+| 117 | USB_OTG0_ID | OTG ID pin | Used for HOST and DEVICE status judgment |
+| 118 | USB_OTG0_DM | USB signal cable | USB high-speed differential pair |
+| 119 | USB_OTG0_DP | USB signal cable | USB high-speed differential pair |
+| 120 | EDP_TX_AUXN | EDP ​​screen signal line | EDP ​​screen interface differential pair |
+| 121 | EDP_TX_AUXP | EDP ​​screen signal line | EDP ​​screen interface differential pair |
+| 122 | EDP_TX_D3N | EDP ​​screen signal line | EDP ​​screen interface differential pair |
+| 123 | EDP_TX_D3P | EDP ​​screen signal line | EDP ​​screen interface differential pair |
+| 124 | EDP_TX_D2N | EDP ​​screen signal line | EDP ​​screen interface differential pair |
+| 125 | EDP_TX_D2P | EDP ​​screen signal line | EDP ​​screen interface differential pair |
+| 126 | EDP_TX_D1N | EDP ​​screen signal line | EDP ​​screen interface differential pair |
+| 127 | EDP_TX_D1P | EDP ​​screen signal line | EDP ​​screen interface differential pair |
+| 128 | EDP_TX_D0N | EDP ​​screen signal line | EDP ​​screen interface differential pair |
+| 129 | EDP_TX_D0P | EDP ​​screen signal line | EDP ​​screen interface differential pair |
 
 
 ## Core Board Pin Definition 4: Pin 130-172
@@ -176,23 +176,23 @@ All MIPI differential pairs cannot be multiplexed as normal GPIO.
 | 138 | GPIO1_D6 | GPIO | SDMMC0_D1,PWM9,UART2_RX,UART6_RX |
 | 139 | GPIO1_D5 | GPIO | SDMMC0_D0,PWM8,UART2_TX,UART6_TX |
 | 140 | GPIO2_A1 | GPIO | SDMMC0_CMD,PWM10,UART5_RX |
-| 141 | SNSN | 电池信号脚 | 电池负极 |
-| 142 | VCC_BAT- | 电池负极 | 电池负极 |
-| 143 | VCC_BAT+ | 电池正级 | 电池正级 |
+| 141 | SNSN | Battery signal pin | Battery negative pole |
+| 142 | VCC_BAT- | Battery negative pole | Battery negative pole |
+| 143 | VCC_BAT+ | Battery positive level | Battery positive level |
 | 144 | GND | Ground |  |
 | 145 | GND | Ground |  |
-| 146 | VBUS | 电源输入 | PMIC 5V电源输入 |
-| 147 | VBUS | 电源输入 | PMIC 5V电源输入 |
-| 148 | TS | PMIC GPIO口 | PMIC GPIO output |
-| 149 | SPKP_OUT | 喇叭输出 | 喇叭输出正极 |
-| 150 | SPKN_OUT | 喇叭输出 | 喇叭输出负极 |
-| 151 | MIC1_IN | 麦克风输入 | 麦克风输入通道1 |
-| 152 | MIC2_IN | 麦克风输入 | 麦克风输入通道2 |
-| 153 | HPR_OUT | Headphone output | 耳机右声道输出 |
-| 154 | HPL_OUT | Headphone output | 耳机左声道输出 |
-| 155 | HP_SNS | 耳机噪声抑制 | 耳机噪声抑制管脚，靠近耳机座子下地 |
-| 156 | PMIC_PWRON | 开机管脚 | PMIC上电开机管脚，低电平有效 |
-| 157 | PMIC_RESET_KEY | 复位管脚 | PMIC复位管脚 |
+| 146 | VBUS | Power input | PMIC 5V power input |
+| 147 | VBUS | Power input | PMIC 5V power input |
+| 148 | TS | PMIC GPIO port | PMIC GPIO output |
+| 149 | SPKP_OUT | Speaker output | Speaker output positive |
+| 150 | SPKN_OUT | Speaker output | Speaker output negative pole |
+| 151 | MIC1_IN | Microphone input | Microphone input channel 1 |
+| 152 | MIC2_IN | Microphone input | Microphone input channel 2 |
+| 153 | HPR_OUT | Headphone output | Headphone right channel output |
+| 154 | HPL_OUT | Headphone output | Headphone left channel output |
+| 155 | HP_SNS | headphone noise suppression | Headphone noise suppression pin, located near the headphone holder. |
+| 156 | PMIC_PWRON | Boot pin | PMIC power-on pin, active low level |
+| 157 | PMIC_RESET_KEY | reset pin | PMIC reset pin |
 | 158 | GPIO2_C3 | GPIO | I2S2_LRCK_TX_M0,UART9_RTS,SPI2_MOSI |
 | 159 | GPIO2_C4 | GPIO | I2S2_SDO_M0,UART9_CTS,SPI2_CS0 |
 | 160 | GPIO2_C5 | GPIO | I2S2_SDI_M0,UART8_TX,SPI2_CS1 |

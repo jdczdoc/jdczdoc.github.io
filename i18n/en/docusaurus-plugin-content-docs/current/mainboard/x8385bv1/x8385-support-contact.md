@@ -28,11 +28,11 @@ description: X8385 technical support and sales service information
 
 | Technical QQ Group | QQ Group No. |
 | --- | --- |
-| X4418/ibox4418论坛 | 199358213 |
-| x6818/ibox6818论坛 | 189920370 |
-| RK平台交流一群 | 159144256 |
-| RK平台交流二群 | 573696929 |
-| RK平台交流三群 | 817913100 |
-| MTK平台交流群 | 630291376 |
-| 全志平台交流群 | 436993280 |
+| X4418/ibox4418 Forum | 199358213 |
+| x6818/ibox6818 Forum | 189920370 |
+| RK platform communication group | 159144256 |
+| RK platform communication group 2 | 573696929 |
+| RK platform communication group three | 817913100 |
+| MTK platform communication group | 630291376 |
+| Allwinner platform communication group | 436993280 |
 

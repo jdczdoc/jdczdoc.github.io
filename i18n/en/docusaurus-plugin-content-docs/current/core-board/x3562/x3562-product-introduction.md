@@ -1,34 +1,34 @@
 ---
 sidebar_position: 1
 title: Product Introduction
-description: X3562核心板 overview, features, and specifications
+description: X3562 core board overview, features, and specifications
 ---
 
 # Product Introduction
 
-X3562Core Board简介
+Introduction to X3562Core Board
 
 Product Overview
 
-X3562CV2是基于瑞芯微RK3562 CPU的一款邮票孔Core Board，它由深圳市九鼎创展科技有限公司自主研发，生产并销售。
+X3562CV2 is a stamp hole Core Board based on Rockchip RK3562 CPU. It is independently developed, produced and sold by Shenzhen Jiuding Chuangzhan Technology Co., Ltd.
 
 Core Board Features
 
-X3562Core Board具有以下特性：
+X3562Core Board has the following features:
 
-最佳尺寸，保证引出全部GPIO口的同时，尺寸仅45mm*45mm；
+The optimal size ensures that all GPIO ports are accessible while the size is only 45mm*45mm;
 
-系统power supply使用 PMU，在保证工作稳定可靠的同时，成本足够低廉；
+The system power supply uses PMU, which ensures stable and reliable operation and is low enough in cost;
 
-supports 多种品牌，多种容量的eMMC；
+supports eMMC of multiple brands and capacities;
 
-使用LPDDR4x设计，最高supports 16GB；
+Using LPDDR4x design, supports up to 16GB;
 
-supports 电源休眠唤醒；
+supports power sleep wakeup;
 
-Gigabit Ethernet supported、MIPI-CSI、MIPI-DSI、PCIE、USB 3.0等高速总线；
+Gigabit Ethernet supported, MIPI-CSI, MIPI-DSI, PCIE, USB 3.0 and other high-speed buses;
 
-采用208PINCastellated-hole package；
+Using 208PINCastellated-hole package;
 
 Specifications
 
@@ -38,9 +38,9 @@ Specifications
 | --- | --- |
 | CPU | RK3576 (Quad A72 + Quad A53) |
 | CPU Clock | 1.8GHz |
-| RAM | 2GB 或 4GB 或 8GB |
-| ROM | 4GB 或 8GB 或 16GB 或 32GB 或 64GB |
-| Power IC | 使用RK809-5A，supports dynamic frequency scaling |
+| RAM | 2GB or 4GB or 8GB |
+| ROM | 4GB or 8GB or 16GB or 32GB or 64GB |
+| Power IC | Using RK809-5A, supports dynamic frequency scaling |
 
 
 ### Interface Parameters
@@ -50,7 +50,7 @@ Specifications
 | LCD Interface | 1chMIPI DSI/LVDSmuxed as  interface |
 | Audio Interface | 1chaudioinput interface，2chaudiooutput interface，6chI2S interface，3chSPDIF，2chPDM |
 | SDIO Interface | 2chSDIO Interface |
-| eMMC interface | 板载eMMC |
+| eMMC interface | Onboard eMMC |
 | Ethernet Interface | 1chRGMII interface |
 | USB HOST 2.0 Interface | 2chUSB 2.0 interface |
 | USB HOST 3.0 Interface | 1chUSB 3.0 interface |
@@ -67,8 +67,8 @@ Specifications
 | --- | --- |
 | Input Voltage / Current | VCC5V0_SYS/3A，VCC3V3_SYS/3A |
 | Output Voltage / Current | VCC_RSV1/400mA(3V)，VCC_1V8/2.5A |
-| Operating Temperature | 0~70度 |
-| Storage Temperature | -10~50度 |
+| Operating Temperature | 0~70 degrees |
+| Storage Temperature | -10~50 degrees |
 
 
 ## Navigation

@@ -12,15 +12,15 @@ X3568CV4 is a core board based on the Rockchip RK3568 processor. It is intended 
 
 ## Features
 
-- 最佳尺寸, 即保证精悍的体积又保证足够的GPIO 口, 仅45mm*45mm
-- 使用RK 自身的RK809 PMU, 在保证工作稳定可靠的同时, 成本足够低廉
-- supports多种品牌, 多种容量的EMMC, default使用三星EMMC, 分别为8GB 版本和16GB 版本
-- 使用双通道LPDDR4X 或DDR4 设计, 拥有1GB/2GB/4GB/8GB 版本
-- supports电源休眠唤醒
-- supportsandroid8.1, linux, debain9, ubuntu 等操作系统
-- supportsdual-channel千兆有线以太网
-- 引出200PIN 管脚, 基本满足各种应用需求
-- 产品稳定可靠, 经过大量高低温, 反复重启, 安卓稳定性测试, 安兔兔测试等可靠性实验, 拷机7 天7 夜不死机
+- The best size, which ensures both compact size and sufficient GPIO ports, is only 45mm*45mm.
+- Using RK's own RK809 PMU, the cost is low enough while ensuring stable and reliable operation.
+- supports EMMC of multiple brands and capacities. The default uses Samsung EMMC, which are 8GB version and 16GB version respectively.
+- Using dual-channel LPDDR4X or DDR4 design, available in 1GB/2GB/4GB/8GB versions
+- supports power sleep wake up
+- supports android8.1, linux, debain9, ubuntu and other operating systems
+- supports dual-channel Gigabit Wired Ethernet
+- Lead out 200PIN pins to basically meet various application needs
+- The product is stable and reliable. After a lot of high and low temperatures, repeated restarts, Android stability tests, AnTuTu tests and other reliability experiments, the machine did not crash for 7 days and 7 nights.
 
 ## Appearance and Mechanical Structure
 
@@ -37,35 +37,35 @@ X3568CV4 is a core board based on the Rockchip RK3568 processor. It is intended 
 | CPU | RK3568/RK3568B2 |
 |---|---|
 | Frequency | quad-coreA55(2GHz) |
-| RAM | standard2GB, 硬件兼容4GB, 8GB |
+| RAM | standard2GB, hardware compatible 4GB, 8GB |
 | Storage | 8GB/16GBEMMCoptional, standard16GB |
-| Power IC | 使用RK809, supports动态调频等 |
+| Power IC | Using RK809, supports dynamic frequency modulation, etc. |
 
 ### Interface Parameters
 
-| LCD Interface | supportsDSI/LVDS/EDP/HDMI Interface输出 |
+| LCD Interface | supportsDSI/LVDS/EDP/HDMI Interface output |
 |---|---|
 | Touch Interface | capacitive touch |
-| Audio Interface | supports耳机喇叭直接输出, supports录放音 |
-| SD Card Interface | 2路SDIO输出通道 |
-| eMMC Interface | on-boardeMMC Interface, 管脚not routed out separately |
-| Ethernet Interface | supports2路Gigabit Ethernet |
-| USBHOST2.0接口 | 2路HOST2.0 |
-| USBHOST3.0接口 | 2路HOST3.0 |
-| OTG接口 | 1路OTG接口(和其中一路USB3.0multiplexed) |
-| UART Interface | 10路串口, supports带流控串口 |
-| PWM Interface | 16路PWM输出 |
-| IIC Interface | 6路IIC输出 |
-| SPI Interface | 4路SPI输出 |
-| ADC Interface | 2路ADC输出(有6路未引出) |
-| Camera Interface | CSI/BT601/BT656/BT1120/RAW输入 |
+| Audio Interface | supports direct output from headphone speakers, supports recording and playback |
+| SD Card Interface | 2 SDIO output channels |
+| eMMC Interface | on-boardeMMC Interface, pins not routed out separately |
+| Ethernet Interface | supports2-way Gigabit Ethernet |
+| USBHOST2.0 interface | 2-way HOST2.0 |
+| USBHOST3.0 interface | 2-way HOST3.0 |
+| OTG interface | 1-way OTG interface (and one of themUSB3.0multiplexed) |
+| UART Interface | 10-way serial port, supports serial port with flow control |
+| PWM Interface | 16 channels of PWM output |
+| IIC Interface | 6 IIC outputs |
+| SPI Interface | 4 SPI outputs |
+| ADC Interface | 2 ADC outputs (have6The road does not lead out) |
+| Camera Interface | CSI/BT601/BT656/BT1120/RAW input |
 
 ### Electrical Characteristics
 
 | 3.3VInput Voltage | 3.3V/2A |
 |---|---|
 | RTCInput Voltage | 3V/0.6uA |
-| Output Voltage | 3.3V/1.5A(can be used for底板供电) |
+| Output Voltage | 3.3V/1.5A(can be used forBackplane powered) |
 | Operating Temperature | commercial grade: -10~70°C industrial grade : -40~85°C |
 | Storage Temperature | -10~40°C |
 
@@ -77,7 +77,7 @@ X3568CV4 is a core board based on the Rockchip RK3568 processor. It is intended 
 | Pin Pitch | 1.0mm |
 | Pad Size | 1.3mm*0.6mm |
 | Number of Pins | 172PIN |
-| PCB Layers | 8层 |
+| PCB Layers | 8th floor |
 | Warpage | not greater than0.5% |
 
 ## Related Pages

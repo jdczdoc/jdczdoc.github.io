@@ -1,20 +1,20 @@
 ---
 sidebar_position: 2
 title: Dimensions and Structure
-description: X3288CV5核心板 appearance, drawings, and mechanical parameters
+description: X3288CV5 core board appearance, drawings, and mechanical parameters
 ---
 
 # Dimensions and Structure
 
 Core Board Appearance
 
-Core Board正面图
+Core Board front view
 
-Core Board背面图
+Core Board back view
 
 Mechanical Drawing
 
-Core Board结构尺寸及pin排列：
+Core Board structural dimensions and pin arrangement:
 
 ### Mechanical Parameters
 
@@ -25,9 +25,9 @@ Core Board结构尺寸及pin排列：
 | Pin Pitch | 1.2mm |
 | Pad Size | 1.8mm*0.7mm |
 | Pin Count | 180PIN |
-| PCB Layers | 8层 |
+| PCB Layers | 8th floor |
 
 
-底板Package
+BottomPackage
 
-详细Parameter请参考x3288Development Board相关文档。
+For detailed parameters, please refer to the x3288Development Board related documents.

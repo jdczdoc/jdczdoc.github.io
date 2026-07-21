@@ -18,7 +18,7 @@ Due to product version upgrades or other reasons, this document may be updated o
 
 **Trademark Statement**
 
-"Rockchip", "瑞芯微", and "瑞芯" are all registered trademarks of the Company, owned by the Company.
+"Rockchip", "Rockchip", and "Rockchip" are all registered trademarks of the Company, owned by the Company.
 
 All other registered trademarks or trademarks mentioned in this document are owned by their respective owners.
 
@@ -90,9 +90,9 @@ UART（Universal Asynchronous Receiver/Transmitter）
 UART driver:
 
 ```c
-src/driver/uart/UartDevice.c //串口驱动
+src/driver/uart/UartDevice.c // UART driver
 include/driver/UartDevice.h
-src/bsp/hal/lib/hal/src/hal_uart.c //串口硬件抽象层
+src/bsp/hal/lib/hal/src/hal_uart.c // UART hardware abstraction layer
 src/bsp/hal/lib/hal/inc/hal_uart.h
 ```
 
@@ -127,7 +127,7 @@ Components Config --->
     Command shell --->
         [*] Enable Uart Shell
 
-/* 请打开DMA设备驱动 */
+/* please openDMADevice driver */
 BSP Driver --->
     Enable DMA --->
         [*] Enable DesignWare DMA Controlle

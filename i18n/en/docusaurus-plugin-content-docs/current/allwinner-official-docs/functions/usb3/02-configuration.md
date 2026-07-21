@@ -33,9 +33,9 @@ Check the following items:
 - `CONFIG_USB_DWC3`
 - `CONFIG_USB_SUNXI_DWC3`
 - `CONFIG_PHY_SUNXI_PLAT`
-- CONFIG_USB_SUNXI_PHY / CONFIG_USB_SUNXI_AWPHY（平台相关）
+- CONFIG_USB_SUNXI_PHY / CONFIG_USB_SUNXI_AWPHY (platform dependent)
 - `CONFIG_DWC3_SUNXI_PLAT`
-- CONFIG_USB_SUNXI_TYPEC / CONFIG_TYPEC_HUSB311 / CONFIG_TYPEC_MUX_PS8743（外接方案需要）
+- CONFIG_USB_SUNXI_TYPEC / CONFIG_TYPEC_HUSB311 / CONFIG_TYPEC_MUX_PS8743 (required for external solutions)
 
 Save the configuration:
 
@@ -63,7 +63,7 @@ The following is a reference structure. Do not duplicate or override SoC-level `
 };
 
 &combophy {
-        phy_use_sel = <1>;                /* 0: PCIe, 1: USB3；以当前驱动定义为准 */
+        phy_use_sel = <1>;                /* 0: PCIe, 1: USB3；Based on the current driver definition */
         status = "okay";
 };
 ```

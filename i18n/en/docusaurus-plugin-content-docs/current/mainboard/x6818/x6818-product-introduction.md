@@ -16,22 +16,22 @@ X6818 is an upgrade from X4418. The CPU core is upgraded from quad-core Cortex-A
 
 |  | S5P4418 | S5P6818 |
 | --- | --- | --- |
-| 上市时间 | Oct. 2014 | 2014 |
-| 工艺制程 | 28 nm | 28 nm |
-| CPU主频 | 1.4 GHz | 1.4 GHz+ |
-| 封装尺寸 | 0.65 mm pin pitch, 17 x 17 mm², 513-FCBGA package | 0.65 mm pin pitch, 17 x 17 mm², 513-FCBGA package |
-| CPU架构 | Quad-core Cortex-A9 | Octa-core Cortex-A53 |
-| 缓存容量 | 32 KB x 4 I/D cache, 1 MB L2 cache | 32 KB x 4 I/D cache, 1 MB L2 cache |
-| DDR3接口 | Single-channel 32-bit data bus, up to 800 MHz | Single-channel 32-bit data bus, up to 800 MHz |
-| 多媒体解码 | H.263, H.264, MPEG1/2/4, VC1, VP8, Theora, AVS, RV8/9/10, MJPEG | H.263, H.264, MPEG1/2/4, VC1, VP8, Theora, AVS, RV8/9/10, MJPEG |
-| 多媒体编码 | H.263, H.264, MPEG4, MJPEG | H.263, H.264, MPEG4, MJPEG |
-| 显示接口 | RGB, MIPI, LVDS | RGB, MIPI, LVDS |
-| 最大显示分辨率 | 2048 x 1280 | 2048 x 1280 |
+| time to market | Oct. 2014 | 2014 |
+| Process | 28 nm | 28 nm |
+| CPU frequency | 1.4 GHz | 1.4 GHz+ |
+| Package size | 0.65 mm pin pitch, 17 x 17 mm², 513-FCBGA package | 0.65 mm pin pitch, 17 x 17 mm², 513-FCBGA package |
+| CPU architecture | Quad-core Cortex-A9 | Octa-core Cortex-A53 |
+| cache capacity | 32 KB x 4 I/D cache, 1 MB L2 cache | 32 KB x 4 I/D cache, 1 MB L2 cache |
+| DDR3 interface | Single-channel 32-bit data bus, up to 800 MHz | Single-channel 32-bit data bus, up to 800 MHz |
+| multimedia decoding | H.263, H.264, MPEG1/2/4, VC1, VP8, Theora, AVS, RV8/9/10, MJPEG | H.263, H.264, MPEG1/2/4, VC1, VP8, Theora, AVS, RV8/9/10, MJPEG |
+| multimedia coding | H.263, H.264, MPEG4, MJPEG | H.263, H.264, MPEG4, MJPEG |
+| display interface | RGB, MIPI, LVDS | RGB, MIPI, LVDS |
+| Maximum display resolution | 2048 x 1280 | 2048 x 1280 |
 | Ethernet connector | Requires address-bus expansion | Integrated Gigabit Ethernet controller |
-| GPIO电平 | 3.3 V | 3.3 V |
+| GPIO level | 3.3 V | 3.3 V |
 | ADC | 8-channel 12-bit ADC, 0 to 1.8 V | 8-channel 12-bit ADC, 0 to 1.8 V |
-| USB接口 | 1 HOST, 1 HSIC, 1 OTG | 1 HOST, 1 HSIC, 1 OTG |
-| 芯片ID | Supports 128-bit unique ID | Supports 128-bit unique ID |
+| USB interface | 1 HOST, 1 HSIC, 1 OTG | 1 HOST, 1 HSIC, 1 OTG |
+| Chip ID | Supports 128-bit unique ID | Supports 128-bit unique ID |
 
 
 ## Feature Highlights

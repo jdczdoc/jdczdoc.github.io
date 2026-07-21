@@ -1,41 +1,41 @@
 ---
 sidebar_position: 4
 title: Hardware Design
-description: X6818核心板 hardware design notes
+description: X6818 core board hardware design notes
 ---
 
 # Hardware Design
 
 Hardware Design
 
-电源设计
+Power supply design
 
-122、123脚：电池input端，接单节4.2V锂电池，不需要电池时悬空即可。
+122、Pin 123: Battery input terminal, connected to a single 4.2V lithium battery, just leave it unconnected when the battery is not needed.
 
-124、125脚：电源适配器input端，4.5到5.5V/1Ainput。
+124、Pin 125: Input terminal of power adapter, 4.5 to 5.5V/1A input.
 
-126脚：电池和电源适配器公共电平output端，其电压由电池及电源适配器决定，可for 底板power supply。
+Pin 126: The common level output terminal of the battery and power adapter. Its voltage is determined by the battery and power adapter and can be used for the baseboard power supply.
 
-145脚：DC5V_OTG该脚为对Core Boardinput，并不对外power supply5V，定制底板OTGFunction可参考x6818Development BoardOTG设计。
+Pin 145: DC5V_OTG This pin is for Core Board input and does not supply 5V to the external power supply. For customized baseboard OTGFunction, please refer to the x6818Development BoardOTG design.
 
-注意：客户在定制底板时必须给该pin设计1.8Vpower supply，电ch设计可参考x6818底板。
+Note: Customers must design a 1.8V power supply for this pin when customizing the baseboard. For circuit design, please refer to the x6818 baseboard.
 
-175脚：3.3Voutput，可for 底板power supply。在Core Board休眠时，该电平会关闭，唤醒后恢复。
+Pin 175: 3.3Voutput, can be used for baseboard power supply. This level will be turned off when the Core Board is sleeping and restored after waking up.
 
-20-27，93-98脚，兼容旧版（x4418CV2.0）启动配置（x4418CV3.0之后Core Board上已设计该电ch，客户定制底板无需配置），请参考x6818底板配置。
+20-27, 93-98 pins, compatible with the old version (x4418CV2.0) startup configuration (this circuit has been designed on the Core Board after x4418CV3.0, no configuration is required for customer-customized baseboards), please refer to the x6818 baseboard configuration.
 
-USB设计
+USB design
 
-HDMI设计
+HDMI design
 
-S5P6818芯片自带HDMI控制器，supports HDMI1.4协议。Core Board上第37到44共8个pin，4对差分线，必须走等长差分线，且阻抗匹配为100欧，否则会出现HDMI画面丢色，断断续续等问题。
+The S5P6818 chip comes with an HDMI controller and supports the HDMI1.4 protocol. There are a total of 8 pins from 37th to 44th on the Core Board, and 4 pairs of differential lines. The differential lines must be of equal length and the impedance matching is 100 ohms. Otherwise, problems such as color loss and intermittent interruption in the HDMI screen will occur.
 
-LVDS设计
+LVDS design
 
-S5P6818芯片自带RGB和LVDS interface的LCD控制器，LVDS为差分Signal线，适合驱动分辨率较高的液晶屏。它包括5组传输线，其中4组为数据线，对应Core Board的48到55脚，另一组为时钟线，对应Core Board的46和47pin。
+The S5P6818 chip comes with an LCD controller for RGB and LVDS interfaces. LVDS is a differential signal line and is suitable for driving LCD screens with higher resolutions. It includes 5 sets of transmission lines, 4 of which are data lines, corresponding to pins 48 to 55 of the Core Board, and the other set is clock lines, corresponding to pins 46 and 47 of the Core Board.
 
-LVDS interface能够提供很高的数据传输率的同时，保证很低的功耗，其数据速率可以达到几百Mbps到2Gbps。在走线时，5组传输线必须走等长差分线，且阻抗匹配为100欧。
+The LVDS interface can provide high data transmission rates while ensuring very low power consumption. Its data rate can reach several hundred Mbps to 2Gbps. When routing, the five sets of transmission lines must be equal-length differential lines, and the impedance matching is 100 ohms.
 
-MIPI设计
+MIPI design
 
-DDR设计Description
+DDR designDescription

@@ -35,69 +35,69 @@ The I3588 mainboard is based on the Rockchip RK3588 platform. It expands display
 
 | CPU | RK3588 |
 |---|---|
-| 主频 | 四核A76 +四核A55(2.4GHz) |
-| 内存/存储器 | 4G&amp;16G或8G&amp;32G可选 |
-| PowerIC | 使用RT806，Supported动态调频等 |
+| Main frequency | Quad-core A76 + Quad-core A55(2.4GHz) |
+| memory/storage | 4G&16G or 8G&32G optional |
+| PowerIC | Using RT806, Supported dynamic FM, etc. |
 
 
-| LCD接口 | 同时Supported MIPI、EDP、HDMI接口输出；最<br />大Supported6路同显，4路异显 |
+| LCD interface | Supported MIPI, EDP, and HDMI interface output at the same time; the maximum supported is 6 channels of simultaneous display and 4 channels of separate display. |
 |---|---|
-| Touch接口 | 电容触摸，可使用USB或I2C接口触摸 |
-| Audio Interface | IIS/PCM/TDM接口 |
-| SPDIF接口 | 2路8通道光纤音频输出接口 |
-| SD卡接口 | 2路SDIO输出通道 |
-| emmc接口 | 板载emmc接口，管脚不另外引出 |
-| Ethernet Interface | 双千兆Ethernet Interface |
-| USB HOST2.0接口 | 2路HOST2.0 |
-| USB HOST3.0接口 | 2路USB OTG 3.0/2.0/TypeC |
-| UART接口 | 10路串口，Supported带流控串口 |
-| PWM接口 | 16路PWM输出 |
-| IIC接口 | 9路IIC输出 |
-| SPI接口 | 5路SPI输出 |
-| ADC接口 | 8路ADC输出 |
-| CAN接口 | 3路CAN输出 |
-| Camera接口 | 6路CSI输入 |
-| HDMI接口 | 2路HDMI2.1 TX，1路HDMI RX2.0 |
-| PCIE接口 | PCIe3.0 (2x2,1x4,4x1) |
-| SATA接口 | 2x SATA3.3/PCIe2.1 |
+| Touch interface | Capacitive touch, can use USB or I2C interface touch |
+| Audio Interface | IIS/PCM/TDM interface |
+| SPDIF interface | 2-way 8-channel optical audio output interface |
+| SD card interface | 2 SDIO output channels |
+| emmc interface | Onboard emmc interface, no pins are lead out separately |
+| Ethernet Interface | Dual Gigabit Ethernet Interface |
+| USB HOST2.0 interface | 2-way HOST2.0 |
+| USB HOST3.0 interface | 2-way USB OTG 3.0/2.0/TypeC |
+| UART interface | 10-channel serial port, Supported serial port with flow control |
+| PWM interface | 16 channels of PWM output |
+| IIC interface | 9 channels IIC output |
+| SPI interface | 5 SPI outputs |
+| ADC interface | 8 ADC outputs |
+| CAN interface | 3 channels CAN output |
+| Camera interface | 6 CSI inputs |
+| HDMI interface | 2 channels HDMI2.1 TX, 1 channel HDMI RX2.0 |
+| PCIE interface | PCIe3.0 (2x2,1x4,4x1) |
+| SATA interface | 2x SATA3.3/PCIe2.1 |
 
 
-| 4VInput Voltage | 4V/5A(推荐使用4V/8A输入) |
+| 4VInput Voltage | 4V/5A(Recommended4V/8Aenter) |
 |---|---|
-| RTCInput Voltage | 2.5到3V/100uA，外接纽扣电池供电即可 |
-| Output Voltage | 3.3V/2A，1.8V/2A(可用于底板供电) |
-| Operating Temperature | 0~70度 |
-| Storage Temperature | -10~50度 |
+| RTCInput Voltage | 2.5 to 3V/100uA, can be powered by an external button battery |
+| Output Voltage | 3.3V/2A，1.8V/2A(Can be used for backplane power supply) |
+| Operating Temperature | 0~70 degrees |
+| Storage Temperature | -10~50 degrees |
 
 
 | Driver | linux5.1+ android12 | linux5.1+ debain10 | linux5.1+ ubuntu | linux5.1+ QT |
 |---|---|---|---|---|
-| 7寸MIPI屏(1024*600) | ● | Planned | Planned | Planned |
-| PMIC驱动(RK806) | ● | Planned | Planned | Planned |
-| 电容触摸 | ● | Planned | Planned | Planned |
-| EMMC驱动 | ● | Planned | Planned | Planned |
-| SD卡驱动 | ● | Planned | Planned | Planned |
-| 独立按键 | ● | Planned | Planned | Planned |
-| ADC驱动 | ● | Planned | Planned | Planned |
-| 开关机 | ● | Planned | Planned | Planned |
-| 休眠唤醒 | ● | Planned | Planned | Planned |
-| 两路USB HOST2.0驱动 | ● | Planned | Planned | Planned |
-| 一路USB HOST3.0驱动 | ● | Planned | Planned | Planned |
-| 一路TypeC驱动 | ● | Planned | Planned | Planned |
-| PCIE总线驱动 | ● | Planned | Planned | Planned |
-| SATA驱动 | ● | Planned | Planned | Planned |
-| RTC驱动 | ● | Planned | Planned | Planned |
-| 音频 | ● | Planned | Planned | Planned |
-| 录音 | ● | Not supported | Not supported | Planned |
+| 7-inch MIPI screen (1024*600) | ● | Planned | Planned | Planned |
+| PMIC driver (RK806) | ● | Planned | Planned | Planned |
+| capacitive touch | ● | Planned | Planned | Planned |
+| EMMC driver | ● | Planned | Planned | Planned |
+| SD card driver | ● | Planned | Planned | Planned |
+| Independent buttons | ● | Planned | Planned | Planned |
+| ADC driver | ● | Planned | Planned | Planned |
+| Turn on and off | ● | Planned | Planned | Planned |
+| wake up from sleep | ● | Planned | Planned | Planned |
+| Two-way USB HOST2.0 driver | ● | Planned | Planned | Planned |
+| All the way USB HOST3.0 driver | ● | Planned | Planned | Planned |
+| All the way TypeC driver | ● | Planned | Planned | Planned |
+| PCIE bus driver | ● | Planned | Planned | Planned |
+| SATA driver | ● | Planned | Planned | Planned |
+| RTC driver | ● | Planned | Planned | Planned |
+| Audio | ● | Planned | Planned | Planned |
+| recording | ● | Not supported | Not supported | Planned |
 | WIFI6/BT5.0 | ● | Planned | Planned | Planned |
-| CSI摄相头驱动 | Planned | Not supported | Not supported | Planned |
-| USB口摄相头驱动 | ● | Planned | Planned | Planned |
-| 串口 | ● | Planned | Planned | Planned |
-| CAN总线 | ● | Planned | Planned | Planned |
+| CSI camera driver | Planned | Not supported | Not supported | Planned |
+| USB mouth camera driver | ● | Planned | Planned | Planned |
+| serial port | ● | Planned | Planned | Planned |
+| CAN bus | ● | Planned | Planned | Planned |
 | HDMI OUT | ● | Planned | Planned | Planned |
 | HDMI IN | Planned | Planned | Planned | Planned |
-| 双路千兆以太网 | ● | Planned | Planned | Planned |
-| USB鼠标键盘 | ● | Planned | Planned | Planned |
+| Dual Gigabit Ethernet | ● | Planned | Planned | Planned |
+| USB mouse keyboard | ● | Planned | Planned | Planned |
 
 
 ## Related Pages

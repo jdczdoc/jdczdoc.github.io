@@ -1,39 +1,39 @@
 ---
 sidebar_position: 5
 title: Configuration List
-description: X3128开发板硬件 Configuration List
+description: X3128 development board hardware Configuration List
 ---
 
 # Configuration List
 
 Configuration List
 
-标配硬件清单
+Standard hardware list
 
-X3128Development Board一套(带7寸1024*600电容touch液晶模组)
+X3128 Development Board set (bring7inch1024*600capacitancetouchLCD module)
 
-12V/2A电源适配器1个
+1 12V/2A power adapter
 
-MicroUSB数据线1根
+1 MicroUSB data cable
 
-UART线1根
+1 UART line
 
-UART调试板1个
+1 UART debugging board
 
-网盘资料链接
+Network disk data link
 
-选配硬件清单
+Optional hardware list
 
-8G TF卡一张
+One 8G TF card
 
-200W像素的OV2519摄像头一个
+One OV2519 camera with 2 million pixels
 
-优质HDMI线一根
+A high-quality HDMI cable
 
-USB转UART线一根
+A USB to UART cable
 
-3G、4G PCIe Interface网卡一个
+One 3G, 4G PCIe Interface network card
 
-GPS模块一个
+One GPS module
 
-USB摄像头一个
+One USB camera

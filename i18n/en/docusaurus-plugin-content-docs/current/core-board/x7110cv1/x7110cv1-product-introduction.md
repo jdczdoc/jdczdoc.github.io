@@ -1,36 +1,36 @@
 ---
 sidebar_position: 1
 title: Product Introduction
-description: X7110CV1核心板 overview, features, and specifications
+description: X7110CV1 core board overview, features, and specifications
 ---
 
 # Product Introduction
 
-JH7110Core Board简介
+Introduction to JH7110Core Board
 
 Product Overview
 
-X7110CV1是基于赛昉科技JH7110 CPU的一款Core Board，它由深圳市九鼎创展科技有限公司自主研发，生产并销售。
+X7110CV1 is a Core Board based on Saifang Technology JH7110 CPU. It is independently developed, produced and sold by Shenzhen Jiuding Chuangzhan Technology Co., Ltd.
 
 Core Board Features
 
-JH7110Core Board具有以下特性：
+JH7110Core Board has the following features:
 
-最佳尺寸，保证引出全部GPIO口的同时，尺寸仅45mm*45mm；
+The optimal size ensures that all GPIO ports are accessible while the size is only 45mm*45mm;
 
-系统power supply使用 PMU，在保证工作稳定可靠的同时，成本足够低廉；
+The system power supply uses PMU, which ensures stable and reliable operation and is low enough in cost;
 
-supports 多种品牌，多种容量的eMMC；
+supports eMMC of multiple brands and capacities;
 
-使用LPDDR4设计，最大supports 8GB容量；
+Using LPDDR4 design, the maximum supports 8GB capacity;
 
-supports 电源休眠唤醒；
+supports power sleep wakeup;
 
-supports 双千兆以太网、MIPI-CSI、MIPI-DSI、PCIE、USB 3.0等高速总线；
+supports dual Gigabit Ethernet, MIPI-CSI, MIPI-DSI, PCIE, USB 3.0 and other high-speed buses;
 
-采用172PINCastellated-hole package；
+Using 172PINCastellated-hole package;
 
-已验证各种可靠性实验；
+Various reliability experiments have been verified;
 
 Specifications
 
@@ -40,9 +40,9 @@ Specifications
 | --- | --- |
 | CPU | JH7110 |
 | CPU Clock | 1.5GHz |
-| RAM | 2GB或4GB或8GB |
-| ROM | 4GB或8GB或16GB或32GB或64GB |
-| Power IC | 使用AXP15060，supports dynamic frequency scaling |
+| RAM | 2GB or 4GB or 8GB |
+| ROM | 4GB or 8GB or 16GB or 32GB or 64GB |
+| Power IC | Using AXP15060, supports dynamic frequency scaling |
 
 
 ### Interface Parameters
@@ -52,8 +52,8 @@ Specifications
 | LCD Interface | MIPI-DSI(MAX 2K@30fps) |
 | Touch Interface | Capacitive touch, I2C interface |
 | Audio Interface | IIS/PCM/PDM/SPDIF |
-| SD Card Interface | 1chSDIOoutput通道 |
-| eMMC interface | 板载eMMC interface，pin不另外引出 |
+| SD Card Interface | 1chSDIOoutput channel |
+| eMMC interface | Onboard eMMC interface, the pin is not lead out separately |
 | Ethernet Interface | Dual Gigabit Ethernet supported |
 | USB HOST 2.0 Interface | 1ch |
 | USB HOST 3.0 Interface | 1ch |
@@ -72,9 +72,9 @@ Specifications
 | Item | Parameter |
 | --- | --- |
 | Input Voltage / Current | VCC5V0_SYS/3A |
-| Output Voltage / Current | VCC_3V3_SYS_OUT/1A（for same-voltage-domain peripheralspower supply）； / VCC_1V8_1/500MA(for 同电压域IOpull-up)； / VDD33_IO/1A（for same-voltage-domain peripheralspower supply）； |
-| Operating Temperature | 0~70度 |
-| Storage Temperature | -10~50度 |
+| Output Voltage / Current | VCC_3V3_SYS_OUT/1A（for same-voltage-domain peripheralspower supply）； / VCC_1V8_1/500MA(for Same voltage domainIOpull-up)； / VDD33_IO/1A（for same-voltage-domain peripheralspower supply）； |
+| Operating Temperature | 0~70 degrees |
+| Storage Temperature | -10~50 degrees |
 
 
 ## Navigation

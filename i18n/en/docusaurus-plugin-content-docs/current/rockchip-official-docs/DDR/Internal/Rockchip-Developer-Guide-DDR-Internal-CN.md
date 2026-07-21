@@ -55,7 +55,7 @@ We provide the tool modify_ddr_bin.exe for modifying the DDR frequency in the DD
 
 The tool modify_ddr_bin.exe is located at:
 
-\\10.10.10.164\Common_Repository\DDR相关工具\modify_ddr_bin
+\\10.10.10.164\Common_Repository\DDR related tools\modify_ddr_bin
 
 ## How to modify the serial port number and baud rate for DDR printing in loader
 
@@ -72,7 +72,7 @@ We provide the tool modify_ddr_bin.exe for modifying the serial port number and 
 
 The tool modify_ddr_bin.exe is located at:
 
-\\10.10.10.164\Common_Repository\DDR相关工具\modify_ddr_bin
+\\10.10.10.164\Common_Repository\DDR related tools\modify_ddr_bin
 
 ## Which chips support DDR frequency scaling
 
@@ -406,17 +406,17 @@ To adjust the de-skew in the loader, you need a tool. Currently, only RK322xh, R
 
    Tool path:
 
-   \\\10.10.10.164\Kitkat_Repository\rk3228h\SDK_IMAGE\loader\修改3228H DDR参数工具_V1.04.7z
+   \\\10.10.10.164\Kitkat_Repository\rk3228h\SDK_IMAGE\loader\Modify 3228H DDR parameter tool_V1.04.7z
 
    If the device boots normally, there is no need to adjust the de-skew in the loader. Just adjust the de-skew in the kernel.
 
 - RK3308
 
-   Tool path: \\\\\10.10.10.164\Common_Repository\DDR相关工具\modify_ddr_bin_deskew\rk3308_modify_deskew\3308_deskew.exe
+   Tool path: \\\\\10.10.10.164\Common_Repository\DDR related tools\modify_ddr_bin_deskew\rk3308_modify_deskew\3308_deskew.exe
 
    Internal path for "deskew auto-scan tool":
 
-   \\\10.10.10.164\Common_Repository\DDR相关工具\deskew自动扫描工具
+   \\\10.10.10.164\Common_Repository\DDR related tools\deskew automatic scanning tool
 
    Follow the instructions in "3228H deskew auto-scan tool user manual.pdf"
 

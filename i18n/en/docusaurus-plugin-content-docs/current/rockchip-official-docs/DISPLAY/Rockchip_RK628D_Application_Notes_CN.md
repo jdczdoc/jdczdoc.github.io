@@ -16,7 +16,7 @@ THIS DOCUMENT MAY BE UPDATED OR CHANGED WITHOUT ANY NOTICE AT ANY TIME DUE TO TH
 
 **Trademark Statement**
 
-"Rockchip", "瑞芯微", "瑞芯" shall be Rockchip's registered trademarks and owned by Rockchip.
+"Rockchip", "Rockchip", "Rockchip" shall be Rockchip's registered trademarks and owned by Rockchip.
 
 All other registered trademarks or trademarks mentioned in this document shall be owned by their respective owners.
 

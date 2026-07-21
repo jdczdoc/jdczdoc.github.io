@@ -69,7 +69,7 @@ RK3506 is a system-on-chip (SoC) integrating Cortex-A7 and Cortex-M0 cores. It i
 | Core Board Size | 40mm*40mm*1.2mm |
 | Pin Pitch | 1.0mm |
 | Number of Pins | 120PIN |
-| PCB Layers | 6层 |
+| PCB Layers | 6th floor |
 | Warpage | &lt; 0.5% |
 
 ## Related Pages

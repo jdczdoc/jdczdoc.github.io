@@ -1,38 +1,38 @@
 ---
 sidebar_position: 1
 title: Product Introduction
-description: X3288CV5核心板 overview, features, and specifications
+description: X3288CV5 core board overview, features, and specifications
 ---
 
 # Product Introduction
 
-X3288CV5Core Board简介
+Introduction to X3288CV5Core Board
 
 Product Overview
 
 The X3288 is a core board developed by Shenzhen 9Tripod Technology Co., Ltd. It is based on the processor platform described in the original manual and is intended for embedded and industrial applications.
 
-X3288CV5相对X3288CV3，X3288CV4，将PMU由5T620换成了ACT8846，优化了电源设计，二者pin上完全兼容，程序上只需要打一下PMU的补丁即可。
+Compared with X3288CV3 and X3288CV4, X3288CV5 replaces the PMU from 5T620 to ACT8846, which optimizes the power supply design. The two are fully compatible on pins and only need to patch the PMU in the program.
 
-X3288CV5Core Board具有以下特性：
+X3288CV5Core Board has the following features:
 
-最佳尺寸，即保证精悍的体积又保证足够的GPIO口，仅55mm*55mm；
+The optimal size, which ensures both compact size and sufficient GPIO ports, is only 55mm*55mm;
 
-使用理光的RC5T620的PMU作为电源管理设计，在保证工作稳定可靠的同时，成本足够低廉；
+Using Ricoh's RC5T620 PMU as the power management design ensures stable and reliable operation and is low enough in cost;
 
-supports 多种品牌，多种容量的eMMC，默认使用东芝8GB eMMC(19nm MLC工艺)；
+supports eMMC of multiple brands and capacities, the default is Toshiba 8GB eMMC(19nm MLCCraftsmanship);
 
-使用双通道DDR3设计，默认supports 2GB容量，可定制4GB容量；
+Using dual-channel DDR3 design, the default supports 2GB capacity, and 4GB capacity can be customized;
 
-supports 电源休眠唤醒；
+supports power sleep wakeup;
 
-supports Android4.4、Android5.1操作系统；
+supports Android4.4, Android5.1 operating systems;
 
-supports 千兆有线以太网；
+supports Gigabit wired Ethernet;
 
-拒绝掉程序，远离使用nand flash批量掉程序的烦恼；
+Refuse to delete programs and stay away from the trouble of using nand flash to delete programs in batches;
 
-产品稳定可靠，拷机7天7夜不死机；
+The product is stable and reliable, and the machine does not crash 7 days and 7 nights;
 
 Specifications
 
@@ -41,43 +41,43 @@ Specifications
 | Item | Parameter |
 | --- | --- |
 | CPU | RK3288 |
-| CPU Clock | A17四核1.8GHz |
-| Memory | 标配2GB，可定制4GB |
-| Storage | 4GB/8GB/16GB eMMC可选，标配16GB |
-| Power IC | 使用ACT8846，supports dynamic frequency scaling等 |
+| CPU Clock | A17 Quad Core 1.8GHz |
+| Memory | Standard 2GB, customizable 4GB |
+| Storage | 4GB/8GB/16GB eMMC optional, 16GB standard |
+| Power IC | Using ACT8846, supports dynamic frequency scaling, etc. |
 
 
 ### Interface Parameters
 
 | Item | Parameter |
 | --- | --- |
-| LCD Interface | 同时supports TTL、LVDS、MIPI interfaceoutput |
-| Touch Interface | 电容touch，可使用USB或UART扩展电阻touch |
-| Audio Interface | AC97/IIS interface，supports 录放音 |
-| SD Card Interface | 2chSDIOoutput通道 |
-| eMMC interface | 板载eMMC interface，pin不另外引出 |
+| LCD Interface | Also supports TTL, LVDS, MIPI interfaceoutput |
+| Touch Interface | Capacitive touch, USB or UART expansion resistor touch can be used |
+| Audio Interface | AC97/IIS interface, supports audio recording and playback |
+| SD Card Interface | 2chSDIOoutput channel |
+| eMMC interface | Onboard eMMC interface, the pin is not lead out separately |
 | Ethernet Interface | Gigabit Ethernet supported |
 | USB HOST Interface | 2chHOST 2.0 |
 | USB OTG Interface | 1chOTG 2.0 |
-| UART Interface | 4chUART，supports 带流控UART |
+| UART Interface | 4chUART, supports UART with flow control |
 | PWM Interface | 2chPWMoutput |
 | I2C interface | 4chI2Coutput |
 | SPI Interface | 1chSPIoutput |
 | ADC Interface | 1chADCoutput |
 | Camera Interface | 1chBT656/BT601，1chMIPIoutput |
-| HDMI Interface | 高清音视频output interface，音视频同步output |
-| VGA interface | 使用LCDoutput interface扩展 |
-| 启动配置 interface | No boot configuration required; core board adapts automatically |
+| HDMI Interface | High-definition audio and video output interface, audio and video synchronization output |
+| VGA interface | Use LCDoutput interface extension |
+| startup configuration interface | No boot configuration required; core board adapts automatically |
 
 
 ### Electrical Characteristics
 
 | Item | Parameter |
 | --- | --- |
-| Input Voltage | 3.7~5.5V(推荐使用5Vinput) |
-| Output Voltage | 3.3V/4.2V(可for 底板power supply及电池充电) |
-| Operating Temperature | -10~70度 |
-| Storage Temperature | -10~80度 |
+| Input Voltage | 3.7~5.5V(Recommended5Vinput) |
+| Output Voltage | 3.3V/4.2V(Canfor base platepower supplyand battery charging) |
+| Operating Temperature | -10~70 degrees |
+| Storage Temperature | -10~80 degrees |
 
 
 ## Navigation

@@ -17,14 +17,14 @@ This section lists the pin definition of the Z3588 core board. When designing a 
 | AA2 | GND | Ground |  |
 | AA3 | GND | Ground |  |
 | AA4 | GND | Ground |  |
-| AA5 | VCCIO1_1V8 | GPIO11.8VPower Domain | 需外部输入1.8V |
+| AA5 | VCCIO1_1V8 | GPIO11.8VPower Domain | Requires external input 1.8V |
 | AA6 | GND | Ground |  |
 | AA7 | GPIO0_D2_U | GPIO | GPIO multiplexed pin |
 | AA8 | GPIO0_D1_U | GPIO | GPIO multiplexed pin |
 | AA9 | GPIO0_D6_D | GPIO | GPIO multiplexed pin |
 | AA10 | GPIO0_D5_U | GPIO | GPIO multiplexed pin |
 | AA11 | GPIO0_D4_U | GPIO | GPIO multiplexed pin |
-| AA12 | VCCIO4 | GPIO4Power Domain1.8V/3.3V可<br />选 | 需外部输入1.8V/3.3V |
+| AA12 | VCCIO4 | GPIO4Power Domain1.8V/3.3V can be selected from <br /> | Requires external input 1.8V/3.3V |
 | AA13 | GPIO1_A0_D | GPIO | GPIO multiplexed pin |
 | AA14 | GPIO1_A4_D | GPIO | GPIO multiplexed pin |
 | AA15 | GPIO1_B5_U | GPIO | GPIO multiplexed pin |
@@ -39,13 +39,13 @@ This section lists the pin definition of the Z3588 core board. When designing a 
 | AA24 | GPIO1_C2_D | GPIO | GPIO multiplexed pin |
 | AA25 | GPIO1_C7_D | GPIO | GPIO multiplexed pin |
 | AA26 | GPIO1_D4_D | GPIO | GPIO multiplexed pin |
-| AA27 | PCIE30_PORT1_REFCLKP_IN | PCIESignal接口 | not available as GPIO |
+| AA27 | PCIE30_PORT1_REFCLKP_IN | PCIESignal interface | not available as GPIO |
 | AA28 | GND | Ground |  |
-| AA29 | PCIE30_PORT1_TX3P | PCIESignal接口 | not available as GPIO |
-| AA30 | PCIE30_PORT1_TX2N | PCIESignal接口 | not available as GPIO |
+| AA29 | PCIE30_PORT1_TX3P | PCIESignal interface | not available as GPIO |
+| AA30 | PCIE30_PORT1_TX2N | PCIESignal interface | not available as GPIO |
 | AA31 | GND | Ground |  |
-| AA32 | PCIE30_PORT1_RX3P | PCIESignal接口 | not available as GPIO |
-| AA33 | PCIE30_PORT1_RX2N | PCIESignal接口 | not available as GPIO |
+| AA32 | PCIE30_PORT1_RX3P | PCIESignal interface | not available as GPIO |
+| AA33 | PCIE30_PORT1_RX2N | PCIESignal interface | not available as GPIO |
 | AA34 | GND | Ground |  |
 | AB1 | GND | Ground |  |
 | AB2 | GND | Ground |  |
@@ -57,7 +57,7 @@ This section lists the pin definition of the Z3588 core board. When designing a 
 | AB8 | GPIO0_C0_D | GPIO | GPIO multiplexed pin |
 | AB9 | GPIO0_C2_D | GPIO | GPIO multiplexed pin |
 | AB10 | GPIO0_C4_D | GPIO | GPIO multiplexed pin |
-| AB11 | VCCIO4_1V8 | GPIO41.8VPower Domain | 需外部输入1.8V |
+| AB11 | VCCIO4_1V8 | GPIO41.8VPower Domain | Requires external input 1.8V |
 | AB12 | GND | Ground |  |
 | AB13 | GPIO1_B4_U | GPIO | GPIO multiplexed pin |
 | AB14 | GPIO1_B1_D | GPIO | GPIO multiplexed pin |
@@ -73,13 +73,13 @@ This section lists the pin definition of the Z3588 core board. When designing a 
 | AB24 | GPIO1_C3_D | GPIO | GPIO multiplexed pin |
 | AB25 | GPIO1_C5_D | GPIO | GPIO multiplexed pin |
 | AB26 | GND | Ground |  |
-| AB27 | PCIE30_PORT1_REFCLKN_IN | PCIESignal接口 | not available as GPIO |
-| AB28 | PCIE30_PORT1_TX3N | PCIESignal接口 | not available as GPIO |
+| AB27 | PCIE30_PORT1_REFCLKN_IN | PCIESignal interface | not available as GPIO |
+| AB28 | PCIE30_PORT1_TX3N | PCIESignal interface | not available as GPIO |
 | AB29 | GND | Ground |  |
-| AB30 | PCIE30_PORT1_TX2P | PCIESignal接口 | not available as GPIO |
-| AB31 | PCIE30_PORT1_RX3N | PCIESignal接口 | not available as GPIO |
+| AB30 | PCIE30_PORT1_TX2P | PCIESignal interface | not available as GPIO |
+| AB31 | PCIE30_PORT1_RX3N | PCIESignal interface | not available as GPIO |
 | AB32 | GND | Ground |  |
-| AB33 | PCIE30_PORT1_RX2P | PCIESignal接口 | not available as GPIO |
+| AB33 | PCIE30_PORT1_RX2P | PCIESignal interface | not available as GPIO |
 | AC2 | GND | Ground |  |
 | AC3 | GND | Ground |  |
 | AC4 | GND | Ground |  |
@@ -118,22 +118,22 @@ This section lists the pin definition of the Z3588 core board. When designing a 
 |---|---|---|---|---|---|
 | B1 | GND | Ground |  |  |  |
 | BA1 | GND | Ground |  |  |  |
-| BA2 | PCIE30_PORT0_REFCLKN_IN | PCIESignal接口 | not available as GPIO |  |  |
-| BA3 | PCIE30_PORT0_TX1N | PCIESignal接口 | not available as GPIO |  |  |
+| BA2 | PCIE30_PORT0_REFCLKN_IN | PCIESignal interface | not available as GPIO |  |  |
+| BA3 | PCIE30_PORT0_TX1N | PCIESignal interface | not available as GPIO |  |  |
 | BA4 | GND | Ground |  |  |  |
-| BA5 | PCIE30_PORT0_TX0P | PCIESignal接口 | not available as GPIO |  |  |
-| BA6 | PCIE30_PORT0_RX1N | PCIESignal接口 | not available as GPIO |  |  |
+| BA5 | PCIE30_PORT0_TX0P | PCIESignal interface | not available as GPIO |  |  |
+| BA6 | PCIE30_PORT0_RX1N | PCIESignal interface | not available as GPIO |  |  |
 | BA7 | GND | Ground |  |  |  |
-| BA8 | PCIE30_PORT0_RX0P | PCIESignal接口 | not available as GPIO |  |  |
-| BA9 | PCIE20_1_REFCLKN | PCIESignal接口 | not available as GPIO |  |  |
+| BA8 | PCIE30_PORT0_RX0P | PCIESignal interface | not available as GPIO |  |  |
+| BA9 | PCIE20_1_REFCLKN | PCIESignal interface | not available as GPIO |  |  |
 | BA10 | GND | Ground |  |  |  |
-| BA11 | PCIE20_1_RXP/SATA30_1_RXP | PCIESignal接口 | not available as GPIO |  |  |
-| BA12 | PCIE20_1_TXN/SATA30_1_TXN | PCIESignal接口 | not available as GPIO |  |  |
+| BA11 | PCIE20_1_RXP/SATA30_1_RXP | PCIESignal interface | not available as GPIO |  |  |
+| BA12 | PCIE20_1_TXN/SATA30_1_TXN | PCIESignal interface | not available as GPIO |  |  |
 | BA13 | GND | Ground |  |  |  |
-| BA14 | PCIE20_0_REFCLKP | PCIESignal接口 | not available as GPIO |  |  |
-| BA15 | PCIE20_0_TXP/SATA30_0_TXP | PCIESignal接口 | not available as GPIO |  |  |
+| BA14 | PCIE20_0_REFCLKP | PCIESignal interface | not available as GPIO |  |  |
+| BA15 | PCIE20_0_TXP/SATA30_0_TXP | PCIESignal interface | not available as GPIO |  |  |
 | BA16 | GND | Ground |  |  |  |
-| BA17 | PCIE20_0_RXP/SATA30_0_RXP | PCIESignal接口 | not available as GPIO |  |  |
+| BA17 | PCIE20_0_RXP/SATA30_0_RXP | PCIESignal interface | not available as GPIO |  |  |
 | BA18 | GND | Ground |  |  |  |
 | BA19 | GPIO2_B1_U | GPIO | GPIO multiplexed pin |  |  |
 | BA20 | GPIO2_A7_U | GPIO | GPIO multiplexed pin |  |  |
@@ -141,40 +141,40 @@ This section lists the pin definition of the Z3588 core board. When designing a 
 | BA22 | GPIO2_C2_D | GPIO | GPIO multiplexed pin |  |  |
 | BA23 | GPIO2_C1_D | GPIO | GPIO multiplexed pin |  |  |
 | BA24 | GND | Ground |  |  |  |
-| BA25 | MIPI_CSI0_RX_D0P | MIPICSISignal接口 | not available as GPIO |  |  |
-| BA26 | MIPI_CSI0_RX_D1P | MIPICSISignal接口 | not available as GPIO |  |  |
-| BA27 | MIPI_CSI0_RX_CLK0P | MIPICSISignal接口 | not available as GPIO |  |  |
-| BA28 | MIPI_CSI0_RX_D2P | MIPICSISignal接口 | not available as GPIO |  |  |
-| BA29 | MIPI_CSI0_RX_D3P | MIPICSISignal接口 | not available as GPIO |  |  |
-| BA30 | MIPI_CSI0_RX_CLK1P | MIPICSISignal接口 | not available as GPIO |  |  |
+| BA25 | MIPI_CSI0_RX_D0P | MIPICSISignal interface | not available as GPIO |  |  |
+| BA26 | MIPI_CSI0_RX_D1P | MIPICSISignal interface | not available as GPIO |  |  |
+| BA27 | MIPI_CSI0_RX_CLK0P | MIPICSISignal interface | not available as GPIO |  |  |
+| BA28 | MIPI_CSI0_RX_D2P | MIPICSISignal interface | not available as GPIO |  |  |
+| BA29 | MIPI_CSI0_RX_D3P | MIPICSISignal interface | not available as GPIO |  |  |
+| BA30 | MIPI_CSI0_RX_CLK1P | MIPICSISignal interface | not available as GPIO |  |  |
 | BA31 | GND | Ground |  |  |  |
-| BA32 | MIPI_CSI1_RX_D0P | MIPICSISignal接口 | not available as GPIO |  |  |
-| BA33 | MIPI_CSI1_RX_D1P | MIPICSISignal接口 | not available as GPIO |  |  |
-| BA34 | MIPI_CSI1_RX_CLK0P | MIPICSISignal接口 | not available as GPIO |  |  |
-| BA35 | MIPI_CSI1_RX_D2P | MIPICSISignal接口 | not available as GPIO |  |  |
-| BA36 | MIPI_CSI1_RX_D3P | MIPICSISignal接口 | not available as GPIO |  |  |
-| BA37 | MIPI_CSI1_RX_CLK1P | MIPICSISignal接口 | not available as GPIO |  |  |
+| BA32 | MIPI_CSI1_RX_D0P | MIPICSISignal interface | not available as GPIO |  |  |
+| BA33 | MIPI_CSI1_RX_D1P | MIPICSISignal interface | not available as GPIO |  |  |
+| BA34 | MIPI_CSI1_RX_CLK0P | MIPICSISignal interface | not available as GPIO |  |  |
+| BA35 | MIPI_CSI1_RX_D2P | MIPICSISignal interface | not available as GPIO |  |  |
+| BA36 | MIPI_CSI1_RX_D3P | MIPICSISignal interface | not available as GPIO |  |  |
+| BA37 | MIPI_CSI1_RX_CLK1P | MIPICSISignal interface | not available as GPIO |  |  |
 | BA38 | GND | Ground |  |  |  |
-| BA39 | MIPI_DPHY1_RX_D3N | MIPICSISignal接口 | not available as GPIO |  |  |
-| BA40 | MIPI_DPHY1_RX_CLKN | MIPICSISignal接口 | not available as GPIO |  |  |
-| BA41 | MIPI_DPHY1_RX_D1N | MIPICSISignal接口 | not available as GPIO |  |  |
-| BA42 | MIPI_DPHY1_RX_D0N | MIPICSISignal接口 | not available as GPIO |  |  |
-| BB1 | PCIE30_PORT0_REFCLKP_IN | PCIESignal接口 | not available as GPIO |  |  |
+| BA39 | MIPI_DPHY1_RX_D3N | MIPICSISignal interface | not available as GPIO |  |  |
+| BA40 | MIPI_DPHY1_RX_CLKN | MIPICSISignal interface | not available as GPIO |  |  |
+| BA41 | MIPI_DPHY1_RX_D1N | MIPICSISignal interface | not available as GPIO |  |  |
+| BA42 | MIPI_DPHY1_RX_D0N | MIPICSISignal interface | not available as GPIO |  |  |
+| BB1 | PCIE30_PORT0_REFCLKP_IN | PCIESignal interface | not available as GPIO |  |  |
 | BB2 | GND | Ground |  |  |  |
-| BB3 | PCIE30_PORT0_TX1P | PCIESignal接口 | not available as GPIO |  |  |
-| BB4 | PCIE30_PORT0_TX0N | PCIESignal接口 | not available as GPIO |  |  |
+| BB3 | PCIE30_PORT0_TX1P | PCIESignal interface | not available as GPIO |  |  |
+| BB4 | PCIE30_PORT0_TX0N | PCIESignal interface | not available as GPIO |  |  |
 | BB5 | GND | Ground |  |  |  |
-| BB6 | PCIE30_PORT0_RX1P | PCIESignal接口 | not available as GPIO |  |  |
-| BB7 | PCIE30_PORT0_RX0N | PCIESignal接口 | not available as GPIO |  |  |
+| BB6 | PCIE30_PORT0_RX1P | PCIESignal interface | not available as GPIO |  |  |
+| BB7 | PCIE30_PORT0_RX0N | PCIESignal interface | not available as GPIO |  |  |
 | BB8 | GND | Ground |  |  |  |
-| BB9 | PCIE20_1_REFCLKP | PCIESignal接口 | not available as GPIO |  |  |
-| BB10 | PCIE20_1_RXN/SATA30_1_RXN | PCIESignal接口 | not available as GPIO |  |  |
+| BB9 | PCIE20_1_REFCLKP | PCIESignal interface | not available as GPIO |  |  |
+| BB10 | PCIE20_1_RXN/SATA30_1_RXN | PCIESignal interface | not available as GPIO |  |  |
 | BB11 | GND | Ground |  |  |  |
-| BB12 | PCIE20_1_TXP/SATA30_1_TXP | PCIESignal接口 | not available as GPIO |  |  |
-| BB13 | PCIE20_0_REFCLKN | PCIESignal接口 | not available as GPIO |  |  |
+| BB12 | PCIE20_1_TXP/SATA30_1_TXP | PCIESignal interface | not available as GPIO |  |  |
+| BB13 | PCIE20_0_REFCLKN | PCIESignal interface | not available as GPIO |  |  |
 | BB14 | GND | Ground |  |  |  |
-| BB15 | PCIE20_0_TXN/SATA30_0_TXN | PCIESignal接口 | not available as GPIO |  |  |
-| BB16 | PCIE20_0_RXN/SATA30_0_RXN | PCIESignal接口 | not available as GPIO |  |  |
+| BB15 | PCIE20_0_TXN/SATA30_0_TXN | PCIESignal interface | not available as GPIO |  |  |
+| BB16 | PCIE20_0_RXN/SATA30_0_RXN | PCIESignal interface | not available as GPIO |  |  |
 | BB17 | GND | Ground |  |  |  |
 | BB18 | GPIO2_B2_U | GPIO | GPIO multiplexed pin |  |  |
 | BB19 | GPIO2_B0_U | GPIO | GPIO multiplexed pin |  |  |
@@ -182,24 +182,24 @@ This section lists the pin definition of the Z3588 core board. When designing a 
 | BB21 | GPIO2_B7_D | GPIO | GPIO multiplexed pin |  |  |
 | BB22 | GPIO4_C5_D | GPIO | GPIO multiplexed pin |  |  |
 | BB23 | GPIO4_C2_D | GPIO | GPIO multiplexed pin |  |  |
-| BB24 | MIPI_CSI0_RX_D0N | MIPICSISignal接口 | not available as GPIO |  |  |
-| BB25 | MIPI_CSI0_RX_D1N | MIPICSISignal接口 | not available as GPIO |  |  |
-| BB26 | MIPI_CSI0_RX_CLK0N | MIPICSISignal接口 | not available as GPIO |  |  |
-| BB27 | MIPI_CSI0_RX_D2N | MIPICSISignal接口 | not available as GPIO |  |  |
-| BB28 | MIPI_CSI0_RX_D3N | MIPICSISignal接口 | not available as GPIO |  |  |
-| BB29 | MIPI_CSI0_RX_CLK1N | MIPICSISignal接口 | not available as GPIO |  |  |
+| BB24 | MIPI_CSI0_RX_D0N | MIPICSISignal interface | not available as GPIO |  |  |
+| BB25 | MIPI_CSI0_RX_D1N | MIPICSISignal interface | not available as GPIO |  |  |
+| BB26 | MIPI_CSI0_RX_CLK0N | MIPICSISignal interface | not available as GPIO |  |  |
+| BB27 | MIPI_CSI0_RX_D2N | MIPICSISignal interface | not available as GPIO |  |  |
+| BB28 | MIPI_CSI0_RX_D3N | MIPICSISignal interface | not available as GPIO |  |  |
+| BB29 | MIPI_CSI0_RX_CLK1N | MIPICSISignal interface | not available as GPIO |  |  |
 | BB30 | GND | Ground |  |  |  |
-| BB31 | MIPI_CSI1_RX_D0N | MIPICSISignal接口 | not available as GPIO |  |  |
-| BB32 | MIPI_CSI1_RX_D1N | MIPICSISignal接口 | not available as GPIO |  |  |
-| BB33 | MIPI_CSI1_RX_CLK0N | MIPICSISignal接口 | not available as GPIO |  |  |
-| BB34 | MIPI_CSI1_RX_D2N | MIPICSISignal接口 | not available as GPIO |  |  |
-| BB35 | MIPI_CSI1_RX_D3N | MIPICSISignal接口 | not available as GPIO |  |  |
-| BB36 | MIPI_CSI1_RX_CLK1N | MIPICSISignal接口 | not available as GPIO |  |  |
+| BB31 | MIPI_CSI1_RX_D0N | MIPICSISignal interface | not available as GPIO |  |  |
+| BB32 | MIPI_CSI1_RX_D1N | MIPICSISignal interface | not available as GPIO |  |  |
+| BB33 | MIPI_CSI1_RX_CLK0N | MIPICSISignal interface | not available as GPIO |  |  |
+| BB34 | MIPI_CSI1_RX_D2N | MIPICSISignal interface | not available as GPIO |  |  |
+| BB35 | MIPI_CSI1_RX_D3N | MIPICSISignal interface | not available as GPIO |  |  |
+| BB36 | MIPI_CSI1_RX_CLK1N | MIPICSISignal interface | not available as GPIO |  |  |
 | BB37 | GND | Ground |  |  |  |
-| BB38 | MIPI_DPHY1_RX_D3P | MIPICSISignal接口 | not available as GPIO |  |  |
-| BB39 | MIPI_DPHY1_RX_CLKP | MIPICSISignal接口 | not available as GPIO |  |  |
-| BB40 | MIPI_DPHY1_RX_D1P | MIPICSISignal接口 | not available as GPIO |  |  |
-| BB41 | MIPI_DPHY1_RX_D0P | MIPICSISignal接口 | not available as GPIO |  |  |
+| BB38 | MIPI_DPHY1_RX_D3P | MIPICSISignal interface | not available as GPIO |  |  |
+| BB39 | MIPI_DPHY1_RX_CLKP | MIPICSISignal interface | not available as GPIO |  |  |
+| BB40 | MIPI_DPHY1_RX_D1P | MIPICSISignal interface | not available as GPIO |  |  |
+| BB41 | MIPI_DPHY1_RX_D0P | MIPICSISignal interface | not available as GPIO |  |  |
 | BC2 | GND | Ground |  |  |  |
 | BC3 | GND | Ground |  |  |  |
 | BC4 | GND | Ground |  |  |  |
@@ -236,20 +236,20 @@ This section lists the pin definition of the Z3588 core board. When designing a 
 | BC35 | GND | Ground |  |  |  |
 | BC36 | GND | Ground |  |  |  |
 | BC37 | GND | Ground |  |  |  |
-| BC38 | MIPI_DPHY1_RX_D2P | MIPICSISignal接口 | not available as GPIO |  |  |
-| BC39 | MIPI_DPHY1_RX_D2N | MIPICSISignal接口 | not available as GPIO |  |  |
+| BC38 | MIPI_DPHY1_RX_D2P | MIPICSISignal interface | not available as GPIO |  |  |
+| BC39 | MIPI_DPHY1_RX_D2N | MIPICSISignal interface | not available as GPIO |  |  |
 | BD3 | GPIO0_A4_U | GPIO | GPIO multiplexed pin |  |  |
 | BD4 | GPIO0_A0_D | GPIO | GPIO multiplexed pin |  |  |
 | BD5 | GPIO0_B2_U | GPIO | GPIO multiplexed pin |  |  |
 | BD6 | GND | Ground |  |  |  |
-| BD7 | PCIE20_2_REFCLKP | PCIESignal接口 | not available as GPIO |  |  |
-| BD8 | PCIE20_2_REFCLKN | PCIESignal接口 | not available as GPIO |  |  |
+| BD7 | PCIE20_2_REFCLKP | PCIESignal interface | not available as GPIO |  |  |
+| BD8 | PCIE20_2_REFCLKN | PCIESignal interface | not available as GPIO |  |  |
 | BD9 | GND | Ground |  |  |  |
-| BD10 | PCIE20_2_TXP/SATA30_2_TXP/USB30_2<br />_SSTXP | PCIESignal接口 | not available as GPIO |  |  |
-| BD11 | PCIE20_2_TXN/SATA30_2_TXN/USB30_<br />2_SSTXN | PCIESignal接口 | not available as GPIO |  |  |
+| BD10 | PCIE20_2_TXP/SATA30_2_TXP/USB30_2<br />_SSTXP | PCIESignal interface | not available as GPIO |  |  |
+| BD11 | PCIE20_2_TXN/SATA30_2_TXN/USB30_<br />2_SSTXN | PCIESignal interface | not available as GPIO |  |  |
 | BD12 | GND | Ground |  |  |  |
-| BD13 | PCIE20_2_RXP/SATA30_2_RXP/USB30_<br />2_SSRXP | PCIESignal接口 | not available as GPIO |  |  |
-| BD14 | PCIE20_2_RXN/SATA30_2_RXN/USB30_<br />2_SSRXN | PCIESignal接口 | not available as GPIO |  |  |
+| BD13 | PCIE20_2_RXP/SATA30_2_RXP/USB30_<br />2_SSRXP | PCIESignal interface | not available as GPIO |  |  |
+| BD14 | PCIE20_2_RXN/SATA30_2_RXN/USB30_<br />2_SSRXN | PCIESignal interface | not available as GPIO |  |  |
 | BD15 | GND | Ground |  |  |  |
 | BD16 | RESET_L | system reset signal |  |  |  |
 | BD17 | GND | Ground |  |  |  |
@@ -259,11 +259,11 @@ This section lists the pin definition of the Z3588 core board. When designing a 
 | BD21 | GPIO4_C6_D | GPIO | GPIO multiplexed pin |  |  |
 | BD22 | GPIO2_C5_D | GPIO | GPIO multiplexed pin |  |  |
 | BD23 | GND | Ground |  |  |  |
-| BD24 | VCCIO5 | GPIO5Power Domain1.8/3.3<br />optional | 需外部输入<br />1.8V/3.3V |  |  |
-| BD25 | VCCIO5_1V8 | GPIO51.8VPower Domain | 需外部输入1.8V |  |  |
-| BD26 | VCCIO3_1V8 | GPIO31.8VPower Domain | 需外部输入1.8V |  |  |
-| BD27 | VCCIO6 | GPIO6Power Domain1.8/3.3<br />optional | 需外部输入<br />1.8V/3.3V |  |  |
-| BD28 | VCCIO6_1V8 | GPIO61.8VPower Domain | 需外部输入1.8V |  |  |
+| BD24 | VCCIO5 | GPIO5Power Domain1.8/3.3<br />optional | Requires external input <br />1.8V/3.3V |  |  |
+| BD25 | VCCIO5_1V8 | GPIO51.8VPower Domain | Requires external input 1.8V |  |  |
+| BD26 | VCCIO3_1V8 | GPIO31.8VPower Domain | Requires external input 1.8V |  |  |
+| BD27 | VCCIO6 | GPIO6Power Domain1.8/3.3<br />optional | Requires external input <br />1.8V/3.3V |  |  |
+| BD28 | VCCIO6_1V8 | GPIO61.8VPower Domain | Requires external input 1.8V |  |  |
 | BD29 | GND | Ground |  |  |  |
 | BD30 | GND | Ground |  |  |  |
 | BD31 | GND |  | Ground |  |  |
@@ -271,26 +271,26 @@ This section lists the pin definition of the Z3588 core board. When designing a 
 | BD33 | GND |  | Ground |  |  |
 | BD34 | GND |  | Ground |  |  |
 | BD35 | GND |  | Ground |  |  |
-| BD36 | VCC_1V8_S0 |  | 核心板1.8V输出 |  | 最大supports2.5A电流 |
+| BD36 | VCC_1V8_S0 |  | Core board 1.8V output |  | Maximum supports2.5A current |
 | BD37 | GND |  | Ground |  |  |
 | C1 | GND | Ground |  |  |  |
-| CA1 | MIPI_DPHY0_RX_D3P | MIPICSISignal接口 |  | not available as GPIO |  |
-| CA2 | MIPI_DPHY0_RX_D2P | MIPICSISignal接口 |  | not available as GPIO |  |
-| CA3 | MIPI_DPHY0_RX_CLKP | MIPICSISignal接口 |  | not available as GPIO |  |
-| CA4 | MIPI_DPHY0_RX_D1P | MIPICSISignal接口 |  | not available as GPIO |  |
-| CA5 | MIPI_DPHY0_RX_D0P | MIPICSISignal接口 |  | not available as GPIO |  |
+| CA1 | MIPI_DPHY0_RX_D3P | MIPICSISignal interface |  | not available as GPIO |  |
+| CA2 | MIPI_DPHY0_RX_D2P | MIPICSISignal interface |  | not available as GPIO |  |
+| CA3 | MIPI_DPHY0_RX_CLKP | MIPICSISignal interface |  | not available as GPIO |  |
+| CA4 | MIPI_DPHY0_RX_D1P | MIPICSISignal interface |  | not available as GPIO |  |
+| CA5 | MIPI_DPHY0_RX_D0P | MIPICSISignal interface |  | not available as GPIO |  |
 | CA6 | GND | Ground |  |  |  |
-| CA7 | MIPI_DPHY0_TX_D3N | MIPIDSISignal接口 |  | not available as GPIO |  |
-| CA8 | MIPI_DPHY0_TX_D2N | MIPIDSISignal接口 |  | not available as GPIO |  |
-| CA9 | MIPI_DPHY0_TX_CLKN | MIPIDSISignal接口 |  | not available as GPIO |  |
-| CA10 | MIPI_DPHY0_TX_D1N | MIPIDSISignal接口 |  | not available as GPIO |  |
-| CA11 | MIPI_DPHY0_TX_D0N | MIPIDSISignal接口 |  | not available as GPIO |  |
+| CA7 | MIPI_DPHY0_TX_D3N | MIPIDSISignal interface |  | not available as GPIO |  |
+| CA8 | MIPI_DPHY0_TX_D2N | MIPIDSISignal interface |  | not available as GPIO |  |
+| CA9 | MIPI_DPHY0_TX_CLKN | MIPIDSISignal interface |  | not available as GPIO |  |
+| CA10 | MIPI_DPHY0_TX_D1N | MIPIDSISignal interface |  | not available as GPIO |  |
+| CA11 | MIPI_DPHY0_TX_D0N | MIPIDSISignal interface |  | not available as GPIO |  |
 | CA12 | GND | Ground |  |  |  |
-| CA13 | MIPI_DPHY1_TX_D3N | MIPIDSISignal接口 |  | not available as GPIO |  |
-| CA14 | MIPI_DPHY1_TX_D2N | MIPIDSISignal接口 |  | not available as GPIO |  |
-| CA15 | MIPI_DPHY1_TX_CLKN | MIPIDSISignal接口 |  | not available as GPIO |  |
-| CA16 | MIPI_DPHY1_TX_D1N | MIPIDSISignal接口 |  | not available as GPIO |  |
-| CA17 | MIPI_DPHY1_TX_D0N | MIPIDSISignal接口 |  | not available as GPIO |  |
+| CA13 | MIPI_DPHY1_TX_D3N | MIPIDSISignal interface |  | not available as GPIO |  |
+| CA14 | MIPI_DPHY1_TX_D2N | MIPIDSISignal interface |  | not available as GPIO |  |
+| CA15 | MIPI_DPHY1_TX_CLKN | MIPIDSISignal interface |  | not available as GPIO |  |
+| CA16 | MIPI_DPHY1_TX_D1N | MIPIDSISignal interface |  | not available as GPIO |  |
+| CA17 | MIPI_DPHY1_TX_D0N | MIPIDSISignal interface |  | not available as GPIO |  |
 | CA18 | GND | Ground |  |  |  |
 | CA19 | TYPEC0_SSTX2P/DP0_TX3P | TYPEC/DPmultiplexedSignal |  | not available as GPIO |  |
 | CA20 | TYPEC0_SSRX2P/DP0_TX2P | TYPEC/DPmultiplexedSignal |  | not available as GPIO |  |
@@ -308,22 +308,22 @@ This section lists the pin definition of the Z3588 core board. When designing a 
 | CA32 | TYPEC1_OTG_DP | TYPECOTGSignal |  | not available as GPIO |  |
 | CA33 | GND | Ground |  |  |  |
 | CA34 | USB20_HOST0_DM | USB2.0 signal |  | not available as GPIO |  |
-| CB1 | MIPI_DPHY0_RX_D3N | MIPICSISignal接口 | not available as GPIO |  |  |
-| CB2 | MIPI_DPHY0_RX_D2N | MIPICSISignal接口 | not available as GPIO |  |  |
-| CB3 | MIPI_DPHY0_RX_CLKN | MIPICSISignal接口 | not available as GPIO |  |  |
-| CB4 | MIPI_DPHY0_RX_D1N | MIPICSISignal接口 | not available as GPIO |  |  |
-| CB5 | MIPI_DPHY0_RX_D0N | MIPICSISignal接口 | not available as GPIO |  |  |
-| CB6 | MIPI_DPHY0_TX_D3P | MIPIDSISignal接口 | not available as GPIO |  |  |
-| CB7 | MIPI_DPHY0_TX_D2P | MIPIDSISignal接口 | not available as GPIO |  |  |
-| CB8 | MIPI_DPHY0_TX_CLKP | MIPIDSISignal接口 | not available as GPIO |  |  |
-| CB9 | MIPI_DPHY0_TX_D1P | MIPIDSISignal接口 | not available as GPIO |  |  |
-| CB10 | MIPI_DPHY0_TX_D0P | MIPIDSISignal接口 | not available as GPIO |  |  |
+| CB1 | MIPI_DPHY0_RX_D3N | MIPICSISignal interface | not available as GPIO |  |  |
+| CB2 | MIPI_DPHY0_RX_D2N | MIPICSISignal interface | not available as GPIO |  |  |
+| CB3 | MIPI_DPHY0_RX_CLKN | MIPICSISignal interface | not available as GPIO |  |  |
+| CB4 | MIPI_DPHY0_RX_D1N | MIPICSISignal interface | not available as GPIO |  |  |
+| CB5 | MIPI_DPHY0_RX_D0N | MIPICSISignal interface | not available as GPIO |  |  |
+| CB6 | MIPI_DPHY0_TX_D3P | MIPIDSISignal interface | not available as GPIO |  |  |
+| CB7 | MIPI_DPHY0_TX_D2P | MIPIDSISignal interface | not available as GPIO |  |  |
+| CB8 | MIPI_DPHY0_TX_CLKP | MIPIDSISignal interface | not available as GPIO |  |  |
+| CB9 | MIPI_DPHY0_TX_D1P | MIPIDSISignal interface | not available as GPIO |  |  |
+| CB10 | MIPI_DPHY0_TX_D0P | MIPIDSISignal interface | not available as GPIO |  |  |
 | CB11 | GND | Ground |  |  |  |
-| CB12 | MIPI_DPHY1_TX_D3P | MIPIDSISignal接口 | not available as GPIO |  |  |
-| CB13 | MIPI_DPHY1_TX_D2P | MIPIDSISignal接口 | not available as GPIO |  |  |
-| CB14 | MIPI_DPHY1_TX_CLKP | MIPIDSISignal接口 | not available as GPIO |  |  |
-| CB15 | MIPI_DPHY1_TX_D1P | MIPIDSISignal接口 | not available as GPIO |  |  |
-| CB16 | MIPI_DPHY1_TX_D0P | MIPIDSISignal接口 | not available as GPIO |  |  |
+| CB12 | MIPI_DPHY1_TX_D3P | MIPIDSISignal interface | not available as GPIO |  |  |
+| CB13 | MIPI_DPHY1_TX_D2P | MIPIDSISignal interface | not available as GPIO |  |  |
+| CB14 | MIPI_DPHY1_TX_CLKP | MIPIDSISignal interface | not available as GPIO |  |  |
+| CB15 | MIPI_DPHY1_TX_D1P | MIPIDSISignal interface | not available as GPIO |  |  |
+| CB16 | MIPI_DPHY1_TX_D0P | MIPIDSISignal interface | not available as GPIO |  |  |
 | CB17 | GND | Ground |  |  |  |
 | CB18 | TYPEC0_SSTX2N/DP0_TX3N | TYPEC/DPmultiplexedSignal | not available as GPIO |  |  |
 | CB19 | GND | Ground |  |  |  |
@@ -372,12 +372,12 @@ This section lists the pin definition of the Z3588 core board. When designing a 
 | CC30 | USB20_HOST1_DM | USB2.0 signal | not available as GPIO |  |  |
 | CC31 | USB20_HOST1_DP | USB2.0 signal | not available as GPIO |  |  |
 | CD3 | GND | Ground |  |  |  |
-| CD4 | SLAVER_PMIC_PLDO3 | 核心板1.8V输出 | 最大supports0.3A电流 |  |  |
-| CD5 | SLAVER_PMIC_PLDO2 | 核心板1.8V输出 | 最大supports0.3A电流 |  |  |
-| CD6 | VCC_1V8_CAM_S0 | 核心板1.8V输出, CAM电<br />源 | 最大supports0.3A电流 |  |  |
-| CD7 | VCC_3V3_SD_S0 | 核心板3.3V输出 | 最大supports0.5A电流 |  |  |
-| CD8 | VCC_2V8_CAM_S0 | 核心板2.8V输出, CAM电<br />源 | 最大supports0.3A电流 |  |  |
-| CD9 | VCC_1V2_CAM_S0 | 核心板1.2V输出, CAM电<br />源 | 最大supports0.5A电流 |  |  |
+| CD4 | SLAVER_PMIC_PLDO3 | Core board 1.8V output | Maximum supports0.3A current |  |  |
+| CD5 | SLAVER_PMIC_PLDO2 | Core board 1.8V output | Maximum supports0.3A current |  |  |
+| CD6 | VCC_1V8_CAM_S0 | Core board 1.8V output, CAM power source <br /> | Maximum supports0.3A current |  |  |
+| CD7 | VCC_3V3_SD_S0 | Core board 3.3V output | Maximum supports0.5A current |  |  |
+| CD8 | VCC_2V8_CAM_S0 | Core board 2.8V output, CAM power source <br /> | Maximum supports0.3A current |  |  |
+| CD9 | VCC_1V2_CAM_S0 | Core board 1.2V output, CAM power source <br /> | Maximum supports0.5A current |  |  |
 | CD10 | GND | Ground |  |  |  |
 | CD11 | GND | Ground |  |  |  |
 | CD12 | GND | Ground |  |  |  |
@@ -385,12 +385,12 @@ This section lists the pin definition of the Z3588 core board. When designing a 
 | CD14 | GND | Ground |  |  |  |
 | CD15 | GND | Ground |  |  |  |
 | CD16 | GND | Ground |  |  |  |
-| CD17 | VCC_3V3_S0 | 核心板3.3V输出 | 最大supports5A电流 |  |  |
+| CD17 | VCC_3V3_S0 | Core board 3.3V output | Maximum supports5A current |  |  |
 | CD18 | GND | Ground |  |  |  |
 | CD19 | GND | Ground |  |  |  |
 | CD20 | GND | Ground |  |  |  |
-| CD21 | AVCC_1V8_CODEC_S0 | 核心板1.8V输出 | 最大supports0.5A电流 |  |  |
-| CD22 | VCC_3V3_S3 | 核心板3.3V输出 | 最大supports0.3A电流 |  |  |
+| CD21 | AVCC_1V8_CODEC_S0 | Core board 1.8V output | Maximum supports0.5A current |  |  |
+| CD22 | VCC_3V3_S3 | Core board 3.3V output | Maximum supports0.3A current |  |  |
 | CD23 | GND | Ground |  |  |  |
 | CD24 | GND | Ground |  |  |  |
 | CD25 | GND | Ground |  |  |  |
@@ -441,9 +441,9 @@ This section lists the pin definition of the Z3588 core board. When designing a 
 | DA35 | GPIO4_D5_D | GPIO | GPIO multiplexed pin |
 | DA36 | GPIO4_D1_U | GPIO | GPIO multiplexed pin |
 | DA37 | SYSPWR_EN_H | PMIC enable signal | not available as GPIO |
-| DA38 | VCC4V0_SYS | core board main power input | 建议使用4V/5A电源 |
-| DA39 | VCC4V0_SYS | core board main power input | 建议使用4V/5A电源 |
-| DA40 | VCC4V0_SYS | core board main power input | 建议使用4V/5A电源 |
+| DA38 | VCC4V0_SYS | core board main power input | It is recommended to use 4V/5A power supply |
+| DA39 | VCC4V0_SYS | core board main power input | It is recommended to use 4V/5A power supply |
+| DA40 | VCC4V0_SYS | core board main power input | It is recommended to use 4V/5A power supply |
 | DA41 | GND | Ground |  |
 | DA42 | GND | Ground |  |
 | DB1 | HDMI1_TX2P_PORT/EDP1_TX_D2<br />P | HDMI/EDPmultiplexedSignal | not available as GPIO |
@@ -483,8 +483,8 @@ This section lists the pin definition of the Z3588 core board. When designing a 
 | DB35 | GND | Ground |  |
 | DB36 | GND | Ground |  |
 | DB37 | GND | Ground |  |
-| DB38 | VCC4V0_SYS | core board main power input | 建议使用4V/5A电源 |
-| DB39 | VCC4V0_SYS | core board main power input | 建议使用4V/5A电源 |
+| DB38 | VCC4V0_SYS | core board main power input | It is recommended to use 4V/5A power supply |
+| DB39 | VCC4V0_SYS | core board main power input | It is recommended to use 4V/5A power supply |
 | DB40 | GND | Ground |  |
 | DB41 | GND | Ground |  |
 | DC2 | GND | Ground |  |
@@ -566,32 +566,32 @@ This section lists the pin definition of the Z3588 core board. When designing a 
 | Pin | Net Name | Type | Description |
 |---|---|---|---|
 | H1~H44 | GND | Ground |  |
-| H45 | VDDQ_DDR_S0 | 核心板DDR电源 | 不can be used for外设供电 |
+| H45 | VDDQ_DDR_S0 | Core board DDR power supply | Can not be used for peripheral power supply |
 | H46~H52 | GND | Ground |  |
-| H53 | VDD_DDR_S0 | 核心板DDR电源 | 不can be used for外设供电 |
-| H54 | VDD_CPU_BIG0_S0 | 核心板CPU电源 | 不can be used for外设供电 |
-| H55 | VDD_CPU_BIG1_S0 | 核心板CPU电源 | 不can be used for外设供电 |
+| H53 | VDD_DDR_S0 | Core board DDR power supply | Can not be used for peripheral power supply |
+| H54 | VDD_CPU_BIG0_S0 | Core board CPU power supply | Can not be used for peripheral power supply |
+| H55 | VDD_CPU_BIG1_S0 | Core board CPU power supply | Can not be used for peripheral power supply |
 | H56~H60 | GND | Ground |  |
-| H61 | VDD_VDENC_S0 |  | 不can be used for外设供电 |
-| H62 | VDD_CPU_LIT_S0 | 核心板CPU电源 | 不can be used for外设供电 |
+| H61 | VDD_VDENC_S0 |  | Can not be used for peripheral power supply |
+| H62 | VDD_CPU_LIT_S0 | Core board CPU power supply | Can not be used for peripheral power supply |
 | H63~H68 | GND | Ground |  |
-| H69 | VDD_GPU_S0 | 核心板GPU电源 | 不can be used for外设供电 |
-| H70 | VDD_LOG_S0 | 核心板逻辑电源 | 不can be used for外设供电 |
-| H71 | VDD_NPU_S0 | 核心板NPU电源 | 不can be used for外设供电 |
+| H69 | VDD_GPU_S0 | Core board GPU power supply | Can not be used for peripheral power supply |
+| H70 | VDD_LOG_S0 | Core board logic power supply | Can not be used for peripheral power supply |
+| H71 | VDD_NPU_S0 | Core board NPU power supply | Can not be used for peripheral power supply |
 | H72~H96 | GND | Ground |  |
-| RK3128 | X3128CV4 | 144PIN邮票孔接口 |  |
-| PX30 | X30CV1 | 144PIN邮票孔接口 |  |
-| RK3288 | X3288CV5 | 180PIN邮票孔接口 |  |
-| RK3399 | X3399CV3 | 200PIN邮票孔接口 |  |
-| RK1808 | X1808CV1 | 144PIN邮票孔接口 |  |
-| MT8385 | X8385CV1 | 168PIN邮票孔接口 |  |
-| MT8768 | X8768CV1 | 168PIN邮票孔接口 |  |
-| T507 | X507CV2 | 172PIN邮票孔接口 |  |
-| RK3566 | X3566CV2/X3566CV3 | 200PIN邮票孔接口 |  |
-| RK3566 | I3566CV1 | 172PIN邮票孔接口 |  |
-| RK3568 | X3568CV2/X3568CV3 | 200PIN邮票孔接口 |  |
-| RK3568 | I3568CV1 | 172PIN邮票孔接口 |  |
-| RK3588 | I3588CV1 | 320PIN板对板连接器 |  |
+| RK3128 | X3128CV4 | 144PIN stamp hole interface |  |
+| PX30 | X30CV1 | 144PIN stamp hole interface |  |
+| RK3288 | X3288CV5 | 180PIN stamp hole interface |  |
+| RK3399 | X3399CV3 | 200PIN stamp hole interface |  |
+| RK1808 | X1808CV1 | 144PIN stamp hole interface |  |
+| MT8385 | X8385CV1 | 168PIN stamp hole interface |  |
+| MT8768 | X8768CV1 | 168PIN stamp hole interface |  |
+| T507 | X507CV2 | 172PIN stamp hole interface |  |
+| RK3566 | X3566CV2/X3566CV3 | 200PIN stamp hole interface |  |
+| RK3566 | I3566CV1 | 172PIN stamp hole interface |  |
+| RK3568 | X3568CV2/X3568CV3 | 200PIN stamp hole interface |  |
+| RK3568 | I3568CV1 | 172PIN stamp hole interface |  |
+| RK3588 | I3588CV1 | 320PIN board-to-board connector |  |
 | RK3128 | X3128development board | x3128cv4evaluation board |  |
 | PX30 | X30development board | x30cv1evaluation board |  |
 | RK3288 | x3288development board | x3288cv3evaluation board |  |
@@ -601,9 +601,9 @@ This section lists the pin definition of the Z3588 core board. When designing a 
 | MT8768 | X8768development board | X8768CV1evaluation board |  |
 | T507 | X507development board | X507CV2evaluation board |  |
 | RK3566 | X3566development board | X3566CV1evaluation board |  |
-| RK3566 | I3566公板 | I3566CV1evaluation board |  |
+| RK3566 | I3566 public board | I3566CV1evaluation board |  |
 | RK3568 | X3568development board | X3568CV2evaluation board |  |
-| RK3568 | I3568公板 | I3568CV1evaluation board |  |
+| RK3568 | I3568 public board | I3568CV1evaluation board |  |
 | RK3588 | I3588development board | I3588CV1evaluation board |  |
 | RK3399 | ibox3399card computer |  |  |
 | RK3568 | ibox3568card computer |  |  |

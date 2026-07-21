@@ -51,13 +51,13 @@ Software Development Engineers
    ![m11](./Rockchip_Developer_FAQ_M1_RK3399_EVB_CN/m1反面.jpg)
 
  RK3399 front view
- ![RK3399 EVB正面](./Rockchip_Developer_FAQ_M1_RK3399_EVB_CN/rk3399正面.jpg)
+ ![RK3399 EVBfront](./Rockchip_Developer_FAQ_M1_RK3399_EVB_CN/rk3399正面.jpg)
 
  RK3399 back view
- ![RK3399反面照](./Rockchip_Developer_FAQ_M1_RK3399_EVB_CN/rk3399反面.jpg)
+ ![RK3399Reverse photo](./Rockchip_Developer_FAQ_M1_RK3399_EVB_CN/rk3399反面.jpg)
 
  The two boards are combined together via a 100-pin connector on the back:
- ![M1_RK3399组合](./Rockchip_Developer_FAQ_M1_RK3399_EVB_CN/m1_3399组合.jpg)
+ ![M1_RK3399combination](./Rockchip_Developer_FAQ_M1_RK3399_EVB_CN/m1_3399组合.jpg)
 
 ## Interface Introduction
 

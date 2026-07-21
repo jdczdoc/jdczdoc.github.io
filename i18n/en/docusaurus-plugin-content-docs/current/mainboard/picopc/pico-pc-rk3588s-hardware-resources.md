@@ -20,10 +20,10 @@ This page summarizes the major connectors and their functions. The interface map
 | 【4】 | RTC | RTC coin-cell battery |
 | 【5】 | Headphone jack | 4-pole headphone jack with MIC |
 | 【6】 | MIPI CSI | MIPI camera connector |
-| 【7】 | Type-C接口 | 标准Type-C接口，用于程序下载等 |
+| 【7】 | Type-C interface | Standard Type-C interface for program downloading, etc. |
 | 【8】 | HDMI OUT | Micro HDMI output connector |
-| 【9】 | 5V IN | 5V直流Power输入，标准Type-CPower输入接口 |
-| 【10】 | Independent key | boot按键，用于MaskRom或强制升级 |
+| 【9】 | 5V IN | 5V DC Power input, standard Type-CPower input interface |
+| 【10】 | Independent key | boot button, used for MaskRom or forced upgrade |
 | 【11】 | Independent key | Reset key |
 | 【12】 | Independent key | Used as Recovery key during upgrade |
 | 【13】 | Independent key | PWRKEY |
@@ -33,7 +33,7 @@ This page summarizes the major connectors and their functions. The interface map
 | 【17】 | UART2 | UART2, TTL-level interface, default debug UART |
 | 【18】 | Wi-Fi / BT | Dual-band Wi-Fi 5.0 and BT module |
 | 【19】 | eMMC | Pluggable storage ROM; default 16GB or 32GB options |
-| 【20】 | TF卡 | TF-card socket |
+| 【20】 | TF card | TF-card socket |
 
 
 ## Dimensions

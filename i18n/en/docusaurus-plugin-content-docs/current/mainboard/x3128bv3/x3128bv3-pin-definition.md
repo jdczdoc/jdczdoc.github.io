@@ -21,8 +21,8 @@ The X3128BV3 uses the X3128CV4 144-pin castellated core board. The tables below 
 | 7 | UART0_RXD | GPIO2_D3，muxed as UART0 |
 | 8 | UART0_CTS | GPIO2_D5，muxed as UART0 |
 | 9 | UART0_TXD | GPIO2_D2，muxed as UART0 |
-| 10 | IR_RX | GPIO3_D2，muxed as 红外接收口 |
-| 11 | SPDIF_TX | GPIO3_D3，muxed as 光纤输出 |
+| 10 | IR_RX | GPIO3_D2, muxed as infrared receiving port |
+| 11 | SPDIF_TX | GPIO3_D3, muxed as fiber output |
 | 12 | TX_C- | HDMI differential pair |
 | 13 | TX_C+ | HDMI differential pair |
 | 14 | TX_0- | HDMI differential pair |
@@ -75,10 +75,10 @@ The X3128BV3 uses the X3128CV4 144-pin castellated core board. The tables below 
 | 55 | I2C1_SCL | GPIO0_A2，muxed as I2C1 |
 | 56 | I2C0_SCL | GPIO0_A0，muxed as I2C0 |
 | 57 | I2C0_SDA | GPIO0_A1，muxed as I2C0 |
-| 58 | GSENSOR_INT | GPIO0_B4，muxed as I2S接口 |
+| 58 | GSENSOR_INT | GPIO0_B4, muxed as I2S interface |
 | 59 | TP_INT | GPIO1_B0，muxed as UART1 |
 | 60 | SPK_CTL | GPIO0_D6, general-purpose GPIO |
-| 61 | TP_RST | GPIO0_D1，利用UART2 |
+| 61 | TP_RST | GPIO0_D1, utilizing UART2 |
 | 62 | HP_CTL | GPIO3_C4, general-purpose GPIO |
 | 63 | LCD_RST | GPIO0_D0，muxed as UART2 |
 | 64 | GPIO3_C7 | GPIO3_C7, general-purpose GPIO |
@@ -122,16 +122,16 @@ The X3128BV3 uses the X3128CV4 144-pin castellated core board. The tables below 
 | 96 | LCD_D12 | GPIO2_B6，muxed as LCD，MAC |
 | 97 | LCD_D11 | GPIO2_B5，muxed as LCD，MAC |
 | 98 | LCD_D10 | GPIO2_B4，muxed as LCD，MAC |
-| 99 | LCD_D9 | muxed as RGB，LVDS，MIPI口，不能作为独立的GPIO |
-| 100 | LCD_D8 | muxed as RGB，LVDS，MIPI口，不能作为独立的GPIO |
-| 101 | LCD_D7 | muxed as RGB，LVDS，MIPI口，不能作为独立的GPIO |
-| 102 | LCD_D6 | muxed as RGB，LVDS，MIPI口，不能作为独立的GPIO |
-| 103 | LCD_D5 | muxed as RGB，LVDS，MIPI口，不能作为独立的GPIO |
-| 104 | LCD_D4 | muxed as RGB，LVDS，MIPI口，不能作为独立的GPIO |
-| 105 | LCD_D3 | muxed as RGB，LVDS，MIPI口，不能作为独立的GPIO |
-| 106 | LCD_D2 | muxed as RGB，LVDS，MIPI口，不能作为独立的GPIO |
-| 107 | LCD_D1 | muxed as RGB，LVDS，MIPI口，不能作为独立的GPIO |
-| 108 | LCD_D0 | muxed as RGB，LVDS，MIPI口，不能作为独立的GPIO |
+| 99 | LCD_D9 | muxed as RGB, LVDS, MIPI port, cannot be used as independent GPIO |
+| 100 | LCD_D8 | muxed as RGB, LVDS, MIPI port, cannot be used as independent GPIO |
+| 101 | LCD_D7 | muxed as RGB, LVDS, MIPI port, cannot be used as independent GPIO |
+| 102 | LCD_D6 | muxed as RGB, LVDS, MIPI port, cannot be used as independent GPIO |
+| 103 | LCD_D5 | muxed as RGB, LVDS, MIPI port, cannot be used as independent GPIO |
+| 104 | LCD_D4 | muxed as RGB, LVDS, MIPI port, cannot be used as independent GPIO |
+| 105 | LCD_D3 | muxed as RGB, LVDS, MIPI port, cannot be used as independent GPIO |
+| 106 | LCD_D2 | muxed as RGB, LVDS, MIPI port, cannot be used as independent GPIO |
+| 107 | LCD_D1 | muxed as RGB, LVDS, MIPI port, cannot be used as independent GPIO |
+| 108 | LCD_D0 | muxed as RGB, LVDS, MIPI port, cannot be used as independent GPIO |
 
 
 ## Core Board Pin Definition 4
@@ -144,9 +144,9 @@ The X3128BV3 uses the X3128CV4 144-pin castellated core board. The tables below 
 | 112 | LCD_VSYNC | GPIO2_B2，muxed as LCD |
 | 113 | LCD_CLK | GPIO2_B0，muxed as LCD |
 | 114 | LCD_DEN | GPIO2_B3，muxed as LCD |
-| 115 | VCC_RK816IN | 核心板电源输入，4.8到5.5V |
-| 116 | VCC_RK816IN | 核心板电源输入，4.8到5.5V |
-| 117 | VCC_RK816IN | 核心板电源输入，4.8到5.5V |
+| 115 | VCC_RK816IN | Core board power input, 4.8 to 5.5V |
+| 116 | VCC_RK816IN | Core board power input, 4.8 to 5.5V |
+| 117 | VCC_RK816IN | Core board power input, 4.8 to 5.5V |
 | 118 | PWRON | PMU power-on pin, active low |
 | 119 | VCC_RTC | RTC power input pin, 3V |
 | 120 | BAT_P | Battery input pin |

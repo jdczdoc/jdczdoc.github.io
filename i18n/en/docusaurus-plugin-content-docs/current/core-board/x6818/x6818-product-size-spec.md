@@ -1,27 +1,27 @@
 ---
 sidebar_position: 2
 title: Dimensions and Structure
-description: X6818核心板 appearance, drawings, and mechanical parameters
+description: X6818 core board appearance, drawings, and mechanical parameters
 ---
 
 # Dimensions and Structure
 
 Core Board Appearance
 
-Core Board正面图
+Core Board front view
 
-Core Board背面图
+Core Board back view
 
 Mechanical Drawing
 
-Core Board结构尺寸及pin排列：
+Core Board structural dimensions and pin arrangement:
 
-底板Package
+BottomPackage
 
-详细Parameter请参考x6818Development Board相关文档。
+For detailed parameters, please refer to the x6818Development Board related documents.
 
-X6818Development Board正面
+X6818Development Board front
 
 ![X6818 image](./x6818-image08.jpg)
 
-X6818Development Board反面
+X6818Development Board reverse side

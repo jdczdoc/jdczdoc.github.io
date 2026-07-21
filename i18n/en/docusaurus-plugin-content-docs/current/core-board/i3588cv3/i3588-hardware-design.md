@@ -8,36 +8,36 @@ description: Hardware design notes for the I3588 core board
 
 ## Pin Description
 
-RK3588 除differential pair, ADC 输入脚外的GPIO 口都可以multiplexed作其他功能, 如I2C, UART,SPI, I2S, PWM 等等. 因篇幅有限, 本文Description不尽详细, 如有需要, 可以通过仔细阅读核心板原理图, 或阅读《RK3588_PinOut_V1.0_20211228.xlsx》获取更多信息.
+In addition to the differential pair and ADC input pins, the GPIO ports of RK3588 can be multiplexed for other functions, such as I2C, UART, SPI, I2S, PWM, etc. Due to limited space, this description is not detailed. If necessary, you can obtain more information by carefully reading the core board schematic diagram, or reading "RK3588_PinOut_V1.0_20211228.xlsx".
 
 ## GPIO Power
 
-GPIO Power域的电源脚Description如下:电源域GPIO TypeDescriptionI3588 核心板电平PMUIO11.8V1.8V Only IO supplyfor this GPIO domain(group).1.8VPMUIO21.8V/3.3V1.8Vor3.3VIOsupply for this GPIOdomain (group).3.3VEMMCIO1.8V1.8V Only IO supplyfor this GPIO domain(group).1.8VVCCIO11.8V1.8V Only IO supplyfor this GPIO domain1.8V(group).VCCIO21.8V/3.3V1.8Vor3.3VIOsupply for this GPIOdomain (group).程序控制, 由PMU的PLDO5 决定, default3.3VVCCIO31.8V1.8V Only IO supplyfor this GPIO domain(group).1.8VVCCIO41.8V/3.3V1.8Vor3.3VIOsupply for this GPIOdomain (group).1.8VVCCIO51.8V/3.3V1.8Vor3.3VIOsupply for this GPIOdomain (group).3.3VVCCIO61.8V/3.3V1.8Vor3.3VIOsupply for this GPIOdomain (group).3.3V其中PMUIO1, EMMCIO, VCCIO1, VCCIO3 为固定电平电源域, 不可进行配置.PMUIO2 , VCCIO2 , VCCIO[4 : 6] 电源域 RK3588 芯片可以自动识别硬件配置的电压,不需要软件根据硬件供电电压进行配置. 在做接口板设计时, 注意电源域的IO 电平要与对接外设芯片/器件的IO 电平保持一致, 否则会烧坏CPU.
+The power pin Description of the GPIO Power domain is as follows: Power domain GPIO TypeDescriptionI3588 Core board level PMUIO11.8V1.8V Only IO supply for this GPIO domain(group).1.8VPMUIO21.8V/3.3V1.8Vor3.3VIOsupply for this GPIOdomain (group).3.3VEMMCIO1.8V1.8V Only IO supplyfor this GPIO domain(group).1.8VVCCIO11.8V1.8V Only IO supplyfor this GPIO domain1.8V(group).VCCIO21.8V/3.3V1.8Vor3.3VIOsupply for this GPIOdomain (group). Program control, determined by PLDO5 of PMU, default3.3VVCCIO31.8V1.8V Only IO supplyfor this GPIO domain(group).1.8VVCCIO41.8V/3.3V1.8Vor3.3VIOsupply for this GPIOdomain (group).3.3VVCCIO61.8V/3.3V1.8Vor3.3VIOsupply for this GPIOdomain (group).3.3V where PMUIO1, EMMCIO, VCCIO1, VCCIO3 are fixed level power domains and cannot be configured. PMUIO2, VCCIO2, VCCIO[4: 6] power domains The RK3588 chip can automatically identify the voltage of the hardware configuration and does not require software to configure according to the hardware supply voltage. When designing the interface board, pay attention to the IO level of the power domain to be consistent with the IO level of the connected peripheral chip/device, otherwise the CPU will be burned out.
 
 ## Power Supply Design
 
-I3588 核心板需要主电源供电及RTC 时钟供电即可正常使用. 详细的电源管脚定义如下:
+The I3588 core board requires main power supply and RTC clock power supply for normal use. The detailed power pin definition is as follows:
 
-15, 16 脚: 4V/5A power input接口, 为确保CPU 稳定可靠工作, 务必保证提供足额电流;
+Pins 15 and 16: 4V/5A power input interface. To ensure stable and reliable operation of the CPU, sufficient current must be provided;
 
-120 脚: 核心板RTC 供电端, default输入2.5 到3V/5uA;
+Pin 120: Core board RTC power supply terminal, default input 2.5 to 3V/5uA;
 
-11, 12 脚: 3.3V/2A power output, can be used for接口板电源供电;
+11, 12 pins: 3.3V/2A power output, can be used for interface board power supply;
 
-13, 14 脚: 1.8V/2A power output, can be used for接口板电源供电.
+13, 14 pins: 1.8V/2A power output, can be used for interface board power supply.
 
 ## USB Design
 
-RK3588 有两路HOST 口和两路TYPEC 口. 其中TYPEC 口可用作HOST 口, DEVICE口或DP 口. 它即能DriverVGA, HDMI, DP 屏, 也能当作普通的USB3.0 接口, used for连接普通的HOST3.0 外设.defaultUSB2.0 接口能达到480Mbps 的速°C, 而USB3.0 最快能达到5Gbps 的带宽, 比USB2.0 要快10 倍, 因此, 对PCB 走线的要求更高. or lower为USB 接口的differential pair, 在PCB走线时, 务必走等长差分线, 阻抗匹配为90 欧, 而且需要有完整的参考平面.
+RK3588 has two HOST ports and two TYPEC ports. The TYPEC port can be used as a HOST port, DEVICE port or DP port. It can be used as a DriverVGA, HDMI, DP screen, or as an ordinary USB3.0 interface, used for connecting ordinary HOST3.0 peripherals. The default USB2.0 interface can reach a speed of 480Mbps, and USB3.0 The fastest bandwidth can reach 5Gbps, which is 10 times faster than USB2.0. Therefore, the requirements for PCB routing are higher. Or lower is the differential pair of the USB interface. When routing the PCB, be sure to use equal-length differential lines, the impedance matching is 90 ohms, and a complete reference plane is required.
 
 ## HDMI Design
 
-RK3588 芯片自带两路HDMI OUT 控制器, supportsHDMI2.0 协议. 同时还自带一路HDMIRX2.0 接口, used for对外接收HDMI Signal. 核心板上相应的HDMI differential pair, 必须走等长差分线, 且阻抗匹配为100 欧, 否则会出现HDMI 画面丢色, 断断续续等问题.
+The RK3588 chip comes with two HDMI OUT controllers, supports the HDMI2.0 protocol. It also comes with one HDMIRX2.0 interface, used for external reception of HDMI Signal. The corresponding HDMI differential pair on the core board must use equal-length differential lines, and the impedance matching is 100 ohms, otherwise there will be problems such as color loss and intermittent HDMI picture.
 
 ## EDP Design
 
-RK3588 芯片自带2 路EDP 接口, 管脚和两路HDMI OUT multiplexed. EDP 为差分Signal线,适合Driver分辨率较高的液晶屏. EDP 接口的数据传输总容量可以达到21.6Gbps, 是LVDS接口的3 倍, 它能够Driver更高分辨率的液晶屏, 如2K, 4K 屏等. 在走线时, 相关differential pair必须走等长差分线, 且阻抗匹配为100 欧.
+The RK3588 chip comes with 2 EDP interfaces, pins and two HDMI OUT multiplexed. EDP is a differential signal line, suitable for driving higher resolution LCD screens. The total data transmission capacity of the EDP interface can reach 21.6Gbps, which is 3 times that of the LVDS interface. It can drive higher resolution LCD screens, such as 2K, 4K screens, etc. When wiring, the relevant differential The pairs must run differential lines of equal length, and the impedance matching is 100 ohms.
 
 ## MIPI Design
 
-MIPI 是2003 年由ARM, Nokia, ST, TI 等公司成立的一个联盟, 目的是把手机内部的接口如camera, display, 射频基带接口等标准化, 从而减少手机的设计复杂°C, 增加设计的灵活性. MIPI 是一个比较新的标准, 目前比较成熟的应用有DSI(Display Interface)和CSI(摄相头接口).RK3588 supports两路DSI 和六路CSI 接口, 其中DSI used forDriverMIPI display, CSI 可以外接MIPI camera. MIPI 接口的数据传输率要远大于LVDS 接口, 在走线时一定要走等长差分线, 且阻抗匹配为100 欧.
+MIPI is an alliance established in 2003 by ARM, Nokia, ST, TI and other companies. The purpose is to standardize the internal interfaces of mobile phones such as camera, display, radio frequency baseband interface, etc., thereby reducing the design complexity of mobile phones and increasing design flexibility. MIPI is a relatively new standard. Currently, relatively mature applications include DSI(Display Interface) and CSI(Camera interface). RK3588 supports two-way DSI And six CSI interfaces, among which DSI used for DriverMIPI display, CSI can be connected to an external MIPI camera. The data transmission rate of the MIPI interface is much greater than that of the LVDS interface. When routing, equal-length differential lines must be used, and the impedance matching is 100 ohms.

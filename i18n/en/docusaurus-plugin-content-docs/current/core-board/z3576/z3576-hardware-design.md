@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Hardware Design
-description: Z3576核心板 hardware design notes
+description: Z3576 core board hardware design notes
 ---
 
 # Hardware Design
@@ -10,46 +10,46 @@ Hardware Design
 
 pinDescription
 
-Core BoardGPIO电平
+Core BoardGPIO levels
 
-GPIO电源域的电源脚Description如下：
+The description of the power pins of the GPIO power domain is as follows:
 
-| 电源域 | GPIOpower supply电压 | Description | Core BoardIO电平 |
+| power domain | GPIO power supply voltage | Description | Core BoardIO levels |
 | --- | --- | --- | --- |
-| PMUIOO | 1.8V | IO 电压域只有1.8V | 1.8V |
-| PMUIO1 | 1.8V/3.3V | IO 电压域可配置成1.8V或3.3V,Core Boardpin引出，由底板power supply | 由底板给Core BoardPMUIO1pinpower supply电压决定 |
-| VCCIO0 | 1.8V | IO 电压域只有1.8V | 1.8V |
-| VCCIO1 | 1.8V/3.3V | IO 电压域可配置成1.8V 或3.3V, 由底板power supply | 由底板给Core BoardVCCIO1pinpower supply电压决定 |
-| VCCIO2 | 1.8V/3.3V | IO 电压域可配置成1.8V或3.3V,由底板power supply | 由底板给Core BoardVCCIO2pinpower supply电压决定 |
-| VCCIO3 | 1.8V/3.3V | IO 电压域可配置成1.8V 或3.3V,由底板power supply | 由底板给Core BoardVCCIO3pinpower supply电压决定 |
-| VCCIO4 | 1.8V/3.3V | IO 电压域可配置成1.8V 或3.3V,由底板power supply | 由底板给Core BoardVCCIO4pinpower supply电压决定 |
-| VCCIO5 | 1.8V/3.3V | IO 电压域可配置成1.8V 或3.3V,由底板power supply | 由底板给Core BoardVCCIO5pinpower supply电压决定 |
-| VCCIO6 | 1.8V/3.3V | IO 电压域可配置成1.8V 或3.3V,由底板power supply | 由底板给Core BoardVCCIO6pinpower supply电压决定 |
-| VCCIO7 | 1.2V/1.8V | IO 电压域可配置成1.2V或1.8V,我司Core Board统一配置为1.8V | 1.8V |
+| PMUIOO | 1.8V | IO voltage domain is only 1.8V | 1.8V |
+| PMUIO1 | 1.8V/3.3V | The IO voltage domain can be configured to 1.8V or 3.3V. It is derived from the Core Boardpin and is powered by the baseboard power supply. | It is determined by the voltage supplied by the baseboard to Core BoardPMUIO1 pinpower. |
+| VCCIO0 | 1.8V | IO voltage domain is only 1.8V | 1.8V |
+| VCCIO1 | 1.8V/3.3V | The IO voltage domain can be configured to 1.8V or 3.3V, which is supplied by the backplane power supply | It is determined by the voltage supplied by the base board to Core BoardVCCIO1pinpower. |
+| VCCIO2 | 1.8V/3.3V | The IO voltage domain can be configured to 1.8V or 3.3V, which is supplied by the backplane power supply | It is determined by the voltage supplied by the baseboard to Core BoardVCCIO2pinpower. |
+| VCCIO3 | 1.8V/3.3V | The IO voltage domain can be configured to 1.8V or 3.3V, which is supplied by the backplane power supply | It is determined by the voltage supplied by the baseboard to Core BoardVCCIO3pinpower. |
+| VCCIO4 | 1.8V/3.3V | The IO voltage domain can be configured to 1.8V or 3.3V, which is supplied by the backplane power supply | It is determined by the voltage supplied by the baseboard to Core BoardVCCIO4pinpower. |
+| VCCIO5 | 1.8V/3.3V | The IO voltage domain can be configured to 1.8V or 3.3V, which is supplied by the backplane power supply | It is determined by the voltage supplied by the baseboard to Core BoardVCCIO5pinpower. |
+| VCCIO6 | 1.8V/3.3V | The IO voltage domain can be configured to 1.8V or 3.3V, which is supplied by the backplane power supply | It is determined by the voltage supplied by the baseboard to Core BoardVCCIO6pinpower. |
+| VCCIO7 | 1.2V/1.8V | The IO voltage domain can be configured to 1.2V or 1.8V. Our Core Board is uniformly configured to 1.8V. | 1.8V |
 
 
-在做底板设计时，注意外设芯片的IO电平要与Core Board的IO电平保持一致，否则会烧坏CPU。
+When designing the baseboard, pay attention to the IO level of the peripheral chip to be consistent with the IO level of the Core Board, otherwise the CPU will be burned out.
 
-电源设计
+Power supply design
 
-Z3576Core Board仅需要主电源power supply即可正常使用。详细的电源pin定义如下：
+Z3576Core Board only requires main power supply for normal use. The detailed power pin definition is as follows:
 
-144、146、147、148脚：5V/3APower input interface，为确保CPU稳定可靠工作，务必保证提供足额电流且保证电源纹波电压控制在100MV以下，另外电源走线尽可能宽（大于2MM），换层过孔不小于5个；
+144、Pins 146, 147, and 148: 5V/3A Power input interface. In order to ensure stable and reliable operation of the CPU, it is necessary to ensure that sufficient current is provided and the power supply ripple voltage is controlled below 100MV. In addition, the power supply traces should be as wide as possible (more than 2MM), and there should be no less than 5 layer-changing vias;
 
-301脚：3.3V/0.5APower output，可for  interface板电源power supply（部分外设上电时序有要求，可参考上述Core BoardPin Definition的Description给对应外设power supply）；
+Pin 301: 3.3V/0.5A Power output, can be used for interface board power supply (some peripherals have power-on timing requirements, please refer to the description of the above Core BoardPin Definition for the corresponding peripheral power supply);
 
-318、319、320、321脚：3.3V/5APower output，可for 底板电流要求较高的电源power supply。
+318、Pins 319, 320, and 321: 3.3V/5A Power output, can be used for power supply with higher baseboard current requirements.
 
-下图为给CPU，NPU，GPU，DDRpower supply的核心电源pin，Core Board对外引出，在底板设计时，需在底板上增加电容滤波，以增强稳定性；
+The picture below shows the core power supply pins for the CPU, NPU, GPU, and DDR power supply, which are led out from the Core Board. When designing the baseboard, capacitor filtering needs to be added to the baseboard to enhance stability;
 
-USB设计
+USB design
 
-Z3576 Core Board有2chUSB 2.0 和2ch USB 3.0口。其中 USB 2.0口在Development Board上设计为固件升级(device)和USB HOST muxed as ,通过外部 USB 5V 插入做检测并切换为DEVICE 而升级固件用。
+Z3576 Core Board has 2ch USB 2.0 and 2ch USB 3.0 ports. The USB 2.0 port is designed on the Development Board for firmware upgrade (device) and USB HOST muxed as, and is used for firmware upgrade by plugging in an external USB 5V for detection and switching to DEVICE.
 
-HDMI设计
+HDMI design
 
-Z3576芯片自带一chHDMI OUT控制器，supports HDMI2.0协议。Core Board上相应的HDMI差分对，必须走等长差分线，且阻抗匹配为100欧-/+10%，否则会出现HDMI画面丢色，断断续续等问题。
+The Z3576 chip comes with a HDMI OUT controller and supports HDMI2.0 protocol. The corresponding HDMI differential pairs on the Core Board must use differential lines of equal length, and the impedance matching is 100 ohms -/+10%, otherwise problems such as color loss and intermittent HDMI screen will occur.
 
-MIPI设计
+MIPI design
 
-Z3576supports 1chMIPI DSI和2chMIPI CSI interface，其中DSIfor 驱动MIPI显示屏，CSI可以外接MIPIcamera。MIPI interface的数据传输率较高，在走线时一定要走等长差分线，且阻抗匹配为100欧 -/+10%。
+Z3576 supports 1chMIPI DSI and 2chMIPI CSI interface, where DSIfor drives the MIPI display and CSI can be connected to an external MIPI camera. The data transmission rate of the MIPI interface is high. Differential lines of equal length must be used when routing, and the impedance matching is 100 ohms -/+10%.

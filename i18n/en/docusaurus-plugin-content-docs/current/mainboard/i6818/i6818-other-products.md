@@ -22,24 +22,24 @@ description: 9Tripod core-board, development-board, and card-computer series
 | S5P6818 | I6818CV3 | 200-pin board-to-board connector |
 | RK3288 | X3288CV3 | 180-pin stamp-hole connector |
 | RK3288 | I3288CV1 | 220-pin stamp-hole connector |
-| RK3399 | X3399CV2.1 | 200PIN邮票孔接口 |
+| RK3399 | X3399CV2.1 | 200PIN stamp hole interface |
 
 
 ## Development Board Series
 
 | Processor | Development Board | Notes |
 | --- | --- | --- |
-| S3C6410 | x6410开发板 | x6410cv1evaluation board |
-| S5PV210 | x210开发板 | x210cv3evaluation board |
-| S5PV210 | g210开发板 | g210cv1evaluation board |
-| S5PV210 | i210开发板 | i210cv2evaluation board |
-| Exynos4412 | x4412开发板 | x4412cv3evaluation board |
-| S5P4418 | x4418开发板 | x4418cv3evaluation board |
-| S5P6818 | x6818开发板 | x6818cv3evaluation board |
-| S5P6818 | i6818开发板 | i6818cv3evaluation board |
-| RK3288 | x3288开发板 | x3288cv3evaluation board |
-| RK3288 | i3288开发板 | i3288cv1evaluation board |
-| RK3399 | x3399开发板 | x3399cv2.1evaluation board |
+| S3C6410 | x6410 development board | x6410cv1evaluation board |
+| S5PV210 | x210 development board | x210cv3evaluation board |
+| S5PV210 | g210 development board | g210cv1evaluation board |
+| S5PV210 | i210 development board | i210cv2evaluation board |
+| Exynos4412 | x4412 development board | x4412cv3evaluation board |
+| S5P4418 | x4418 development board | x4418cv3evaluation board |
+| S5P6818 | x6818 development board | x6818cv3evaluation board |
+| S5P6818 | i6818 development board | i6818cv3evaluation board |
+| RK3288 | x3288 development board | x3288cv3evaluation board |
+| RK3288 | i3288 development board | i3288cv1evaluation board |
+| RK3399 | x3399 development board | x3399cv2.1evaluation board |
 
 
 ## Card Computer Series

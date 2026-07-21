@@ -26,8 +26,8 @@ Pico PC RK3588S supports Android 12, Linux, Ubuntu, Debian, and Buildroot resour
 | Audio | ✓ | ✓ | ✓ | ✓ |
 | Recording | ✓ | Not supported | Not supported | Not supported |
 | Wi-Fi / BT | ✓ | ✓ | ✓ | ✓ |
-| CSI摄像头驱动 | ✓ | Not supported | Not supported | ✓ |
-| USB口摄像头驱动 | ✓ | ✓ | ✓ | ✓ |
+| CSI camera driver | ✓ | Not supported | Not supported | ✓ |
+| USB port camera driver | ✓ | ✓ | ✓ | ✓ |
 | UART | ✓ | ✓ | ✓ | ✓ |
 | HDMI OUT | ✓ | ✓ | ✓ | ✓ |
 | Gigabit Ethernet | ✓ | ✓ | ✓ | ✓ |

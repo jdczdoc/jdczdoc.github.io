@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Pin Definition
-description: X3288CV5核心板 pin definition
+description: X3288CV5 core board pin definition
 ---
 
 # Pin Definition

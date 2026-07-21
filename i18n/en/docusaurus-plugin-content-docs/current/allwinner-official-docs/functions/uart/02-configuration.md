@@ -28,9 +28,9 @@ Do not assume that paths in a release guide exactly match the active branch, esp
 
 Check the following items:
 
-- CONFIG_AW_UART 或 CONFIG_AW_UART_NG（二选一，以平台为准）
+- CONFIG_AW_UART or CONFIG_AW_UART_NG (choose one, whichever is the platform)
 - CONFIG_AW_SERIAL_DMA（DMA）
-- CONFIG_DYNAMIC_DEBUG（动态调试）
+- CONFIG_DYNAMIC_DEBUG (dynamic debugging)
 - `SERIAL_CORE / TTY`
 
 Save the configuration:
@@ -51,11 +51,11 @@ The following is a reference structure. Do not duplicate or override SoC-level `
         pinctrl-0 = <&uart7_pins_a>;
         pinctrl-1 = <&uart7_pins_b>;
         uart7_port = <7>;
-        uart7_type = <4>;       /* 具体含义查当前驱动 */
+        uart7_type = <4>;       /* Check the current driver for specific meaning. */
         status = "okay";
 };
 
-/* 软件控制 RS485 方向的属性名称因驱动版本而异 */
+/* Software control RS485 The property name of the direction varies depending on the driver version. */
 &uart7 {
         sunxi,uart-rs485 = <1>;
         sunxi,uart-485fl = <1>;

@@ -18,17 +18,17 @@ description: Pico PC RK3588S SoC, CPU, GPU, NPU, interfaces, and environment par
 | Codec | Decode: 8K@60 H.265/VP9/AVS2, 8K@30 H.264 AVC/MVC, 4K@60 AV1, 1080P@60 MPEG-2/-1/VC-1/VP8. Encode: 8K@30 H.265/H.264. Up to 32-channel 1080P@30 decoding and 16-channel 1080P@30 encoding. |
 | Memory | 4GB / 8GB / 16GB 64-bit LPDDR4/LPDDR4x, up to 32GB |
 | Storage | 16GB / 32GB eMMC |
-| 硬件参数 |  |
+| Hardware parameters |  |
 | Ethernet | Gigabit Ethernet |
 | Wireless | 2.4G/5G dual-band Wi-Fi, supports external 4G module |
 | Video | 1 x HDMI 2.1 (8K@60 or 4K@120), 1 x MIPI-DSI (4K@60) |
 | Audio | 1 x phone output with MIC, 1 x Micro HDMI audio output |
 | USB | 2 × USB3.0 / 1 × Type-C / 2 × USB2.0 |
-| Power | DC5V输入(Type-C接口) |
+| Power | DC5V input (Type-Cinterface) |
 | Other Interfaces | 1 x CSI, 1 x DSI, 1 x UART, 1 x Debug, 28 x GPIO |
-| System软件 |  |
+| System software |  |
 | System | Android: Android 12.0; Linux: Ubuntu, Debian 11, Buildroot |
-| 其他参数 |  |
+| Other parameters |  |
 | Dimensions | 85mm x 56mm (Raspberry Pi form factor) |
 | Weight | About 50 g |
 | Thermal | Heatsink mounting hole spacing: refer to Raspberry Pi |
