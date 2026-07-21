@@ -1,8 +1,10 @@
 {
-  "label": "pico2主板",
-  "position": 26,
+  "label": "PICO2开发板",
+  "position": 95,
+  "key": "mainboard-pico2",
   "link": {
     "type": "generated-index",
-    "description": "pico2主板 Documents"
+    "title": "PICO2开发板",
+    "description": "PICO2开发板产品介绍、硬件接口、Linux SDK编译、显示、多媒体、RTOS和驱动开发文档。"
   }
 }

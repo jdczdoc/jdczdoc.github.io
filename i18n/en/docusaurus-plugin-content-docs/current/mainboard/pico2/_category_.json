@@ -1,8 +1,10 @@
 {
-  "label": "pico2 Mainboard",
-  "position": 26,
+  "label": "PICO2 Development Board",
+  "position": 95,
+  "key": "mainboard-pico2",
   "link": {
     "type": "generated-index",
-    "description": "pico2 Mainboard Documents"
+    "title": "PICO2 Development Board",
+    "description": "Product, hardware, Linux SDK build, display, multimedia, RTOS, and driver development documentation for PICO2."
   }
 }

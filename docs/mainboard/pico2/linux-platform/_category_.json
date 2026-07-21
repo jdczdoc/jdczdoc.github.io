@@ -1,0 +1,10 @@
+{
+  "label": "Linux平台",
+  "position": 10,
+  "key": "mainboard-pico2-linux-platform",
+  "link": {
+    "type": "generated-index",
+    "title": "PICO2 Linux平台",
+    "description": "PICO2 Tina Linux SDK框架、编译烧录、系统配置、Camera、显示、多媒体、RTOS和Linux驱动开发。"
+  }
+}
