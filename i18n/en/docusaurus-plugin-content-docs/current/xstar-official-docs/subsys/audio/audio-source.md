@@ -53,7 +53,7 @@ struct audio_source_t {
 | `"triangle"` | Triangle wave |
 | `"sawtooth"` | Sawtooth wave |
 
-## ioctl Commands
+## ioctl Commands {#ioctl}
 
 Common ioctl commands (all sources should support):
 

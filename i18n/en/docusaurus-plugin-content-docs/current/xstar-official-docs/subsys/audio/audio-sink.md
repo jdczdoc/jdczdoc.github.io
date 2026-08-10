@@ -34,7 +34,7 @@ struct audio_sink_t {
 | `audio_sink_get/set_volume(s, vol)` | Get/set volume |
 | `audio_sink_free(s)` | Free a Sink |
 
-## ioctl Commands
+## ioctl Commands {#ioctl}
 
 Common ioctl commands (all sinks should support):
 

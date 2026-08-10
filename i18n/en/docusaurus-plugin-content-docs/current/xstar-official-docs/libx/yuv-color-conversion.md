@@ -9,7 +9,7 @@ YUV to RGB color space conversion module, supporting both BT.601 and BT.709 stan
 | BT.601 | Standard definition (SD) video, e.g., PAL/NTSC television |
 | BT.709 | High definition (HD) video, e.g., 720p/1080p |
 
-The two standards use different conversion coefficients; mixing them causes color deviations.
+The two standards use different conversion coefficients; mixing them causes color偏差.
 
 ## Data Range
 

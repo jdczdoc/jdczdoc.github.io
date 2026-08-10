@@ -2,7 +2,7 @@
   "label": "Vector Graphics",
   "position": 13,
   "link": {
-    "type": "doc",
-    "id": "xstar-official-docs/subsys/cg/cg"
+    "type": "generated-index",
+    "description": "Vector Graphics"
   }
 }

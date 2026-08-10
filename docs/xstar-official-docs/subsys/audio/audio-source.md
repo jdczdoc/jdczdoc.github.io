@@ -53,7 +53,7 @@ struct audio_source_t {
 | `"triangle"` | 三角波 |
 | `"sawtooth"` | 锯齿波 |
 
-## ioctl 命令
+## ioctl 命令 {#ioctl}
 
 通用 ioctl 命令（所有 source 都应支持）：
 

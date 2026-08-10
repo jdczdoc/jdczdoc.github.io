@@ -2,7 +2,7 @@
   "label": "矢量绘图",
   "position": 13,
   "link": {
-    "type": "doc",
-    "id": "xstar-official-docs/subsys/cg/cg"
+    "type": "generated-index",
+    "description": "Vector Graphics"
   }
 }

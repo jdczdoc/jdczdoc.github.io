@@ -34,7 +34,7 @@ struct audio_sink_t {
 | `audio_sink_get/set_volume(s, vol)` | 获取/设置音量 |
 | `audio_sink_free(s)` | 释放 Sink |
 
-## ioctl 命令
+## ioctl 命令 {#ioctl}
 
 通用 ioctl 命令（所有 sink 都应支持）：
 

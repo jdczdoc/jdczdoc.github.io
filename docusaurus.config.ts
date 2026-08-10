@@ -26,6 +26,11 @@ const config: Config = {
       onBrokenMarkdownLinks: 'warn',
       onBrokenMarkdownImages: 'warn',
     },
+    // future.v4 默认会禁用 mdx1Compat，此处显式启用 headingIds
+    // 以支持 markdown 标题显式锚点语法 {#id}（如 ## ioctl 命令 {#ioctl}）
+    mdx1Compat: {
+      headingIds: true,
+    },
   },
 
   // Even if you don't use internationalization, you can use this field to set
