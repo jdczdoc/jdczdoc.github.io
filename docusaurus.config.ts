@@ -144,8 +144,8 @@ const config: Config = {
               to: '/docs/category/全志官方文档',
             },
             {
-              label: 'XSTAR官方文档',
-              to: '/docs/category/xstar官方文档',
+              label: 'XSTAR(XOS)官方文档',
+              to: '/docs/category/xstarxos官方文档',
             },
           ],
         },

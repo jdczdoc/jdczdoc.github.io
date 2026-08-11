@@ -21,6 +21,7 @@ A733采用 Cortex-A76 + Cortex-A55 八核架构，并集成 RISC-V E902 核心�
 - 支持休眠与唤醒。
 - 支持千兆以太网、MIPI-CSI、MIPI-DSI、PCIe和USB3.0。
 - 采用 200PIN 邮票孔封装。
+- 采用LP4/LP5，平台最高支持16GB
 
 ## 外观与结构
 

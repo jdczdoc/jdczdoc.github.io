@@ -191,13 +191,13 @@
     "message": "WATCHDOG",
     "description": "The label for category 'WATCHDOG' in sidebar 'alldocsSidebar'"
   },
-  "sidebar.alldocsSidebar.category.XSTAR官方文档": {
+  "sidebar.alldocsSidebar.category.XSTAR(XOS)官方文档": {
     "message": "XSTAR Official Docs",
-    "description": "The label for category 'XSTAR官方文档' in sidebar 'alldocsSidebar'"
+    "description": "The label for category 'XSTAR(XOS)官方文档' in sidebar 'alldocsSidebar'"
   },
-  "sidebar.alldocsSidebar.category.XSTAR官方文档.link.generated-index.description": {
+  "sidebar.alldocsSidebar.category.XSTAR(XOS)官方文档.link.generated-index.description": {
     "message": "XSTAR Official Documents",
-    "description": "The generated-index page description for category 'XSTAR官方文档' in sidebar 'alldocsSidebar'"
+    "description": "The generated-index page description for category 'XSTAR(XOS)官方文档' in sidebar 'alldocsSidebar'"
   },
   "sidebar.alldocsSidebar.category.入门指南": {
     "message": "Guide",
@@ -479,17 +479,17 @@
     "message": "Z3576 core board Documents",
     "description": "The generated-index page description for category 'Z3576核心板' in sidebar 'alldocsSidebar'"
   },
-  "sidebar.alldocsSidebar.category.X3588CV1核心板": {
-    "message": "X3588CV1 Core Board",
-    "description": "The label for category 'X3588CV1核心板' in sidebar 'alldocsSidebar'"
+  "sidebar.alldocsSidebar.category.X3588S核心板": {
+    "message": "X3588S Core Board",
+    "description": "The label for category 'X3588S核心板' in sidebar 'alldocsSidebar'"
   },
-  "sidebar.alldocsSidebar.category.X3588CV1核心板.link.generated-index.description": {
-    "message": "X3588CV1 Core Board Documents",
-    "description": "The generated-index page description for category 'X3588CV1核心板' in sidebar 'alldocsSidebar'"
+  "sidebar.alldocsSidebar.category.X3588S核心板.link.generated-index.description": {
+    "message": "X3588S Core Board Documents",
+    "description": "The generated-index page description for category 'X3588S核心板' in sidebar 'alldocsSidebar'"
   },
-  "sidebar.alldocsSidebar.category.I3588CV3核心板": {
+  "sidebar.alldocsSidebar.category.I3588核心板": {
     "message": "I3588CV3 Core Board",
-    "description": "The label for category 'I3588CV3核心板' in sidebar 'alldocsSidebar'"
+    "description": "The label for category 'I3588核心板' in sidebar 'alldocsSidebar'"
   },
   "sidebar.alldocsSidebar.category.I3588CV3核心板.link.generated-index.description": {
     "message": "I3588CV3 core board Documents",

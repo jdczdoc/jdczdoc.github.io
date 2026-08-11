@@ -103,7 +103,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'XSTAR官方文档',
+      label: 'XSTAR(XOS)官方文档',
       link: {
         type: 'generated-index',
         description: 'XSTAR Official Documents',
