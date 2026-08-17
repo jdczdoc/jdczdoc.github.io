@@ -397,7 +397,7 @@
   },
   "sidebar.alldocsSidebar.category.显示模组": {
     "message": "Display Module",
-    "description": "The label for document item '显示模组' in sidebar 'alldocsSidebar'"
+    "description": "The label for category '显示模组' in sidebar 'alldocsSidebar'"
   },
   "sidebar.alldocsSidebar.category.摄像模组": {
     "message": "Camera Module",
@@ -958,5 +958,61 @@
   "sidebar.alldocsSidebar.category.allwinner-official-functions-pcie.link.generated-index.description": {
     "message": "PCIe principles, configuration, development, testing and troubleshooting.",
     "description": "The generated-index page description for category 'PCIe' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.I3588核心板.link.generated-index.description": {
+    "message": "I3588核心板 Documents",
+    "description": "The generated-index page description for category 'I3588核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-pico2-linux-platform": {
+    "message": "Linux平台",
+    "description": "The label for category 'Linux平台' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-pico2-linux-platform.link.generated-index.title": {
+    "message": "PICO2 Linux平台",
+    "description": "The generated-index page title for category 'Linux平台' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-pico2-linux-platform.link.generated-index.description": {
+    "message": "PICO2 Tina Linux SDK框架、编译烧录、系统配置、Camera、显示、多媒体、RTOS和Linux驱动开发。",
+    "description": "The generated-index page description for category 'Linux平台' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.九影G5 15.6寸直播一体机": {
+    "message": "Jiuying G5 15.6-inch Live Streaming Device",
+    "description": "The label for category '九影G5 15.6寸直播一体机' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.九影G5 15.6寸直播一体机.link.generated-index.description": {
+    "message": "Jiuying G5 15.6-inch Live Streaming Device Documents",
+    "description": "The generated-index page description for category '九影G5 15.6寸直播一体机' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.九影X3 10.1寸直播一体机": {
+    "message": "Jiuying X3 10.1-inch Live Streaming Device",
+    "description": "The label for category '九影X3 10.1寸直播一体机' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.九影X3 10.1寸直播一体机.link.generated-index.description": {
+    "message": "Jiuying X3 10.1-inch Live Streaming Device Documents",
+    "description": "The generated-index page description for category '九影X3 10.1寸直播一体机' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.显示模组.link.generated-index.title": {
+    "message": "Display Module",
+    "description": "The generated-index page title for category '显示模组' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.显示模组.link.generated-index.description": {
+    "message": "Display Module Documents",
+    "description": "The generated-index page description for category '显示模组' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.Cron 定时任务": {
+    "message": "Cron 定时任务",
+    "description": "The label for category 'Cron 定时任务' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.Cron 定时任务.link.generated-index.description": {
+    "message": "Cron Scheduler",
+    "description": "The generated-index page description for category 'Cron 定时任务' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.矢量绘图": {
+    "message": "矢量绘图",
+    "description": "The label for category '矢量绘图' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.矢量绘图.link.generated-index.description": {
+    "message": "Vector Graphics",
+    "description": "The generated-index page description for category '矢量绘图' in sidebar 'alldocsSidebar'"
   }
 }

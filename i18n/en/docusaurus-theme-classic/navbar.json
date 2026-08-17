@@ -9,22 +9,22 @@
   },
   "item.label.所有文档": {
     "message": "All Docs",
-    "description": "Navbar item with label all documents"
+    "description": "Navbar item with label 所有文档"
   },
   "item.label.其它": {
     "message": "More",
-    "description": "Navbar item with label other"
+    "description": "Navbar item with label 其它"
   },
   "item.label.关于我们": {
     "message": "About Us",
-    "description": "Navbar item with label About us"
+    "description": "Navbar item with label 关于我们"
   },
   "item.label.官方网站": {
     "message": "Official Website",
-    "description": "Navbar item with label official website"
+    "description": "Navbar item with label 官方网站"
   },
   "item.label.社区论坛": {
     "message": "Community Forum",
-    "description": "Navbar item with label community forum"
+    "description": "Navbar item with label 社区论坛"
   }
 }

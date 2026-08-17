@@ -1,19 +1,19 @@
 {
   "link.title.文档": {
     "message": "Docs",
-    "description": "The title of the footer links column with title=document in the footer"
+    "description": "The title of the footer links column with title=文档 in the footer"
   },
   "link.title.社区": {
     "message": "Community",
-    "description": "The title of the footer links column with title=Community in the footer"
+    "description": "The title of the footer links column with title=社区 in the footer"
   },
   "link.title.更多": {
     "message": "More",
-    "description": "The title of the footer links column with title=more in the footer"
+    "description": "The title of the footer links column with title=更多 in the footer"
   },
   "link.item.label.关于": {
     "message": "About",
-    "description": "The label of footer link with label=About linking to /docs/about"
+    "description": "The label of footer link with label=关于 linking to /docs/about"
   },
   "link.item.label.开发板": {
     "message": "Development Board",
@@ -21,23 +21,23 @@
   },
   "link.item.label.瑞芯微官方文档": {
     "message": "Rockchip Official Docs",
-    "description": "The label of footer link with label=Rockchip Official Document linking to /docs/category/Rockchip Official Document"
+    "description": "The label of footer link with label=瑞芯微官方文档 linking to /docs/category/瑞芯微官方文档"
   },
   "link.item.label.全志官方文档": {
     "message": "Allwinner Official Docs",
-    "description": "The label of footer link with label=Allwinner Official Document linking to /docs/category/Allwinner Official Document"
+    "description": "The label of footer link with label=全志官方文档 linking to /docs/category/全志官方文档"
   },
   "link.item.label.论坛": {
     "message": "Forum",
-    "description": "The label of footer link with label=forum linking to http://bbs.9tripod.com"
+    "description": "The label of footer link with label=论坛 linking to http://bbs.9tripod.com"
   },
   "link.item.label.九鼎官网": {
     "message": "JiuDing Official",
-    "description": "The label of footer link with label=九丁官网 linking to http://www.9tripod.com"
+    "description": "The label of footer link with label=九鼎官网 linking to http://www.9tripod.com"
   },
   "link.item.label.淘宝店": {
     "message": "Taobao Store",
-    "description": "The label of footer link with label=Taobao store linking to https://armeasy.taobao.com"
+    "description": "The label of footer link with label=淘宝店 linking to https://armeasy.taobao.com"
   },
   "copyright": {
     "message": "Copyright © 2026 All Rights Reserved.",
@@ -45,6 +45,6 @@
   },
   "link.item.label.XSTAR(XOS)官方文档": {
     "message": "XSTAR official documents",
-    "description": "The label of footer link with label=XSTAR Official Document linking to /docs/category/xstar Official Document"
+    "description": "The label of footer link with label=XSTAR(XOS)官方文档 linking to /docs/category/xstarxos官方文档"
   }
 }
