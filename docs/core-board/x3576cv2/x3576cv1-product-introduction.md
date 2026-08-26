@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: 产品介绍
-description: X3576CV1核心板 产品简介、核心板特性和特性参数
+description: X3576CV2核心板 产品简介、核心板特性和特性参数
 ---
 
 # 产品介绍

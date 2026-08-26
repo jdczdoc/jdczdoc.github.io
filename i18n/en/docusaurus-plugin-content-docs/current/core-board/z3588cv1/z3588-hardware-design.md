@@ -10,9 +10,33 @@ description: Hardware design notes for the Z3588 core board
 
 In addition to the differential pair and ADC input pins, the GPIO ports of RK3588 can be multiplexed for other functions, such as I2C, UART, SPI, I2S, PWM, etc. Due to limited space, this description is not detailed. If necessary, you can obtain more information by carefully reading the core board schematic diagram, or reading "Z3588_PinOut_V1_20250308.xls".
 
-## GPIO Power
+## GPIO Power Domains
 
-The power pin Description of the GPIO Power domain is as follows: Power DomainGPIO TypeDescriptionZ3588 Core Board LevelPMUIO11.8V1.8V Only1.8VPMUIO21.8V/3.3V1.8V or 3.3V3.3VEMMCIO1.8V1.8V Only1.8VVCCIO11.8V1.8V Only1.8VVCCIO21.8V/3.3V1.8V or 3.3Vdefault3.3V, adjustable VCCIO31.8V1.8V through PMIC PLDO5 Only1.8VVCCIO41.8V/3.3V1.8V or 3.3V development boarddefault1.8V, VCCIO51.8V/3.3V1.8V or can be jumped through the backplane resistor 3.3V development boarddefault3.3V, VCCIO61.8V/3.3V1.8V or 3.3V development boarddefault3.3V can be selected through the backplane resistor. PMUIO1, EMMCIO, VCCIO1, VCCIO3 are fixed level Power Domain and cannot be configured. PMUIO2, VCCIO2, VCCIO[4: 6]Power The DomainRK3588 chip can automatically identify the voltage of the hardware configuration and does not require software to configure according to the hardware supply voltage. When designing the interface board, pay attention to the IO level of the Power Domain to be consistent with the IO level of the connected peripheral chip/device, otherwise the CPU will be burned out.
+The Z3588 core board contains multiple GPIO IO power domains. Different IO power domains support different operating voltages. The supported voltage ranges and default configurations of the Z3588 core board are listed below:
+
+| IO Power Domain | Supported Voltage | Z3588 Core Board Configuration | Description |
+| --- | --- | --- | --- |
+| PMUIO1 | 1.8V | 1.8V | Fixed at 1.8V |
+| PMUIO2 | 1.8V / 3.3V | 3.3V | Supports 1.8V or 3.3V |
+| EMMCIO | 1.8V | 1.8V | Fixed at 1.8V |
+| VCCIO1 | 1.8V | 1.8V | Fixed at 1.8V |
+| VCCIO2 | 1.8V / 3.3V | 3.3V by default | Supports 1.8V or 3.3V; the voltage can be adjusted through PMIC PLDO5 |
+| VCCIO3 | 1.8V | 1.8V | Fixed at 1.8V |
+| VCCIO4 | 1.8V / 3.3V | 1.8V by default | Supports 1.8V or 3.3V; selectable through carrier-board resistors |
+| VCCIO5 | 1.8V / 3.3V | 3.3V by default | Supports 1.8V or 3.3V; selectable through carrier-board resistors |
+| VCCIO6 | 1.8V / 3.3V | 3.3V by default | Supports 1.8V or 3.3V; selectable through carrier-board resistors |
+
+**PMUIO1, EMMCIO, VCCIO1, and VCCIO3** are fixed-voltage IO power domains and their operating voltages cannot be configured.
+
+**PMUIO2, VCCIO2, and VCCIO4 to VCCIO6** support multiple IO operating voltages. According to the current hardware design, the RK3588 can identify the corresponding hardware voltage configuration, and no additional software configuration is required according to the actual supply voltage.
+
+### Carrier Board Design Notes
+
+When designing the carrier board or interface board, ensure that the IO voltage level of each peripheral matches the operating voltage of the corresponding Z3588 GPIO IO power domain.
+
+For example, if a GPIO belongs to a 1.8V IO power domain, the connected peripheral interface must also be compatible with 1.8V logic levels. If the peripheral uses 3.3V IO while the corresponding GPIO operates at 1.8V, the two signals must not be connected directly. An appropriate level-shifting circuit should be added according to the interface requirements.
+
+> **Note:** A mismatch between peripheral IO voltage levels and the GPIO voltage levels of the core board may cause communication failures or abnormal IO operation, and in severe cases may result in permanent damage to the SoC IO. Always verify the corresponding IO power domain and its actual operating voltage before designing the carrier board.
 
 ## Power Supply Design
 

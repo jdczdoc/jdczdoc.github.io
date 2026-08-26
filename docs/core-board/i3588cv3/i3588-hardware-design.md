@@ -11,8 +11,28 @@ description: I3588核心板硬件设计注意事项
 RK3588 除差分对、ADC 输入脚外的GPIO 口都可以复用作其他功能，如I2C、UART、SPI、I2S、PWM 等等。因篇幅有限，本文描述不尽详细，如有需要，可以通过仔细阅读核心板原理图，或阅读《RK3588_PinOut_V1.0_20211228.xlsx》获取更多信息。
 
 ## GPIO 电源
+GPIO 电源域的电源脚描述如下：
 
-GPIO 电源域的电源脚描述如下：电源域GPIO 类型描述I3588 核心板电平PMUIO11.8V1.8V Only IO supplyfor this GPIO domain(group).1.8VPMUIO21.8V/3.3V1.8Vor3.3VIOsupply for this GPIOdomain (group).3.3VEMMCIO1.8V1.8V Only IO supplyfor this GPIO domain(group).1.8VVCCIO11.8V1.8V Only IO supplyfor this GPIO domain1.8V(group).VCCIO21.8V/3.3V1.8Vor3.3VIOsupply for this GPIOdomain (group).程序控制，由PMU的PLDO5 决定，默认3.3VVCCIO31.8V1.8V Only IO supplyfor this GPIO domain(group).1.8VVCCIO41.8V/3.3V1.8Vor3.3VIOsupply for this GPIOdomain (group).1.8VVCCIO51.8V/3.3V1.8Vor3.3VIOsupply for this GPIOdomain (group).3.3VVCCIO61.8V/3.3V1.8Vor3.3VIOsupply for this GPIOdomain (group).3.3V其中PMUIO1、EMMCIO、VCCIO1、VCCIO3 为固定电平电源域，不可进行配置。PMUIO2 、VCCIO2 ，VCCIO[4 ：6] 电源域 RK3588 芯片可以自动识别硬件配置的电压，不需要软件根据硬件供电电压进行配置。在做接口板设计时，注意电源域的IO 电平要与对接外设芯片/器件的IO 电平保持一致，否则会烧坏CPU。
+| 电源域 | GPIO类型 | 核心板电平 | 描述 |
+| :--- | :--- | :--- | :--- |
+| PMUIO1 | 1.8V | 1.8V | 固定1.8V IO供电，仅支持该电压 |
+| PMUIO2 | 1.8V / 3.3V | 1.8V 或 3.3V | 支持1.8V或3.3V IO供电 |
+| EMMCIO | 1.8V | 1.8V | 固定1.8V IO供电，仅支持该电压 |
+| VCCIO1 | 1.8V | 1.8V | 固定1.8V IO供电，仅支持该电压 |
+| VCCIO2 | 1.8V / 3.3V | 默认3.3V | 由PMU的PLDO5控制，可配置1.8V或3.3V |
+| VCCIO3 | 1.8V | 1.8V | 固定1.8V IO供电，仅支持该电压 |
+| VCCIO4 | 1.8V / 3.3V | 1.8V 或 3.3V | 支持1.8V或3.3V IO供电 |
+| VCCIO5 | 1.8V / 3.3V | 3.3V | 支持1.8V或3.3V IO供电 |
+| VCCIO6 | 1.8V / 3.3V | 3.3V | 支持1.8V或3.3V IO供电 |
+
+其中：
+
+- **PMUIO1、EMMCIO、VCCIO1、VCCIO3** 为固定电平电源域，不支持软件配置。
+- **PMUIO2、VCCIO2、VCCIO4~VCCIO6** 电源域，RK3588 可以自动识别硬件配置的 IO 电压，无需软件根据硬件供电电压进行配置。
+
+在进行接口板设计时，需要注意：
+
+> GPIO 电源域的 IO 电平必须与连接外设芯片/器件的 IO 电平保持一致，否则可能导致 RK3588 芯片损坏。
 
 ## 电源设计
 

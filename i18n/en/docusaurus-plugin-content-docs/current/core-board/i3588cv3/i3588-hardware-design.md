@@ -12,8 +12,34 @@ In addition to the differential pair and ADC input pins, the GPIO ports of RK358
 
 ## GPIO Power
 
-The power pin Description of the GPIO Power domain is as follows: Power domain GPIO TypeDescriptionI3588 Core board level PMUIO11.8V1.8V Only IO supply for this GPIO domain(group).1.8VPMUIO21.8V/3.3V1.8Vor3.3VIOsupply for this GPIOdomain (group).3.3VEMMCIO1.8V1.8V Only IO supplyfor this GPIO domain(group).1.8VVCCIO11.8V1.8V Only IO supplyfor this GPIO domain1.8V(group).VCCIO21.8V/3.3V1.8Vor3.3VIOsupply for this GPIOdomain (group). Program control, determined by PLDO5 of PMU, default3.3VVCCIO31.8V1.8V Only IO supplyfor this GPIO domain(group).1.8VVCCIO41.8V/3.3V1.8Vor3.3VIOsupply for this GPIOdomain (group).3.3VVCCIO61.8V/3.3V1.8Vor3.3VIOsupply for this GPIOdomain (group).3.3V where PMUIO1, EMMCIO, VCCIO1, VCCIO3 are fixed level power domains and cannot be configured. PMUIO2, VCCIO2, VCCIO[4: 6] power domains The RK3588 chip can automatically identify the voltage of the hardware configuration and does not require software to configure according to the hardware supply voltage. When designing the interface board, pay attention to the IO level of the power domain to be consistent with the IO level of the connected peripheral chip/device, otherwise the CPU will be burned out.
+The power pin description of the GPIO power domains is shown below:
 
+| Power Domain | GPIO Type | Core Board Voltage | Description |
+| :--- | :--- | :--- | :--- |
+| PMUIO1 | 1.8V | 1.8V | Fixed 1.8V IO supply for this GPIO domain. The voltage cannot be configured. |
+| PMUIO2 | 1.8V / 3.3V | 1.8V or 3.3V | Supports 1.8V or 3.3V IO supply for this GPIO domain. |
+| EMMCIO | 1.8V | 1.8V | Fixed 1.8V IO supply for this GPIO domain. The voltage cannot be configured. |
+| VCCIO1 | 1.8V | 1.8V | Fixed 1.8V IO supply for this GPIO domain. The voltage cannot be configured. |
+| VCCIO2 | 1.8V / 3.3V | Default 3.3V | The voltage is controlled by PMU PLDO5 and can be configured as 1.8V or 3.3V. |
+| VCCIO3 | 1.8V | 1.8V | Fixed 1.8V IO supply for this GPIO domain. The voltage cannot be configured. |
+| VCCIO4 | 1.8V / 3.3V | 1.8V or 3.3V | Supports 1.8V or 3.3V IO supply for this GPIO domain. |
+| VCCIO5 | 1.8V / 3.3V | 3.3V | Supports 1.8V or 3.3V IO supply for this GPIO domain. |
+| VCCIO6 | 1.8V / 3.3V | 3.3V | Supports 1.8V or 3.3V IO supply for this GPIO domain. |
+
+The following GPIO power domains have fixed voltage levels and cannot be configured:
+
+- PMUIO1
+- EMMCIO
+- VCCIO1
+- VCCIO3
+
+The following GPIO power domains support automatic voltage identification by RK3588 according to the hardware configuration. Software does not need to configure the IO voltage manually:
+
+- PMUIO2
+- VCCIO2
+- VCCIO4 ~ VCCIO6
+
+When designing the interface board, make sure that the IO voltage level of each GPIO power domain matches the IO voltage level of the connected peripheral devices. Otherwise, the RK3588 chip may be damaged.
 ## Power Supply Design
 
 The I3588 core board requires main power supply and RTC clock power supply for normal use. The detailed power pin definition is as follows:

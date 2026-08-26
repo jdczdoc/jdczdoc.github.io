@@ -17,7 +17,7 @@ The A733 uses an eight-core Cortex-A76 + Cortex-A55 architecture and integrates 
 - **55mm × 55mm** dimensions.
 - PMU-based power management.
 - Support for multiple eMMC brands and capacities.
-- LPDDR5 memory; the platform supports up to 16GB.
+- LP4/LP5 memory; the platform supports up to 16GB.
 - Sleep and wake-up support.
 - Gigabit Ethernet, MIPI CSI, MIPI DSI, PCIe, and USB3.0.
 - 200-pin castellated/stamp-hole package.

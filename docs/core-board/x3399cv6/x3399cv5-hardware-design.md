@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: 硬件设计
-description: X3399CV5核心板硬件设计注意事项
+description: X3399CV6核心板硬件设计注意事项
 ---
 
 # 硬件设计

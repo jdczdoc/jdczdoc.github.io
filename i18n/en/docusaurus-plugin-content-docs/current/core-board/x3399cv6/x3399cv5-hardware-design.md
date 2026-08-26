@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Hardware Design
-description: X3399CV5 core board hardware design notes
+description: X3399CV6 core board hardware design notes
 ---
 
 # Hardware Design

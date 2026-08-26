@@ -1014,5 +1014,13 @@
   "sidebar.alldocsSidebar.category.矢量绘图.link.generated-index.description": {
     "message": "Vector Graphics",
     "description": "The generated-index page description for category '矢量绘图' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X3576CV2核心板": {
+    "message": "X3576CV2 Core Board",
+    "description": "The label for category 'X3576CV2 Core Board' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X3576CV2核心板.link.generated-index.description": {
+    "message": "X3576CV2 Core Board Documents",
+    "description": "The generated-index page description for category 'X3576CV2 Core Board' in sidebar 'alldocsSidebar'"
   }
 }

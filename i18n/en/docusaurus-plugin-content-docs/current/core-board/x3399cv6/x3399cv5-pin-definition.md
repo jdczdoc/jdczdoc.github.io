@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Pin Definition
-description: X3399CV5 core board pin definition
+description: X3399CV6 core board pin definition
 ---
 
 # Pin Definition

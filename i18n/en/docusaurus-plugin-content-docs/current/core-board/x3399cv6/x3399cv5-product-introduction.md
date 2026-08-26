@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Product Introduction
-description: X3399CV5 core board overview, features, and specifications
+description: X3399CV6 core board overview, features, and specifications
 ---
 
 # Product Introduction
@@ -10,11 +10,11 @@ Introduction to x3399Core Board
 
 Product Overview
 
-X3399CV5 is a Core Board based on Rockchip RK3399. It is independently developed, produced and sold by Shenzhen Jiuding Chuangzhan Technology Co., Ltd. RK3399 represents the top level of domestic chips. It is a six-core high-performance CPU composed of quad-core A53 and dual-core A72 large and small cores. The CPU Clock is up to 2GB.
+X3399CV6 is a Core Board based on Rockchip RK3399. It is independently developed, produced and sold by Shenzhen Jiuding Chuangzhan Technology Co., Ltd. RK3399 represents the top level of domestic chips. It is a six-core high-performance CPU composed of quad-core A53 and dual-core A72 large and small cores. The CPU Clock is up to 2GB.
 
 Core Board Features
 
-X3399CV5Core Board has the following features:
+X3399CV6Core Board has the following features:
 
 The optimal size, which ensures both compact size and sufficient GPIO ports, is only 55mm*55mm;
 
@@ -34,9 +34,9 @@ Lead to up to 200PIN pins, covering almost all pins of the CPU;
 
 The product is stable and reliable. After a large number of high/low temperature, repeated reboot, Android stability test, Antutu test and other reliability experiments, the machine did not crash for 7 days and 7 nights;
 
-Based on the original X3399CV3, X3399CV4/X3399CV5Core Board adjusts LPDDR3 to LPDDR4, and the pins are fully compatible. For Android 7.0 and above operating systems, the code is fully compatible.
+Based on the original X3399CV3, X3399CV4/X3399CV6Core Board adjusts LPDDR3 to LPDDR4, and the pins are fully compatible. For Android 7.0 and above operating systems, the code is fully compatible.
 
-Note that the current Android 6.0 version does not support LPDDR4. Users who need to use X3399CV4/X3399CV5Core Board, please choose carefully.
+Note that the current Android 6.0 version does not support LPDDR4. Users who need to use X3399CV4/X3399CV6Core Board, please choose carefully.
 
 Specifications
 

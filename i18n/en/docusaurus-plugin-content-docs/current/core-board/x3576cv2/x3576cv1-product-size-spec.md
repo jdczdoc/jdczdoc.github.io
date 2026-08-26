@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Dimensions and Structure
-description: X3576CV1 core board appearance, drawings, and mechanical parameters
+description: X3576CV2 core board appearance, drawings, and mechanical parameters
 ---
 
 # Dimensions and Structure

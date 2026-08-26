@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: 尺寸与结构
-description: X3576CV1核心板 外观、结构图和结构参数
+description: X3576CV2核心板 外观、结构图和结构参数
 ---
 
 # 尺寸与结构

@@ -15,7 +15,7 @@ I3588CV3、I3588CV4是基于瑞芯微RK3588 的一款核心板，它由深圳市
 - 最佳尺寸，保证引出全部GPIO 口的同时，尺寸仅61mm*67mm
 - 使用RK 自身的RK806 PMU，在保证工作稳定可靠的同时，成本足够低廉
 - 支持多种品牌，多种容量的emmc
-- 使用双通道LPDDR4(X)设计，可支持2GB/4GB/8GB/16GB/32GB 容量
+- 使用双通道LPDDR4(X)或者LPDDR5 设计，可支持2GB/4GB/8GB/16GB/32GB 容量
 - 支持电源休眠唤醒
 - 支持android12.0、linux、debain、ubuntu 等操作系统
 - 支持双千兆有线以太网、SATA、PCIE、USB3.0 等高速总线

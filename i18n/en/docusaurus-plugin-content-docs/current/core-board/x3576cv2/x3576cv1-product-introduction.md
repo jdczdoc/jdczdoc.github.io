@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Product Introduction
-description: X3576CV1 core board overview, features, and specifications
+description: X3576CV2 core board overview, features, and specifications
 ---
 
 # Product Introduction

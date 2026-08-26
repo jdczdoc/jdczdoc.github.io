@@ -15,7 +15,7 @@ I3588 is a core board based on the Rockchip RK3588 processor. It is intended for
 - Optimum size, ensuring all GPIO ports are lead out, the size is only 61mm*67mm
 - Using RK's own RK806 PMU, the cost is low enough while ensuring stable and reliable operation.
 - supports multiple brands and various capacities of emmc
-- Using dual-channel LPDDR4(X) design, it can support 2GB/4GB/8GB/16GB/32GB capacity
+- Using dual-channel LPDDR4(X) or LPDDR5 design, it can support 2GB/4GB/8GB/16GB/32GB capacity
 - supports power sleep wake up
 - supports android12.0, linux, debain, ubuntu and other operating systems
 - supports dual Gigabit wired Ethernet, SATA, PCIE, USB3.0 and other high-speed buses

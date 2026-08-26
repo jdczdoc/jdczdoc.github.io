@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: 硬件设计
-description: X3576CV1核心板 硬件设计注意事项
+description: X3576CV2核心板 硬件设计注意事项
 ---
 
 # 硬件设计

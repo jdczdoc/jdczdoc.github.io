@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Hardware Design
-description: X3576CV1 core board hardware design notes
+description: X3576CV2 core board hardware design notes
 ---
 
 # Hardware Design

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Pin Definition
-description: X3576CV1 core board pin definition
+description: X3576CV2 core board pin definition
 ---
 
 # Pin Definition

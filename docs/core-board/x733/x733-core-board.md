@@ -17,7 +17,6 @@ A733采用 Cortex-A76 + Cortex-A55 八核架构，并集成 RISC-V E902 核心�
 - 尺寸为 **55mm × 55mm**。
 - 使用 PMU 进行电源管理。
 - 支持多种品牌和容量的 eMMC。
-- 采用 LPDDR5，平台最高支持16GB。
 - 支持休眠与唤醒。
 - 支持千兆以太网、MIPI-CSI、MIPI-DSI、PCIe和USB3.0。
 - 采用 200PIN 邮票孔封装。

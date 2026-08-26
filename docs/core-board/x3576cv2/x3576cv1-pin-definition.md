@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: 引脚定义
-description: X3576CV1核心板 引脚定义
+description: X3576CV2核心板 引脚定义
 ---
 
 # 引脚定义
