@@ -1,0 +1,231 @@
+---
+sidebar_position: 5
+title: 核心板引脚定义
+description: X8883CV1 核心板引脚定义
+---
+
+# 核心板引脚定义
+
+以下完整保留原稿表 D-1 的 1 至 200 脚编号、信号名称与备注。封装为 200 PIN 邮票孔。方向与电气属性应结合原理图核对；原稿个别备注与信号名称存在不一致，例如 47/48 脚 SPI2_MO/MI 的 MISO/MOSI 备注、59 脚 I2S1_LRCK 的 I2S2 备注、150 脚 I2S2_DO 的输入备注，不能据此替代原理图连线。
+
+VSYS（197 至 200）为 4 V 输入，VSYS_S（175）为采样。VIO18_PMU（173）、VIO28_PMU（174）和 VMCH_PMU（172）按硬件架构章节限定用途；其他核心电源由板载 PMIC 产生。
+
+## 1 至 50 脚
+
+| 封装 | 引脚 | 信号名称（含复用） | 原稿连接/备注 |
+| --- | --- | --- | --- |
+| 200PIN邮票孔 | 1 | GND | GND |
+| 200PIN邮票孔 | 2 | DSI1_D2P_T0C | DSI1数据对2P |
+| 200PIN邮票孔 | 3 | DSI1_D2N_T0B | DSI1数据对2N |
+| 200PIN邮票孔 | 4 | DSI1_D0P_T0C | DSI1数据对0P |
+| 200PIN邮票孔 | 5 | DSI1_D0N_T1A | DSI1数据对0N |
+| 200PIN邮票孔 | 6 | DSI1_CK0P_T1B | DSI1时钟P |
+| 200PIN邮票孔 | 7 | DSI1_CK0N_T1C | DSI1时钟N |
+| 200PIN邮票孔 | 8 | DSI1_D1P_T2A | DSI1数据对1P |
+| 200PIN邮票孔 | 9 | DSI1_D1N_T2B | DSI1数据对1N |
+| 200PIN邮票孔 | 10 | DSI1_D3P_T2C | DSI1数据对3P |
+| 200PIN邮票孔 | 11 | DSI1_D3N | DSI1数据对3N |
+| 200PIN邮票孔 | 12 | GND | DSI地 |
+| 200PIN邮票孔 | 13 | DSI0_D2P_T0A | DSI0数据对2P |
+| 200PIN邮票孔 | 14 | DSI0_D2N_T0B | DSI0数据对2N |
+| 200PIN邮票孔 | 15 | DSI0_D0P_T0C | DSI0数据对0P |
+| 200PIN邮票孔 | 16 | DSI0_D0N_T1A | DSI0数据对0N |
+| 200PIN邮票孔 | 17 | DSI0_CK0P_T1B | DSI0时钟P |
+| 200PIN邮票孔 | 18 | DSI0_CK0N_T1C | DSI0时钟N |
+| 200PIN邮票孔 | 19 | DSI0_D1P_T2A | DSI0数据对1P |
+| 200PIN邮票孔 | 20 | DSI0_D1N_T2B | DSI0数据对1N |
+| 200PIN邮票孔 | 21 | DSI0_D3P_T2C | DSI0数据对3P |
+| 200PIN邮票孔 | 22 | DSI0_D3N | DSI0数据对3N |
+| 200PIN邮票孔 | 23 | GND | GND |
+| 200PIN邮票孔 | 24 | MSDC1_DAT0 | SD/MMC数据0 |
+| 200PIN邮票孔 | 25 | MSDC1_DAT1 | SD/MMC数据1 |
+| 200PIN邮票孔 | 26 | MSDC1_DAT2 | SD/MMC数据2 |
+| 200PIN邮票孔 | 27 | MSDC1_DAT3 | SD/MMC数据3 |
+| 200PIN邮票孔 | 28 | MSDC1_CMD | SD/MMC命令 |
+| 200PIN邮票孔 | 29 | MSDC1_CLK | SD/MMC时钟 |
+| 200PIN邮票孔 | 30 | GND | GND |
+| 200PIN邮票孔 | 31 | I3C_SDA0 | I3C0数据 |
+| 200PIN邮票孔 | 32 | I3C_SCL0 | I3C0时钟 |
+| 200PIN邮票孔 | 33 | PERI_EN0 | 外设使能0 |
+| 200PIN邮票孔 | 34 | PERI_EN1 | 外设使能1 |
+| 200PIN邮票孔 | 35 | SRCLKENA0 | 休眠模式输出 |
+| 200PIN邮票孔 | 36 | SYSRSTB | 系统复位输入 |
+| 200PIN邮票孔 | 37 | WATCHDOG | 看门狗复位输出 |
+| 200PIN邮票孔 | 38 | RTC32K_1V8_F | 32K时钟输出1V8 |
+| 200PIN邮票孔 | 39 | SCP_EINT0 | 外部中断0 |
+| 200PIN邮票孔 | 40 | SCP_I3C_SCL3 | 传感器I3C3时钟 |
+| 200PIN邮票孔 | 41 | SCP_I3C_SDA3 | 传感器I3C3数据 |
+| 200PIN邮票孔 | 42 | SCP_EINT1 | 外部中断1 |
+| 200PIN邮票孔 | 43 | SCP_I3C_SCL0 | 传感器I3C0时钟 |
+| 200PIN邮票孔 | 44 | SCP_I3C_SDA0 | 传感器I3C0数据 |
+| 200PIN邮票孔 | 45 | SCP_EINT_A_GYRO1 | 陀螺仪中断 |
+| 200PIN邮票孔 | 46 | SCP_EINT_ALSPS | 传感器中断 |
+| 200PIN邮票孔 | 47 | SPI2_MO | SPI2MISO |
+| 200PIN邮票孔 | 48 | SPI2_MI | SPI2MOSI |
+| 200PIN邮票孔 | 49 | SPI2_CK | SPI2时钟 |
+| 200PIN邮票孔 | 50 | SPI2_CSB | SPI2片选 |
+
+## 51 至 100 脚
+
+| 封装 | 引脚 | 信号名称（含复用） | 原稿连接/备注 |
+| --- | --- | --- | --- |
+| 200PIN邮票孔 | 51 | BPI_D_BUS18 | 通用GPIO18 |
+| 200PIN邮票孔 | 52 | BPI_D_BUS19 | 通用GPIO19 |
+| 200PIN邮票孔 | 53 | DSI_TE | 屏幕防撕裂信号 |
+| 200PIN邮票孔 | 54 | LCM_RST | 屏幕复位 |
+| 200PIN邮票孔 | 55 | GPIO_CTP0_RST | 触摸屏复位引脚 |
+| 200PIN邮票孔 | 56 | EINT_CTP0 | 触摸屏中断引脚 |
+| 200PIN邮票孔 | 57 | BPI_D_BUS17 | 通用GPIO17 |
+| 200PIN邮票孔 | 58 | BPI_D_BUS16 | 通用GPIO16 |
+| 200PIN邮票孔 | 59 | I2S1_LRCK | I2S2帧时钟 |
+| 200PIN邮票孔 | 60 | PCIE_CLKREQN | PCIE时钟 |
+| 200PIN邮票孔 | 61 | PCIE_WAKEN | PCIE唤醒 |
+| 200PIN邮票孔 | 62 | PCIE_PERSTN | PCIE复位 |
+| 200PIN邮票孔 | 63 | BPI_D_BUS5 | 通用GPIO5 |
+| 200PIN邮票孔 | 64 | BPI_D_BUS4 | 通用GPIO4 |
+| 200PIN邮票孔 | 65 | CAM_CLK1 | 摄像头时钟 |
+| 200PIN邮票孔 | 66 | CAM_CLK4 | 摄像头时钟 |
+| 200PIN邮票孔 | 67 | CAM_I3C_SCL2 | 摄像头I3C2时钟 |
+| 200PIN邮票孔 | 68 | CAM_I3C_SDA2 | 摄像头I3C2数据 |
+| 200PIN邮票孔 | 69 | CAM_RST1 | 摄像头复位 |
+| 200PIN邮票孔 | 70 | CAM_I3C_SCL4 | 摄像头I3C4时钟 |
+| 200PIN邮票孔 | 71 | CAM_I3C_SDA4 | 摄像头I3C4数据 |
+| 200PIN邮票孔 | 72 | R_CAM3_RST0 | 摄像头复位 |
+| 200PIN邮票孔 | 73 | GND | GND |
+| 200PIN邮票孔 | 74 | PCIE_LN0_TXP | PCIeTX+ |
+| 200PIN邮票孔 | 75 | PCIE_LN0_TXN | PCIeTX- |
+| 200PIN邮票孔 | 76 | PCIE_LN0_RXP | PCIeRX+ |
+| 200PIN邮票孔 | 77 | PCIE_LN0_RXN | PCIeRX- |
+| 200PIN邮票孔 | 78 | PCIE_CKP | PCIe参考时钟+ |
+| 200PIN邮票孔 | 79 | PCIE_CKN | PCIe参考时钟- |
+| 200PIN邮票孔 | 80 | GND | GND |
+| 200PIN邮票孔 | 81 | CSI3A_L0P_T0A | CSI3A数据对0P |
+| 200PIN邮票孔 | 82 | CSI3A_L0N_T0B | CSI3A数据对0N |
+| 200PIN邮票孔 | 83 | CSI3A_L1P_T0C | CSI3A数据对1P |
+| 200PIN邮票孔 | 84 | CSI3A_L1N_T1A | CSI3A数据对1N |
+| 200PIN邮票孔 | 85 | CSI3A_L2P_T1B | CSI3A数据对2P |
+| 200PIN邮票孔 | 86 | CSI3A_L2N_T1C | CSI3A数据对2N |
+| 200PIN邮票孔 | 87 | CSI3B_L0P_T0A | CSI3B数据对0P |
+| 200PIN邮票孔 | 88 | CSI3B_L0N_T0B | CSI3B数据对0N |
+| 200PIN邮票孔 | 89 | CSI3B_L1P_T0C | CSI3B数据对1P |
+| 200PIN邮票孔 | 90 | CSI3B_L1N | CSI3B数据对1N |
+| 200PIN邮票孔 | 91 | GND | GND |
+| 200PIN邮票孔 | 92 | CSI2A_L0P_T0A | CSI2A数据对0P |
+| 200PIN邮票孔 | 93 | CSI2A_L0N_T0B | CSI2A数据对0N |
+| 200PIN邮票孔 | 94 | CSI2A_L1P_T0C | CSI2A数据对1P |
+| 200PIN邮票孔 | 95 | CSI2A_L1N_T1A | CSI2A数据对1N |
+| 200PIN邮票孔 | 96 | CSI2A_L2P_T1B | CSI2A数据对2P |
+| 200PIN邮票孔 | 97 | CSI2A_L2N_T1C | CSI2A数据对2N |
+| 200PIN邮票孔 | 98 | CSI2B_L0P_T0A | CSI2B数据对0P |
+| 200PIN邮票孔 | 99 | CSI2B_L0N_T0B | CSI2B数据对0N |
+| 200PIN邮票孔 | 100 | CSI2B_L1P_T0C | CSI2B数据对1P |
+
+## 101 至 150 脚
+
+| 封装 | 引脚 | 信号名称（含复用） | 原稿连接/备注 |
+| --- | --- | --- | --- |
+| 200PIN邮票孔 | 101 | CSI2B_L1N | CSI2B数据对1N |
+| 200PIN邮票孔 | 102 | GND | GND |
+| 200PIN邮票孔 | 103 | CSI1A_L0P_T0A | CSI1A数据对0P |
+| 200PIN邮票孔 | 104 | CSI1A_L0N_T0B | CSI1A数据对0N |
+| 200PIN邮票孔 | 105 | CSI1A_L1P_T0C | CSI1A数据对1P |
+| 200PIN邮票孔 | 106 | CSI1A_L1N_T0A | CSI1A数据对1N |
+| 200PIN邮票孔 | 107 | CSI1A_L2P_T0B | CSI1A数据对2P |
+| 200PIN邮票孔 | 108 | CSI1A_L2N_T0C | CSI1A数据对2N |
+| 200PIN邮票孔 | 109 | CSI1B_L0P_T0A | CSI1B数据对0P |
+| 200PIN邮票孔 | 110 | CSI1B_L0N_T0B | CSI1B数据对0N |
+| 200PIN邮票孔 | 111 | CSI1B_L1P_T0C | CSI1B数据对1P |
+| 200PIN邮票孔 | 112 | CSI1B_L1N | CSI1B数据对1N |
+| 200PIN邮票孔 | 113 | GND | GND |
+| 200PIN邮票孔 | 114 | CSI0A_L0P_T0A | CSI0A数据对0P |
+| 200PIN邮票孔 | 115 | CSI0A_L0N_T0B | CSI0A数据对0N |
+| 200PIN邮票孔 | 116 | CSI0A_L1P_T0C | CSI0A数据对1P |
+| 200PIN邮票孔 | 117 | CSI0A_L1N_T0A | CSI0A数据对1N |
+| 200PIN邮票孔 | 118 | CSI0A_L2P_T0B | CSI0A数据对2P |
+| 200PIN邮票孔 | 119 | CSI0A_L2N_T0C | CSI0A数据对2N |
+| 200PIN邮票孔 | 120 | CSI0B_L0P_T0A | CSI0B数据对0P |
+| 200PIN邮票孔 | 121 | CSI0B_L0N_T0B | CSI0B数据对0N |
+| 200PIN邮票孔 | 122 | CSI0B_L1P_T0C | CSI0B数据对1P |
+| 200PIN邮票孔 | 123 | CSI0B_L1N | CSI0B数据对1N |
+| 200PIN邮票孔 | 124 | GND | GND |
+| 200PIN邮票孔 | 125 | CAM_CLK3 | 摄像头时钟 |
+| 200PIN邮票孔 | 126 | CAM_RST2 | 摄像头复位 |
+| 200PIN邮票孔 | 127 | CAM_CLK2 | 摄像头时钟 |
+| 200PIN邮票孔 | 128 | CAM_I3C_SCL8 | I3C总线9时钟 |
+| 200PIN邮票孔 | 129 | CAM_RST3 | 摄像头复位 |
+| 200PIN邮票孔 | 130 | CAM_I3C_SDA8 | I3C总线9数据 |
+| 200PIN邮票孔 | 131 | EINT_CAM_PMIC1_IRQB | EINT4中断 |
+| 200PIN邮票孔 | 132 | CAM_I3C_SCL9 | I3C总线9时钟 |
+| 200PIN邮票孔 | 133 | CAM_I3C_SDA9 | I3C总线9数据 |
+| 200PIN邮票孔 | 134 | AP_GOOD | AP启动状态输出 |
+| 200PIN邮票孔 | 135 | KPCOL1 | 按键矩阵列1 |
+| 200PIN邮票孔 | 136 | KPCOL0 | 按键矩阵列0 |
+| 200PIN邮票孔 | 137 | KPROW1 | 按键矩阵行1 |
+| 200PIN邮票孔 | 138 | KPROW0 | 按键矩阵行0 |
+| 200PIN邮票孔 | 139 | BPI_D_BUS6 | 通用GPIO6 |
+| 200PIN邮票孔 | 140 | UTXD0 | 调试串口TX |
+| 200PIN邮票孔 | 141 | URXD0 | 调试串口RX |
+| 200PIN邮票孔 | 142 | DISP_PWM1 | PWM控制 |
+| 200PIN邮票孔 | 143 | DISP_PWM | PWM控制 |
+| 200PIN邮票孔 | 144 | I3C_SCL7/MIPI3_D_SCLK | I3C总线7时钟 |
+| 200PIN邮票孔 | 145 | I3C_SDA7/MIPI3_D_SDATA | I3C总线7数据 |
+| 200PIN邮票孔 | 146 | I2C_SCL6/MIPI2_D_SCLK | I2C总线6时钟 |
+| 200PIN邮票孔 | 147 | I2C_SDA6/MIPI2_D_SDATA | I2C总线6数据 |
+| 200PIN邮票孔 | 148 | BPI_D_BUS12 | 通用IO |
+| 200PIN邮票孔 | 149 | PWRKEY | 电源按键 |
+| 200PIN邮票孔 | 150 | I2S2_DO | I2S2数据输入 |
+
+## 151 至 200 脚
+
+| 封装 | 引脚 | 信号名称（含复用） | 原稿连接/备注 |
+| --- | --- | --- | --- |
+| 200PIN邮票孔 | 151 | I2S2_DI | I2S2数据输入 |
+| 200PIN邮票孔 | 152 | I2S2_LRCK | I2S2帧时钟 |
+| 200PIN邮票孔 | 153 | I2S2_BCK | I2S2位时钟 |
+| 200PIN邮票孔 | 154 | I2S0_DO | I2S0数据输出 |
+| 200PIN邮票孔 | 155 | I2S0_DI | I2S0数据输入 |
+| 200PIN邮票孔 | 156 | I2S0_LRCK | I2S0帧时钟 |
+| 200PIN邮票孔 | 157 | I2S0_BCK | I2S0位时钟 |
+| 200PIN邮票孔 | 158 | GND | GND |
+| 200PIN邮票孔 | 159 | USB_DP | USB2.0D+ |
+| 200PIN邮票孔 | 160 | USB_DM | USB2.0D- |
+| 200PIN邮票孔 | 161 | SSUSB_TXP_P2 | USB3.2TX2+ |
+| 200PIN邮票孔 | 162 | SSUSB_TXN_P2 | USB3.2TX2- |
+| 200PIN邮票孔 | 163 | SSUSB_RXP_P2 | USB3.2RX2+ |
+| 200PIN邮票孔 | 164 | SSUSB_RXN_P2 | USB3.2RX2- |
+| 200PIN邮票孔 | 165 | DP_AUXN | DP辅助通道N |
+| 200PIN邮票孔 | 166 | DP_AUXP | DP辅助通道P |
+| 200PIN邮票孔 | 167 | SSUSB_TXP_P1 | USB3.2TX1+ |
+| 200PIN邮票孔 | 168 | SSUSB_TXN_P1 | USB3.2TX1- |
+| 200PIN邮票孔 | 169 | SSUSB_RXP_P1 | USB3.2RX1+ |
+| 200PIN邮票孔 | 170 | SSUSB_RXN_P1 | USB3.2RX1- |
+| 200PIN邮票孔 | 171 | GND | GND |
+| 200PIN邮票孔 | 172 | VMCH_PMU | MMC/SD接口电源输出 |
+| 200PIN邮票孔 | 173 | VIO18_PMU | PMIC1.8V输出供电 |
+| 200PIN邮票孔 | 174 | VIO28_PMU | PMIC2.8V输出供电 |
+| 200PIN邮票孔 | 175 | VSYS_S | 系统主电源采样（4V） |
+| 200PIN邮票孔 | 176 | AVSS30_AUD | 模拟音频地 |
+| 200PIN邮票孔 | 177 | HP_EINT | 耳机插入检测 |
+| 200PIN邮票孔 | 178 | AU_HSN/AU_LOLP | 耳机输出N |
+| 200PIN邮票孔 | 179 | AU_HSP/AU_LOLN | 耳机输出P |
+| 200PIN邮票孔 | 180 | AU_HP_R | 耳机右声道 |
+| 200PIN邮票孔 | 181 | AU_REFN | 耳机参考地 |
+| 200PIN邮票孔 | 182 | AU_HP_L | 耳机左声道 |
+| 200PIN邮票孔 | 183 | ACCDET | 耳机按键检测 |
+| 200PIN邮票孔 | 184 | AU_MICBIAS0 | 麦克风偏置0 |
+| 200PIN邮票孔 | 185 | AU_MICBIAS1 | 麦克风偏置1 |
+| 200PIN邮票孔 | 186 | AU_MICBIAS2 | 麦克风偏置2 |
+| 200PIN邮票孔 | 187 | AU_VIN2_P | 麦克风2P |
+| 200PIN邮票孔 | 188 | AU_VIN2_N | 麦克风2N |
+| 200PIN邮票孔 | 189 | AU_VIN1_N | 麦克风1N |
+| 200PIN邮票孔 | 190 | AU_VIN1_P | 麦克风1P |
+| 200PIN邮票孔 | 191 | AU_VIN0_N | 麦克风0N |
+| 200PIN邮票孔 | 192 | AU_VIN0_P | 麦克风0P |
+| 200PIN邮票孔 | 193 | SD_DET | SD卡检测 |
+| 200PIN邮票孔 | 194 | GND | GND |
+| 200PIN邮票孔 | 195 | GND | GND |
+| 200PIN邮票孔 | 196 | GND | GND |
+| 200PIN邮票孔 | 197 | VSYS | 系统主电源输入（4V） |
+| 200PIN邮票孔 | 198 | VSYS | 系统主电源输入（4V） |
+| 200PIN邮票孔 | 199 | VSYS | 系统主电源输入（4V） |
+| 200PIN邮票孔 | 200 | VSYS | 系统主电源输入（4V） |
