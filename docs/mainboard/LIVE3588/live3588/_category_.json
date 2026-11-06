@@ -1,0 +1,9 @@
+{
+  "label": "live3588 直播主板",
+  "position": 1,
+  "key": "mainboard-live3588",
+  "link": {
+    "type": "generated-index",
+    "description": "live3588 直播主板 文档"
+  }
+}

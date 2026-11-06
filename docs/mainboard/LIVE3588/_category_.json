@@ -1,0 +1,9 @@
+{
+  "label": "live3588",
+  "position": 1,
+  "key": "mainboard-live3588-family",
+  "link": {
+    "type": "generated-index",
+    "description": "live3588 系列主板文档"
+  }
+}

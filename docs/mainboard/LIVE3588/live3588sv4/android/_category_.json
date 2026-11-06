@@ -1,0 +1,9 @@
+{
+  "label": "Android",
+  "position": 1,
+  "key": "mainboard-live3588sv4-android",
+  "link": {
+    "type": "generated-index",
+    "description": "live3588sv4 Android"
+  }
+}
