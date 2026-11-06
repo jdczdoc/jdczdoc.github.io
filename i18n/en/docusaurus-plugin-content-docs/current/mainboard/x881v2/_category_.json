@@ -1,8 +1,10 @@
 {
-  "label": "x881v2 Mainboard",
+  "label": "x881 Mainboard",
   "position": 25,
   "link": {
     "type": "generated-index",
-    "description": "x881v2 Mainboard Documents"
-  }
+    "description": "x881 hardware, Tina Linux build, configuration and application development.",
+    "title": "x881 Development Board"
+  },
+  "key": "mainboard-x881"
 }

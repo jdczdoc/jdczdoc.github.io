@@ -1,8 +1,9 @@
 {
-  "label": "x40ibv3主板",
+  "label": "x40i主板",
   "position": 28,
+  "key": "mainboard-x40i",
   "link": {
     "type": "generated-index",
-    "description": "x40ibv3主板 Documents"
+    "description": "x40i主板 Documents"
   }
 }

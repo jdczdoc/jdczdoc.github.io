@@ -1,8 +1,10 @@
 {
-  "label": "x881v2主板",
+  "label": "x881主板",
   "position": 25,
   "link": {
     "type": "generated-index",
-    "description": "x881v2主板 Documents"
-  }
+    "description": "x881 硬件、Tina Linux 编译烧录、配置及应用开发文档。",
+    "title": "x881开发板"
+  },
+  "key": "mainboard-x881"
 }

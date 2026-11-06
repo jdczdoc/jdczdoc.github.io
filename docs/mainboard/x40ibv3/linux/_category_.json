@@ -1,0 +1,9 @@
+{
+  "label": "Linux",
+  "position": 4,
+  "key": "mainboard-x40i-linux",
+  "link": {
+    "type": "generated-index",
+    "description": "x40i Linux Documents"
+  }
+}

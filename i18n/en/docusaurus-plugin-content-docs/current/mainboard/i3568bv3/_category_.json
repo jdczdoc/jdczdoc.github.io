@@ -1,6 +1,7 @@
 {
   "label": "i3568bv3 Mainboard",
   "position": 10,
+  "key": "mainboard-i3568bv3",
   "link": {
     "type": "generated-index",
     "description": "i3568bv3 Mainboard Documents"

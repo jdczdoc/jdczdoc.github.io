@@ -1,6 +1,7 @@
 {
   "label": "x3576bv3 Mainboard",
   "position": 13,
+  "key": "mainboard-x3576bv3",
   "link": {
     "type": "generated-index",
     "description": "x3576bv3 Mainboard Documents"

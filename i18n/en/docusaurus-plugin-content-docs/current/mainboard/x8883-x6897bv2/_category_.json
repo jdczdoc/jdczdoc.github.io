@@ -1,8 +1,9 @@
 {
-  "label": "x8883/x6897bv2 Mainboard",
+  "label": "x8883 Mainboard",
   "position": 37,
+  "key": "mainboard-x8883",
   "link": {
     "type": "generated-index",
-    "description": "x8883/x6897bv2 Mainboard Documents"
+    "description": "x8883 Mainboard Documents"
   }
 }

@@ -1,8 +1,9 @@
 {
-  "label": "x8883/x6897bv2主板",
+  "label": "x8883主板",
   "position": 37,
+  "key": "mainboard-x8883",
   "link": {
     "type": "generated-index",
-    "description": "x8883/x6897bv2主板 Documents"
+    "description": "x8883主板 Documents"
   }
 }

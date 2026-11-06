@@ -1,6 +1,7 @@
 {
   "label": "z3588bv3 Mainboard",
-  "position": 17,
+  "position": 29,
+  "key": "mainboard-z3588bv3",
   "link": {
     "type": "generated-index",
     "description": "z3588bv3 Mainboard Documents"

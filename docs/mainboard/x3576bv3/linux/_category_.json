@@ -1,0 +1,9 @@
+{
+  "label": "Linux",
+  "position": 4,
+  "key": "mainboard-x3576bv3-linux",
+  "link": {
+    "type": "generated-index",
+    "description": "x3576bv3 Linux Documents"
+  }
+}
