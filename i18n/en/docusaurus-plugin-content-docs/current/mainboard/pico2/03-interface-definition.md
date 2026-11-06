@@ -2,7 +2,7 @@
 title: Interface Definitions
 sidebar_label: Interface Definitions
 sidebar_position: 3
-description: PICO2 camera, display, audio, UART, TF card, and 40-pin expansion definitions.
+description: pico2 camera, display, audio, UART, TF card, and 40-pin expansion definitions.
 ---
 
 # Interface Definitions

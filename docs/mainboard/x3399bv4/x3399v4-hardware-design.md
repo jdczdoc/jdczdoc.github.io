@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: 硬件设计
-description: X3399V4 电源、USB、HDMI、EDP 和 MIPI 底板设计注意事项
+description: x3399v4 电源、USB、HDMI、EDP 和 MIPI 底板设计注意事项
 ---
 
 # 硬件设计

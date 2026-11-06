@@ -1,7 +1,7 @@
 ---
 sidebar_position: 10
 title: Qt 文件系统
-description: X6818 Qt 文件系统搭建、Buildroot、Qt5.4 示例和 Qt Creator
+description: x6818 Qt 文件系统搭建、Buildroot、Qt5.4 示例和 Qt Creator
 ---
 
 # Qt 文件系统

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 8
 title: 开发环境
-description: X3128 Android 开发环境、ADB 和串口工具准备
+description: x3128 Android 开发环境、ADB 和串口工具准备
 ---
 
 # 开发环境

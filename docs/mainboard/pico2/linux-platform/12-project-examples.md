@@ -2,7 +2,7 @@
 title: Linux项目实战
 sidebar_label: Linux项目实战
 sidebar_position: 12
-description: PICO2 GPIO LED和系统监控守护进程示例，以及Tina Package集成方法。
+description: pico2 GPIO LED和系统监控守护进程示例，以及Tina Package集成方法。
 ---
 
 # Linux项目实战

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: 尺寸与结构
-description: X3128BV3 核心板外观、底板外观和结构参数
+description: x3128bv3 核心板外观、底板外观和结构参数
 ---
 
 # 尺寸与结构

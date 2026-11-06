@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: 硬件资源
-description: X30 开发板接口位置、硬件接口描述和硬件资源表
+description: x30 开发板接口位置、硬件接口描述和硬件资源表
 ---
 
 # 硬件资源

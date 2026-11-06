@@ -1,7 +1,7 @@
 ---
 sidebar_position: 8
 title: Android User Guide
-description: X3288 Android common function guide
+description: x3288 Android common function guide
 ---
 
 # Android User Guide

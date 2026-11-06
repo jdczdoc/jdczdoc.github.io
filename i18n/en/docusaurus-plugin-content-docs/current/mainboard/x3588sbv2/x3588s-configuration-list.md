@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: Configuration List
-description: X3588S mini ITX standard and optional hardware list
+description: x3588s mini ITX standard and optional hardware list
 ---
 
 # Configuration List

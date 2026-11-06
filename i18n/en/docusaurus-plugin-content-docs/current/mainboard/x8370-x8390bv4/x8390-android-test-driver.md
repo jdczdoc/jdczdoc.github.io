@@ -1,7 +1,7 @@
 ---
 title: Android Tests and System Information
 sidebar_position: 8
-description: X8390/X8370 Android hardware tests and common system-information commands.
+description: x8390/x8370 Android hardware tests and common system-information commands.
 ---
 
 # Android Tests and System Information

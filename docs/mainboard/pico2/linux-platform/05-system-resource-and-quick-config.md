@@ -2,7 +2,7 @@
 title: 系统资源与快速配置
 sidebar_label: 系统资源与快速配置
 sidebar_position: 5
-description: PICO2内存布局、ramparser、quick_config、存储介质、工具链、CPU频率和串口波特率。
+description: pico2内存布局、ramparser、quick_config、存储介质、工具链、CPU频率和串口波特率。
 ---
 
 # 系统资源与快速配置

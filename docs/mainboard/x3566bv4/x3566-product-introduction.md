@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: 产品介绍
-description: X3566 开发板产品介绍、功能特性、核心板参数和软件资源
+description: x3566 开发板产品介绍、功能特性、核心板参数和软件资源
 ---
 
 # 产品介绍

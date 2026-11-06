@@ -1,7 +1,7 @@
 ---
 sidebar_position: 12
 title: Linux Ubuntu and Qt
-description: X30/PX30 Ubuntu rootfs build, NFS/TF/USB boot, and Qt filesystem setup
+description: x30/PX30 Ubuntu rootfs build, NFS/TF/USB boot, and Qt filesystem setup
 ---
 
 # Linux Ubuntu and Qt

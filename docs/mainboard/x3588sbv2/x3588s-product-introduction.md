@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: 产品介绍
-description: X3588S mini ITX 主板产品介绍、功能特性和核心板参数
+description: x3588s mini ITX 主板产品介绍、功能特性和核心板参数
 ---
 
 # 产品介绍

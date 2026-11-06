@@ -1,7 +1,7 @@
 ---
 sidebar_position: 10
 title: Interface Details
-description: X8385 power, serial, HDMI, Camera, Ethernet, audio, and USB interface notes
+description: x8385 power, serial, HDMI, Camera, Ethernet, audio, and USB interface notes
 ---
 
 # Interface Details

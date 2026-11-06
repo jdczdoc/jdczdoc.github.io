@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: 引脚定义
-description: X3399CV5 核心板 200PIN 引脚定义
+description: x3399cv5 核心板 200PIN 引脚定义
 ---
 
 # 引脚定义

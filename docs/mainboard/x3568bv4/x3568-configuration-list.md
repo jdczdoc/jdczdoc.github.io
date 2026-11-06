@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: 配置清单
-description: X3568V4 标配和选配硬件清单
+description: x3568v4 标配和选配硬件清单
 ---
 
 # 配置清单

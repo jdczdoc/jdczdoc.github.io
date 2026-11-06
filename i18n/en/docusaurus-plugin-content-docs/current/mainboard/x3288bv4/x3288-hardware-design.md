@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: Hardware Design
-description: X3288CV4 power, USB, HDMI, LVDS, and MIPI design notes
+description: x3288cv4 power, USB, HDMI, LVDS, and MIPI design notes
 ---
 
 # Hardware Design

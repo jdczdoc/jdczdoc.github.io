@@ -1,7 +1,7 @@
 ---
 title: Product Introduction
 sidebar_position: 2
-description: X733BV2 board and Allwinner A733 platform overview
+description: x733bv2 board and Allwinner A733 platform overview
 ---
 # Product Introduction
 

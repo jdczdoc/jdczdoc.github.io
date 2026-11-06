@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: 接口说明
-description: I3588 主板硬件接口说明
+description: i3588 主板硬件接口说明
 ---
 
 # 接口说明

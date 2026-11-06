@@ -1,7 +1,7 @@
 ---
 sidebar_position: 10
 title: Linux 编译与烧录
-description: X3288 Linux QT 编译、boot.img/system.img 生成和固件烧录
+description: x3288 Linux QT 编译、boot.img/system.img 生成和固件烧录
 ---
 
 # Linux 编译与烧录

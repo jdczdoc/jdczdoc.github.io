@@ -1,7 +1,7 @@
 ---
 title: Linux编译与烧录
 sidebar_position: 10
-description: "X507 Linux源码获取、依赖、Buildroot编译、固件打包和PhoenixSuit烧录"
+description: "x507 Linux源码获取、依赖、Buildroot编译、固件打包和PhoenixSuit烧录"
 ---
 
 # Linux编译与烧录

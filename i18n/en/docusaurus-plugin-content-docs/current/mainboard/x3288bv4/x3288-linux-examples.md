@@ -1,7 +1,7 @@
 ---
 sidebar_position: 12
 title: Linux Development Examples
-description: X3288 Linux low-level commands, application examples, and Ubuntu notes
+description: x3288 Linux low-level commands, application examples, and Ubuntu notes
 ---
 
 # Linux Development Examples

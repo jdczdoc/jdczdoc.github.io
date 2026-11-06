@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: Hardware Design
-description: X3568V4 power, USB, display, camera, Ethernet, and high-speed interface design notes
+description: x3568v4 power, USB, display, camera, Ethernet, and high-speed interface design notes
 ---
 
 # Hardware Design

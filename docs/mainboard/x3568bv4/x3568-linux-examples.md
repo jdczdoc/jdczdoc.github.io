@@ -1,7 +1,7 @@
 ---
 sidebar_position: 12
 title: Linux 开发示例
-description: X3568 Linux 常用命令、proc 查询和调试入口
+description: x3568 Linux 常用命令、proc 查询和调试入口
 ---
 
 # Linux 开发示例

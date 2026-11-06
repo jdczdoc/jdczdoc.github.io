@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Development Environment
-description: I3588 Android and Linux development environment
+description: i3588 Android and Linux development environment
 ---
 
 # Development Environment

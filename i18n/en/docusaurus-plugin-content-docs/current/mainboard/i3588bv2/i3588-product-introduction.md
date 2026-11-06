@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Product Introduction
-description: I3588 mainboard product introduction, features, specifications, and software resources
+description: i3588 mainboard product introduction, features, specifications, and software resources
 ---
 
 # Product Introduction

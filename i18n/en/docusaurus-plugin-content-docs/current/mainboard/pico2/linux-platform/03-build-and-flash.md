@@ -2,7 +2,7 @@
 title: Build and Flash
 sidebar_label: Build and Flash
 sidebar_position: 3
-description: PICO2 SDK extraction, target selection, build, packaging, and USB flashing.
+description: pico2 SDK extraction, target selection, build, packaging, and USB flashing.
 ---
 
 # Build and Flash

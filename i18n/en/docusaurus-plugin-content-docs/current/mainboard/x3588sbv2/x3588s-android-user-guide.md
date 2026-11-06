@@ -1,7 +1,7 @@
 ---
 sidebar_position: 7
 title: Android User Guide
-description: X3588S mini ITX Android common functions
+description: x3588s mini ITX Android common functions
 ---
 
 # Android User Guide

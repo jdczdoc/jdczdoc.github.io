@@ -1,7 +1,7 @@
 ---
 title: Hardware Resources
 sidebar_position: 2
-description: "X821V30 connector layout and hardware resources"
+description: "x821v30 connector layout and hardware resources"
 ---
 
 # Hardware Resources

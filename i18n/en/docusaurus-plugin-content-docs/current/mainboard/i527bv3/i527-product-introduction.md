@@ -1,7 +1,7 @@
 ---
 title: Product Introduction
 sidebar_position: 2
-description: I527BV3 board and X527CV2 core-module overview
+description: i527bv3 board and x527cv2 core-module overview
 ---
 # Product Introduction
 

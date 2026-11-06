@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: 开发环境
-description: I3588 Android 和 Linux 开发环境准备
+description: i3588 Android 和 Linux 开发环境准备
 ---
 
 # 开发环境

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: Android Build and Flash
-description: X3588S mini ITX Android 12 source, build, device tree, partition, and flashing
+description: x3588s mini ITX Android 12 source, build, device tree, partition, and flashing
 ---
 
 # Android Build and Flash

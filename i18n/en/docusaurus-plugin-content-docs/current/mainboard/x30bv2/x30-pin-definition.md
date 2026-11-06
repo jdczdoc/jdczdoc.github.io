@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Core Board Pin Definition
-description: X30CV1/X30CV2 144-pin core-board pin definition
+description: x30cv1/x30cv2 144-pin core-board pin definition
 ---
 
 # Core Board Pin Definition

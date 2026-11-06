@@ -1,7 +1,7 @@
 ---
 sidebar_position: 9
 title: Android User Guide
-description: X30 Android common operations
+description: x30 Android common operations
 ---
 
 # Android User Guide

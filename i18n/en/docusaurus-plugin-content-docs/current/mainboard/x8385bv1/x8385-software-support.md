@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: Software Support
-description: X8385 Android / Linux software resources and driver support table
+description: x8385 Android / Linux software resources and driver support table
 ---
 
 # Software Support

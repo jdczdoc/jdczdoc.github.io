@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: Hardware Design
-description: X30/PX30 carrier-board design notes for DDR, flash, camera, display, audio, SDIO, power, USB, and MIPI
+description: x30/PX30 carrier-board design notes for DDR, flash, camera, display, audio, SDIO, power, USB, and MIPI
 ---
 
 # Hardware Design

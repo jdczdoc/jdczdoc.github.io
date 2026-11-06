@@ -1,7 +1,7 @@
 ---
 title: Android Build and Flashing
 sidebar_position: 7
-description: "X507 Android 10 source retrieval, build, image descriptions, PhoenixSuit, and PhoenixCard"
+description: "x507 Android 10 source retrieval, build, image descriptions, PhoenixSuit, and PhoenixCard"
 ---
 
 # Android Build and Flashing

@@ -1,7 +1,7 @@
 ---
 title: Android使用指南
 sidebar_position: 8
-description: "X507 Android终端、媒体、网络、蓝牙、存储、摄像头、HDMI和电源操作"
+description: "x507 Android终端、媒体、网络、蓝牙、存储、摄像头、HDMI和电源操作"
 ---
 
 # Android使用指南

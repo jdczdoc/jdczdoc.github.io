@@ -1,7 +1,7 @@
 ---
 sidebar_position: 10
 title: Linux Build and Flash
-description: X3568 Linux4.19 source installation, build, firmware packaging, and flashing
+description: x3568 Linux4.19 source installation, build, firmware packaging, and flashing
 ---
 
 # Linux Build and Flash

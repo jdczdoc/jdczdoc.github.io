@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: 硬件设计
-description: X3128BV3 主板核心板、电源、USB、HDMI 和 LCD 设计注意事项
+description: x3128bv3 主板核心板、电源、USB、HDMI 和 LCD 设计注意事项
 ---
 
 # 硬件设计

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 11
 title: Linux QT 文件系统
-description: I3399 buildroot、QT5 示例和 QT Creator 配置
+description: i3399 buildroot、QT5 示例和 QT Creator 配置
 ---
 
 # Linux QT 文件系统

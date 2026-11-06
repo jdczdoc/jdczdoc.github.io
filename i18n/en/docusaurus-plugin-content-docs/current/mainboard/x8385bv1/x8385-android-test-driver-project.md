@@ -1,7 +1,7 @@
 ---
 sidebar_position: 9
 title: Android Test and Driver
-description: X8385 Android test items, kernel drivers, and projects
+description: x8385 Android test items, kernel drivers, and projects
 ---
 
 # Android Test and Driver

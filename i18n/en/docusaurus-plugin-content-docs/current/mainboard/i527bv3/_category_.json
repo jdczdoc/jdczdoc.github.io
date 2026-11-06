@@ -1,8 +1,8 @@
 {
-  "label": "I527BV3 Development Board",
+  "label": "i527bv3 Development Board",
   "position": 12,
   "link": {
-	"type": "generated-index",
-	  "title": "I527BV3 Mainboard"
+    "type": "generated-index",
+    "title": "i527bv3 Mainboard"
   }
 }

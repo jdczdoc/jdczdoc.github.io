@@ -1,7 +1,7 @@
 ---
 title: Linux Filesystem and Qt Status
 sidebar_position: 11
-description: "X507 Buildroot filesystem, mount points, diagnostic tools, and Qt support status"
+description: "x507 Buildroot filesystem, mount points, diagnostic tools, and Qt support status"
 ---
 
 # Linux Filesystem and Qt Status

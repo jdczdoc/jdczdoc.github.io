@@ -1,7 +1,7 @@
 ---
 sidebar_position: 7
 title: 配置清单
-description: X3128BV3 标配和选配硬件清单
+description: x3128bv3 标配和选配硬件清单
 ---
 
 # 配置清单

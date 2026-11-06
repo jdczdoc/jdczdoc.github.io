@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: Android Build and Flash
-description: I3588 Android source build and firmware flashing
+description: i3588 Android source build and firmware flashing
 ---
 
 # Android Build and Flash

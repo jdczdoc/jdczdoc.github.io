@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Dimensions and Structure
-description: X3128BV3 core board appearance, baseboard appearance, and mechanical parameters
+description: x3128bv3 core board appearance, baseboard appearance, and mechanical parameters
 ---
 
 # Dimensions and Structure

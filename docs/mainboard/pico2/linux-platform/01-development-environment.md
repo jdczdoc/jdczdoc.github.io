@@ -2,7 +2,7 @@
 title: 开发环境与源码获取
 sidebar_label: 开发环境与源码获取
 sidebar_position: 1
-description: PICO2开发环境、虚拟机、Ubuntu、源码下载和文件传输。
+description: pico2开发环境、虚拟机、Ubuntu、源码下载和文件传输。
 ---
 
 # 开发环境与源码获取

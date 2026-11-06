@@ -2,7 +2,7 @@
 title: Package Contents
 sidebar_label: Package Contents
 sidebar_position: 4
-description: Standard and optional PICO2 hardware.
+description: Standard and optional pico2 hardware.
 ---
 
 # Package Contents

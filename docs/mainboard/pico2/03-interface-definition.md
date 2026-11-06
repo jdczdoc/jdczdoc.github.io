@@ -2,7 +2,7 @@
 title: 接口定义
 sidebar_label: 接口定义
 sidebar_position: 3
-description: PICO2 Type-C、Camera、LCD、音频、调试、TF卡和GPIO扩展接口定义。
+description: pico2 Type-C、Camera、LCD、音频、调试、TF卡和GPIO扩展接口定义。
 ---
 
 # 接口定义

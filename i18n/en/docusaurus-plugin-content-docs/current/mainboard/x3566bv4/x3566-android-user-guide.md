@@ -1,7 +1,7 @@
 ---
 sidebar_position: 8
 title: Android User Guide
-description: X3566 Android common operations
+description: x3566 Android common operations
 ---
 
 # Android User Guide

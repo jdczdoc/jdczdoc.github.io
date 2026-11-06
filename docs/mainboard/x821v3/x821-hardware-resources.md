@@ -1,7 +1,7 @@
 ---
 title: 硬件资源
 sidebar_position: 2
-description: "X821V30主板接口布局和硬件资源说明"
+description: "x821v30主板接口布局和硬件资源说明"
 ---
 
 # 硬件资源

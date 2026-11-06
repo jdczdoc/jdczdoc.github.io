@@ -2,7 +2,7 @@
 title: 显示、U-Boot和SPI LCD
 sidebar_label: 显示、U-Boot和SPI LCD
 sidebar_position: 7
-description: PICO2 DISP、LCD_FB、FBTFT、U-Boot开机LOGO和SPI LCD驱动配置。
+description: pico2 DISP、LCD_FB、FBTFT、U-Boot开机LOGO和SPI LCD驱动配置。
 ---
 
 # 显示、U-Boot和SPI LCD

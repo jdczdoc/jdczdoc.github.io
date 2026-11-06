@@ -1,7 +1,7 @@
 ---
 sidebar_position: 9
 title: Linux Build and Flash
-description: X6818 Linux + Qt build, boot card, fastboot, and image flashing
+description: x6818 Linux + Qt build, boot card, fastboot, and image flashing
 ---
 
 # Linux Build and Flash

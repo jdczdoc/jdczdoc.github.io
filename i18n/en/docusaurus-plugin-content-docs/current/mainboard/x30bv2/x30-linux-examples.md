@@ -1,7 +1,7 @@
 ---
 sidebar_position: 13
 title: Linux Examples
-description: X30/PX30 Linux low-level and application development examples
+description: x30/PX30 Linux low-level and application development examples
 ---
 
 # Linux Examples

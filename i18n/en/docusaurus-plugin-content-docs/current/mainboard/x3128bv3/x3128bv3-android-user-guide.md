@@ -1,7 +1,7 @@
 ---
 sidebar_position: 10
 title: Android User Guide
-description: Common X3128 Android usage instructions
+description: Common x3128 Android usage instructions
 ---
 
 # Android User Guide

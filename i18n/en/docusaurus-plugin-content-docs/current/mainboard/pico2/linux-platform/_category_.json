@@ -4,7 +4,7 @@
   "key": "mainboard-pico2-linux-platform",
   "link": {
     "type": "generated-index",
-    "title": "PICO2 Linux Platform",
-    "description": "PICO2 Tina Linux SDK structure, build, flashing, system configuration, camera, display, multimedia, RTOS, and driver development."
+    "title": "pico2 Linux Platform",
+    "description": "pico2 Tina Linux SDK structure, build, flashing, system configuration, camera, display, multimedia, RTOS, and driver development."
   }
 }

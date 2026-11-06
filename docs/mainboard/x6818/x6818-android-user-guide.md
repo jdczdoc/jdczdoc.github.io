@@ -1,7 +1,7 @@
 ---
 sidebar_position: 7
 title: Android 使用指南
-description: X6818 Android 常用功能操作
+description: x6818 Android 常用功能操作
 ---
 
 # Android 使用指南

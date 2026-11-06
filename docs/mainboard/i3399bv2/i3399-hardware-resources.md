@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: 硬件资源
-description: I3399BV2 硬件接口总览、接口位置和驱动支持列表
+description: i3399bv2 硬件接口总览、接口位置和驱动支持列表
 ---
 
 # 硬件资源

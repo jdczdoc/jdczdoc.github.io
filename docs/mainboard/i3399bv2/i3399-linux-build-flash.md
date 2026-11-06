@@ -1,7 +1,7 @@
 ---
 sidebar_position: 10
 title: Linux 编译与烧录
-description: I3399 Linux SDK 获取、编译、镜像说明和固件烧录
+description: i3399 Linux SDK 获取、编译、镜像说明和固件烧录
 ---
 
 # Linux 编译与烧录

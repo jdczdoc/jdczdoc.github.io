@@ -1,7 +1,7 @@
 ---
 sidebar_position: 12
 title: Linux Development Examples
-description: X3399V4 Linux command and application development examples
+description: x3399v4 Linux command and application development examples
 ---
 
 # Linux Development Examples

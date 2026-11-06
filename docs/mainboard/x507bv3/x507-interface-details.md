@@ -1,7 +1,7 @@
 ---
 title: 接口详解
 sidebar_position: 4
-description: "X507开发板各硬件接口的位置、用途和注意事项"
+description: "x507开发板各硬件接口的位置、用途和注意事项"
 ---
 
 

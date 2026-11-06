@@ -1,7 +1,7 @@
 ---
 title: Linux文件系统与Qt状态
 sidebar_position: 11
-description: "X507 Buildroot文件系统、挂载目录、调试工具和Qt支持状态"
+description: "x507 Buildroot文件系统、挂载目录、调试工具和Qt支持状态"
 ---
 
 # Linux文件系统与Qt状态

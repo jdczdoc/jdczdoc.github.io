@@ -2,7 +2,7 @@
 title: LVGL、G2D与MPP
 sidebar_label: LVGL、G2D与MPP
 sidebar_position: 8
-description: PICO2 LVGL图形界面、G2D图像处理和MPP多媒体框架。
+description: pico2 LVGL图形界面、G2D图像处理和MPP多媒体框架。
 ---
 
 # LVGL、G2D与MPP

@@ -1,7 +1,7 @@
 ---
 title: 硬件资源
 sidebar_position: 2
-description: X8390/X8370开发板正反面接口布局和功能说明。
+description: x8390/x8370开发板正反面接口布局和功能说明。
 ---
 
 # 硬件资源

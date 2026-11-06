@@ -1,7 +1,7 @@
 ---
 sidebar_position: 12
 title: Ubuntu System
-description: X6818 Ubuntu 12.04 installation, flashing, and feature experience
+description: x6818 Ubuntu 12.04 installation, flashing, and feature experience
 ---
 
 # Ubuntu System

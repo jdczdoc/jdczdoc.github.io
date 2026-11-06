@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Product Introduction
-description: X8385 development board overview, features, and specification summary
+description: x8385 development board overview, features, and specification summary
 ---
 
 # Product Introduction

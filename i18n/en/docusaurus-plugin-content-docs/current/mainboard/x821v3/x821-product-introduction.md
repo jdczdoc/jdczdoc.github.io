@@ -1,7 +1,7 @@
 ---
 title: Product Introduction
 sidebar_position: 1
-description: "X821V30 specifications, features, mechanics, and software resources"
+description: "x821v30 specifications, features, mechanics, and software resources"
 ---
 
 # Product Introduction

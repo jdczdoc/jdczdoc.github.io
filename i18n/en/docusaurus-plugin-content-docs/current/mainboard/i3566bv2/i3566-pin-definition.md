@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: Core Board Pin Definition
-description: I3566CV1 172-pin core-board pin definition
+description: i3566cv1 172-pin core-board pin definition
 ---
 
 # Core Board Pin Definition

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: 硬件设计
-description: X3288CV4 电源、USB、HDMI、LVDS、MIPI 设计注意事项
+description: x3288cv4 电源、USB、HDMI、LVDS、MIPI 设计注意事项
 ---
 
 # 硬件设计

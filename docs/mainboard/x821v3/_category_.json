@@ -1,8 +1,8 @@
 {
-  "label": "X821主板",
+  "label": "x821主板",
   "position": 82,
   "link": {
-      "type": "generated-index",
+    "type": "generated-index",
     "title": "V821开发板",
     "description": "V821开发板产品、硬件资源、接口、系统编译和使用文档。"
   }

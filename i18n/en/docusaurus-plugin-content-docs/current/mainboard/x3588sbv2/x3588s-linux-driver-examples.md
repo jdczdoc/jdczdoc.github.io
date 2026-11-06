@@ -1,7 +1,7 @@
 ---
 sidebar_position: 10
 title: Linux Driver and Debug
-description: X3588S mini ITX Linux driver entries, proc queries, and debugging examples
+description: x3588s mini ITX Linux driver entries, proc queries, and debugging examples
 ---
 
 # Linux Driver and Debug

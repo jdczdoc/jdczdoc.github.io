@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Hardware Resources
-description: I3566 mainboard interface map and hardware resource list
+description: i3566 mainboard interface map and hardware resource list
 ---
 
 # Hardware Resources

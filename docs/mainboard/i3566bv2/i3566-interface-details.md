@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: 接口说明
-description: I3566 电源、串口、HDMI、以太网、音频、USB、显示和扩展接口说明
+description: i3566 电源、串口、HDMI、以太网、音频、USB、显示和扩展接口说明
 ---
 
 # 接口说明

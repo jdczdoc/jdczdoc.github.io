@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: 配置清单
-description: X3399V4 标配和选配硬件清单
+description: x3399v4 标配和选配硬件清单
 ---
 
 # 配置清单

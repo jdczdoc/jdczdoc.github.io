@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: 硬件资源
-description: X8385 开发板硬件接口描述和位置图
+description: x8385 开发板硬件接口描述和位置图
 ---
 
 # 硬件资源

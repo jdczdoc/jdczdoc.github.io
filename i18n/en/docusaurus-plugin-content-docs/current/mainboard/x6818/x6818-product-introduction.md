@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Product Introduction
-description: X6818 development board overview, S5P6818 platform features, and system parameters
+description: x6818 development board overview, S5P6818 platform features, and system parameters
 ---
 
 # Product Introduction

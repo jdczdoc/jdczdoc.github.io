@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Interface Details
-description: X3566 external interface descriptions and usage notes
+description: x3566 external interface descriptions and usage notes
 ---
 
 # Interface Details

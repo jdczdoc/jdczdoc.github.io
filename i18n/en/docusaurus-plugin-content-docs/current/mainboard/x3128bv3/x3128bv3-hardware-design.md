@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: Hardware Design
-description: X3128BV3 core board, power, USB, HDMI, and LCD design notes
+description: x3128bv3 core board, power, USB, HDMI, and LCD design notes
 ---
 
 # Hardware Design

@@ -1,7 +1,7 @@
 ---
 title: Android编译与烧录
 sidebar_position: 6
-description: X8390/X8370 Android 13源码编译、镜像打包和SP Flash Tool烧录流程。
+description: x8390/x8370 Android 13源码编译、镜像打包和SP Flash Tool烧录流程。
 ---
 
 # Android编译与烧录

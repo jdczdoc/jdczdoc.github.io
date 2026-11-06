@@ -2,7 +2,7 @@
 title: SDK功能配置
 sidebar_label: SDK功能配置
 sidebar_position: 4
-description: PICO2 Kconfig、Device Tree、分区表、env.cfg、sys_config.fex和文件系统配置。
+description: pico2 Kconfig、Device Tree、分区表、env.cfg、sys_config.fex和文件系统配置。
 ---
 
 # SDK功能配置

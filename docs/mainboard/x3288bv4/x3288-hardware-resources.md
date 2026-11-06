@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: 硬件资源
-description: X3288BV4 硬件资源总览、接口位置和驱动支持列表
+description: x3288bv4 硬件资源总览、接口位置和驱动支持列表
 ---
 
 # 硬件资源

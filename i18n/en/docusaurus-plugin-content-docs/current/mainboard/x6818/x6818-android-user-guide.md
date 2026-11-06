@@ -1,7 +1,7 @@
 ---
 sidebar_position: 7
 title: Android User Guide
-description: X6818 Android common operations
+description: x6818 Android common operations
 ---
 
 # Android User Guide

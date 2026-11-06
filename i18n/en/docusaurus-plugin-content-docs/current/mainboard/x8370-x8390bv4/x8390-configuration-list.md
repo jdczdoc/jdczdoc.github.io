@@ -1,7 +1,7 @@
 ---
 title: Package Contents
 sidebar_position: 4
-description: Standard and optional hardware for the X8390/X8370 development board.
+description: Standard and optional hardware for the x8390/x8370 development board.
 ---
 
 # Package Contents

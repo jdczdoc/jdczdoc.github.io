@@ -1,7 +1,7 @@
 ---
 sidebar_position: 11
 title: Linux QT Filesystem
-description: I3399 Buildroot, QT5 examples, and QT Creator setup
+description: i3399 Buildroot, QT5 examples, and QT Creator setup
 ---
 
 # Linux QT Filesystem

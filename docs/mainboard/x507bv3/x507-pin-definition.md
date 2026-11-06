@@ -1,7 +1,7 @@
 ---
 title: 引脚定义
 sidebar_position: 3
-description: "X507CV1核心板172PIN完整引脚定义"
+description: "x507cv1核心板172PIN完整引脚定义"
 ---
 
 # 引脚定义

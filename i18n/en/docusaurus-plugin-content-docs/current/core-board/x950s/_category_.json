@@ -1,8 +1,8 @@
 {
-  "label": "X950S Core Board",
+  "label": "x950s Core Board",
   "position": 25,
   "link": {
     "type": "generated-index",
-    "description": "X950S Core Board Documents"
+    "description": "x950s Core Board Documents"
   }
 }

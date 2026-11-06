@@ -1,7 +1,7 @@
 ---
 sidebar_position: 8
 title: Android 测试与驱动
-description: X6818 Android 测试程序、内核驱动和 proc 查询
+description: x6818 Android 测试程序、内核驱动和 proc 查询
 ---
 
 # Android 测试与驱动

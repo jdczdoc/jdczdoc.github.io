@@ -1,7 +1,7 @@
 ---
 title: Pin Definition
 sidebar_position: 3
-description: "Complete 172-pin definition of the X507CV1 core module"
+description: "Complete 172-pin definition of the x507cv1 core module"
 ---
 
 # Pin Definition

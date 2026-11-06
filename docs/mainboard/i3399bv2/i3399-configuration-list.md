@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: 配置清单
-description: I3399BV2 标配和选配硬件清单
+description: i3399bv2 标配和选配硬件清单
 ---
 
 # 配置清单

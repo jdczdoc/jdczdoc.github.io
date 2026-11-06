@@ -1,7 +1,7 @@
 ---
 sidebar_position: 7
 title: Android User Guide
-description: I3588 Android common usage guide
+description: i3588 Android common usage guide
 ---
 
 # Android User Guide

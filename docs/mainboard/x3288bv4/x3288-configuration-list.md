@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: 配置清单
-description: X3288BV4 标配和选配硬件清单
+description: x3288bv4 标配和选配硬件清单
 ---
 
 # 配置清单

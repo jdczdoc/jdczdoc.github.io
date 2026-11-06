@@ -1,7 +1,7 @@
 ---
 sidebar_position: 12
 title: 驱动与调试
-description: X3128 Android 内核信息查询和常见项目修改
+description: x3128 Android 内核信息查询和常见项目修改
 ---
 
 # 驱动与调试

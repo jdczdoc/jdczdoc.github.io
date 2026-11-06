@@ -1,7 +1,7 @@
 ---
 title: Hardware Resources
 sidebar_position: 2
-description: Front and rear interface layout of the X8390/X8370 development board.
+description: Front and rear interface layout of the x8390/x8370 development board.
 ---
 
 # Hardware Resources

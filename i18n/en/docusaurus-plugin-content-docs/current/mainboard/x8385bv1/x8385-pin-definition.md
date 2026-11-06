@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Pin Definition
-description: X8385CV1 168-pin core-board pin definition
+description: x8385cv1 168-pin core-board pin definition
 ---
 
 # Pin Definition

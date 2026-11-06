@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: 配置清单
-description: X6818 开发板标配、选配和资料清单
+description: x6818 开发板标配、选配和资料清单
 ---
 
 # 配置清单

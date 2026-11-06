@@ -1,7 +1,7 @@
 ---
 sidebar_position: 10
 title: Android 测试与驱动
-description: I3566 Android 测试程序、驱动入口和 proc 查询
+description: i3566 Android 测试程序、驱动入口和 proc 查询
 ---
 
 # Android 测试与驱动

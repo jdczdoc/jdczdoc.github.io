@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: Configuration List
-description: X3288BV4 standard and optional hardware list
+description: x3288bv4 standard and optional hardware list
 ---
 
 # Configuration List

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 11
 title: Linux QT Filesystem
-description: X3568 Buildroot, QT filesystem, and MIPI display configuration
+description: x3568 Buildroot, QT filesystem, and MIPI display configuration
 ---
 
 # Linux QT Filesystem

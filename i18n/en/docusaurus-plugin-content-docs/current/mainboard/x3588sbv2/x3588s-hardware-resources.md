@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Hardware Resources
-description: X3588S mini ITX hardware interface overview and driver support list
+description: x3588s mini ITX hardware interface overview and driver support list
 ---
 
 # Hardware Resources

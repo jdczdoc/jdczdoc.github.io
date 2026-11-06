@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Product Introduction
-description: I3399BV2 mainboard introduction, core board features, and hardware specifications
+description: i3399bv2 mainboard introduction, core board features, and hardware specifications
 ---
 
 # Product Introduction

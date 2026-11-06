@@ -1,7 +1,7 @@
 ---
 title: Android Tests and Drivers
 sidebar_position: 9
-description: "X507 Android hardware test application, driver locations, proc diagnostics, and source-manual errata"
+description: "x507 Android hardware test application, driver locations, proc diagnostics, and source-manual errata"
 ---
 
 

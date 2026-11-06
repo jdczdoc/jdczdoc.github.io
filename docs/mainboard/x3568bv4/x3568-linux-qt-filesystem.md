@@ -1,7 +1,7 @@
 ---
 sidebar_position: 11
 title: Linux QT 文件系统
-description: X3568 Buildroot、QT 文件系统和 MIPI 屏配置
+description: x3568 Buildroot、QT 文件系统和 MIPI 屏配置
 ---
 
 # Linux QT 文件系统

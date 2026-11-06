@@ -1,7 +1,7 @@
 ---
 sidebar_position: 7
 title: Android 使用指南
-description: X3588S mini ITX Android 常用功能操作
+description: x3588s mini ITX Android 常用功能操作
 ---
 
 # Android 使用指南

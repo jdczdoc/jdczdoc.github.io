@@ -2,7 +2,7 @@
 title: SDK框架
 sidebar_label: SDK框架
 sidebar_position: 2
-description: PICO2 Tina Linux SDK主要目录、职责和常用环境命令。
+description: pico2 Tina Linux SDK主要目录、职责和常用环境命令。
 ---
 
 # SDK框架

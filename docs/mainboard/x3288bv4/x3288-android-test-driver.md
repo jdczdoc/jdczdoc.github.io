@@ -1,7 +1,7 @@
 ---
 sidebar_position: 9
 title: Android 测试与驱动
-description: X3288 Android 测试程序、驱动入口和常用 proc 查询
+description: x3288 Android 测试程序、驱动入口和常用 proc 查询
 ---
 
 # Android 测试与驱动

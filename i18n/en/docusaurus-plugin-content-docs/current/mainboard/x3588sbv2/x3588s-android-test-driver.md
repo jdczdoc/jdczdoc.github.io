@@ -1,7 +1,7 @@
 ---
 sidebar_position: 8
 title: Android Test and Driver
-description: X3588S mini ITX Android test application, driver entries, and proc queries
+description: x3588s mini ITX Android test application, driver entries, and proc queries
 ---
 
 # Android Test and Driver

@@ -1,7 +1,7 @@
 ---
 title: Android User Guide
 sidebar_position: 8
-description: "X507 Android serial console, media, networking, Bluetooth, storage, camera, HDMI, and power operation"
+description: "x507 Android serial console, media, networking, Bluetooth, storage, camera, HDMI, and power operation"
 ---
 
 # Android User Guide

@@ -1,7 +1,7 @@
 ---
 title: Android Platform Setup
 sidebar_position: 5
-description: X8390/X8370 Android 13 host environment, dependencies, JDK, ADB, and serial tools.
+description: x8390/x8370 Android 13 host environment, dependencies, JDK, ADB, and serial tools.
 ---
 
 # Android Platform Setup

@@ -1,7 +1,7 @@
 ---
 title: Android User Guide
 sidebar_position: 7
-description: X8390/X8370 Android terminal, media, network, Bluetooth, storage, camera, and power operations.
+description: x8390/x8370 Android terminal, media, network, Bluetooth, storage, camera, and power operations.
 ---
 
 # Android User Guide

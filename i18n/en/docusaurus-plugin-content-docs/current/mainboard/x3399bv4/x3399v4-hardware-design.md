@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: Hardware Design
-description: X3399V4 power, USB, HDMI, EDP, and MIPI baseboard design notes
+description: x3399v4 power, USB, HDMI, EDP, and MIPI baseboard design notes
 ---
 
 # Hardware Design

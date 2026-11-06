@@ -1,7 +1,7 @@
 ---
 title: Hardware Design
 sidebar_position: 5
-description: "X507 power, USB, display, camera, Ethernet, and high-speed-interface design notes"
+description: "x507 power, USB, display, camera, Ethernet, and high-speed-interface design notes"
 ---
 
 # Hardware Design

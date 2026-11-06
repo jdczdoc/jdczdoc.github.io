@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: 扩展接口定义
-description: I3566 主板 PH 座、GPIO、串口、显示、背光和 USB 扩展接口定义
+description: i3566 主板 PH 座、GPIO、串口、显示、背光和 USB 扩展接口定义
 ---
 
 # 扩展接口定义

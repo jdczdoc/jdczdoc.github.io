@@ -1,7 +1,7 @@
 ---
 sidebar_position: 7
 title: 配置清单
-description: X30 开发板标配和选配硬件清单
+description: x30 开发板标配和选配硬件清单
 ---
 
 # 配置清单

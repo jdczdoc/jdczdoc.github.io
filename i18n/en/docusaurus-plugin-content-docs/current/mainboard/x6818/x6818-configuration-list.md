@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: Configuration List
-description: X6818 standard hardware, optional hardware, and documentation package
+description: x6818 standard hardware, optional hardware, and documentation package
 ---
 
 # Configuration List

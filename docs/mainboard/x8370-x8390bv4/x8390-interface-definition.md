@@ -1,7 +1,7 @@
 ---
 title: 接口定义
 sidebar_position: 3
-description: X8390/X8370开发板电源、USB、显示、摄像头、串口、PCIe和扩展接口定义。
+description: x8390/x8370开发板电源、USB、显示、摄像头、串口、PCIe和扩展接口定义。
 ---
 
 # 接口定义

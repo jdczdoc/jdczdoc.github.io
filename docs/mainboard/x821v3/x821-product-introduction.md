@@ -1,7 +1,7 @@
 ---
 title: 产品介绍
 sidebar_position: 1
-description: "X821V30主板规格、功能特性、尺寸和软件资源"
+description: "x821v30主板规格、功能特性、尺寸和软件资源"
 ---
 
 # 产品介绍

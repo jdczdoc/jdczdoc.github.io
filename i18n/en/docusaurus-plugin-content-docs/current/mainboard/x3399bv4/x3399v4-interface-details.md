@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Interface Details
-description: X3399V4 power, UART, HDMI, Camera, network, audio, display, and expansion interface notes
+description: x3399v4 power, UART, HDMI, Camera, network, audio, display, and expansion interface notes
 ---
 
 # Interface Details

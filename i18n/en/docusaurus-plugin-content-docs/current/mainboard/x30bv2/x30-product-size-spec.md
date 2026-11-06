@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: Size and Specifications
-description: X30CV1/X30CV2 core-board size, appearance, and specifications
+description: x30cv1/x30cv2 core-board size, appearance, and specifications
 ---
 
 # Size and Specifications

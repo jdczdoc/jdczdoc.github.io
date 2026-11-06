@@ -1,9 +1,9 @@
 {
-  "label": "I527BV3 开发板",
+  "label": "i527bv3 开发板",
   "position": 12,
   "link": {
-      "type": "generated-index",
-    "title": "X527开发板",
-    "description": "X527开发板产品、硬件资源、接口、系统编译和使用文档。"
+    "type": "generated-index",
+    "title": "x527开发板",
+    "description": "x527开发板产品、硬件资源、接口、系统编译和使用文档。"
   }
 }

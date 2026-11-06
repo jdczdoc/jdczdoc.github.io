@@ -1,7 +1,7 @@
 ---
 title: Android使用指南
 sidebar_position: 7
-description: X8390/X8370 Android终端、媒体、网络、蓝牙、存储、摄像头和电源操作。
+description: x8390/x8370 Android终端、媒体、网络、蓝牙、存储、摄像头和电源操作。
 ---
 
 # Android使用指南

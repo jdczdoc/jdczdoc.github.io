@@ -1,7 +1,7 @@
 ---
 sidebar_position: 12
 title: Linux Ubuntu 与 Qt
-description: X30/PX30 Ubuntu 文件系统构建、NFS/TF/U 盘启动和 Qt 文件系统搭建
+description: x30/PX30 Ubuntu 文件系统构建、NFS/TF/U 盘启动和 Qt 文件系统搭建
 ---
 
 # Linux Ubuntu 与 Qt

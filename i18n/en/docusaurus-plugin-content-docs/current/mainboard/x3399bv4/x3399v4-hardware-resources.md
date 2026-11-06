@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Hardware Resources
-description: X3399V4 hardware interface map and hardware resource list
+description: x3399v4 hardware interface map and hardware resource list
 ---
 
 # Hardware Resources

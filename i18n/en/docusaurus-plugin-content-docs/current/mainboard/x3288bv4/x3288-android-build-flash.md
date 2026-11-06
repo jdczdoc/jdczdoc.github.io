@@ -1,7 +1,7 @@
 ---
 sidebar_position: 7
 title: Android Build and Flash
-description: X3288 Android 5.1 source installation, build, and firmware flashing
+description: x3288 Android 5.1 source installation, build, and firmware flashing
 ---
 
 # Android Build and Flash

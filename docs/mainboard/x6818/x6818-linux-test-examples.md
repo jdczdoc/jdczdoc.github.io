@@ -1,7 +1,7 @@
 ---
 sidebar_position: 11
 title: Linux 测试与示例
-description: X6818 Qt 测试程序、Linux 底层开发和应用开发示例
+description: x6818 Qt 测试程序、Linux 底层开发和应用开发示例
 ---
 
 # Linux 测试与示例

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: 尺寸与规格
-description: I3566CV1 核心板外观、结构尺寸和机械参数
+description: i3566cv1 核心板外观、结构尺寸和机械参数
 ---
 
 # 尺寸与规格

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 11
 title: Test Program
-description: X3128 Android test program and hardware function verification
+description: x3128 Android test program and hardware function verification
 ---
 
 # Test Program

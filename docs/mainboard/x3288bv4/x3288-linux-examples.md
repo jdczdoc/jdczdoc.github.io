@@ -1,7 +1,7 @@
 ---
 sidebar_position: 12
 title: Linux 开发示例
-description: X3288 Linux 底层开发、应用开发与 Ubuntu 系统说明
+description: x3288 Linux 底层开发、应用开发与 Ubuntu 系统说明
 ---
 
 # Linux 开发示例

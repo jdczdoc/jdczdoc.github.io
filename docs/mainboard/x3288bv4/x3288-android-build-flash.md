@@ -1,7 +1,7 @@
 ---
 sidebar_position: 7
 title: Android 编译与烧录
-description: X3288 Android 5.1 源码安装、编译和固件烧录
+description: x3288 Android 5.1 源码安装、编译和固件烧录
 ---
 
 # Android 编译与烧录

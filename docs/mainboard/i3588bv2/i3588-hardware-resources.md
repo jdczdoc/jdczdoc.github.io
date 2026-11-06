@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: 硬件资源
-description: I3588 主板硬件接口总览
+description: i3588 主板硬件接口总览
 ---
 
 # 硬件资源

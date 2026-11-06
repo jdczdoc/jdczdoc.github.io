@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Dimensions and Specifications
-description: I3566CV1 core-board appearance, dimensions, and mechanical parameters
+description: i3566cv1 core-board appearance, dimensions, and mechanical parameters
 ---
 
 # Dimensions and Specifications

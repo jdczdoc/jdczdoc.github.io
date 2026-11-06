@@ -1,7 +1,7 @@
 ---
 sidebar_position: 9
 title: Android Build and Flashing
-description: X3128 Android source installation, build, and firmware flashing
+description: x3128 Android source installation, build, and firmware flashing
 ---
 
 # Android Build and Flashing

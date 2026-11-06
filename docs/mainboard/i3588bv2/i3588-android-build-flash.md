@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: Android 编译与烧录
-description: I3588 Android 源码安装、编译和烧录
+description: i3588 Android 源码安装、编译和烧录
 ---
 
 # Android 编译与烧录

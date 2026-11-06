@@ -1,7 +1,7 @@
 ---
 title: Android测试与驱动
 sidebar_position: 9
-description: "X507 Android硬件测试程序、驱动路径、proc调试和资料勘误"
+description: "x507 Android硬件测试程序、驱动路径、proc调试和资料勘误"
 ---
 
 

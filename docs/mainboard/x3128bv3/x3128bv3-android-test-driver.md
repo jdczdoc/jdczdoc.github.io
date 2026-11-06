@@ -1,7 +1,7 @@
 ---
 sidebar_position: 11
 title: 测试程序
-description: X3128 Android 测试程序和硬件功能验证
+description: x3128 Android 测试程序和硬件功能验证
 ---
 
 # 测试程序

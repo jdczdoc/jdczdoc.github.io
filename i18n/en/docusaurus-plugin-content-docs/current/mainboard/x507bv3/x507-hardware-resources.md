@@ -1,7 +1,7 @@
 ---
 title: Hardware Resources
 sidebar_position: 2
-description: "X507 connector layout, interface numbering, and hardware-resource summary"
+description: "x507 connector layout, interface numbering, and hardware-resource summary"
 ---
 
 # Hardware Resources

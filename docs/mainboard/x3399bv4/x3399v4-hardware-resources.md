@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: 硬件资源
-description: X3399V4 开发板硬件接口位置图和硬件接口列表
+description: x3399v4 开发板硬件接口位置图和硬件接口列表
 ---
 
 # 硬件资源

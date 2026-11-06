@@ -2,7 +2,7 @@
 title: 配置清单
 sidebar_label: 配置清单
 sidebar_position: 4
-description: PICO2开发板标准配置、选配件和首次使用准备。
+description: pico2开发板标准配置、选配件和首次使用准备。
 ---
 
 # 配置清单

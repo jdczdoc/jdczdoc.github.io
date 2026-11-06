@@ -1,7 +1,7 @@
 ---
 sidebar_position: 11
 title: Linux Tests and Examples
-description: X6818 Qt tests, low-level Linux development, and application examples
+description: x6818 Qt tests, low-level Linux development, and application examples
 ---
 
 # Linux Tests and Examples

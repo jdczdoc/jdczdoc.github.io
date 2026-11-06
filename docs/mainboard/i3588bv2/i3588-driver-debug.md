@@ -1,7 +1,7 @@
 ---
 sidebar_position: 9
 title: 驱动与调试
-description: I3588 Android 和 Linux 驱动路径及调试命令
+description: i3588 Android 和 Linux 驱动路径及调试命令
 ---
 
 # 驱动与调试

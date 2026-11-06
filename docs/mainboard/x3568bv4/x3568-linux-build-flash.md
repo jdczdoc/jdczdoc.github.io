@@ -1,7 +1,7 @@
 ---
 sidebar_position: 10
 title: Linux 编译与烧录
-description: X3568 Linux4.19 源码安装、编译、固件打包和烧录
+description: x3568 Linux4.19 源码安装、编译、固件打包和烧录
 ---
 
 # Linux 编译与烧录

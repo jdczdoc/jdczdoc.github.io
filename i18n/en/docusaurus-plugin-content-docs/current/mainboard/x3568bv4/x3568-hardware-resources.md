@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Hardware Resources
-description: X3568V4 hardware overview, interface locations, and driver support list
+description: x3568v4 hardware overview, interface locations, and driver support list
 ---
 
 # Hardware Resources

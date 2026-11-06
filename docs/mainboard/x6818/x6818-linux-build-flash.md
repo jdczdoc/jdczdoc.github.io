@@ -1,7 +1,7 @@
 ---
 sidebar_position: 9
 title: Linux 编译与烧录
-description: X6818 Linux + Qt 编译、启动卡、fastboot 和镜像烧写
+description: x6818 Linux + Qt 编译、启动卡、fastboot 和镜像烧写
 ---
 
 # Linux 编译与烧录

@@ -660,11 +660,11 @@
     "description": "The label for category 'x733bv2主板' in sidebar 'alldocsSidebar'"
   },
   "sidebar.alldocsSidebar.category.x733bv2主板.link.generated-index.title": {
-    "message": "X733 Development Board",
+    "message": "x733 Development Board",
     "description": "The generated-index page title for category 'x733bv2主板' in sidebar 'alldocsSidebar'"
   },
   "sidebar.alldocsSidebar.category.x733bv2主板.link.generated-index.description": {
-    "message": "X733 development board products, hardware resources, interfaces, system compilation and usage documents.",
+    "message": "x733 development board products, hardware resources, interfaces, system compilation and usage documents.",
     "description": "The generated-index page description for category 'x733bv2主板' in sidebar 'alldocsSidebar'"
   },
   "sidebar.alldocsSidebar.category.ibox3576主板": {
@@ -692,23 +692,23 @@
     "description": "The generated-index page description for category 'x3588sbv2主板' in sidebar 'alldocsSidebar'"
   },
   "sidebar.alldocsSidebar.category.mainboard-pico2": {
-    "message": "PICO2 Development Board",
+    "message": "pico2 Development Board",
     "description": "The label for category 'PICO2开发板' in sidebar 'alldocsSidebar'"
   },
   "sidebar.alldocsSidebar.category.mainboard-pico2.link.generated-index.title": {
-    "message": "PICO2 Development Board",
+    "message": "pico2 Development Board",
     "description": "The generated-index page title for category 'PICO2开发板' in sidebar 'alldocsSidebar'"
   },
   "sidebar.alldocsSidebar.category.mainboard-pico2.link.generated-index.description": {
-    "message": "Product introduction, hardware interfaces, Linux SDK build, display, multimedia, RTOS, and driver development documentation for the PICO2 Development Board.",
+    "message": "Product introduction, hardware interfaces, Linux SDK build, display, multimedia, RTOS, and driver development documentation for the pico2 Development Board.",
     "description": "The generated-index page description for category 'PICO2开发板' in sidebar 'alldocsSidebar'"
   },
   "sidebar.alldocsSidebar.category.picopc树霉派": {
-    "message": "PicoPC Raspberry Pi-Style Board",
+    "message": "picopc Raspberry Pi-Style Board",
     "description": "The label for category 'picopc树霉派' in sidebar 'alldocsSidebar'"
   },
   "sidebar.alldocsSidebar.category.picopc树霉派.link.generated-index.description": {
-    "message": "Documentation for the PicoPC Raspberry Pi-style board.",
+    "message": "Documentation for the picopc Raspberry Pi-style board.",
     "description": "The generated-index page description for category 'picopc树霉派' in sidebar 'alldocsSidebar'"
   },
   "sidebar.alldocsSidebar.category.x8385bv1主板": {
@@ -720,7 +720,7 @@
     "description": "The generated-index page description for category 'x8385bv1主板' in sidebar 'alldocsSidebar'"
   },
   "sidebar.alldocsSidebar.category.x8788v3闺蜜机主板": {
-    "message": "X8788V3 Smart Display Mainboard",
+    "message": "x8788v3 Smart Display Mainboard",
     "description": "The label for category 'x8788v3闺蜜机主板' in sidebar 'alldocsSidebar'"
   },
   "sidebar.alldocsSidebar.category.x8788v3闺蜜机主板.link.generated-index.description": {
@@ -960,19 +960,19 @@
     "description": "The generated-index page description for category 'PCIe' in sidebar 'alldocsSidebar'"
   },
   "sidebar.alldocsSidebar.category.I3588核心板.link.generated-index.description": {
-    "message": "I3588核心板 Documents",
+    "message": "I3588CV3 Core Board Documents",
     "description": "The generated-index page description for category 'I3588核心板' in sidebar 'alldocsSidebar'"
   },
   "sidebar.alldocsSidebar.category.mainboard-pico2-linux-platform": {
-    "message": "Linux平台",
+    "message": "Linux Platform",
     "description": "The label for category 'Linux平台' in sidebar 'alldocsSidebar'"
   },
   "sidebar.alldocsSidebar.category.mainboard-pico2-linux-platform.link.generated-index.title": {
-    "message": "PICO2 Linux平台",
+    "message": "pico2 Linux Platform",
     "description": "The generated-index page title for category 'Linux平台' in sidebar 'alldocsSidebar'"
   },
   "sidebar.alldocsSidebar.category.mainboard-pico2-linux-platform.link.generated-index.description": {
-    "message": "PICO2 Tina Linux SDK框架、编译烧录、系统配置、Camera、显示、多媒体、RTOS和Linux驱动开发。",
+    "message": "pico2 Tina Linux SDK structure, build, flashing, system configuration, camera, display, multimedia, RTOS, and driver development.",
     "description": "The generated-index page description for category 'Linux平台' in sidebar 'alldocsSidebar'"
   },
   "sidebar.alldocsSidebar.category.九影G5 15.6寸直播一体机": {
@@ -1000,7 +1000,7 @@
     "description": "The generated-index page description for category '显示模组' in sidebar 'alldocsSidebar'"
   },
   "sidebar.alldocsSidebar.category.Cron 定时任务": {
-    "message": "Cron 定时任务",
+    "message": "Cron",
     "description": "The label for category 'Cron 定时任务' in sidebar 'alldocsSidebar'"
   },
   "sidebar.alldocsSidebar.category.Cron 定时任务.link.generated-index.description": {
@@ -1008,7 +1008,7 @@
     "description": "The generated-index page description for category 'Cron 定时任务' in sidebar 'alldocsSidebar'"
   },
   "sidebar.alldocsSidebar.category.矢量绘图": {
-    "message": "矢量绘图",
+    "message": "Vector Graphics",
     "description": "The label for category '矢量绘图' in sidebar 'alldocsSidebar'"
   },
   "sidebar.alldocsSidebar.category.矢量绘图.link.generated-index.description": {
@@ -1022,5 +1022,825 @@
   "sidebar.alldocsSidebar.category.X3576CV2核心板.link.generated-index.description": {
     "message": "X3576CV2 Core Board Documents",
     "description": "The generated-index page description for category 'X3576CV2 Core Board' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.X1106G2核心板": {
+    "message": "X1106G2 Core Board",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.X1106G2核心板.link.generated-index.description": {
+    "message": "X1106G2 Core Board Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.X30核心板": {
+    "message": "X30 Core Board",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.X30核心板.link.generated-index.description": {
+    "message": "X30 Core Board Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.X311Y3核心板": {
+    "message": "X311Y3 Core Board",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.X311Y3核心板.link.generated-index.description": {
+    "message": "X311Y3 Core Board Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.X3566CV2核心板": {
+    "message": "X3566CV2 Core Board",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.X3566CV2核心板.link.generated-index.description": {
+    "message": "X3566CV2 Core Board Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.X3566CV3核心板": {
+    "message": "X3566CV3 Core Board",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.X3566CV3核心板.link.generated-index.description": {
+    "message": "X3566CV3 Core Board Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.X3566CV4核心板": {
+    "message": "X3566CV4 Core Board",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.X3566CV4核心板.link.generated-index.description": {
+    "message": "X3566CV4 Core Board Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.X3568CV2核心板": {
+    "message": "X3568CV2 Core Board",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.X3568CV2核心板.link.generated-index.description": {
+    "message": "X3568CV2 Core Board Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.X3568CV3核心板": {
+    "message": "X3568CV3 Core Board",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.X3568CV3核心板.link.generated-index.description": {
+    "message": "X3568CV3 Core Board Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x3588scv3核心板": {
+    "message": "x3588scv3 Core Board",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x3588scv3核心板.link.generated-index.description": {
+    "message": "x3588scv3 Core Board Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x3588scv4核心板": {
+    "message": "x3588scv4 Core Board",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x3588scv4核心板.link.generated-index.description": {
+    "message": "x3588scv4 Core Board Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.X40I核心板": {
+    "message": "X40I Core Board",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.X40I核心板.link.generated-index.description": {
+    "message": "X40I Core Board Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.X8385/X8788核心板": {
+    "message": "X8385/X8788 Core Board",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.X8385/X8788核心板.link.generated-index.description": {
+    "message": "X8385/X8788 Core Board Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.X8883/MT6897核心板": {
+    "message": "X8883/MT6897 Core Board",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.X8883/MT6897核心板.link.generated-index.description": {
+    "message": "X8883/MT6897 Core Board Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.X950S核心板": {
+    "message": "X950S Core Board",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.X950S核心板.link.generated-index.description": {
+    "message": "X950S Core Board Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.九影A1 AI音频直播盒": {
+    "message": "Jiuying A1 AI Audio Live Streaming Box",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.九影A1 AI音频直播盒.link.generated-index.description": {
+    "message": "Jiuying A1 AI Audio Live Streaming Box Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.九影V1 AI视频直播盒": {
+    "message": "Jiuying V1 AI Video Live Streaming Box",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.九影V1 AI视频直播盒.link.generated-index.description": {
+    "message": "Jiuying V1 AI Video Live Streaming Box Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.I3128主板": {
+    "message": "I3128 Mainboard",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.I3128主板.link.generated-index.description": {
+    "message": "I3128 Mainboard Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.i3562bv2主板": {
+    "message": "i3562bv2 Mainboard",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.i3562bv2主板.link.generated-index.description": {
+    "message": "i3562bv2 Mainboard Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.i3568bv3主板": {
+    "message": "i3568bv3 Mainboard",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.i3568bv3主板.link.generated-index.description": {
+    "message": "i3568bv3 Mainboard Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.live3588sv4主板": {
+    "message": "live3588sv4 Mainboard",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.live3588sv4主板.link.generated-index.description": {
+    "message": "live3588sv4 Mainboard Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.live3588sv5主板": {
+    "message": "live3588sv5 Mainboard",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.live3588sv5主板.link.generated-index.description": {
+    "message": "live3588sv5 Mainboard Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.live3588v3主板": {
+    "message": "live3588v3 Mainboard",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.live3588v3主板.link.generated-index.description": {
+    "message": "live3588v3 Mainboard Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.live3588v4主板": {
+    "message": "live3588v4 Mainboard",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.live3588v4主板.link.generated-index.description": {
+    "message": "live3588v4 Mainboard Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.pico2c主板": {
+    "message": "pico2c Mainboard",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.pico2c主板.link.generated-index.description": {
+    "message": "pico2c Mainboard Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x1106G2主板": {
+    "message": "x1106G2 Mainboard",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x1106G2主板.link.generated-index.description": {
+    "message": "x1106G2 Mainboard Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.X311Y3主板": {
+    "message": "X311Y3 Mainboard",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.X311Y3主板.link.generated-index.description": {
+    "message": "X311Y3 mainboard hardware, Android and Linux documentation",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x3506bv2主板": {
+    "message": "x3506bv2 Mainboard",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x3506bv2主板.link.generated-index.description": {
+    "message": "x3506bv2 Mainboard Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x3576bv3主板": {
+    "message": "x3576bv3 Mainboard",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x3576bv3主板.link.generated-index.description": {
+    "message": "x3576bv3 Mainboard Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x40ibv3主板": {
+    "message": "x40ibv3 Mainboard",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x40ibv3主板.link.generated-index.description": {
+    "message": "x40ibv3 Mainboard Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x7014v2蓝牙主板": {
+    "message": "x7014v2 Bluetooth Mainboard",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x7014v2蓝牙主板.link.generated-index.description": {
+    "message": "x7014v2 Bluetooth Mainboard Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x881v2主板": {
+    "message": "x881v2 Mainboard",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x881v2主板.link.generated-index.description": {
+    "message": "x881v2 Mainboard Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x8883/x6897bv2主板": {
+    "message": "x8883/x6897bv2 Mainboard",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x8883/x6897bv2主板.link.generated-index.description": {
+    "message": "x8883/x6897bv2 Mainboard Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x950s主板": {
+    "message": "x950s Mainboard",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x950s主板.link.generated-index.description": {
+    "message": "x950s Mainboard Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.z3576主板": {
+    "message": "z3576 Mainboard",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.z3576主板.link.generated-index.description": {
+    "message": "z3576 Mainboard Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.z3588bv3主板": {
+    "message": "z3588bv3 Mainboard",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.z3588bv3主板.link.generated-index.description": {
+    "message": "z3588bv3 Mainboard Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-x881": {
+    "message": "x881 Mainboard",
+    "description": "English translation for the X881 mainboard category"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-x881.link.generated-index.title": {
+    "message": "x881 Development Board",
+    "description": "English translation for the X881 mainboard category"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-x881.link.generated-index.description": {
+    "message": "x881 hardware, Tina Linux build, configuration and application development.",
+    "description": "English translation for the X881 mainboard category"
+  },
+  "sidebar.alldocsSidebar.category.core-board-x8883": {
+    "message": "x8883 Core Board",
+    "description": "X8883 core board sidebar translation"
+  },
+  "sidebar.alldocsSidebar.category.core-board-x8883.link.generated-index.title": {
+    "message": "x8883 Core Board",
+    "description": "X8883 core board sidebar translation"
+  },
+  "sidebar.alldocsSidebar.category.core-board-x8883.link.generated-index.description": {
+    "message": "x8883 Core Board Documents",
+    "description": "X8883 core board sidebar translation"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-x8883": {
+    "message": "x8883 Mainboard",
+    "description": "X8883 mainboard sidebar translation"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-x8883.link.generated-index.description": {
+    "message": "x8883 Mainboard Documents",
+    "description": "X8883 mainboard sidebar translation"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-x40i": {
+    "message": "x40i Mainboard",
+    "description": "X40I mainboard sidebar translation"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-x40i.link.generated-index.description": {
+    "message": "x40i Mainboard Documents",
+    "description": "X40I mainboard sidebar translation"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-x40i-linux": {
+    "message": "Linux",
+    "description": "X40I platform category translation"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-x40i-linux.link.generated-index.description": {
+    "message": "x40i Linux Documents",
+    "description": "X40I platform category translation"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-x40i-android": {
+    "message": "Android",
+    "description": "X40I platform category translation"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-x40i-android.link.generated-index.description": {
+    "message": "x40i Android Documents",
+    "description": "X40I platform category translation"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-i3568bv3": {
+    "message": "i3568bv3 Mainboard",
+    "description": "Label for the I3568BV3主板 category"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-i3568bv3.link.generated-index.description": {
+    "message": "i3568bv3 Mainboard Documents",
+    "description": "Description for the I3568BV3主板 category"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-i3568bv3-linux": {
+    "message": "Linux",
+    "description": "Label for the Linux category"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-i3568bv3-linux.link.generated-index.description": {
+    "message": "i3568bv3 Linux Documents",
+    "description": "Description for the Linux category"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-i3568bv3-android": {
+    "message": "Android",
+    "description": "Label for the Android category"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-i3568bv3-android.link.generated-index.description": {
+    "message": "i3568bv3 Android Documents",
+    "description": "Description for the Android category"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-x3576bv3": {
+    "message": "x3576bv3 Mainboard",
+    "description": "Label for the X3576BV3主板 category"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-x3576bv3.link.generated-index.description": {
+    "message": "x3576bv3 Mainboard Documents",
+    "description": "Description for the X3576BV3主板 category"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-x3576bv3-linux": {
+    "message": "Linux",
+    "description": "Label for the Linux category"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-x3576bv3-linux.link.generated-index.description": {
+    "message": "x3576bv3 Linux Documents",
+    "description": "Description for the Linux category"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-x3576bv3-android": {
+    "message": "Android",
+    "description": "Label for the Android category"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-x3576bv3-android.link.generated-index.description": {
+    "message": "x3576bv3 Android Documents",
+    "description": "Description for the Android category"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-z3588bv3": {
+    "message": "z3588bv3 Mainboard",
+    "description": "Z3588BV3 sidebar category label"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-z3588bv3.link.generated-index.description": {
+    "message": "z3588bv3 Mainboard Documents",
+    "description": "Z3588BV3 generated index description"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-z3588bv3-linux": {
+    "message": "Linux",
+    "description": "Z3588BV3 sidebar category label"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-z3588bv3-linux.link.generated-index.description": {
+    "message": "Linux Development Documents",
+    "description": "Z3588BV3 generated index description"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-z3588bv3-android": {
+    "message": "Android",
+    "description": "Z3588BV3 sidebar category label"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-z3588bv3-android.link.generated-index.description": {
+    "message": "Android Development Documents",
+    "description": "Z3588BV3 generated index description"
+  },
+  "sidebar.alldocsSidebar.category.i3128主板": {
+    "message": "i3128 Mainboard",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.i3128主板.link.generated-index.description": {
+    "message": "i3128 Mainboard Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.i3562bv2 主板": {
+    "message": "i3562bv2 Mainboard",
+    "description": "English translation for i3562bv2 主板"
+  },
+  "sidebar.alldocsSidebar.category.i3562bv2 主板.link.generated-index.description": {
+    "message": "i3562bv2 Mainboard Documents",
+    "description": "English translation for i3562bv2 主板"
+  },
+  "sidebar.alldocsSidebar.category.i527bv3 开发板": {
+    "message": "i527bv3 Development Board",
+    "description": "The label for category 'i527bv3 开发板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.i527bv3 开发板.link.generated-index.title": {
+    "message": "x527 Development Board",
+    "description": "The generated-index page title for category 'i527bv3 开发板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.i527bv3 开发板.link.generated-index.description": {
+    "message": "x527 development board products, hardware resources, interfaces, system compilation and usage documents.",
+    "description": "The generated-index page description for category 'i527bv3 开发板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-live3588-family": {
+    "message": "live3588",
+    "description": "English translation for live3588"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-live3588-family.link.generated-index.description": {
+    "message": "live3588 Series Mainboard Documents",
+    "description": "English translation for live3588"
+  },
+  "sidebar.alldocsSidebar.category.x1106g2主板": {
+    "message": "x1106g2 Mainboard",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x1106g2主板.link.generated-index.description": {
+    "message": "x1106g2 Mainboard Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x30bv2主板": {
+    "message": "x30bv2 Mainboard",
+    "description": "The label for category 'x30bv2主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x30bv2主板.link.generated-index.description": {
+    "message": "x30bv2 motherboard Documents",
+    "description": "The generated-index page description for category 'x30bv2主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x311y3主板": {
+    "message": "x311y3 Mainboard",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x311y3主板.link.generated-index.description": {
+    "message": "x311y3 mainboard hardware, Android and Linux documentation",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x507开发板": {
+    "message": "x507 Development Board",
+    "description": "The label for category 'x507开发板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x507开发板.link.generated-index.title": {
+    "message": "x507 Development Board",
+    "description": "The generated-index page title for category 'x507开发板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x507开发板.link.generated-index.description": {
+    "message": "x507 development board products, hardware resources, interfaces, system compilation and usage documents.",
+    "description": "The generated-index page description for category 'x507开发板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x821主板": {
+    "message": "x821 Mainboard",
+    "description": "The label for category 'x821主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x821主板.link.generated-index.title": {
+    "message": "V821 Development Board",
+    "description": "The generated-index page title for category 'x821主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x821主板.link.generated-index.description": {
+    "message": "V821 development board products, hardware resources, interfaces, system compilation and usage documents.",
+    "description": "The generated-index page description for category 'x821主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x8370/x8390bv4主板": {
+    "message": "x8370/x8390bv4 Mainboard",
+    "description": "The label for category 'x8370/x8390bv4主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x8370/x8390bv4主板.link.generated-index.title": {
+    "message": "x8370/x8390bv4 Mainboard",
+    "description": "The generated-index page title for category 'x8370/x8390bv4主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x8370/x8390bv4主板.link.generated-index.description": {
+    "message": "x8370/x8390bv4 motherboard Documents",
+    "description": "The generated-index page description for category 'x8370/x8390bv4主板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.Android": {
+    "message": "Android",
+    "description": "English translation for Android"
+  },
+  "sidebar.alldocsSidebar.category.Linux": {
+    "message": "Linux",
+    "description": "English translation for Linux"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-live3588": {
+    "message": "live3588 Live Streaming Mainboard",
+    "description": "English translation for live3588 直播主板"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-live3588.link.generated-index.description": {
+    "message": "live3588 Live Streaming Mainboard Documents",
+    "description": "English translation for live3588 直播主板"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-live3588sv4": {
+    "message": "live3588sv4 Live Streaming Mainboard",
+    "description": "English translation for live3588sv4 直播机主板"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-live3588sv4.link.generated-index.description": {
+    "message": "live3588sv4 Live Streaming Mainboard Documents",
+    "description": "English translation for live3588sv4 直播机主板"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-live3588sv53": {
+    "message": "live3588sv53 Live Streaming Mainboard",
+    "description": "English translation for live3588sv53 直播主板"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-live3588sv53.link.generated-index.description": {
+    "message": "live3588sv53 Live Streaming Mainboard Documents",
+    "description": "English translation for live3588sv53 直播主板"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-live3588v4": {
+    "message": "live3588v4 Live Streaming Mainboard",
+    "description": "English translation for live3588v4 直播主板"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-live3588v4.link.generated-index.description": {
+    "message": "live3588v4 Live Streaming Mainboard Documents",
+    "description": "English translation for live3588v4 直播主板"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-live3588-android": {
+    "message": "Android",
+    "description": "English translation for Android"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-live3588-android.link.generated-index.description": {
+    "message": "live3588 Android",
+    "description": "English translation for Android"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-live3588sv4-android": {
+    "message": "Android",
+    "description": "English translation for Android"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-live3588sv4-android.link.generated-index.description": {
+    "message": "live3588sv4 Android",
+    "description": "English translation for Android"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-live3588sv53-android": {
+    "message": "Android",
+    "description": "English translation for Android"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-live3588sv53-android.link.generated-index.description": {
+    "message": "live3588sv53 Android",
+    "description": "English translation for Android"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-live3588v4-android": {
+    "message": "Android",
+    "description": "English translation for Android"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-live3588v4-android.link.generated-index.description": {
+    "message": "live3588v4 Android",
+    "description": "English translation for Android"
+  },
+  "sidebar.alldocsSidebar.category.i3128核心板": {
+    "message": "i3128 Core Board",
+    "description": "The label for category 'i3128核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.i3128核心板.link.generated-index.description": {
+    "message": "i3128 core board Documents",
+    "description": "The generated-index page description for category 'i3128核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.i3588核心板": {
+    "message": "i3588cv3 Core Board",
+    "description": "The label for category 'i3588核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.i3588核心板.link.generated-index.description": {
+    "message": "i3588cv3 Core Board Documents",
+    "description": "The generated-index page description for category 'i3588核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x1106g2核心板": {
+    "message": "x1106g2 Core Board",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x1106g2核心板.link.generated-index.description": {
+    "message": "x1106g2 Core Board Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x30核心板": {
+    "message": "x30 Core Board",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x30核心板.link.generated-index.description": {
+    "message": "x30 Core Board Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x311y3核心板": {
+    "message": "x311y3 Core Board",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x311y3核心板.link.generated-index.description": {
+    "message": "x311y3 Core Board Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x3128核心板": {
+    "message": "x3128 Core Board",
+    "description": "The label for category 'x3128核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3128核心板.link.generated-index.description": {
+    "message": "x3128 core board Documents",
+    "description": "The generated-index page description for category 'x3128核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3128cv4核心板": {
+    "message": "x3128cv4 Core Board",
+    "description": "The label for category 'x3128cv4核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3128cv4核心板.link.generated-index.description": {
+    "message": "x3128cv4 Core Board Documents",
+    "description": "The generated-index page description for category 'x3128cv4核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3288核心板": {
+    "message": "x3288 Core Board",
+    "description": "The label for category 'x3288核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3288核心板.link.generated-index.description": {
+    "message": "x3288 core board Documents",
+    "description": "The generated-index page description for category 'x3288核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3399cv6核心板": {
+    "message": "x3399cv6 Core Board",
+    "description": "The label for category 'x3399cv6核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3399cv6核心板.link.generated-index.description": {
+    "message": "x3399cv6 core board Documents",
+    "description": "The generated-index page description for category 'x3399cv6核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3562核心板": {
+    "message": "x3562 Core Board",
+    "description": "The label for category 'x3562核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3562核心板.link.generated-index.description": {
+    "message": "x3562 core board Documents",
+    "description": "The generated-index page description for category 'x3562核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3566cv2核心板": {
+    "message": "x3566cv2 Core Board",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x3566cv2核心板.link.generated-index.description": {
+    "message": "x3566cv2 Core Board Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x3566cv3核心板": {
+    "message": "x3566cv3 Core Board",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x3566cv3核心板.link.generated-index.description": {
+    "message": "x3566cv3 Core Board Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x3566cv4核心板": {
+    "message": "x3566cv4 Core Board",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x3566cv4核心板.link.generated-index.description": {
+    "message": "x3566cv4 Core Board Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x3568cv2核心板": {
+    "message": "x3568cv2 Core Board",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x3568cv2核心板.link.generated-index.description": {
+    "message": "x3568cv2 Core Board Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x3568cv3核心板": {
+    "message": "x3568cv3 Core Board",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x3568cv3核心板.link.generated-index.description": {
+    "message": "x3568cv3 Core Board Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x3568cv4核心板": {
+    "message": "x3568cv4 Core Board",
+    "description": "The label for category 'x3568cv4核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3568cv4核心板.link.generated-index.description": {
+    "message": "x3568cv4 core board Documents",
+    "description": "The generated-index page description for category 'x3568cv4核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3576cv2核心板": {
+    "message": "x3576cv2 Core Board",
+    "description": "The label for category 'X3576CV2 Core Board' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3576cv2核心板.link.generated-index.description": {
+    "message": "x3576cv2 Core Board Documents",
+    "description": "The generated-index page description for category 'X3576CV2 Core Board' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3576cv3核心板": {
+    "message": "x3576cv3 Core Board",
+    "description": "The label for category 'x3576cv3核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3576cv3核心板.link.generated-index.description": {
+    "message": "x3576cv3 Core Board Documents",
+    "description": "The generated-index page description for category 'x3576cv3核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3588s核心板": {
+    "message": "x3588s Core Board",
+    "description": "The label for category 'x3588s核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3588s核心板.link.generated-index.description": {
+    "message": "x3588s Core Board Documents",
+    "description": "The generated-index page description for category 'x3588s核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x40i核心板": {
+    "message": "x40i Core Board",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x40i核心板.link.generated-index.description": {
+    "message": "x40i Core Board Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x507核心板": {
+    "message": "x507 Core Board",
+    "description": "The label for category 'x507核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x507核心板.link.generated-index.description": {
+    "message": "x507 core board Documents",
+    "description": "The generated-index page description for category 'x507核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x527核心板": {
+    "message": "x527 Core Board",
+    "description": "The label for category 'x527核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x527核心板.link.generated-index.description": {
+    "message": "x527 core board Documents",
+    "description": "The generated-index page description for category 'x527核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x6818核心板": {
+    "message": "x6818 Core Board",
+    "description": "The label for category 'x6818核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x6818核心板.link.generated-index.description": {
+    "message": "x6818 core board Documents",
+    "description": "The generated-index page description for category 'x6818核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x7110cv1核心板": {
+    "message": "x7110cv1 Core Board",
+    "description": "The label for category 'x7110cv1核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x7110cv1核心板.link.generated-index.description": {
+    "message": "x7110cv1 Core Board Documents",
+    "description": "The generated-index page description for category 'x7110cv1核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x733核心板": {
+    "message": "x733 Core Board",
+    "description": "The label for category 'x733核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x733核心板.link.generated-index.description": {
+    "message": "x733 core board Documents",
+    "description": "The generated-index page description for category 'x733核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x8390/x8370核心板": {
+    "message": "x8390/x8370 Core Board",
+    "description": "The label for category 'x8390/x8370核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x8390/x8370核心板.link.generated-index.title": {
+    "message": "x8370/x8390 Core Board",
+    "description": "The generated-index page title for category 'x8390/x8370核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x8390/x8370核心板.link.generated-index.description": {
+    "message": "x8390/x8370 core board product parameters, pin definitions and hardware design documents.",
+    "description": "The generated-index page description for category 'x8390/x8370核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x8385/x8788核心板": {
+    "message": "x8385/x8788 Core Board",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x8385/x8788核心板.link.generated-index.description": {
+    "message": "x8385/x8788 Core Board Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x950s核心板": {
+    "message": "x950s Core Board",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.x950s核心板.link.generated-index.description": {
+    "message": "x950s Core Board Documents",
+    "description": "English sidebar category translation"
+  },
+  "sidebar.alldocsSidebar.category.z3576核心板": {
+    "message": "z3576 Core Board",
+    "description": "The label for category 'z3576核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.z3576核心板.link.generated-index.description": {
+    "message": "z3576 core board Documents",
+    "description": "The generated-index page description for category 'z3576核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.z3588cv1核心板": {
+    "message": "z3588cv1 Core Board",
+    "description": "The label for category 'z3588cv1核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.z3588cv1核心板.link.generated-index.description": {
+    "message": "z3588cv1 core board Documents",
+    "description": "The generated-index page description for category 'z3588cv1核心板' in sidebar 'alldocsSidebar'"
   }
 }

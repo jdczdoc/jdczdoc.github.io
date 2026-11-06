@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Hardware Resources
-description: X8385 development board interface description and interface map
+description: x8385 development board interface description and interface map
 ---
 
 # Hardware Resources

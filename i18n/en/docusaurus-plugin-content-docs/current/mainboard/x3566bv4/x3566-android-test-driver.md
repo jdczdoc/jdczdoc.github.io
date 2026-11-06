@@ -1,7 +1,7 @@
 ---
 sidebar_position: 9
 title: Android Test and Driver
-description: X3566 Android test app, driver entries, and proc queries
+description: x3566 Android test app, driver entries, and proc queries
 ---
 
 # Android Test and Driver

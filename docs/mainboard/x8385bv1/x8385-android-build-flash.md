@@ -1,7 +1,7 @@
 ---
 sidebar_position: 7
 title: Android 编译与烧录
-description: X8385 Android13 源码编译和 SP Flash Tool 烧录流程
+description: x8385 Android13 源码编译和 SP Flash Tool 烧录流程
 ---
 
 # Android 编译与烧录

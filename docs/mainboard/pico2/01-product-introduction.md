@@ -2,7 +2,7 @@
 title: 产品介绍
 sidebar_label: 产品介绍
 sidebar_position: 1
-description: PICO2开发板产品定位、处理器能力、规格和软件资源。
+description: pico2开发板产品定位、处理器能力、规格和软件资源。
 ---
 
 # 产品介绍

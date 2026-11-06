@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: 尺寸与规格
-description: X3588S mini ITX 主板尺寸、结构和完整规格参数
+description: x3588s mini ITX 主板尺寸、结构和完整规格参数
 ---
 
 # 尺寸与规格

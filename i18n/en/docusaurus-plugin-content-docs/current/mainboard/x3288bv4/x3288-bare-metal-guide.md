@@ -1,7 +1,7 @@
 ---
 sidebar_position: 13
 title: Bare-metal Development
-description: X3288 bare-metal development environment, boot method, and experiment list
+description: x3288 bare-metal development environment, boot method, and experiment list
 ---
 
 # Bare-metal Development

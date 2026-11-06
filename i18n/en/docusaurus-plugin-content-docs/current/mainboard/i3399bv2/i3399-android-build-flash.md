@@ -1,7 +1,7 @@
 ---
 sidebar_position: 7
 title: Android Build and Flash
-description: I3399 Android 7.1 tools, source installation, compilation, and flashing
+description: i3399 Android 7.1 tools, source installation, compilation, and flashing
 ---
 
 # Android Build and Flash

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 8
 title: Android Test and Driver
-description: X6818 Android test application, kernel drivers, and proc queries
+description: x6818 Android test application, kernel drivers, and proc queries
 ---
 
 # Android Test and Driver

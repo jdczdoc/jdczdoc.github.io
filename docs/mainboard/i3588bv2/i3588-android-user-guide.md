@@ -1,7 +1,7 @@
 ---
 sidebar_position: 7
 title: Android 使用指南
-description: I3588 Android 常用功能使用说明
+description: i3588 Android 常用功能使用说明
 ---
 
 # Android 使用指南

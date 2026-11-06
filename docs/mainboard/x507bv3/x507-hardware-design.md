@@ -1,7 +1,7 @@
 ---
 title: 硬件设计
 sidebar_position: 5
-description: "X507核心板和开发板电源、USB、显示、摄像头及高速接口设计注意事项"
+description: "x507核心板和开发板电源、USB、显示、摄像头及高速接口设计注意事项"
 ---
 
 # 硬件设计

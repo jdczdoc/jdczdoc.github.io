@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: 产品介绍
-description: X3288BV4 主板产品介绍、核心板特性和硬件规格
+description: x3288bv4 主板产品介绍、核心板特性和硬件规格
 ---
 
 # 产品介绍

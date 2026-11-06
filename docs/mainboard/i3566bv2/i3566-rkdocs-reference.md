@@ -1,7 +1,7 @@
 ---
 sidebar_position: 11
 title: RKDocs 文档索引
-description: I3566 Android 平台 RKDocs 参考文档分类
+description: i3566 Android 平台 RKDocs 参考文档分类
 ---
 
 # RKDocs 文档索引

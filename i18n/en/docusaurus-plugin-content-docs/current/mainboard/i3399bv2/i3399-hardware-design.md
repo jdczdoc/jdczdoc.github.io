@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: Hardware Design
-description: I3399BV2 power, USB, HDMI, EDP, and MIPI design notes
+description: i3399bv2 power, USB, HDMI, EDP, and MIPI design notes
 ---
 
 # Hardware Design

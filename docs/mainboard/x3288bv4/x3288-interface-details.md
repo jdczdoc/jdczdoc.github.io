@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: 接口说明
-description: X3288BV4 主板外设接口说明
+description: x3288bv4 主板外设接口说明
 ---
 
 # 接口说明

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Interface Details
-description: I3566 power, UART, HDMI, Ethernet, audio, USB, display, and expansion interface notes
+description: i3566 power, UART, HDMI, Ethernet, audio, USB, display, and expansion interface notes
 ---
 
 # Interface Details

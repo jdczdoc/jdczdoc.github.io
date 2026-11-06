@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Size and Specifications
-description: X3588S mini ITX board size and full specifications
+description: x3588s mini ITX board size and full specifications
 ---
 
 # Size and Specifications

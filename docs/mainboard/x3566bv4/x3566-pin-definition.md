@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: 核心板引脚定义
-description: X3566CV2 核心板 200PIN 引脚定义
+description: x3566cv2 核心板 200PIN 引脚定义
 ---
 
 # 核心板引脚定义

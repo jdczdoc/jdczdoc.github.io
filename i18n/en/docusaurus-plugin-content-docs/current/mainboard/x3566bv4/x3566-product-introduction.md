@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Product Introduction
-description: X3566 development board overview, features, core-board parameters, and software resources
+description: x3566 development board overview, features, core-board parameters, and software resources
 ---
 
 # Product Introduction

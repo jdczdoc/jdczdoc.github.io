@@ -1,7 +1,7 @@
 ---
 title: 产品介绍
 sidebar_position: 2
-description: X733BV2 开发板与 A733 平台概览
+description: x733bv2 开发板与 A733 平台概览
 ---
 # 产品介绍
 

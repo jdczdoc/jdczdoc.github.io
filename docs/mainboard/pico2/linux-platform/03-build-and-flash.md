@@ -2,7 +2,7 @@
 title: 编译与烧录
 sidebar_label: 编译与烧录
 sidebar_position: 3
-description: PICO2 Linux SDK源码安装、方案选择、整体编译、固件打包和烧录。
+description: pico2 Linux SDK源码安装、方案选择、整体编译、固件打包和烧录。
 ---
 
 # 编译与烧录

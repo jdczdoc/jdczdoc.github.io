@@ -1,7 +1,7 @@
 ---
 sidebar_position: 9
 title: Android 使用指南
-description: X30 Android 常用功能操作
+description: x30 Android 常用功能操作
 ---
 
 # Android 使用指南

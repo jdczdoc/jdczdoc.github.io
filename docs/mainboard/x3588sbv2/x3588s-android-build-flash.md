@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: Android 编译与烧录
-description: X3588S mini ITX Android 12 源码、编译、设备树、分区和烧录
+description: x3588s mini ITX Android 12 源码、编译、设备树、分区和烧录
 ---
 
 # Android 编译与烧录

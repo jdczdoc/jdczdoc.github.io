@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: 硬件设计
-description: X30/PX30 底板设计要点，包括 DDR、Flash、摄像头、显示、音频、SDIO、电源、USB 和 MIPI
+description: x30/PX30 底板设计要点，包括 DDR、Flash、摄像头、显示、音频、SDIO、电源、USB 和 MIPI
 ---
 
 # 硬件设计

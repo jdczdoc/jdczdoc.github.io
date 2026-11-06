@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: Linux Build and Flash
-description: I3588 Linux source build and firmware flashing
+description: i3588 Linux source build and firmware flashing
 ---
 
 # Linux Build and Flash

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: 引脚定义
-description: i6818CV3 核心板 CON1、CON4、J32 和 J31 引脚定义
+description: i6818cv3 核心板 CON1、CON4、J32 和 J31 引脚定义
 ---
 
 # 引脚定义

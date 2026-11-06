@@ -1,9 +1,9 @@
 {
-  "label": "X507开发板",
+  "label": "x507开发板",
   "position": 50,
   "link": {
-	    "type": "generated-index",
-    "title": "X507开发板",
-    "description": "X507开发板产品、硬件资源、接口、系统编译和使用文档。"
+    "type": "generated-index",
+    "title": "x507开发板",
+    "description": "x507开发板产品、硬件资源、接口、系统编译和使用文档。"
   }
 }

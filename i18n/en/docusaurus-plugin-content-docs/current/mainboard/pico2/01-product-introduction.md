@@ -2,7 +2,7 @@
 title: Product Introduction
 sidebar_label: Product Introduction
 sidebar_position: 1
-description: Product positioning, processor capabilities, specifications, and software resources of PICO2.
+description: Product positioning, processor capabilities, specifications, and software resources of pico2.
 ---
 
 # Product Introduction

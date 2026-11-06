@@ -1,7 +1,7 @@
 ---
 title: Android测试与系统信息
 sidebar_position: 8
-description: X8390/X8370 Android硬件测试项目和常用系统信息查询命令。
+description: x8390/x8370 Android硬件测试项目和常用系统信息查询命令。
 ---
 
 # Android测试与系统信息

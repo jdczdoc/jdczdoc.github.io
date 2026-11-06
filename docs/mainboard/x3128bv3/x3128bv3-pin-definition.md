@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: 引脚定义
-description: X3128CV4 144PIN 核心板引脚定义
+description: x3128cv4 144PIN 核心板引脚定义
 ---
 
 # 引脚定义

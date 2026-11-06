@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: 硬件资源
-description: X3566 开发板接口位置、接口描述和硬件资源表
+description: x3566 开发板接口位置、接口描述和硬件资源表
 ---
 
 # 硬件资源

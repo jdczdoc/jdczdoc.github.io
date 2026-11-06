@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Interface Details
-description: X3288BV4 connector usage and interface notes
+description: x3288bv4 connector usage and interface notes
 ---
 
 # Interface Details

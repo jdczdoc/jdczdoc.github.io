@@ -1,7 +1,7 @@
 ---
 sidebar_position: 11
 title: 配置清单
-description: X8385 开发板标配和选配硬件清单
+description: x8385 开发板标配和选配硬件清单
 ---
 
 # 配置清单

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 8
 title: Android 测试与驱动
-description: X3588S mini ITX Android 测试程序、驱动入口和 proc 查询
+description: x3588s mini ITX Android 测试程序、驱动入口和 proc 查询
 ---
 
 # Android 测试与驱动

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 12
 title: Linux 开发示例
-description: I3399 Linux 底层开发和应用开发常用示例
+description: i3399 Linux 底层开发和应用开发常用示例
 ---
 
 # Linux 开发示例

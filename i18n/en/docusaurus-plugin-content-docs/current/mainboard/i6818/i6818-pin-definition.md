@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Pin Definition
-description: i6818CV3 core-board CON1, CON4, J32, and J31 pin definitions
+description: i6818cv3 core-board CON1, CON4, J32, and J31 pin definitions
 ---
 
 # Pin Definition

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 8
 title: Android Build and Flash
-description: I3566 Android 11 development environment, source build, image output, and flashing
+description: i3566 Android 11 development environment, source build, image output, and flashing
 ---
 
 # Android Build and Flash

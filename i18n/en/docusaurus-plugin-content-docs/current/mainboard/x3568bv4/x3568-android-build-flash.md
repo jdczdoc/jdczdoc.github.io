@@ -1,7 +1,7 @@
 ---
 sidebar_position: 7
 title: Android Build and Flash
-description: X3568 Android11 source installation, build, and firmware flashing
+description: x3568 Android11 source installation, build, and firmware flashing
 ---
 
 # Android Build and Flash

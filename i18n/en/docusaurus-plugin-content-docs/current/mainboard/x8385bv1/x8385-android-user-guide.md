@@ -1,7 +1,7 @@
 ---
 sidebar_position: 8
 title: Android User Guide
-description: X8385 Android common feature usage
+description: x8385 Android common feature usage
 ---
 
 # Android User Guide

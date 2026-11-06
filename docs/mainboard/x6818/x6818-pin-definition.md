@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: 引脚定义
-description: X6818 核心板和扩展接口完整引脚定义
+description: x6818 核心板和扩展接口完整引脚定义
 ---
 
 # 引脚定义

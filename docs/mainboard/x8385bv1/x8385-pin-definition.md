@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: 引脚定义
-description: X8385CV1 168PIN 核心板引脚定义
+description: x8385cv1 168PIN 核心板引脚定义
 ---
 
 # 引脚定义

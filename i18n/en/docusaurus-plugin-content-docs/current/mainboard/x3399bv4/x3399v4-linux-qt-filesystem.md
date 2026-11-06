@@ -1,7 +1,7 @@
 ---
 sidebar_position: 11
 title: Linux Qt Filesystem
-description: X3399V4 Buildroot, Qt5 examples, and Qt Creator setup
+description: x3399v4 Buildroot, Qt5 examples, and Qt Creator setup
 ---
 
 # Linux Qt Filesystem

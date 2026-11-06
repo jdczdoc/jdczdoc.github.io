@@ -1,7 +1,7 @@
 ---
 title: 配置清单
 sidebar_position: 4
-description: "X821V30标准配置和选配附件"
+description: "x821v30标准配置和选配附件"
 ---
 
 # 配置清单

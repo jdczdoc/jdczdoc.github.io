@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Product Introduction
-description: X3588S mini ITX mainboard overview, features, and core-board parameters
+description: x3588s mini ITX mainboard overview, features, and core-board parameters
 ---
 
 # Product Introduction

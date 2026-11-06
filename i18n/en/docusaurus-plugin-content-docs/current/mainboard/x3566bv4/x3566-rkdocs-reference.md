@@ -1,7 +1,7 @@
 ---
 sidebar_position: 10
 title: RKDocs Reference
-description: X3566 Android RKDocs reference categories
+description: x3566 Android RKDocs reference categories
 ---
 
 # RKDocs Reference

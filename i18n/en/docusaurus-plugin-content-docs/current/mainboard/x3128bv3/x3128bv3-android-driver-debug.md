@@ -1,7 +1,7 @@
 ---
 sidebar_position: 12
 title: Driver and Debugging
-description: X3128 Android kernel information query and common project modifications
+description: x3128 Android kernel information query and common project modifications
 ---
 
 # Driver and Debugging

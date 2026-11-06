@@ -1,7 +1,7 @@
 ---
 sidebar_position: 13
 title: Technical Support
-description: X8385 technical support and sales service information
+description: x8385 technical support and sales service information
 ---
 
 # Technical Support

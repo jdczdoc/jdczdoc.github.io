@@ -2,7 +2,7 @@
 title: Hardware Resources
 sidebar_label: Hardware Resources
 sidebar_position: 2
-description: Front-side, back-side, and onboard hardware resources of PICO2.
+description: Front-side, back-side, and onboard hardware resources of pico2.
 ---
 
 # Hardware Resources

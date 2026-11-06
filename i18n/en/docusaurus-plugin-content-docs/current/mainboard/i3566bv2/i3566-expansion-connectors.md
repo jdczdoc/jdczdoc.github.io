@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: Expansion Connector Definition
-description: I3566 PH connectors, GPIO, UART, display, backlight, and USB expansion connector definitions
+description: i3566 PH connectors, GPIO, UART, display, backlight, and USB expansion connector definitions
 ---
 
 # Expansion Connector Definition

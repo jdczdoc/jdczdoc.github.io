@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: 接口说明
-description: X3568V4 主板外部接口说明
+description: x3568v4 主板外部接口说明
 ---
 
 # 接口说明

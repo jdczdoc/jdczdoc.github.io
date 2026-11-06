@@ -1,7 +1,7 @@
 ---
 sidebar_position: 8
 title: Android Build and Flash
-description: X30 Android 8.1 development environment, source build, image output, and flashing
+description: x30 Android 8.1 development environment, source build, image output, and flashing
 ---
 
 # Android Build and Flash

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 9
 title: Android Test and Driver
-description: X3399V4 Android test application, driver entries, and proc queries
+description: x3399v4 Android test application, driver entries, and proc queries
 ---
 
 # Android Test and Driver

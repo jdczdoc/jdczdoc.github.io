@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Product Introduction
-description: X30 development board overview, PX30 features, core-board parameters, and software resources
+description: x30 development board overview, PX30 features, core-board parameters, and software resources
 ---
 
 # Product Introduction

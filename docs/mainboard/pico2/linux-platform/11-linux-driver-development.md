@@ -2,7 +2,7 @@
 title: Linux内核驱动开发
 sidebar_label: Linux内核驱动开发
 sidebar_position: 11
-description: PICO2 Linux驱动架构、Kconfig/Makefile、Device Tree和用户空间接口。
+description: pico2 Linux驱动架构、Kconfig/Makefile、Device Tree和用户空间接口。
 ---
 
 # Linux内核驱动开发

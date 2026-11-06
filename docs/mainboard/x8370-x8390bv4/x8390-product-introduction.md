@@ -1,7 +1,7 @@
 ---
 title: 产品介绍
 sidebar_position: 1
-description: X8390/X8370开发板处理器、硬件规格、接口和结构参数。
+description: x8390/x8370开发板处理器、硬件规格、接口和结构参数。
 ---
 
 # 产品介绍

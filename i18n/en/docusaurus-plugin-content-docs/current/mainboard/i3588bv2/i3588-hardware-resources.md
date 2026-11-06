@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Hardware Resources
-description: I3588 mainboard hardware interface overview
+description: i3588 mainboard hardware interface overview
 ---
 
 # Hardware Resources

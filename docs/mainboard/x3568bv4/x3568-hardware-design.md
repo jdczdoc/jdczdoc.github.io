@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: 硬件设计
-description: X3568V4 电源、USB、显示、摄像头、以太网和高速接口设计注意事项
+description: x3568v4 电源、USB、显示、摄像头、以太网和高速接口设计注意事项
 ---
 
 # 硬件设计

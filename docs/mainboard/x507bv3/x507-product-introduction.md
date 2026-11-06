@@ -1,7 +1,7 @@
 ---
 title: 产品介绍
 sidebar_position: 1
-description: "X507开发板产品特性、核心板规格、接口参数和软件资源"
+description: "x507开发板产品特性、核心板规格、接口参数和软件资源"
 ---
 
 # 产品介绍

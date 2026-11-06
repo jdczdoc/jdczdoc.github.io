@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: 产品介绍
-description: X3128BV3 主板产品简介、功能特性和特性参数
+description: x3128bv3 主板产品简介、功能特性和特性参数
 ---
 
 # 产品介绍

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Interface Details
-description: X3588S mini ITX external interface descriptions
+description: x3588s mini ITX external interface descriptions
 ---
 
 # Interface Details

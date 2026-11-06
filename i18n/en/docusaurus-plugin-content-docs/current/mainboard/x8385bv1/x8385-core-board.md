@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Core Board
-description: X8385CV1 core board features, appearance, dimensions, and specifications
+description: x8385cv1 core board features, appearance, dimensions, and specifications
 ---
 
 # Core Board

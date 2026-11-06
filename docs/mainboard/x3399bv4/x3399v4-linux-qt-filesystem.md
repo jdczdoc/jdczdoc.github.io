@@ -1,7 +1,7 @@
 ---
 sidebar_position: 11
 title: Linux Qt 文件系统
-description: X3399V4 buildroot、Qt5 示例和 Qt Creator 配置
+description: x3399v4 buildroot、Qt5 示例和 Qt Creator 配置
 ---
 
 # Linux Qt 文件系统

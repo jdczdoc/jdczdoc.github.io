@@ -1,7 +1,7 @@
 ---
 title: 配置清单
 sidebar_position: 6
-description: "X507开发板标配和选配硬件清单"
+description: "x507开发板标配和选配硬件清单"
 ---
 
 # 配置清单

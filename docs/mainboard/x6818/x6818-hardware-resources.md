@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: 硬件资源
-description: X6818 开发板硬件接口图和硬件资源表
+description: x6818 开发板硬件接口图和硬件资源表
 ---
 
 # 硬件资源

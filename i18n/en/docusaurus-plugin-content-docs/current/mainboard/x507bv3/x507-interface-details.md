@@ -1,7 +1,7 @@
 ---
 title: Interface Details
 sidebar_position: 4
-description: "Locations, functions, and notes for X507 hardware interfaces"
+description: "Locations, functions, and notes for x507 hardware interfaces"
 ---
 
 

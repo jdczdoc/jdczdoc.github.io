@@ -1,7 +1,7 @@
 ---
 sidebar_position: 12
 title: Linux Development Examples
-description: X3568 Linux common commands, proc queries, and debug entry points
+description: x3568 Linux common commands, proc queries, and debug entry points
 ---
 
 # Linux Development Examples

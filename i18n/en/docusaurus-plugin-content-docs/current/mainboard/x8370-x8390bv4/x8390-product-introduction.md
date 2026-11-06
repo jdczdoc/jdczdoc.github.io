@@ -1,7 +1,7 @@
 ---
 title: Product Introduction
 sidebar_position: 1
-description: X8390/X8370 development-board processors, hardware specifications, interfaces, and dimensions.
+description: x8390/x8370 development-board processors, hardware specifications, interfaces, and dimensions.
 ---
 
 # Product Introduction

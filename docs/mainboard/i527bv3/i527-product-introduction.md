@@ -1,7 +1,7 @@
 ---
 title: 产品介绍
 sidebar_position: 2
-description: I527BV3 开发板与 X527CV2 核心板概览
+description: i527bv3 开发板与 x527cv2 核心板概览
 ---
 # 产品介绍
 

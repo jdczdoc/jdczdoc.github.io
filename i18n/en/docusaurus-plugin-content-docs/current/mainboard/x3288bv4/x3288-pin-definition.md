@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Pin Definition
-description: X3288CV4 180-pin core-board pin definition
+description: x3288cv4 180-pin core-board pin definition
 ---
 
 # Pin Definition

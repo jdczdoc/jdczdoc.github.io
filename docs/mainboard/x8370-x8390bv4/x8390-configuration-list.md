@@ -1,7 +1,7 @@
 ---
 title: 配置清单
 sidebar_position: 4
-description: X8390/X8370开发板标配和选配硬件清单。
+description: x8390/x8370开发板标配和选配硬件清单。
 ---
 
 # 配置清单

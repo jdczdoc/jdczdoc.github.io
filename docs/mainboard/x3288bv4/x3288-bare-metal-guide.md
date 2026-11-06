@@ -1,7 +1,7 @@
 ---
 sidebar_position: 13
 title: 裸机开发
-description: X3288 裸机开发环境、启动方式和实验列表
+description: x3288 裸机开发环境、启动方式和实验列表
 ---
 
 # 裸机开发

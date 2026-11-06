@@ -1,7 +1,7 @@
 ---
 title: Linux Build and Flashing
 sidebar_position: 10
-description: "X507 Linux source retrieval, dependencies, Buildroot build, packaging, and PhoenixSuit flashing"
+description: "x507 Linux source retrieval, dependencies, Buildroot build, packaging, and PhoenixSuit flashing"
 ---
 
 # Linux Build and Flashing

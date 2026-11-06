@@ -1,8 +1,8 @@
 {
-  "label": "X3128 Core Board",
+  "label": "x3128 Core Board",
   "position": 3,
   "link": {
     "type": "generated-index",
-    "description": "X3128 Core Board Documents"
+    "description": "x3128 Core Board Documents"
   }
 }

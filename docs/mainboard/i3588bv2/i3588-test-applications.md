@@ -1,7 +1,7 @@
 ---
 sidebar_position: 8
 title: 测试程序
-description: I3588 Android 测试程序说明
+description: i3588 Android 测试程序说明
 ---
 
 # 测试程序

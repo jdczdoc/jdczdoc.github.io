@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: 产品介绍
-description: X8385 开发板简介、功能特性和规格概览
+description: x8385 开发板简介、功能特性和规格概览
 ---
 
 # 产品介绍

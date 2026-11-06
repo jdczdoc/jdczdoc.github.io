@@ -2,7 +2,7 @@
 title: 常用系统模块
 sidebar_label: 常用系统模块
 sidebar_position: 9
-description: PICO2登录、Boot、UART、GPIO、EMAC、Wi-Fi、GPADC、PWM和低功耗配置。
+description: pico2登录、Boot、UART、GPIO、EMAC、Wi-Fi、GPADC、PWM和低功耗配置。
 ---
 
 # 常用系统模块

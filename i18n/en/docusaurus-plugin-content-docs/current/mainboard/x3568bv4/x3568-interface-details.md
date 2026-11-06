@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Interface Details
-description: X3568V4 external interface descriptions
+description: x3568v4 external interface descriptions
 ---
 
 # Interface Details

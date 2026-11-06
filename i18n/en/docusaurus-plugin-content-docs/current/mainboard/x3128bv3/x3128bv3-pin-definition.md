@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Pin Definition
-description: X3128CV4 144-pin core board pin definition
+description: x3128cv4 144-pin core board pin definition
 ---
 
 # Pin Definition

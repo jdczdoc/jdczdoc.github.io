@@ -1,7 +1,7 @@
 ---
 sidebar_position: 11
 title: Linux QT 文件系统
-description: X3288 buildroot、QT5 示例、QT Creator 和 QT_demo 测试
+description: x3288 buildroot、QT5 示例、QT Creator 和 QT_demo 测试
 ---
 
 # Linux QT 文件系统

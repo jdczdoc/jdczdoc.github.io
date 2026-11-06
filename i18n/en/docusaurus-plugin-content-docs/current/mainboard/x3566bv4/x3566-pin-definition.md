@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Core Board Pin Definition
-description: X3566CV2 200-pin core-board pin definition
+description: x3566cv2 200-pin core-board pin definition
 ---
 
 # Core Board Pin Definition

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Interface Details
-description: I3399BV2 connector usage and hardware notes
+description: i3399bv2 connector usage and hardware notes
 ---
 
 # Interface Details

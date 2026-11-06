@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Hardware Resources
-description: X30 connector locations, hardware interface list, and board resources
+description: x30 connector locations, hardware interface list, and board resources
 ---
 
 # Hardware Resources

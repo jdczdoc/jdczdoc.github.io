@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: Android 开发环境
-description: X8385 Android 开发环境、adb 和串口工具
+description: x8385 Android 开发环境、adb 和串口工具
 ---
 
 # Android 开发环境

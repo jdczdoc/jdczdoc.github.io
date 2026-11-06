@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: 软件资源
-description: X8385 开发板 Android / Linux 软件资源和驱动支持表
+description: x8385 开发板 Android / Linux 软件资源和驱动支持表
 ---
 
 # 软件资源

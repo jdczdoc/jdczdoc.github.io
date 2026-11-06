@@ -1,7 +1,7 @@
 ---
 sidebar_position: 9
 title: Android Test and Driver
-description: X3288 Android test application, driver entry points, and common proc queries
+description: x3288 Android test application, driver entry points, and common proc queries
 ---
 
 # Android Test and Driver

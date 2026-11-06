@@ -1,7 +1,7 @@
 ---
 sidebar_position: 9
 title: Android Test and Driver
-description: I3399 Android test application, driver entries, and proc queries
+description: i3399 Android test application, driver entries, and proc queries
 ---
 
 # Android Test and Driver

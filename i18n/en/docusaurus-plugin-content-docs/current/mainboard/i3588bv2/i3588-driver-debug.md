@@ -1,7 +1,7 @@
 ---
 sidebar_position: 9
 title: Driver and Debug
-description: I3588 Android and Linux driver paths and debug commands
+description: i3588 Android and Linux driver paths and debug commands
 ---
 
 # Driver and Debug

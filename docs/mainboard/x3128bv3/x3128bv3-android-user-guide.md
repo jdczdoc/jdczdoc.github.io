@@ -1,7 +1,7 @@
 ---
 sidebar_position: 10
 title: Android 使用指南
-description: X3128 Android 常用功能使用说明
+description: x3128 Android 常用功能使用说明
 ---
 
 # Android 使用指南

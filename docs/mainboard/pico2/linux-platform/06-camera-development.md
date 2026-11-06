@@ -2,7 +2,7 @@
 title: Camera驱动适配
 sidebar_label: Camera驱动适配
 sidebar_position: 6
-description: PICO2 VIN、MIPI CSI、Sensor驱动、设备树和摄像头切换流程。
+description: pico2 VIN、MIPI CSI、Sensor驱动、设备树和摄像头切换流程。
 ---
 
 # Camera驱动适配

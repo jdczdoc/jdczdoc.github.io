@@ -1,7 +1,7 @@
 ---
 sidebar_position: 7
 title: 配置清单
-description: I3566 标配和选配硬件清单
+description: i3566 标配和选配硬件清单
 ---
 
 # 配置清单

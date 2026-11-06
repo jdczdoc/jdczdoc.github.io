@@ -1,7 +1,7 @@
 ---
 title: Product Introduction
 sidebar_position: 1
-description: "X507 product features, core-module specifications, interfaces, and software resources"
+description: "x507 product features, core-module specifications, interfaces, and software resources"
 ---
 
 # Product Introduction

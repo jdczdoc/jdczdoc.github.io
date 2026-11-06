@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: 配置清单
-description: X3588S mini ITX 主板标配和选配硬件清单
+description: x3588s mini ITX 主板标配和选配硬件清单
 ---
 
 # 配置清单

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: 硬件资源
-description: I3566 主板硬件接口位置图和硬件接口列表
+description: i3566 主板硬件接口位置图和硬件接口列表
 ---
 
 # 硬件资源

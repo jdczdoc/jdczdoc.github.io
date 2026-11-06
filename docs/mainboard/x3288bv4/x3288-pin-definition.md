@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: 引脚定义
-description: X3288CV4 核心板 180PIN 引脚定义
+description: x3288cv4 核心板 180PIN 引脚定义
 ---
 
 # 引脚定义

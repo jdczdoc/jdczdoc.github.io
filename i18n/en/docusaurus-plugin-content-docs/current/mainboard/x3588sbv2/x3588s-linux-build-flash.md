@@ -1,7 +1,7 @@
 ---
 sidebar_position: 9
 title: Linux Build and Flash
-description: X3588S mini ITX Linux SDK build, image files, and flashing
+description: x3588s mini ITX Linux SDK build, image files, and flashing
 ---
 
 # Linux Build and Flash

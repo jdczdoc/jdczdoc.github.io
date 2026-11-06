@@ -1,7 +1,7 @@
 ---
 title: Development Environment
 sidebar_position: 5
-description: "X821 Linux host setup, Ubuntu dependencies, and file-transfer tools"
+description: "x821 Linux host setup, Ubuntu dependencies, and file-transfer tools"
 ---
 
 # Development Environment

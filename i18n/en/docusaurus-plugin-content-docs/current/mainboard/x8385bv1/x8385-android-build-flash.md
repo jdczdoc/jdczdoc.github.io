@@ -1,7 +1,7 @@
 ---
 sidebar_position: 7
 title: Android Build and Flash
-description: X8385 Android 13 source build and SP Flash Tool flashing flow
+description: x8385 Android 13 source build and SP Flash Tool flashing flow
 ---
 
 # Android Build and Flash

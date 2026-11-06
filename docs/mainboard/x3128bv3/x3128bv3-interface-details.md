@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: 接口说明
-description: X3128BV3 主板硬件接口说明
+description: x3128bv3 主板硬件接口说明
 ---
 
 # 接口说明

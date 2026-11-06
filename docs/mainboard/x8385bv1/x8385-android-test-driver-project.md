@@ -1,7 +1,7 @@
 ---
 sidebar_position: 9
 title: Android 测试与驱动
-description: X8385 Android 测试项目、内核驱动和开发实战
+description: x8385 Android 测试项目、内核驱动和开发实战
 ---
 
 # Android 测试与驱动

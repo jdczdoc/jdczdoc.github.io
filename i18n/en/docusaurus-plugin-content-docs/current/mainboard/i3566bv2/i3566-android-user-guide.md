@@ -1,7 +1,7 @@
 ---
 sidebar_position: 9
 title: Android User Guide
-description: I3566 Android common operations
+description: i3566 Android common operations
 ---
 
 # Android User Guide

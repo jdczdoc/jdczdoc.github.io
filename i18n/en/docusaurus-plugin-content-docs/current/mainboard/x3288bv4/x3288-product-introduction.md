@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Product Introduction
-description: X3288BV4 mainboard introduction, core board features, and hardware specifications
+description: x3288bv4 mainboard introduction, core board features, and hardware specifications
 ---
 
 # Product Introduction

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: Linux 编译与烧录
-description: I3588 Linux 源码安装、编译和烧录
+description: i3588 Linux 源码安装、编译和烧录
 ---
 
 # Linux 编译与烧录

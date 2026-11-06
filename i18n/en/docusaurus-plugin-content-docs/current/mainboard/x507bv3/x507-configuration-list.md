@@ -1,7 +1,7 @@
 ---
 title: Package Contents
 sidebar_position: 6
-description: "Standard and optional X507 development-board accessories"
+description: "Standard and optional x507 development-board accessories"
 ---
 
 # Package Contents

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 11
 title: Linux QT Filesystem
-description: X3288 Buildroot, QT5 examples, QT Creator, and QT_demo tests
+description: x3288 Buildroot, QT5 examples, QT Creator, and QT_demo tests
 ---
 
 # Linux QT Filesystem

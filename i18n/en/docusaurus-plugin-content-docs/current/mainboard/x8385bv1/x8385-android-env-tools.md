@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: Android Development Environment
-description: X8385 Android development environment, adb, and serial tools
+description: x8385 Android development environment, adb, and serial tools
 ---
 
 # Android Development Environment

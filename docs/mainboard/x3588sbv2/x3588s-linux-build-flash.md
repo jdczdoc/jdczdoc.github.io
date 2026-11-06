@@ -1,7 +1,7 @@
 ---
 sidebar_position: 9
 title: Linux 编译与烧录
-description: X3588S mini ITX Linux SDK 编译、镜像说明和烧录
+description: x3588s mini ITX Linux SDK 编译、镜像说明和烧录
 ---
 
 # Linux 编译与烧录

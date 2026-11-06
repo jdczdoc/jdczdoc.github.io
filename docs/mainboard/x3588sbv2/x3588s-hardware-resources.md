@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: 硬件资源
-description: X3588S mini ITX 主板硬件接口总览和驱动支持列表
+description: x3588s mini ITX 主板硬件接口总览和驱动支持列表
 ---
 
 # 硬件资源

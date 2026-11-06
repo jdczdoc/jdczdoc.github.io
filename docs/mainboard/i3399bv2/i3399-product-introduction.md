@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: 产品介绍
-description: I3399BV2 主板产品介绍、核心板特性和硬件规格
+description: i3399bv2 主板产品介绍、核心板特性和硬件规格
 ---
 
 # 产品介绍

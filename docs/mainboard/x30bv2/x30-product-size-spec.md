@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: 尺寸与规格
-description: X30CV1/X30CV2 核心板结构尺寸和规格参数
+description: x30cv1/x30cv2 核心板结构尺寸和规格参数
 ---
 
 # 尺寸与规格

@@ -1,7 +1,7 @@
 ---
 title: Interface Definitions
 sidebar_position: 3
-description: "X821V30 power, UART, audio, touch, LCD, and camera pin definitions"
+description: "x821v30 power, UART, audio, touch, LCD, and camera pin definitions"
 ---
 
 # Interface Definitions

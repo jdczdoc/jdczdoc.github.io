@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Product Introduction
-description: X3399V4 development board overview, features, core-board characteristics, and software resources
+description: x3399v4 development board overview, features, core-board characteristics, and software resources
 ---
 
 # Product Introduction

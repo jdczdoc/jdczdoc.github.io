@@ -1,7 +1,7 @@
 ---
 sidebar_position: 11
 title: Configuration List
-description: X8385 standard and optional hardware list
+description: x8385 standard and optional hardware list
 ---
 
 # Configuration List

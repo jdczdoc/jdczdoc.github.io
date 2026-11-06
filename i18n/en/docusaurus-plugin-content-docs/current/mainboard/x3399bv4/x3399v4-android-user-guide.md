@@ -1,7 +1,7 @@
 ---
 sidebar_position: 8
 title: Android User Guide
-description: X3399V4 Android common function usage
+description: x3399v4 Android common function usage
 ---
 
 # Android User Guide

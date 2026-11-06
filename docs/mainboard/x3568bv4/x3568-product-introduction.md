@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: 产品介绍
-description: X3568V4 主板产品介绍、核心板特性和硬件规格
+description: x3568v4 主板产品介绍、核心板特性和硬件规格
 ---
 
 # 产品介绍

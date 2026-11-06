@@ -1,7 +1,7 @@
 ---
 sidebar_position: 7
 title: Android 编译与烧录
-description: I3399 Android 7.1 开发工具、源码安装、编译和固件烧录
+description: i3399 Android 7.1 开发工具、源码安装、编译和固件烧录
 ---
 
 # Android 编译与烧录

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: 产品介绍
-description: I3588 主板产品介绍、功能特性、核心板规格和软件资源
+description: i3588 主板产品介绍、功能特性、核心板规格和软件资源
 ---
 
 # 产品介绍

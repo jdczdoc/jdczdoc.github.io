@@ -1,7 +1,7 @@
 ---
 title: FAQ
 sidebar_position: 18
-description: "Common X821V30 hardware, provisioning, display, camera, and development questions"
+description: "Common x821v30 hardware, provisioning, display, camera, and development questions"
 ---
 
 # FAQ

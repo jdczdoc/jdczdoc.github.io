@@ -2,7 +2,7 @@
 title: 硬件资源
 sidebar_label: 硬件资源
 sidebar_position: 2
-description: PICO2开发板正反面硬件接口和板载资源说明。
+description: pico2开发板正反面硬件接口和板载资源说明。
 ---
 
 # 硬件资源

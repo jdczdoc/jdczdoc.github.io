@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: Size and Specifications
-description: X3566CV2 core-board size, structure, and specifications
+description: x3566cv2 core-board size, structure, and specifications
 ---
 
 # Size and Specifications

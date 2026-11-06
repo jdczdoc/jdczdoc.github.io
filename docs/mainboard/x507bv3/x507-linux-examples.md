@@ -1,7 +1,7 @@
 ---
 title: Linux功能示例
 sidebar_position: 12
-description: "X507 Linux TF卡、音频、U盘和以太网基础操作示例"
+description: "x507 Linux TF卡、音频、U盘和以太网基础操作示例"
 ---
 
 # Linux功能示例

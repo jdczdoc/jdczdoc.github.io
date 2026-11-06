@@ -1,7 +1,7 @@
 ---
 sidebar_position: 9
 title: Android 使用指南
-description: I3566 Android 常用功能操作
+description: i3566 Android 常用功能操作
 ---
 
 # Android 使用指南

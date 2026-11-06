@@ -1,7 +1,7 @@
 ---
 title: 接口定义
 sidebar_position: 3
-description: "X821V30电源、串口、音频、触摸、LCD和摄像头引脚定义"
+description: "x821v30电源、串口、音频、触摸、LCD和摄像头引脚定义"
 ---
 
 # 接口定义

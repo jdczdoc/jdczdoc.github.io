@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: Configuration List
-description: X3566 standard and optional hardware list
+description: x3566 standard and optional hardware list
 ---
 
 # Configuration List

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 8
 title: Android User Guide
-description: I3399 Android common function usage
+description: i3399 Android common function usage
 ---
 
 # Android User Guide

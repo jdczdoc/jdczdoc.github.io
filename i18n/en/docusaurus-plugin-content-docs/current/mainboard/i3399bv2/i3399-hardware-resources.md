@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Hardware Resources
-description: I3399BV2 hardware interface overview and driver support list
+description: i3399bv2 hardware interface overview and driver support list
 ---
 
 # Hardware Resources

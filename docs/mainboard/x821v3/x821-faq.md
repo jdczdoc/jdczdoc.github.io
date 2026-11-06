@@ -1,7 +1,7 @@
 ---
 title: FAQ
 sidebar_position: 18
-description: "X821V30常见硬件、配网、显示、摄像头和开发问题"
+description: "x821v30常见硬件、配网、显示、摄像头和开发问题"
 ---
 
 # FAQ

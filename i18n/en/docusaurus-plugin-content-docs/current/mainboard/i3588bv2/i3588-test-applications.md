@@ -1,7 +1,7 @@
 ---
 sidebar_position: 8
 title: Test Applications
-description: I3588 Android test application guide
+description: i3588 Android test application guide
 ---
 
 # Test Applications

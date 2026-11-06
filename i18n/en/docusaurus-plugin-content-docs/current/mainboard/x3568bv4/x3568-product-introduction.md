@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Product Introduction
-description: X3568V4 mainboard product introduction, core-board features, and hardware specifications
+description: x3568v4 mainboard product introduction, core-board features, and hardware specifications
 ---
 
 # Product Introduction

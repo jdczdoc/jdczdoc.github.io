@@ -1,7 +1,7 @@
 ---
 sidebar_position: 11
 title: Linux Build and Flash
-description: X30/PX30 Linux SDK source, build, image description, boot modes, and flashing tools
+description: x30/PX30 Linux SDK source, build, image description, boot modes, and flashing tools
 ---
 
 # Linux Build and Flash

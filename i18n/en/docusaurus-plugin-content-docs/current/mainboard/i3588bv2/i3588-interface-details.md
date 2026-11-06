@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Interface Details
-description: I3588 mainboard hardware interface descriptions
+description: i3588 mainboard hardware interface descriptions
 ---
 
 # Interface Details

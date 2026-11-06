@@ -1,7 +1,7 @@
 ---
 sidebar_position: 8
 title: Android 编译与烧录
-description: I3566 Android 11 开发环境、源码编译、镜像输出和烧录流程
+description: i3566 Android 11 开发环境、源码编译、镜像输出和烧录流程
 ---
 
 # Android 编译与烧录

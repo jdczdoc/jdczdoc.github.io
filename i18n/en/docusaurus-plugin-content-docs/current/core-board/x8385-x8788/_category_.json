@@ -1,8 +1,8 @@
 {
-  "label": "X8385/X8788 Core Board",
+  "label": "x8385/x8788 Core Board",
   "position": 27,
   "link": {
     "type": "generated-index",
-    "description": "X8385/X8788 Core Board Documents"
+    "description": "x8385/x8788 Core Board Documents"
   }
 }

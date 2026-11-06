@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Hardware Resources
-description: X3288BV4 hardware resources, connector map, and driver support overview
+description: x3288bv4 hardware resources, connector map, and driver support overview
 ---
 
 # Hardware Resources

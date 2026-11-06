@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Pin Definition
-description: Complete X6818 core-board and expansion connector pin definition
+description: Complete x6818 core-board and expansion connector pin definition
 ---
 
 # Pin Definition

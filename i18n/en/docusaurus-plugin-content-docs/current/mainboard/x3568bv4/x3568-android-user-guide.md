@@ -1,7 +1,7 @@
 ---
 sidebar_position: 8
 title: Android User Guide
-description: X3568 Android common function usage
+description: x3568 Android common function usage
 ---
 
 # Android User Guide

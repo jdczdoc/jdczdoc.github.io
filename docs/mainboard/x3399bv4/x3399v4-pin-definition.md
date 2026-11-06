@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: 引脚定义
-description: X3399CV4 200PIN 核心板引脚定义
+description: x3399cv4 200PIN 核心板引脚定义
 ---
 
 # 引脚定义

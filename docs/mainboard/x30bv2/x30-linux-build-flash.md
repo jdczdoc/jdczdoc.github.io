@@ -1,7 +1,7 @@
 ---
 sidebar_position: 11
 title: Linux 编译与烧录
-description: X30/PX30 Linux SDK 获取、编译、镜像说明、烧录模式和烧录工具
+description: x30/PX30 Linux SDK 获取、编译、镜像说明、烧录模式和烧录工具
 ---
 
 # Linux 编译与烧录

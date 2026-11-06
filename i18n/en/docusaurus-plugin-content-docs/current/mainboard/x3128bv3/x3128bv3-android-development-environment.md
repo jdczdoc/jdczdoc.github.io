@@ -1,7 +1,7 @@
 ---
 sidebar_position: 8
 title: Development Environment
-description: X3128 Android development environment, ADB, and serial tools
+description: x3128 Android development environment, ADB, and serial tools
 ---
 
 # Development Environment

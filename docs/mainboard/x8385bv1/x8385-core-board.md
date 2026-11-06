@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: 核心板
-description: X8385CV1 核心板特性、外观、结构尺寸和规格
+description: x8385cv1 核心板特性、外观、结构尺寸和规格
 ---
 
 # 核心板

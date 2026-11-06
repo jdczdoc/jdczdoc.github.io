@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: Interface Details
-description: X3128BV3 hardware interface descriptions
+description: x3128bv3 hardware interface descriptions
 ---
 
 # Interface Details

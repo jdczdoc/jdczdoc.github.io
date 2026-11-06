@@ -1,7 +1,7 @@
 ---
 title: 开发环境搭建
 sidebar_position: 5
-description: "X821 Linux开发主机、Ubuntu、依赖和文件传输工具"
+description: "x821 Linux开发主机、Ubuntu、依赖和文件传输工具"
 ---
 
 # 开发环境搭建

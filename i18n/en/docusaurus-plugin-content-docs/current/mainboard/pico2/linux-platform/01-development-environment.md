@@ -2,7 +2,7 @@
 title: Development Environment
 sidebar_label: Development Environment
 sidebar_position: 1
-description: PICO2 build host, Ubuntu VM, source download, SSH, and file transfer.
+description: pico2 build host, Ubuntu VM, source download, SSH, and file transfer.
 ---
 
 # Development Environment

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 12
 title: Ubuntu 系统
-description: X6818 Ubuntu 12.04 安装、烧写和功能体验
+description: x6818 Ubuntu 12.04 安装、烧写和功能体验
 ---
 
 # Ubuntu 系统

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Hardware Resources
-description: X3128BV3 connector positions and hardware interface list
+description: x3128bv3 connector positions and hardware interface list
 ---
 
 # Hardware Resources

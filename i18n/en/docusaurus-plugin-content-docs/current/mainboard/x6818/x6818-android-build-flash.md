@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: Android Build and Flash
-description: X6818 Android 5.1 environment, source build, boot card, and fastboot flashing
+description: x6818 Android 5.1 environment, source build, boot card, and fastboot flashing
 ---
 
 # Android Build and Flash

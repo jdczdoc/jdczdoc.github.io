@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: 核心板引脚定义
-description: X30CV1/X30CV2 核心板 144PIN 引脚定义
+description: x30cv1/x30cv2 核心板 144PIN 引脚定义
 ---
 
 # 核心板引脚定义

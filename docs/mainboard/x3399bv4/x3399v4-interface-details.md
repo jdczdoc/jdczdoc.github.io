@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: 接口说明
-description: X3399V4 电源、串口、HDMI、Camera、网络、音频、显示和扩展接口说明
+description: x3399v4 电源、串口、HDMI、Camera、网络、音频、显示和扩展接口说明
 ---
 
 # 接口说明

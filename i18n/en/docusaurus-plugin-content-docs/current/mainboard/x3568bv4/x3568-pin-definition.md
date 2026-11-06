@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Pin Definition
-description: X3568CV2 / X3568CV3 core-board 200PIN pin definition
+description: x3568cv2 / x3568cv3 core-board 200PIN pin definition
 ---
 
 # Pin Definition

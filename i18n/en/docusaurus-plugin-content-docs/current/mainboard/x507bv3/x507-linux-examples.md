@@ -1,7 +1,7 @@
 ---
 title: Linux Examples
 sidebar_position: 12
-description: "Basic X507 Linux examples for TF card, audio, USB storage, and Ethernet"
+description: "Basic x507 Linux examples for TF card, audio, USB storage, and Ethernet"
 ---
 
 # Linux Examples

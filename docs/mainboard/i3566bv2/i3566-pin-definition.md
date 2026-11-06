@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: 核心板引脚定义
-description: I3566CV1 172PIN 核心板引脚定义
+description: i3566cv1 172PIN 核心板引脚定义
 ---
 
 # 核心板引脚定义

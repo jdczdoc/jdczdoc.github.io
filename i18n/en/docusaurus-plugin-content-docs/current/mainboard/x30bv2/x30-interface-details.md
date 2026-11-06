@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Interface Details
-description: X30 external interface descriptions and usage notes
+description: x30 external interface descriptions and usage notes
 ---
 
 # Interface Details

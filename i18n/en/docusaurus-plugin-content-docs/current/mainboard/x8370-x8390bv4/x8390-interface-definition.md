@@ -1,7 +1,7 @@
 ---
 title: Interface Definition
 sidebar_position: 3
-description: Power, USB, display, camera, UART, PCIe, and expansion-interface definitions of the X8390/X8370 development board.
+description: Power, USB, display, camera, UART, PCIe, and expansion-interface definitions of the x8390/x8370 development board.
 ---
 
 # Interface Definition

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 10
 title: Qt Root Filesystem
-description: X6818 Qt filesystem setup, Buildroot, Qt5.4 examples, and Qt Creator
+description: x6818 Qt filesystem setup, Buildroot, Qt5.4 examples, and Qt Creator
 ---
 
 # Qt Root Filesystem

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Product Introduction
-description: I3566 mainboard overview, features, core-board characteristics, and software resources
+description: i3566 mainboard overview, features, core-board characteristics, and software resources
 ---
 
 # Product Introduction

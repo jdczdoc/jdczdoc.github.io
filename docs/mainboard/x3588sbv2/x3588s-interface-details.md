@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: 接口说明
-description: X3588S mini ITX 主板外部接口说明
+description: x3588s mini ITX 主板外部接口说明
 ---
 
 # 接口说明

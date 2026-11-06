@@ -1,7 +1,7 @@
 ---
 sidebar_position: 10
 title: Linux 编译与烧录
-description: X3399V4 Linux SDK 获取、编译、镜像说明和固件烧录
+description: x3399v4 Linux SDK 获取、编译、镜像说明和固件烧录
 ---
 
 # Linux 编译与烧录

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: 产品介绍
-description: X6818 开发板产品简介、S5P6818 平台特性和系统参数
+description: x6818 开发板产品简介、S5P6818 平台特性和系统参数
 ---
 
 # 产品介绍

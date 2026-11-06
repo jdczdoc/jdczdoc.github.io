@@ -1,7 +1,7 @@
 ---
 sidebar_position: 9
 title: Android 编译与烧录
-description: X3128 Android 源码安装、编译和固件烧录流程
+description: x3128 Android 源码安装、编译和固件烧录流程
 ---
 
 # Android 编译与烧录

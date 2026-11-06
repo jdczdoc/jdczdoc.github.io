@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Hardware Resources
-description: X6818 board interface map and hardware resource table
+description: x6818 board interface map and hardware resource table
 ---
 
 # Hardware Resources

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 7
 title: Configuration List
-description: X30 standard and optional hardware list
+description: x30 standard and optional hardware list
 ---
 
 # Configuration List

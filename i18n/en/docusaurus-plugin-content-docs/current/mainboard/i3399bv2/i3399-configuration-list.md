@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: Configuration List
-description: I3399BV2 standard and optional hardware list
+description: i3399bv2 standard and optional hardware list
 ---
 
 # Configuration List

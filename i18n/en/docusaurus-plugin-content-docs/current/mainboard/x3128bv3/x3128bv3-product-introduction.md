@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Product Introduction
-description: X3128BV3 mainboard overview, feature highlights, and specifications
+description: x3128bv3 mainboard overview, feature highlights, and specifications
 ---
 
 # Product Introduction

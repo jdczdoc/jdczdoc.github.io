@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: 接口说明
-description: X30 开发板外部接口说明和使用要点
+description: x30 开发板外部接口说明和使用要点
 ---
 
 # 接口说明

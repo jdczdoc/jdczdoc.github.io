@@ -1,7 +1,7 @@
 ---
 sidebar_position: 10
 title: Android Test and Driver
-description: X30 Android test app, driver entries, and proc queries
+description: x30 Android test app, driver entries, and proc queries
 ---
 
 # Android Test and Driver

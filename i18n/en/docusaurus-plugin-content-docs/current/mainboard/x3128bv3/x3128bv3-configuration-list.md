@@ -1,7 +1,7 @@
 ---
 sidebar_position: 7
 title: Configuration List
-description: X3128BV3 standard and optional hardware list
+description: x3128bv3 standard and optional hardware list
 ---
 
 # Configuration List

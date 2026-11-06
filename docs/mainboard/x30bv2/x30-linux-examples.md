@@ -1,7 +1,7 @@
 ---
 sidebar_position: 13
 title: Linux 示例
-description: X30/PX30 Linux 底层开发示例和应用开发示例
+description: x30/PX30 Linux 底层开发示例和应用开发示例
 ---
 
 # Linux 示例

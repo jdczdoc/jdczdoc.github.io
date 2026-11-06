@@ -1,7 +1,7 @@
 ---
 title: Configuration List
 sidebar_position: 4
-description: "X821V30 standard package and optional accessories"
+description: "x821v30 standard package and optional accessories"
 ---
 
 # Configuration List

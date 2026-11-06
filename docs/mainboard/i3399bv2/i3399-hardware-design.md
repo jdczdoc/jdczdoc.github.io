@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: 硬件设计
-description: I3399BV2 电源、USB、HDMI、EDP、MIPI 设计注意事项
+description: i3399bv2 电源、USB、HDMI、EDP、MIPI 设计注意事项
 ---
 
 # 硬件设计

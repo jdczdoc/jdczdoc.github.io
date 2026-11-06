@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Pin Definition
-description: X3399CV5 200-pin core board pin definition
+description: x3399cv5 200-pin core board pin definition
 ---
 
 # Pin Definition

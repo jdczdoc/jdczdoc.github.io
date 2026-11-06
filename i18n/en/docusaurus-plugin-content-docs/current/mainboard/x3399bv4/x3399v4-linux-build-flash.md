@@ -1,7 +1,7 @@
 ---
 sidebar_position: 10
 title: Linux Build and Flash
-description: X3399V4 Linux SDK download, build, image description, and flashing
+description: x3399v4 Linux SDK download, build, image description, and flashing
 ---
 
 # Linux Build and Flash

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 10
 title: Linux Build and Flash
-description: I3399 Linux SDK download, build, image description, and flashing
+description: i3399 Linux SDK download, build, image description, and flashing
 ---
 
 # Linux Build and Flash

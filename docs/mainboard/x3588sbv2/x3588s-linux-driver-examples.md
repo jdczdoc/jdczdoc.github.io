@@ -1,7 +1,7 @@
 ---
 sidebar_position: 10
 title: Linux 驱动与调试
-description: X3588S mini ITX Linux 驱动入口、proc 查询和开发调试示例
+description: x3588s mini ITX Linux 驱动入口、proc 查询和开发调试示例
 ---
 
 # Linux 驱动与调试

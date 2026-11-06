@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Configuration List
-description: X3399V4 standard and optional hardware list
+description: x3399v4 standard and optional hardware list
 ---
 
 # Configuration List

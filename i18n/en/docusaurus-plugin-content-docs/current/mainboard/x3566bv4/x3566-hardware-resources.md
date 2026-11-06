@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Hardware Resources
-description: X3566 board connector locations, interface list, and hardware resources
+description: x3566 board connector locations, interface list, and hardware resources
 ---
 
 # Hardware Resources

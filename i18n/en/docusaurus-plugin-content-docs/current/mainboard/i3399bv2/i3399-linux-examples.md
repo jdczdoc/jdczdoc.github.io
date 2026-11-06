@@ -1,7 +1,7 @@
 ---
 sidebar_position: 12
 title: Linux Development Examples
-description: I3399 Linux command and application development examples
+description: i3399 Linux command and application development examples
 ---
 
 # Linux Development Examples

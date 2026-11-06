@@ -1,7 +1,7 @@
 ---
 sidebar_position: 10
 title: Linux Build and Flash
-description: X3288 Linux QT build, image generation, and firmware flashing
+description: x3288 Linux QT build, image generation, and firmware flashing
 ---
 
 # Linux Build and Flash

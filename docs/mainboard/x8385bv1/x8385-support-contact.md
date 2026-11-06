@@ -1,7 +1,7 @@
 ---
 sidebar_position: 13
 title: 技术支持
-description: X8385 开发板技术支持和销售服务信息
+description: x8385 开发板技术支持和销售服务信息
 ---
 
 # 技术支持

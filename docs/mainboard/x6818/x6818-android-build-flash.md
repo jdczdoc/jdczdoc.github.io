@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: Android 编译与烧录
-description: X6818 Android 5.1 开发环境、源码编译、启动卡和 fastboot 烧录
+description: x6818 Android 5.1 开发环境、源码编译、启动卡和 fastboot 烧录
 ---
 
 # Android 编译与烧录

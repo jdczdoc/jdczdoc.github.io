@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: 接口说明
-description: I3399BV2 外部接口说明和连接注意事项
+description: i3399bv2 外部接口说明和连接注意事项
 ---
 
 # 接口说明

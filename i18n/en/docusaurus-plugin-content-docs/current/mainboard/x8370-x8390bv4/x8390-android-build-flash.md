@@ -1,7 +1,7 @@
 ---
 title: Android Build and Flashing
 sidebar_position: 6
-description: X8390/X8370 Android 13 source build, image packaging, and SP Flash Tool workflow.
+description: x8390/x8370 Android 13 source build, image packaging, and SP Flash Tool workflow.
 ---
 
 # Android Build and Flashing

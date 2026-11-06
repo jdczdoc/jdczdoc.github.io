@@ -1,7 +1,7 @@
 ---
 title: 硬件资源
 sidebar_position: 2
-description: "X507开发板硬件接口布局、接口编号和功能说明"
+description: "x507开发板硬件接口布局、接口编号和功能说明"
 ---
 
 # 硬件资源

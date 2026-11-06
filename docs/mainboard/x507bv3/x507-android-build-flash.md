@@ -1,7 +1,7 @@
 ---
 title: Android编译与烧录
 sidebar_position: 7
-description: "X507 Android 10源码获取、编译、镜像说明、PhoenixSuit和PhoenixCard烧录"
+description: "x507 Android 10源码获取、编译、镜像说明、PhoenixSuit和PhoenixCard烧录"
 ---
 
 # Android编译与烧录

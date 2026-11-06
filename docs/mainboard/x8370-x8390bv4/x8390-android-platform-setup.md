@@ -1,7 +1,7 @@
 ---
 title: Android平台搭建
 sidebar_position: 5
-description: X8390/X8370 Android 13主机环境、依赖包、JDK、ADB和串口工具配置。
+description: x8390/x8370 Android 13主机环境、依赖包、JDK、ADB和串口工具配置。
 ---
 
 # Android平台搭建

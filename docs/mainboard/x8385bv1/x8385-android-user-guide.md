@@ -1,7 +1,7 @@
 ---
 sidebar_position: 8
 title: Android 使用指南
-description: X8385 Android 常用功能使用说明
+description: x8385 Android 常用功能使用说明
 ---
 
 # Android 使用指南

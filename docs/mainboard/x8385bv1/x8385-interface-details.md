@@ -1,7 +1,7 @@
 ---
 sidebar_position: 10
 title: 接口说明
-description: X8385 开发板电源、串口、HDMI、Camera、以太网、音频和 USB 接口说明
+description: x8385 开发板电源、串口、HDMI、Camera、以太网、音频和 USB 接口说明
 ---
 
 # 接口说明

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: 硬件资源
-description: X3128BV3 主板接口位置和硬件接口列表
+description: x3128bv3 主板接口位置和硬件接口列表
 ---
 
 # 硬件资源
