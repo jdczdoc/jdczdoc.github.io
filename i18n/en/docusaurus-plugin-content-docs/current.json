@@ -1842,5 +1842,21 @@
   "sidebar.alldocsSidebar.category.z3588cv1核心板.link.generated-index.description": {
     "message": "z3588cv1 core board Documents",
     "description": "The generated-index page description for category 'z3588cv1核心板' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-x3506bv2-linux": {
+    "message": "Linux",
+    "description": "Label for the Linux category"
+  },
+  "sidebar.alldocsSidebar.category.mainboard-x3506bv2-linux.link.generated-index.description": {
+    "message": "x3506bv2 Linux Documents",
+    "description": "Description for the Linux category"
+  },
+  "sidebar.alldocsSidebar.category.td133核心板": {
+    "message": "td133 Core Board",
+    "description": "Label for the td133 core board category"
+  },
+  "sidebar.alldocsSidebar.category.td133核心板.link.generated-index.description": {
+    "message": "td133 Core Board Documents",
+    "description": "Description for the td133 core board category"
   }
 }
