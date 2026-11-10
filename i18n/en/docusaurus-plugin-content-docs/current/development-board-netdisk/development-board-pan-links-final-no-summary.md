@@ -20,6 +20,7 @@ The following links provide SDKs, firmware images, manuals, tools, and other res
 | X733 Development Board Resources | [Open Baidu Netdisk](https://pan.baidu.com/s/1Xn9ZO5PTqok1f36XGW4ToA?pwd=t5r7) |
 | T527 Development Board Resources | [Open Baidu Netdisk](https://pan.baidu.com/s/1ygfGpIV2DDzY2srxWnrR3A?pwd=t5r7) |
 | X507 Development Board Resources | [Open Baidu Netdisk](https://pan.baidu.com/s/1hZYBXSIpJGZAc0aklfHTbw?pwd=t5r7) |
+| V881 Development Board Resources | [Open Baidu Netdisk](https://pan.baidu.com/s/1fHuD6r6T81q8ukmL3f_CJQ?pwd=tev8) |
 
 ## MediaTek
 
@@ -28,6 +29,13 @@ The following links provide SDKs, firmware images, manuals, tools, and other res
 | X8390 Development Board Resources | [Open Baidu Netdisk](https://pan.baidu.com/s/1iNN89fGb8hAVMBu279PEWw?pwd=drcj) |
 | X8370 Development Board Resources | [Open Baidu Netdisk](https://pan.baidu.com/s/184hH49VyIH-dNhm5eplR5w?pwd=drcj) |
 | X8385 Development Board Resources | [Open Baidu Netdisk](https://pan.baidu.com/s/1l-L-mTsDfatQ4M8y-QkCvg?pwd=drcj) |
+| X8883 Development Board Resources | [Open Baidu Netdisk](https://pan.baidu.com/s/1OOwEg5pUsqnVEMvdWyBPTQ?pwd=zabb) |
+
+## Amlogic
+
+| Resource | Download |
+| --- | --- |
+| X311Y3 Development Board Resources | [Open Baidu Netdisk](https://pan.baidu.com/s/1hNf2uVI8rwRgKveHUflHfg?pwd=t2i4) |
 
 ## Rockchip
 

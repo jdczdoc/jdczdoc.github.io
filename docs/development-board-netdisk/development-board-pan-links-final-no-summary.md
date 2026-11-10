@@ -19,6 +19,7 @@ description: 九鼎开发板光盘网盘资料下载链接
 | X733 开发板资料 | [点击下载](https://pan.baidu.com/s/1Xn9ZO5PTqok1f36XGW4ToA?pwd=t5r7) |
 | T527 开发板资料 | [点击下载](https://pan.baidu.com/s/1ygfGpIV2DDzY2srxWnrR3A?pwd=t5r7) |
 | X507 开发板资料 | [点击下载](https://pan.baidu.com/s/1hZYBXSIpJGZAc0aklfHTbw?pwd=t5r7) |
+| V881 开发板资料 | [点击下载](https://pan.baidu.com/s/1fHuD6r6T81q8ukmL3f_CJQ?pwd=tev8) |
 
 ## MTK
 
@@ -27,6 +28,13 @@ description: 九鼎开发板光盘网盘资料下载链接
 | X8390 开发板资料 | [点击下载](https://pan.baidu.com/s/1iNN89fGb8hAVMBu279PEWw?pwd=drcj) |
 | X8370 开发板资料 | [点击下载](https://pan.baidu.com/s/184hH49VyIH-dNhm5eplR5w?pwd=drcj) |
 | X8385 开发板资料 | [点击下载](https://pan.baidu.com/s/1l-L-mTsDfatQ4M8y-QkCvg?pwd=drcj) |
+| X8883 开发板资料 | [点击下载](https://pan.baidu.com/s/1OOwEg5pUsqnVEMvdWyBPTQ?pwd=zabb) |
+
+## Amlogic
+
+| 资料名称 | 网盘链接 |
+| --- | --- |
+| X311Y3 开发板资料 | [点击下载](https://pan.baidu.com/s/1hNf2uVI8rwRgKveHUflHfg?pwd=t2i4) |
 
 ## RK
 
