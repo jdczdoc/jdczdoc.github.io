@@ -1858,5 +1858,69 @@
   "sidebar.alldocsSidebar.category.td133核心板.link.generated-index.description": {
     "message": "td133 Core Board Documents",
     "description": "Description for the td133 core board category"
+  },
+  "sidebar.alldocsSidebar.category.x3566": {
+    "message": "3566 Core Boards",
+    "description": "The label for category 'x3566' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3566.link.generated-index.description": {
+    "message": "3566 Core Boards",
+    "description": "The generated-index description for category 'x3566' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3566-cv2": {
+    "message": "CV2",
+    "description": "The label for category 'x3566-cv2' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3566-cv2.link.generated-index.description": {
+    "message": "X3566CV2 Core Board Documents",
+    "description": "The generated-index description for category 'x3566-cv2' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3566-cv3": {
+    "message": "CV3",
+    "description": "The label for category 'x3566-cv3' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3566-cv3.link.generated-index.description": {
+    "message": "X3566CV3 Core Board Documents",
+    "description": "The generated-index description for category 'x3566-cv3' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3566-cv4": {
+    "message": "CV4",
+    "description": "The label for category 'x3566-cv4' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3566-cv4.link.generated-index.description": {
+    "message": "X3566CV4 Core Board Documents",
+    "description": "The generated-index description for category 'x3566-cv4' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3568": {
+    "message": "3568 Core Boards",
+    "description": "The label for category 'x3568' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3568.link.generated-index.description": {
+    "message": "3568 Core Boards",
+    "description": "The generated-index description for category 'x3568' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3568-cv2": {
+    "message": "CV2",
+    "description": "The label for category 'x3568-cv2' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3568-cv2.link.generated-index.description": {
+    "message": "X3568CV2 Core Board Documents",
+    "description": "The generated-index description for category 'x3568-cv2' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3568-cv3": {
+    "message": "CV3",
+    "description": "The label for category 'x3568-cv3' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3568-cv3.link.generated-index.description": {
+    "message": "X3568CV3 Core Board Documents",
+    "description": "The generated-index description for category 'x3568-cv3' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3568-cv4": {
+    "message": "CV4",
+    "description": "The label for category 'x3568-cv4' in sidebar 'alldocsSidebar'"
+  },
+  "sidebar.alldocsSidebar.category.x3568-cv4.link.generated-index.description": {
+    "message": "X3568CV4 Core Board Documents",
+    "description": "The generated-index description for category 'x3568-cv4' in sidebar 'alldocsSidebar'"
   }
 }
