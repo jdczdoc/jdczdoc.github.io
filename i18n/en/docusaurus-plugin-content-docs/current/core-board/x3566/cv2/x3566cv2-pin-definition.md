@@ -18,7 +18,7 @@ The board uses a 200-pin package. Pin multiplexing and carrier-board connections
 | 4 | PMIC_RESET_KEY | PMICReset key | 1.8V |
 | 5 | SNSN | Battery current sensing (connected to VCC_BAT- through 10 mΩ) | Battery sensing |
 | 6 | VCC_BAT- | Battery negative | 0V |
-| 7 | VCC_BAT+ | Single-cell battery positive input | 3.7~4.2V |
+| 7 | VCC_BAT+ | Single-cell battery positive input | 3.7–4.2V |
 | 8 | VBUS | 5Voutput | 5V |
 | 9 | TS | Battery temperature sense | 1.8V |
 | 10 | PMIC_PWRON | Power key | 1.8V |

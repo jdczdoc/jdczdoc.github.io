@@ -67,8 +67,8 @@ X3568CV4 is a core board based on the Rockchip RK3568 processor. It is intended 
 |---|---|
 | RTCInput Voltage | 3V/0.6uA |
 | Output Voltage | 3.3V/1.5A(can be used forBackplane powered) |
-| Operating Temperature | commercial grade: -10~70°C industrial grade : -40~85°C |
-| Storage Temperature | -10~40°C |
+| Operating Temperature | commercial grade: -10–70°C industrial grade : -40–85°C |
+| Storage Temperature | -10–40°C |
 
 ### Mechanical Parameters
 

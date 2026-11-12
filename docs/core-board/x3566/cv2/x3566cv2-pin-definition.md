@@ -18,7 +18,7 @@ description: 引脚定义
 | 4 | PMIC_RESET_KEY | PMIC复位键 | 1.8V |
 | 5 | SNSN | 电池电流采样（经10mΩ接VCC_BAT-） | 电池采样 |
 | 6 | VCC_BAT- | 电池负极 | 0V |
-| 7 | VCC_BAT+ | 单节电池正极输入 | 3.7~4.2V |
+| 7 | VCC_BAT+ | 单节电池正极输入 | 3.7–4.2V |
 | 8 | VBUS | 5V输出 | 5V |
 | 9 | TS | 电池温度检测 | 1.8V |
 | 10 | PMIC_PWRON | 开机键 | 1.8V |

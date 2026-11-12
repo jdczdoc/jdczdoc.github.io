@@ -50,8 +50,8 @@ CV2 uses two DDR4 chips; CV3 uses one LPDDR4 chip. Pin connections, power suppli
 | Electrical specifications |  |
 | Power input | 4V/3A |
 | Power output | 5V/3A (VCC5V_MIDU/VBUS), 3.3V/1.8V |
-| Operating temperature | 0~70 °C |
-| Storage temperature | -10~50 °C |
+| Operating temperature | 0–70 °C |
+| Storage temperature | -10–50 °C |
 
 | Mechanical specifications |  |
 | --- | --- |

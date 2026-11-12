@@ -14,7 +14,7 @@ X3566CV2除上述不可用作GPIO口、电源引脚和系统地外的信号引�
 
 X3566CV2核心板由 VCC_SYS 4V 输入供电；VBUS、VCC5V_MIDU 为 5V 输出；VCC_BAT+ 为单节电池正极输入，VCC_BAT- 接电池负极。SNSN 经 10mΩ 采样电阻接 VCC_BAT-，用于电池电流检测。
 
-- 11脚：VCC_SYS 4V 输入；8脚：VBUS 5V 输出；20脚：VCC5V_MIDU 5V 输出；7脚：VCC_BAT+ 单节电池正极输入（3.7~4.2V）；6脚：VCC_BAT- 电池负极。5脚：SNSN 经10mΩ电阻接VCC_BAT-。
+- 11脚：VCC_SYS 4V 输入；8脚：VBUS 5V 输出；20脚：VCC5V_MIDU 5V 输出；7脚：VCC_BAT+ 单节电池正极输入（3.7–4.2V）；6脚：VCC_BAT- 电池负极。5脚：SNSN 经10mΩ电阻接VCC_BAT-。
 
 - 3.3V/1.8V 由板载 PMIC 产生；底板外设电源请自行设计，避免与核心板电源相互干扰。
 
@@ -24,11 +24,11 @@ X3566CV2核心板由 VCC_SYS 4V 输入供电；VBUS、VCC5V_MIDU 为 5V 输出�
 
 ## USB设计
 
-X3566CV2 提供 1 路 USB3.0 Host、2 路 USB2.0 Host 和 1 路 USB2.0 OTG：USB3 Host1 使用 184~189 脚；USB2 Host2 使用 115/116 脚；USB2 Host3 使用 117/118 脚；OTG0 使用 190~193 脚。USB 差分对按 90Ω 控制。
+X3566CV2 提供 1 路 USB3.0 Host、2 路 USB2.0 Host 和 1 路 USB2.0 OTG：USB3 Host1 使用 184–189 脚；USB2 Host2 使用 115/116 脚；USB2 Host3 使用 117/118 脚；OTG0 使用 190–193 脚。USB 差分对按 90Ω 控制。
 
 ## MIPI设计
 
-X3566CV2 支持 1 路 MIPI DSI、1 路 LVDS 和 1 路 MIPI CSI：DSI1 使用 149~158 脚，DSI0/LVDS 使用 159~168 脚，CSI 使用 137~148 脚；MIPI_MCLK_B 在 78 脚。MIPI/LVDS 差分对按 100Ω 控制。
+X3566CV2 支持 1 路 MIPI DSI、1 路 LVDS 和 1 路 MIPI CSI：DSI1 使用 149–158 脚，DSI0/LVDS 使用 159–168 脚，CSI 使用 137–148 脚；MIPI_MCLK_B 在 78 脚。MIPI/LVDS 差分对按 100Ω 控制。
 
 ## 上电时序
 
@@ -49,7 +49,7 @@ X3566CV2 由 VCC_SYS 4V 输入供电，板载 PMIC 按时序建立 3.3V、1.8V �
 
 ## 显示接口
 
-X3566CV2 支持 HDMI2.0、eDP1.3、MIPI DSI 和 LVDS 显示。HDMI 使用 169~177 脚，eDP 使用 23~32 脚，MIPI DSI1 使用 149~158 脚，DSI0/LVDS 使用 159~168 脚；背光 PWM 在 2 脚，LCD 电源/复位在 199/200 脚。
+X3566CV2 支持 HDMI2.0、eDP1.3、MIPI DSI 和 LVDS 显示。HDMI 使用 169–177 脚，eDP 使用 23–32 脚，MIPI DSI1 使用 149–158 脚，DSI0/LVDS 使用 159–168 脚；背光 PWM 在 2 脚，LCD 电源/复位在 199/200 脚。
 
 | 功能 | 引脚编号 | 信号名称 | 电压 |
 | --- | --- | --- | --- |
@@ -102,7 +102,7 @@ X3566CV2 支持 HDMI2.0、eDP1.3、MIPI DSI 和 LVDS 显示。HDMI 使用 169~17
 
 ## 摄像头接口
 
-核心板引出 1 路 MIPI CSI（4-lane，137~148 脚）和 1 路 CIF 8-bit 摄像头接口（79~96 脚）；MIPI_MCLK_B 在 78 脚，摄像头复位/掉电控制见 83、84、93、94、96 脚。
+核心板引出 1 路 MIPI CSI（4-lane，137–148 脚）和 1 路 CIF 8-bit 摄像头接口（79–96 脚）；MIPI_MCLK_B 在 78 脚，摄像头复位/掉电控制见 83、84、93、94、96 脚。
 
 | 功能 | 引脚编号 | 信号名称 | 电压 |
 | --- | --- | --- | --- |
@@ -162,7 +162,7 @@ X3566CV2 提供 USB3.0 Host1、USB2.0 Host2/Host3 与 USB2.0 OTG0；VBUS（8脚�
 
 ## 以太网接口
 
-核心板提供 1 路 GMAC1 RGMII 千兆以太网接口，使用 119~136 脚，可外接 RTL8211F 等千兆 PHY。
+核心板提供 1 路 GMAC1 RGMII 千兆以太网接口，使用 119–136 脚，可外接 RTL8211F 等千兆 PHY。
 
 | 功能 | 引脚编号 | 信号名称 | 电压 |
 | --- | --- | --- | --- |
@@ -187,7 +187,7 @@ X3566CV2 提供 USB3.0 Host1、USB2.0 Host2/Host3 与 USB2.0 OTG0；VBUS（8脚�
 
 ## 音频接口
 
-音频包括耳机输出、扬声器输出、2 路 MIC 与检测，使用 15~22 脚；耳机检测在 17 脚。
+音频包括耳机输出、扬声器输出、2 路 MIC 与检测，使用 15–22 脚；耳机检测在 17 脚。
 
 | 功能 | 引脚编号 | 信号名称 | 电压 |
 | --- | --- | --- | --- |
@@ -202,7 +202,7 @@ X3566CV2 提供 USB3.0 Host1、USB2.0 Host2/Host3 与 USB2.0 OTG0；VBUS（8脚�
 
 ## 存储与 SD 卡接口
 
-存储接口包括 SDMMC0（42~48 脚，可接 TF 卡）和 SDMMC1（57~62 脚，可接 SDIO 外设）；CLK/CMD/DATA 按 50Ω 控制，卡座加 ESD。
+存储接口包括 SDMMC0（42–48 脚，可接 TF 卡）和 SDMMC1（57–62 脚，可接 SDIO 外设）；CLK/CMD/DATA 按 50Ω 控制，卡座加 ESD。
 
 | 功能 | 引脚编号 | 信号名称 | 电压 |
 | --- | --- | --- | --- |
@@ -222,13 +222,13 @@ X3566CV2 提供 USB3.0 Host1、USB2.0 Host2/Host3 与 USB2.0 OTG0；VBUS（8脚�
 
 ## 低速接口与 GPIO
 
-低速资源包括 5 路 UART、3 路 I2C、1 路 I2S、2 路 PWM、2 路 ADC 与多路 GPIO。UART1 为 49~52 脚，UART2 调试串口为 197/198 脚，UART3 为 76/77 脚，UART5 为 113/114 脚，UART9 为 105/106 脚；I2C2 为 101/102 脚，I2C4 为 99/100 脚，HDMI DDC 为 111/112 脚。
+低速资源包括 5 路 UART、3 路 I2C、1 路 I2S、2 路 PWM、2 路 ADC 与多路 GPIO。UART1 为 49–52 脚，UART2 调试串口为 197/198 脚，UART3 为 76/77 脚，UART5 为 113/114 脚，UART9 为 105/106 脚；I2C2 为 101/102 脚，I2C4 为 99/100 脚，HDMI DDC 为 111/112 脚。
 
 | 资源 | 数量 | 说明 |
 | --- | --- | --- |
-| UART | 5 路 | UART1 49~52；UART2 197/198；UART3 76/77；UART5 113/114；UART9 105/106 |
+| UART | 5 路 | UART1 49–52；UART2 197/198；UART3 76/77；UART5 113/114；UART9 105/106 |
 | I2C | 3 路 | I2C2 101/102；I2C4 99/100；HDMI DDC 111/112 |
-| I2S | 1 路 | I2S2 53~56 |
+| I2S | 1 路 | I2S2 53–56 |
 | PWM | 2 路 | LCD_BL_PWM 2；PWM_IR7 196 |
 | ADC | 2 路 | ADC0 69；ADC1 70 |
 | SPI | 未单独引出 | 如需要可用 GPIO 模拟或底板扩展 |
@@ -236,7 +236,7 @@ X3566CV2 提供 USB3.0 Host1、USB2.0 Host2/Host3 与 USB2.0 OTG0；VBUS（8脚�
 
 ## 系统控制与电源
 
-系统控制包括电源、开机、复位、电池检测、触摸复位、RTC 中断、红外 PWM 与 LCD 控制；VCC_SYS 为 4V 输入，VBUS/VCC5V_MIDU 为 5V 输出，VCC_BAT+ 支持单节 3.7~4.2V 电池。
+系统控制包括电源、开机、复位、电池检测、触摸复位、RTC 中断、红外 PWM 与 LCD 控制；VCC_SYS 为 4V 输入，VBUS/VCC5V_MIDU 为 5V 输出，VCC_BAT+ 支持单节 3.7–4.2V 电池。
 
 | 功能 | 引脚编号 | 信号名称 | 电压 |
 | --- | --- | --- | --- |
@@ -246,7 +246,7 @@ X3566CV2 提供 USB3.0 Host1、USB2.0 Host2/Host3 与 USB2.0 OTG0；VBUS（8脚�
 | PMIC复位键 | 4 | PMIC_RESET_KEY | 1.8V |
 | 序列号/板卡识别 | 5 | SNSN | 模拟 |
 | 电池负极 | 6 | VCC_BAT- | 0V |
-| 电池正极 | 7 | VCC_BAT+ | 3.7~4.2V |
+| 电池正极 | 7 | VCC_BAT+ | 3.7–4.2V |
 | USB VBUS输出 | 8 | VBUS | 5V |
 | 电池温度检测 | 9 | TS | 1.8V |
 | 开机键 | 10 | PMIC_PWRON | 1.8V |

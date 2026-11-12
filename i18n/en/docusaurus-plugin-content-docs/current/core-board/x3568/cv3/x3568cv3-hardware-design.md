@@ -162,9 +162,9 @@ GPIO pins can provide alternate functions such as I2C, UART, SPI, I2S, and PWM. 
 
 | Resource | Count | Description |
 | --- | --- | --- |
-| UART | 4  channel(s)  | UART2 73/74; UART3 162/163; UART4 182/183; UART8 140~143 |
+| UART | 4  channel(s)  | UART2 73/74; UART3 162/163; UART4 182/183; UART8 140–143 |
 | I2C | 2  channel(s)  | I2C1 10/12; I2C3 148/149 |
-| I2S | 1  channel(s)  | I2S3 184~187 |
+| I2S | 1  channel(s)  | I2S3 184–187 |
 | PWM | 1  channel(s)  | PWM7_IR 8 |
 | ADC | 2  channel(s)  | SARADC_VIN0 124; SARADC_VIN1 125 |
 | SPI | Not separately exposed | Implement using GPIO or carrier-board expansion |
@@ -206,7 +206,7 @@ GPIO pins can provide alternate functions such as I2C, UART, SPI, I2S, and PWM. 
 | Item | X3568CV2 | X3568CV3 | Description |
 | --- | --- | --- | --- |
 | Pin count | 200PIN | 200PIN | Identical |
-| Pin | 1~200 | 1~200 | Identical pin by pin |
+| Pin | 1–200 | 1–200 | Identical pin by pin |
 | signals/multiplexing | See Pin Definitions | See Pin Definitions | Identical |
 | resistor selection | See Revision Notes | See Revision Notes | Identical |
 | Memory | 2  chips DDR4 | single chip LPDDR4 | No pin impact |

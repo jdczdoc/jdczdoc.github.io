@@ -161,9 +161,9 @@ GPIO pins can provide alternate functions such as I2C, UART, SPI, I2S, and PWM. 
 
 | Resource | Count | Description |
 | --- | --- | --- |
-| UART | 4  channel(s)  | UART2 73/74; UART3 162/163; UART4 182/183; UART8 140~143 |
+| UART | 4  channel(s)  | UART2 73/74; UART3 162/163; UART4 182/183; UART8 140–143 |
 | I2C | 2  channel(s)  | I2C1 10/12; I2C3 148/149 |
-| I2S | 1  channel(s)  | I2S3 184~187 |
+| I2S | 1  channel(s)  | I2S3 184–187 |
 | PWM | 1  channel(s)  | PWM7_IR 8 |
 | ADC | 2  channel(s)  | SARADC_VIN0 124; SARADC_VIN1 125 |
 | SPI | Not separately exposed | Implement using GPIO or carrier-board expansion |

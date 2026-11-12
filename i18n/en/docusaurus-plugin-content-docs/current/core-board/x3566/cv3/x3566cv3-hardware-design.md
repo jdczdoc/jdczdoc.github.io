@@ -190,9 +190,9 @@ GPIO pins can provide alternate functions such as I2C, UART, SPI, I2S, and PWM. 
 
 | Resource | Count | Description |
 | --- | --- | --- |
-| UART | 5  channel(s)  | UART1 49~52; UART2 197/198; UART3 76/77; UART5 113/114; UART9 105/106 |
+| UART | 5  channel(s)  | UART1 49–52; UART2 197/198; UART3 76/77; UART5 113/114; UART9 105/106 |
 | I2C | 3  channel(s)  | I2C2 101/102; I2C4 99/100; HDMI DDC 111/112 |
-| I2S | 1  channel(s)  | I2S2 53~56 |
+| I2S | 1  channel(s)  | I2S2 53–56 |
 | PWM | 2  channel(s)  | LCD_BL_PWM 2; PWM_IR7 196 |
 | ADC | 2  channel(s)  | ADC0 69; ADC1 70 |
 | SPI | Not separately exposed | Use GPIO or carrier-board expansion if required |
@@ -206,7 +206,7 @@ GPIO pins can provide alternate functions such as I2C, UART, SPI, I2S, and PWM. 
 | PMICReset key | 4 | PMIC_RESET_KEY | 1.8V |
 | Serial number / board identification | 5 | SNSN | Analog |
 | Battery negative | 6 | VCC_BAT- | 0V |
-| Battery positive | 7 | VCC_BAT+ | 3.7~4.2V |
+| Battery positive | 7 | VCC_BAT+ | 3.7–4.2V |
 | USB VBUSoutput | 8 | VBUS | 5V |
 | Battery temperature sense | 9 | TS | 1.8V |
 | Power key | 10 | PMIC_PWRON | 1.8V |
