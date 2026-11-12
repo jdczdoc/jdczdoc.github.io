@@ -10,7 +10,7 @@
 |----------|-----------|
 | Model | LCD040D25MM |
 | Product Name | 7-inch MIPI HD Display |
-| Resolution | 1920 x 1200 |
+| Resolution | 480*480 |
 | Touch Type | Capacitive Touch (5-point) |
 | Connection | FPC |
 | Operating Voltage | 5V |
