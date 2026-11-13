@@ -1,0 +1,231 @@
+---
+title: JDCZ LCD Module Naming Rules
+sidebar_label: JDCZ LCD Module Naming Rules
+---
+
+# JDCZ LCD Module Naming Rules
+
+The model name combines the module type, screen size, resolution code, and display interface. For example, `LCD040D25MM` identifies a 4-inch LCD module with 480 × 480 resolution and a MIPI interface.
+
+## Model Structure
+
+| Positions | Meaning | Example |
+| --- | --- | --- |
+| 1–3 | Module type | LCD |
+| 4–6 | Screen size | 040: 4 inches |
+| 7–9 | Resolution code | D25: 480 × 480 |
+| 10–11 | Display interface | MM: MIPI |
+
+## Screen Size Codes
+
+| Code | Size (inches) |
+| --- | --- |
+| 040 | 4 |
+| 043 | 4.3 |
+| 048 | 4.8 |
+| 050 | 5 |
+| 055 | 5.5 |
+| 070 | 7 |
+| 080 | 8 |
+| 101 | 10.1 |
+| 121 | 12.1 |
+
+## Resolution Codes
+
+The letter D introduces the resolution code. Codes do not specify portrait or landscape orientation. D25 is reserved for 480 × 480 in JDCZ model names; entry 25 in the general display-mode reference table denotes PAL (768 × 576).
+
+| Code | Resolution |
+| --- | --- |
+| D25 | 480 × 480 |
+| D26 | 800 × 480 |
+| D51 | 1920 × 1080 |
+| D32 | 1024 × 600 |
+| D33 | 1024 × 768 |
+| D38 | 1280 × 800 |
+| D52 | 1920 × 1200 |
+| D60 | 2560 × 1600 |
+
+## Interface Codes
+
+| Code | Interface |
+| --- | --- |
+| MM | MIPI |
+| RR | RGB |
+| L1 | LVDS for X3288 development boards |
+| L2 | LVDS for X30 development boards |
+| EL | eDP to LVDS |
+| ML | MIPI to LVDS |
+| EE | eDP |
+
+## Common LCD Modules
+
+| Model | Compatible Development Boards |
+| --- | --- |
+| LCD040D26MM | x30/x1808/x3288/x3399/x3399pro development boards |
+| LCD055D51MM | x30/x3288/x3399/x3399pro development boards |
+| LCD070D26RR | x210/x4412 development boards |
+| LCD070D26MM | x210/x4412 development boards |
+| LCD070D32RR | x210/x4412 development boards |
+| LCD070D32MM | x4418/x6818/x30/x1808/x3288/x3399/x3399pro |
+| LCD080D33MM | -- |
+| LCD101D38L1 | x3288 development boards |
+| LCD101D38L2 | x30 development boards |
+| LCD101D38L3 | x3288/x30/x3566/x3568 development boards |
+| LCD101D38L4 | x3288/x30/x3566/x3568/T507 development boards |
+| LCD101D38EL | x3399/x3399pro development boards |
+| LCD101D38ML | x1808/x3288/x3399/x3399pro development boards |
+| LCD101D52EE | x3399/x3399pro development boards |
+| LCD101D52MM | -- |
+| LCD101D60EE | x3399/x3399pro development boards |
+
+## Display Mode Reference
+
+| No. | Display Mode | Horizontal × Vertical Pixels | Aspect Ratio |
+| --- | --- | --- | --- |
+| 1 | QQCIF | 88×72 | 11:9 |
+| 2 | SUB-QCIF | 128×96 | 4:3 |
+| 3 | QQVGA | 160×120 | 4:3 |
+| 4 | QCIF | 176×144 | 11:9 |
+| 5 | Sub-QVGA- | 208×176 | 13:11 |
+| 6 | Sub-QVGA | 220×176 | 5:4 |
+| 7 | HQVGA | 240×160 | 3:2 |
+| 8 | Sub-QVGA+ | 240×176 | 15:11 |
+| 9 | CGA | 320×200 | 16:10 |
+| 10 | QVGA | 320×240 | 4:3 |
+| 11 | CIF | 352×288 | 11:9 |
+| 12 | WQVGA | 360×240 | 3:2 |
+| 13 | WQVGA | 384×240 | 16:10 |
+| 14 | WQVGA | 400×240 | 5:3 |
+| 15 | WQVGA | 400×320 | 5:4 |
+| 16 | FWQVGA | 432×240 | 16:9 |
+| 17 | WQVGA | 480×240 | 2:1 |
+| 18 | WQVGA | 480×272 | 16:9 |
+| 19 | HVGA | 480×320 | 3:2 |
+| 20 | EGA | 640×350 | 64:35 |
+| 21 | nHD | 640×360 | 16:9 |
+| 22 | VGA | 640×480 | 4:3 |
+| 23 | VGA+ | 720×480 | 3:2 |
+| 24 | WVGA | 768×480 | 16:10 |
+| 25 | PAL | 768×576 | 4:3 |
+| 26 | WVGA | 800×480 | 5:3 |
+| 27 | FWVGA | 854×480 | 16:9 |
+| 28 | SVGA | 800×600 | 4:3 |
+| 29 | qHD | 960×540 | 16:9 |
+| 30 | DVGA | 960×640 | 3:2 |
+| 31 | WSVGA | 1024×576 | 16:9 |
+| 32 | WSVGA | 1024×600 | 128:75 |
+| 33 | XGA | 1024×768 | 4:3 |
+| 34 | WXGA | 1152×768 | 3:2 |
+| 35 | XGA+ | 1152×864 | 4:3 |
+| 36 | HD/WXGA | 1280×720 | 16:9 |
+| 37 | WXGA | 1280×768 | 15:9 |
+| 38 | WXGA | 1280×800 | 16:10 |
+| 39 | SXGA-/UVGA | 1280×960 | 4:3 |
+| 40 | SXGA | 1280×1024 | 5:4 |
+| 41 | FWXGA | 1366×768 | 16:9 |
+| 42 | SXGA+ | 1400×1050 | 4:3 |
+| 43 | FWXGA+ | 1440×960 | 3:2 |
+| 44 | WXGA+ | 1440×900 | 16:10 |
+| 45 | HD+ | 1600×900 | 16:9 |
+| 46 | WSXGA | 1600×1024 | 5:4 |
+| 47 | WSXGA+ | 1600×1050 | 32:21 |
+| 48 | USVGA/UXGA/UGA | 1600×1200 | 4:3 |
+| 49 | WSXGA+ | 1680×1050 | 16:10 |
+| 50 | UXGA | 1900×1200 | 19:12 |
+| 51 | WSUVGA+(WSUGA/HDTV) | 1920×1080 | 16:9 |
+| 52 | WUXGA | 1920×1200 | 16:10 |
+| 53 | WUSXGA | 1920×1440 | 4:3 |
+| 54 | DCI 2K | 2048×1280 | 16:10 |
+| 55 | SUVGA(QXGA) | 2048×1536 | 4:3 |
+| 56 | QWXGA | 2048×1152 | 16:9 |
+| 57 | FHD+ | 2160×1440 | 15:10 |
+| 58 | CINEMA 21:9 | 2560×1080 | 21:9 |
+| 59 | QHD/WQHD | 2560×1440 | 16:9 |
+| 60 | UWXGA | 2560×1600 | 16:10 |
+| 61 | USXGA | 2560×2048 | 5:4 |
+| 62 | QWXGA+ | 2880×1800 | 16:10 |
+| 63 | WQXGA+ | 3200×1800 | 16:9 |
+| 64 | WQSXGA | 3200×2048 | 25:16 |
+| 65 | QUXGA | 3200×2400 | 4:3 |
+| 66 | UWQHD | 3440×1440 | 43:18 |
+| 67 | UW4K | 3840×1600 | 12:5 |
+| 68 | 4K UHD | 3840×2160 | 16:9 |
+| 69 | WQUXGA | 3840×2400 | 16:10 |
+| 70 | WQUSXGA | 3840×2880 | 4:3 |
+| 71 | DCI 4K | 4096×2160 | 19:10 |
+| 72 | HXGA | 4096×3072 | 4:3 |
+| 73 | UHD+ | 4515×2540 | 16:9 |
+| 74 | 5K UHD | 5120×2160 | 21:9 |
+| 75 | UHD++ | 5120×2880 | 16:9 |
+| 76 | WHXGA | 5120×3200 | 16:10 |
+| 77 | HSXGA | 5120×4096 | 5:4 |
+| 78 | 6K UHD | 5760×3240 | 16:9 |
+| 79 | WHSXGA | 6400×4096 | 16:10 |
+| 80 | HUXGA | 6400×4800 | 4:3 |
+| 81 | 8K UHD | 7680×4320 | 16:9 |
+| 82 | WHUXGA | 7680×4800 | 16:10 |
+| 83 | WHUSXGA | 7680×5760 | 4:3 |
+| 84 | DCI 8K | 8192×4320 | 19:10 |
+| 85 | UHXGA | 8192×6144 | 4:3 |
+| 86 | UHD+ | 9600×5400 | 16:9 |
+| 87 | WUHXGA | 9600×6000 | 16:10 |
+| 88 | HUXGA+ | 9600×7200 | 4:3 |
+| 89 | 10K UHD | 10240×4320 | 21:9 |
+| 90 | 8K UHD+ | 10240×5760 | 16:9 |
+| 91 | WHXGA+ | 10240×6400 | 16:10 |
+| 92 | WHVXGA | 10240×8192 | 5:4 |
+| 93 | 12K UHD | 11520×6480 | 16:9 |
+| 94 | WUHXGA+ | 11520×7200 | 16:10 |
+| 95 | DCI 12K | 12288×6480 | 19:10 |
+| 96 | WHUXGA | 12288×7200 | 4:3 |
+| 97 | WUHXGA+ | 13440×7560 | 16:9 |
+| 98 | WUHXGA++ | 14400×9000 | 16:10 |
+| 99 | WHUXGA+++ | 14550×8670 | 4:3 |
+| 100 | 16K UHD | 15360×8640 | 16:9 |
+| 101 | WHVXGA+ | 15360×9600 | 16:10 |
+| 102 | WHUVXGA+ | 16000×9000 | 16:9 |
+| 103 | DCI 16K | 16384×8640 | 19:10 |
+| 104 | WUHXGA+++ | 17280×9720 | 16:9 |
+| 105 | WHVUXGA | 17495×9840 | 19:10 |
+| 106 | WHQVUXGA | 18390×10344 | 16:9 |
+| 107 | WHQUVXGA+ | 19200×10800 | 19:10 |
+| 108 | WHQUVXGA++ | 19200×12000 | 19:12 |
+| 109 | DCI 20K | 20480×12800 | 16:10 |
+| 110 | WHQUVSXGA | 20480×15360 | 4:3 |
+| 111 | QWXGA+ | 20480×11520 | 16:9 |
+| 112 | FHD++ | 21600×14400 | 15:10 |
+| 113 | CINEMA 21:9+ | 25600×10800 | 21:9 |
+| 114 | QHD+/WQHD+ | 25600×14400 | 16:9 |
+| 115 | UWXGA+ | 25600×16000 | 16:10 |
+| 116 | USXGA+ | 25600×20480 | 5:4 |
+| 117 | QWXGA++ | 28800×18000 | 16:10 |
+| 118 | 32K UHD | 30720×17280 | 16:9 |
+| 119 | WQXGA++ | 32000×18000 | 16:9 |
+| 120 | WQSXGA+ | 32000×20480 | 25:16 |
+| 121 | QUXGA+ | 32000×24000 | 16:10 |
+| 122 | UWQHD+ | 34400×14400 | 43:18 |
+| 123 | UW4K+ | 38400×16000 | 12:5 |
+| 124 | UHD+ | 38400×21600 | 16:9 |
+| 125 | WQUXGA+ | 38400×24000 | 16:10 |
+| 126 | DCI 4K+ | 40960×21600 | 19:10 |
+| 127 | HXGA+ | 40960×31720 | 4:3 |
+| 128 | 5K UHD+ | 51200×21600 | 21:9 |
+| 129 | UHD++ | 51200×28800 | 16:9 |
+| 130 | WHXGA+ | 51200×32000 | 16:10 |
+| 131 | HSXGA+ | 51200×40960 | 5:4 |
+| 132 | 64K UHD | 61440×35640 | 16:9 |
+| 133 | WHSXGA+ | 64000×40960 | 16:10 |
+| 134 | HUXGA+ | 64000×48000 | 4:3 |
+| 135 | 8K UHD++ | 76800×43200 | 16:9 |
+| 136 | WHUXGA+ | 76800×48000 | 16:10 |
+| 137 | DCI 8K+ | 81920×43200 | 19:10 |
+| 138 | UHXGA+ | 81920×61440 | 4:3 |
+| 139 | WHUQXGA | 96000×54000 | 16:9 |
+| 140 | WUHXGA+ | 96000×60000 | 16:10 |
+| 141 | HUXGA++ | 96000×72000 | 4:3 |
+| 142 | 10K UHD+ | 102400×43200 | 21:9 |
+| 143 | 12K UHD+ | 115200×64800 | 16:9 |
+| 144 | WUHXGA++ | 115200×72000 | 16:10 |
+| 145 | WUHSXGA+ | 115200×86400 | 4:3 |
+| 146 | 128K UHD | 122880×71820 | 16:9 |
+| 147 | WUHQSXGA | 122880×71940 | 16:10 |

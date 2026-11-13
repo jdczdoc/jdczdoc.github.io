@@ -54,6 +54,9 @@ const sidebars: SidebarsConfig = {
     description: '显示模组',
   },
   items: [
+    'display-module/naming-rules',
+    'display-module/ZH201B12A26A/ZH201B12A26A',
+    'display-module/HS20HS072RX/HS20HS072RX',
     'display-module/LCD040CTP/LCD040CTP',
     'display-module/LCD040D25MM/LCD040D25MM',
     'display-module/LCD101D52MM/LCD101D52MM',
